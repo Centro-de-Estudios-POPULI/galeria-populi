@@ -18,7 +18,9 @@ from catalogo import publicar, build_manifest
 GEO = VIZ / "geo" / "bolivia_municipios_sigep.topojson"
 CENSO = VIZ / "geo" / "censo_municipios_con_nbi.json"
 FECHA = "2026-06-09"
-FUENTE = "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI."
+AUTOR = "Carlos Aranda"   # investigador/a responsable (a futuro puede variar por gráfico)
+FUENTE = ("Fuente: INE Bolivia, Censo de Población y Vivienda 2024. "
+          f"Elaboración: Centro de Estudios POPULI · {AUTOR}.")
 
 # --- join con crosswalk de GAIOC/reclasificados (339/339) ------------------ #
 gdf = gpd.read_file(GEO)

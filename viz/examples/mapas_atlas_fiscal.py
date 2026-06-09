@@ -25,8 +25,9 @@ ATLAS = Path(r"C:\Users\HP\OneDrive\Desktop\Proyectos\Observatorio de Presupuest
 GEO = VIZ / "geo" / "bolivia_municipios_sigep.topojson"
 YEAR = "2025"
 FECHA = "2026-06-09"
+AUTOR = "Carlos Aranda"   # investigador/a responsable (a futuro puede variar por gráfico)
 FUENTE = ("Fuente: Ministerio de Economía y Finanzas Públicas, ejecución "
-          "presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.")
+          f"presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · {AUTOR}.")
 
 
 # --- extracción brace-matching de los `const X = {...}` / [...] -------------- #
