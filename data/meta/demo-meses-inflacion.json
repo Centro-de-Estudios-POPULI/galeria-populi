@@ -1,0 +1,15 @@
+{
+  "slug": "demo-meses-inflacion",
+  "title": "¿Cuántos meses del año suben los precios?",
+  "subtitle": "Meses de inflación, estabilidad o deflación por año",
+  "category": "Inflación",
+  "source": "INE Bolivia — IPC base 2016",
+  "date": "2026-05",
+  "tags": [
+    "inflación",
+    "mensual",
+    "estacionalidad"
+  ],
+  "project": "populi-inflacion",
+  "format": "wide"
+}

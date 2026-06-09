@@ -1,0 +1,18 @@
+{
+  "slug": "censo-secundaria-mas",
+  "titulo": "Bolivia: Secundaria o más",
+  "subtitulo": "Población con secundaria completa o más — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_secundaria_mas"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-secundaria-mas.png",
+  "thumb": "thumbs/censo-secundaria-mas.png",
+  "datos": null
+}

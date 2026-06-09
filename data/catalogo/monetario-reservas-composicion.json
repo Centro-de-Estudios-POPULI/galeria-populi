@@ -1,0 +1,20 @@
+{
+  "slug": "monetario-reservas-composicion",
+  "titulo": "Bolivia: ¿De qué están hechas las reservas del BCB?",
+  "subtitulo": "Reservas Internacionales Brutas por componente — millones de USD · datos a mayo 2026",
+  "categoria": "monetario",
+  "fuente": "Fuente: Banco Central de Bolivia (BCB), Estadísticas Semanales. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "reservas internacionales",
+    "oro",
+    "divisas",
+    "bcb",
+    "composición"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "areas",
+  "formato": "red_cuadrada",
+  "imagen": "graficas/monetario-reservas-composicion.png",
+  "thumb": "thumbs/monetario-reservas-composicion.png",
+  "datos": null
+}

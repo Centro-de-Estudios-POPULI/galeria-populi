@@ -1,0 +1,18 @@
+{
+  "slug": "censo-nbi-agua-saneamiento",
+  "titulo": "Bolivia: Carencia en agua y saneamiento (NBI)",
+  "subtitulo": "Población con carencia en agua y saneamiento — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_nbi_agua_sanea"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nbi-agua-saneamiento.png",
+  "thumb": "thumbs/censo-nbi-agua-saneamiento.png",
+  "datos": null
+}

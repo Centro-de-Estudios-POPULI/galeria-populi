@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-s-edu",
+  "titulo": "Bolivia: Gasto en educación",
+  "subtitulo": "Educación / G. Sectorial (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "sectores",
+    "s_edu"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-s-edu.png",
+  "thumb": "thumbs/fiscal-s-edu.png",
+  "datos": null
+}

@@ -1,0 +1,16 @@
+{
+  "name": "galeria-populi",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Banco de Datos POPULI — galería de gráficas branded para redes sociales",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "manifest": "python scripts/build_manifest.py"
+  },
+  "dependencies": {
+    "astro": "^4.16.0",
+    "fuse.js": "^7.0.0"
+  }
+}

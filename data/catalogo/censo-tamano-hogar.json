@@ -1,0 +1,18 @@
+{
+  "slug": "censo-tamano-hogar",
+  "titulo": "Bolivia: Tamaño promedio del hogar",
+  "subtitulo": "Número promedio de personas por hogar — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "tam_hogar"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-tamano-hogar.png",
+  "thumb": "thumbs/censo-tamano-hogar.png",
+  "datos": null
+}

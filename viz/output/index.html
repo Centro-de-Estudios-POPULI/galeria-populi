@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Galería POPULI · previsualización</title>
+<style>
+  :root {
+    --rojo:#8B1A1A; --fondo:#FAF8F3; --tinta:#2B2420;
+    --cafe:#5C3D1E; --borde:#E2DDD3; --gris:#8C8378;
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; background:var(--fondo); color:var(--tinta);
+    font-family:'Inter',system-ui,sans-serif; padding:40px 28px 80px;
+  }
+  header { max-width:1200px; margin:0 auto 28px; }
+  h1 {
+    font-family:Georgia,'Times New Roman',serif; font-weight:700;
+    font-size:34px; margin:0; letter-spacing:-.01em;
+  }
+  h1 .p { color:var(--rojo); }
+  .sub { color:var(--cafe); margin-top:6px; font-size:15px; }
+  .rule { height:3px; width:120px; background:var(--rojo); margin:14px 0 0; }
+  .grid {
+    max-width:1200px; margin:0 auto; display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+    gap:26px;
+  }
+  .card {
+    margin:0; background:#fff; border:1px solid var(--borde);
+    border-radius:12px; overflow:hidden;
+    box-shadow:0 1px 3px rgba(0,0,0,.05);
+  }
+  .card img { width:100%; display:block; }
+  figcaption {
+    padding:12px 14px; border-top:1px solid var(--borde); display:flex;
+    justify-content:space-between; align-items:center; gap:10px;
+  }
+  .meta { display:flex; flex-direction:column; gap:2px; min-width:0; }
+  .meta .t { font-size:14px; font-weight:600; }
+  .file {
+    font-family:'JetBrains Mono',monospace; font-weight:400;
+    font-size:11px; color:var(--gris);
+  }
+  .dl {
+    flex:none; text-decoration:none; background:var(--rojo); color:#fff;
+    font-size:13px; font-weight:600; padding:8px 14px; border-radius:8px;
+    transition:background .15s;
+  }
+  .dl:hover { background:#6B0300; }
+  footer { max-width:1200px; margin:40px auto 0; color:var(--gris); font-size:13px; }
+</style>
+</head>
+<body>
+  <header>
+    <h1><span class="p">P</span>opuli · Banco de Datos <span style="color:var(--gris);font-weight:400;font-size:.6em">previsualización del motor</span></h1>
+    <div class="sub">5 gráficas renderizadas — estilo editorial FMI con la marca real del sitio.</div>
+    <div class="rule"></div>
+  </header>
+  <main class="grid">
+    <figure class="card">
+      <img src="set_areas.png" alt="set_areas.png" loading="lazy">
+      <figcaption>
+        <span class="meta"><span class="t">Áreas apiladas (100%)</span>
+          <span class="file">set_areas.png</span></span>
+        <a class="dl" href="set_areas.png" download title="Descargar PNG">↓ Descargar</a>
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <img src="set_barras.png" alt="set_barras.png" loading="lazy">
+      <figcaption>
+        <span class="meta"><span class="t">Barras verticales</span>
+          <span class="file">set_barras.png</span></span>
+        <a class="dl" href="set_barras.png" download title="Descargar PNG">↓ Descargar</a>
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <img src="set_linea.png" alt="set_linea.png" loading="lazy">
+      <figcaption>
+        <span class="meta"><span class="t">Línea simple</span>
+          <span class="file">set_linea.png</span></span>
+        <a class="dl" href="set_linea.png" download title="Descargar PNG">↓ Descargar</a>
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <img src="set_lineas_bandas.png" alt="set_lineas_bandas.png" loading="lazy">
+      <figcaption>
+        <span class="meta"><span class="t">Líneas + bandas de confianza (IRF/FMI)</span>
+          <span class="file">set_lineas_bandas.png</span></span>
+        <a class="dl" href="set_lineas_bandas.png" download title="Descargar PNG">↓ Descargar</a>
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <img src="set_ranking.png" alt="set_ranking.png" loading="lazy">
+      <figcaption>
+        <span class="meta"><span class="t">Ranking horizontal</span>
+          <span class="file">set_ranking.png</span></span>
+        <a class="dl" href="set_ranking.png" download title="Descargar PNG">↓ Descargar</a>
+      </figcaption>
+    </figure>
+  </main>
+  <footer>Estática local · viz/output/ · refresca esta página tras volver a renderizar.</footer>
+</body>
+</html>

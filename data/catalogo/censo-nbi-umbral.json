@@ -1,0 +1,18 @@
+{
+  "slug": "censo-nbi-umbral",
+  "titulo": "Bolivia: Umbral de pobreza (NBI)",
+  "subtitulo": "Población en el umbral de la pobreza por NBI — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_nbi_umbral"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nbi-umbral.png",
+  "thumb": "thumbs/censo-nbi-umbral.png",
+  "datos": null
+}

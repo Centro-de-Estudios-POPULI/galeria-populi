@@ -1,0 +1,18 @@
+{
+  "slug": "censo-piso-tierra",
+  "titulo": "Bolivia: Viviendas con piso de tierra",
+  "subtitulo": "Viviendas cuyo piso es de tierra — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_piso_tierra"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-piso-tierra.png",
+  "thumb": "thumbs/censo-piso-tierra.png",
+  "datos": null
+}

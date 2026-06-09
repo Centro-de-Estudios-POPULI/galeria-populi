@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-ge-gt",
+  "titulo": "Bolivia: Esfuerzo de inversión pública",
+  "subtitulo": "Inversión / Gasto Total (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "gasto",
+    "ge_gt"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-ge-gt.png",
+  "thumb": "thumbs/fiscal-ge-gt.png",
+  "datos": null
+}

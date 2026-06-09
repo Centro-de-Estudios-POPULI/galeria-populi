@@ -1,0 +1,16 @@
+{
+  "slug": "demo-linea-interanual",
+  "title": "El repunte de la inflación interanual",
+  "subtitle": "Variación interanual del IPC, serie mensual",
+  "category": "Inflación",
+  "source": "INE Bolivia — IPC base 2016",
+  "date": "2026-05",
+  "tags": [
+    "inflación",
+    "interanual",
+    "serie",
+    "IPC"
+  ],
+  "project": "populi-inflacion",
+  "format": "wide"
+}

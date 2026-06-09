@@ -1,0 +1,18 @@
+{
+  "slug": "censo-nbi-marginal",
+  "titulo": "Bolivia: Pobreza marginal (NBI)",
+  "subtitulo": "Población en pobreza marginal por NBI — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_nbi_marginal"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nbi-marginal.png",
+  "thumb": "thumbs/censo-nbi-marginal.png",
+  "datos": null
+}

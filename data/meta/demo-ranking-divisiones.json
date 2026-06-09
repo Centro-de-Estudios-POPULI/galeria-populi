@@ -1,0 +1,16 @@
+{
+  "slug": "demo-ranking-divisiones",
+  "title": "¿Qué empuja los precios?",
+  "subtitle": "Inflación interanual por división de gasto",
+  "category": "Inflación",
+  "source": "INE Bolivia — IPC base 2016",
+  "date": "2026-05",
+  "tags": [
+    "inflación",
+    "divisiones",
+    "alimentos",
+    "transporte"
+  ],
+  "project": "populi-inflacion",
+  "format": "portrait"
+}

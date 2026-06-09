@@ -1,0 +1,18 @@
+{
+  "slug": "censo-asistencia-escolar",
+  "titulo": "Bolivia: Asistencia escolar",
+  "subtitulo": "Asistencia escolar en edad obligatoria — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_asistencia_escolar"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-asistencia-escolar.png",
+  "thumb": "thumbs/censo-asistencia-escolar.png",
+  "datos": null
+}

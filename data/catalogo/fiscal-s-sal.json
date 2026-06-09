@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-s-sal",
+  "titulo": "Bolivia: Gasto en salud",
+  "subtitulo": "Salud / G. Sectorial (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "sectores",
+    "s_sal"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-s-sal.png",
+  "thumb": "thumbs/fiscal-s-sal.png",
+  "datos": null
+}

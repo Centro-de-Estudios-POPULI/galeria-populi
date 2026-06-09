@@ -1,0 +1,18 @@
+{
+  "slug": "censo-anios-estudio",
+  "titulo": "Bolivia: Años promedio de estudio",
+  "subtitulo": "Años promedio de estudio de la población de 25 años o más — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "prom_anios_estudio"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-anios-estudio.png",
+  "thumb": "thumbs/censo-anios-estudio.png",
+  "datos": null
+}

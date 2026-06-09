@@ -1,0 +1,18 @@
+{
+  "slug": "censo-sin-educacion",
+  "titulo": "Bolivia: Población sin instrucción",
+  "subtitulo": "Población sin ningún nivel de instrucción — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_sin_educacion"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-sin-educacion.png",
+  "thumb": "thumbs/censo-sin-educacion.png",
+  "datos": null
+}

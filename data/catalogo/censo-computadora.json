@@ -1,0 +1,18 @@
+{
+  "slug": "censo-computadora",
+  "titulo": "Bolivia: Computadora en el hogar",
+  "subtitulo": "Hogares con al menos una computadora — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_computadora"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-computadora.png",
+  "thumb": "thumbs/censo-computadora.png",
+  "datos": null
+}

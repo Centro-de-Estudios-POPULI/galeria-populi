@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-f1-it",
+  "titulo": "Bolivia: Deuda financiera sobre el ingreso total",
+  "subtitulo": "Deuda Financiera (F.1) / Ing. Total (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "fiscal",
+    "f1_it"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-f1-it.png",
+  "thumb": "thumbs/fiscal-f1-it.png",
+  "datos": null
+}

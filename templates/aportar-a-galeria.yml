@@ -1,0 +1,78 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  PLANTILLA — Copia este archivo a .github/workflows/ en CADA repo fuente
+#  (populi-inflacion, populi-actividad-economica, etc.)
+#
+#  Aporta el chart crudo + metadata al repo central "galeria-populi".
+#  El branding (logo, marca de agua, fuente) lo aplica el repo central, no aquí.
+#
+#  REQUISITOS (una sola vez):
+#    1. Crear un PAT (fine-grained) con permiso Contents:write sobre galeria-populi
+#    2. Guardarlo como secret GALERIA_TOKEN en este repo fuente
+#    3. Ajustar EXPORT_CMD, CHART_FILE y la metadata de abajo
+# ─────────────────────────────────────────────────────────────────────────────
+name: Aportar gráfica a la galería POPULI
+
+on:
+  workflow_dispatch:
+  # Encadénalo a tu pipeline de datos existente, p.ej.:
+  # workflow_run:
+  #   workflows: ["Actualizar datos"]
+  #   types: [completed]
+
+env:
+  GALERIA_REPO: TU-USUARIO/galeria-populi   # <-- ajusta
+  SLUG: inflacion-interanual-bolivia        # <-- identificador único de la gráfica
+  CHART_FILE: export/chart.png              # <-- PNG que produce tu export
+
+jobs:
+  aportar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 1) Exporta tu gráfica a PNG (ECharts/Plotly/matplotlib → archivo estático).
+      #    Reemplaza por tu comando real de exportación.
+      - name: Exportar chart
+        run: |
+          echo "Aquí corre tu export, dejando el PNG en $CHART_FILE"
+          # ej: node scripts/export-echarts.mjs   |   python export.py
+
+      # 2) Escribe la metadata de la gráfica
+      - name: Escribir metadata
+        run: |
+          mkdir -p _aporte
+          cp "$CHART_FILE" "_aporte/${SLUG}.png"
+          cat > "_aporte/${SLUG}.json" <<EOF
+          {
+            "slug": "${SLUG}",
+            "chart": "${SLUG}.png",
+            "title": "La inflación interanual en Bolivia toca su nivel más alto en años",
+            "subtitle": "Variación del IPC frente a 12 meses atrás",
+            "category": "Inflación",
+            "source": "INE Bolivia — IPC base 2016",
+            "date": "$(date +%Y-%m)",
+            "tags": ["inflación", "IPC", "precios"],
+            "project": "${GITHUB_REPOSITORY}"
+          }
+          EOF
+
+      # 3) Empuja chart + metadata al repo central
+      - name: Push a galeria-populi
+        env:
+          GH_TOKEN: ${{ secrets.GALERIA_TOKEN }}
+        run: |
+          git clone --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/${GALERIA_REPO}.git" galeria
+          cp "_aporte/${SLUG}.png" "_aporte/${SLUG}.json" galeria/data/charts/
+          cd galeria
+          git config user.name  "POPULI Bot"
+          git config user.email "bot@populi.org.bo"
+          git add data/charts/
+          git commit -m "datos: ${SLUG} desde ${GITHUB_REPOSITORY}" || { echo "Sin cambios"; exit 0; }
+          git push
+
+      # 4) (Opcional) dispara el rebuild inmediato del repo central
+      - name: Disparar publicación
+        env:
+          GH_TOKEN: ${{ secrets.GALERIA_TOKEN }}
+        run: |
+          gh api "repos/${GALERIA_REPO}/dispatches" -f event_type=nueva-grafica

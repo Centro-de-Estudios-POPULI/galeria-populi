@@ -1,0 +1,18 @@
+{
+  "slug": "censo-seguro-salud",
+  "titulo": "Bolivia: Cobertura de seguro de salud",
+  "subtitulo": "Población con algún seguro de salud — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_seguro_salud"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-seguro-salud.png",
+  "thumb": "thumbs/censo-seguro-salud.png",
+  "datos": null
+}

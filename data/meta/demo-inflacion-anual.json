@@ -1,0 +1,16 @@
+{
+  "slug": "demo-inflacion-anual",
+  "title": "Inflación anual en Bolivia",
+  "subtitle": "Variación diciembre a diciembre del IPC",
+  "category": "Inflación",
+  "source": "INE Bolivia — IPC base 2016",
+  "date": "2026-05",
+  "tags": [
+    "inflación",
+    "IPC",
+    "anual",
+    "precios"
+  ],
+  "project": "populi-inflacion",
+  "format": "wide"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "censo-tv-cable",
+  "titulo": "Bolivia: Televisión por cable",
+  "subtitulo": "Hogares con televisión por cable — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_tv_cable"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-tv-cable.png",
+  "thumb": "thumbs/censo-tv-cable.png",
+  "datos": null
+}

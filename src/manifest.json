@@ -1,0 +1,1608 @@
+{
+  "categorias": {
+    "inflacion": {
+      "label": "Inflación",
+      "color": "#8B1A1A"
+    },
+    "fiscal": {
+      "label": "Fiscal y presupuesto",
+      "color": "#0D1B2A"
+    },
+    "monetario": {
+      "label": "Monetario",
+      "color": "#0D1B2A"
+    },
+    "actividad": {
+      "label": "Actividad económica",
+      "color": "#D4A017"
+    },
+    "censo": {
+      "label": "Censo y social",
+      "color": "#8B1A1A"
+    },
+    "empleo": {
+      "label": "Empleo",
+      "color": "#0D1B2A"
+    },
+    "general": {
+      "label": "General",
+      "color": "#8B1A1A"
+    }
+  },
+  "graficas": [
+    {
+      "slug": "censo-agua-caneria",
+      "titulo": "Bolivia: Acceso a agua por cañería de red",
+      "subtitulo": "Hogares con agua por cañería de red — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_agua_caneria"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-agua-caneria.png",
+      "thumb": "thumbs/censo-agua-caneria.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-agua-interior",
+      "titulo": "Bolivia: Agua por cañería dentro de la vivienda",
+      "subtitulo": "Hogares con agua por cañería dentro de la vivienda — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_agua_interior"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-agua-interior.png",
+      "thumb": "thumbs/censo-agua-interior.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-alcantarillado",
+      "titulo": "Bolivia: Conexión a alcantarillado",
+      "subtitulo": "Hogares conectados a alcantarillado — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_alcantarillado"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-alcantarillado.png",
+      "thumb": "thumbs/censo-alcantarillado.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-alquiler",
+      "titulo": "Bolivia: Vivienda en alquiler",
+      "subtitulo": "Hogares que alquilan su vivienda — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_alquiler"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-alquiler.png",
+      "thumb": "thumbs/censo-alquiler.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-analfabetismo",
+      "titulo": "Bolivia: Analfabetismo",
+      "subtitulo": "Tasa de analfabetismo en población de 15 años o más — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_analfabetismo"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-analfabetismo.png",
+      "thumb": "thumbs/censo-analfabetismo.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-anios-estudio",
+      "titulo": "Bolivia: Años promedio de estudio",
+      "subtitulo": "Años promedio de estudio de la población de 25 años o más — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "prom_anios_estudio"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-anios-estudio.png",
+      "thumb": "thumbs/censo-anios-estudio.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-asistencia-escolar",
+      "titulo": "Bolivia: Asistencia escolar",
+      "subtitulo": "Asistencia escolar en edad obligatoria — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_asistencia_escolar"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-asistencia-escolar.png",
+      "thumb": "thumbs/censo-asistencia-escolar.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-basura-formal",
+      "titulo": "Bolivia: Recojo formal de basura",
+      "subtitulo": "Hogares con recojo formal de basura — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_basura_formal"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-basura-formal.png",
+      "thumb": "thumbs/censo-basura-formal.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-celular",
+      "titulo": "Bolivia: Telefonía celular",
+      "subtitulo": "Hogares con servicio de telefonía celular — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_celular"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-celular.png",
+      "thumb": "thumbs/censo-celular.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-computadora",
+      "titulo": "Bolivia: Computadora en el hogar",
+      "subtitulo": "Hogares con al menos una computadora — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_computadora"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-computadora.png",
+      "thumb": "thumbs/censo-computadora.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-cuenta-propia",
+      "titulo": "Bolivia: Trabajo por cuenta propia",
+      "subtitulo": "Ocupados que trabajan por cuenta propia — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_cuenta_propia"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-cuenta-propia.png",
+      "thumb": "thumbs/censo-cuenta-propia.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-desocupacion",
+      "titulo": "Bolivia: Tasa de desocupación",
+      "subtitulo": "Población desocupada respecto a la fuerza de trabajo — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "tasa_desocupacion"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-desocupacion.png",
+      "thumb": "thumbs/censo-desocupacion.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-discapacidad",
+      "titulo": "Bolivia: Población con discapacidad",
+      "subtitulo": "Población que declara alguna discapacidad — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_discapacidad"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-discapacidad.png",
+      "thumb": "thumbs/censo-discapacidad.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-edad-primer-hijo",
+      "titulo": "Bolivia: Edad al primer hijo",
+      "subtitulo": "Edad promedio de la madre al primer hijo (años) — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "edad_1er_hijo"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-edad-primer-hijo.png",
+      "thumb": "thumbs/censo-edad-primer-hijo.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-edu-primaria",
+      "titulo": "Bolivia: Nivel educativo: primaria",
+      "subtitulo": "Población cuyo máximo nivel alcanzado es primaria — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_edu_primaria"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-edu-primaria.png",
+      "thumb": "thumbs/censo-edu-primaria.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-edu-secundaria",
+      "titulo": "Bolivia: Nivel educativo: secundaria",
+      "subtitulo": "Población cuyo máximo nivel alcanzado es secundaria — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_edu_secundaria"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-edu-secundaria.png",
+      "thumb": "thumbs/censo-edu-secundaria.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-edu-superior",
+      "titulo": "Bolivia: Nivel educativo: superior",
+      "subtitulo": "Población de 25 años o más con educación superior — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_edu_superior"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-edu-superior.png",
+      "thumb": "thumbs/censo-edu-superior.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-electricidad",
+      "titulo": "Bolivia: Acceso a energía eléctrica",
+      "subtitulo": "Hogares con energía eléctrica — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_electricidad"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-electricidad.png",
+      "thumb": "thumbs/censo-electricidad.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-fecundidad",
+      "titulo": "Bolivia: Fecundidad",
+      "subtitulo": "Número promedio de hijos por mujer — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "fecundidad"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-fecundidad.png",
+      "thumb": "thumbs/censo-fecundidad.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-gas-natural",
+      "titulo": "Bolivia: Gas natural por red",
+      "subtitulo": "Hogares con gas natural por red domiciliaria — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_gas_natural"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-gas-natural.png",
+      "thumb": "thumbs/censo-gas-natural.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-hacinamiento",
+      "titulo": "Bolivia: Hacinamiento",
+      "subtitulo": "Hogares en condición de hacinamiento — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_hacinamiento"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-hacinamiento.png",
+      "thumb": "thumbs/censo-hacinamiento.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-hogares-emigrante",
+      "titulo": "Bolivia: Hogares con algún emigrante",
+      "subtitulo": "Hogares con al menos un emigrante internacional — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_con_emigrante"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-hogares-emigrante.png",
+      "thumb": "thumbs/censo-hogares-emigrante.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-internet",
+      "titulo": "Bolivia: Acceso a internet",
+      "subtitulo": "Hogares con acceso a internet — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_internet"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-internet.png",
+      "thumb": "thumbs/censo-internet.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-agua-saneamiento",
+      "titulo": "Bolivia: Carencia en agua y saneamiento (NBI)",
+      "subtitulo": "Población con carencia en agua y saneamiento — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_agua_sanea"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-agua-saneamiento.png",
+      "thumb": "thumbs/censo-nbi-agua-saneamiento.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-educacion",
+      "titulo": "Bolivia: Carencia en educación (NBI)",
+      "subtitulo": "Población con carencia en educación — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_educacion"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-educacion.png",
+      "thumb": "thumbs/censo-nbi-educacion.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-energia",
+      "titulo": "Bolivia: Carencia en energía (NBI)",
+      "subtitulo": "Población con carencia en energía e iluminación — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_energia"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-energia.png",
+      "thumb": "thumbs/censo-nbi-energia.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-espacios",
+      "titulo": "Bolivia: Carencia en espacios de vivienda (NBI)",
+      "subtitulo": "Población con carencia en espacios de la vivienda — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_espacios"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-espacios.png",
+      "thumb": "thumbs/censo-nbi-espacios.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-indigente",
+      "titulo": "Bolivia: Indigencia (NBI)",
+      "subtitulo": "Población en pobreza indigente por NBI — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_indigente"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-indigente.png",
+      "thumb": "thumbs/censo-nbi-indigente.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-marginal",
+      "titulo": "Bolivia: Pobreza marginal (NBI)",
+      "subtitulo": "Población en pobreza marginal por NBI — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_marginal"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-marginal.png",
+      "thumb": "thumbs/censo-nbi-marginal.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-materiales",
+      "titulo": "Bolivia: Carencia en materiales de vivienda (NBI)",
+      "subtitulo": "Población con carencia en materiales de la vivienda — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_materiales"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-materiales.png",
+      "thumb": "thumbs/censo-nbi-materiales.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-moderada",
+      "titulo": "Bolivia: Pobreza moderada (NBI)",
+      "subtitulo": "Población en pobreza moderada por NBI — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_moderada"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-moderada.png",
+      "thumb": "thumbs/censo-nbi-moderada.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-no-pobre",
+      "titulo": "Bolivia: Población no pobre (NBI)",
+      "subtitulo": "Población no pobre por Necesidades Básicas Insatisfechas — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_no_pobre"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-no-pobre.png",
+      "thumb": "thumbs/censo-nbi-no-pobre.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-salud",
+      "titulo": "Bolivia: Carencia en salud (NBI)",
+      "subtitulo": "Población con carencia en atención de salud — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_salud"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-salud.png",
+      "thumb": "thumbs/censo-nbi-salud.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-satisfechas",
+      "titulo": "Bolivia: Necesidades básicas satisfechas",
+      "subtitulo": "Población con necesidades básicas satisfechas — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_satisfechas"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-satisfechas.png",
+      "thumb": "thumbs/censo-nbi-satisfechas.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nbi-umbral",
+      "titulo": "Bolivia: Umbral de pobreza (NBI)",
+      "subtitulo": "Población en el umbral de la pobreza por NBI — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_umbral"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nbi-umbral.png",
+      "thumb": "thumbs/censo-nbi-umbral.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-ocupacion",
+      "titulo": "Bolivia: Tasa de ocupación",
+      "subtitulo": "Población ocupada respecto a la población en edad de trabajar — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "tasa_ocupacion"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-ocupacion.png",
+      "thumb": "thumbs/censo-ocupacion.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-pared-adobe",
+      "titulo": "Bolivia: Viviendas con pared de adobe",
+      "subtitulo": "Viviendas cuyas paredes son de adobe o tapial — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_pared_adobe"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-pared-adobe.png",
+      "thumb": "thumbs/censo-pared-adobe.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-participacion-laboral",
+      "titulo": "Bolivia: Participación laboral",
+      "subtitulo": "Tasa de participación en la fuerza de trabajo — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "tasa_participacion"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-participacion-laboral.png",
+      "thumb": "thumbs/censo-participacion-laboral.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-piso-tierra",
+      "titulo": "Bolivia: Viviendas con piso de tierra",
+      "subtitulo": "Viviendas cuyo piso es de tierra — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_piso_tierra"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-piso-tierra.png",
+      "thumb": "thumbs/censo-piso-tierra.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-poblacion-0-14",
+      "titulo": "Bolivia: Población de 0 a 14 años",
+      "subtitulo": "Peso de la población de 0 a 14 años — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_0_14"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-poblacion-0-14.png",
+      "thumb": "thumbs/censo-poblacion-0-14.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-poblacion-65-mas",
+      "titulo": "Bolivia: Población de 65 años o más",
+      "subtitulo": "Peso de la población de 65 años o más — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_65_mas"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-poblacion-65-mas.png",
+      "thumb": "thumbs/censo-poblacion-65-mas.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-poblacion-urbana",
+      "titulo": "Bolivia: Población urbana",
+      "subtitulo": "Población que reside en áreas urbanas — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_urbano"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-poblacion-urbana.png",
+      "thumb": "thumbs/censo-poblacion-urbana.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-pobreza-nbi",
+      "titulo": "Bolivia: Pobreza por NBI",
+      "subtitulo": "Población pobre por Necesidades Básicas Insatisfechas — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nbi_pobre"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-pobreza-nbi.png",
+      "thumb": "thumbs/censo-pobreza-nbi.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-sector-primario",
+      "titulo": "Bolivia: Empleo en sector primario",
+      "subtitulo": "Ocupados en agricultura, ganadería y minería — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_sector_primario"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-sector-primario.png",
+      "thumb": "thumbs/censo-sector-primario.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-sector-servicios",
+      "titulo": "Bolivia: Empleo en sector servicios",
+      "subtitulo": "Ocupados en el sector servicios — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_sector_servicios"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-sector-servicios.png",
+      "thumb": "thumbs/censo-sector-servicios.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-secundaria-mas",
+      "titulo": "Bolivia: Secundaria o más",
+      "subtitulo": "Población con secundaria completa o más — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_secundaria_mas"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-secundaria-mas.png",
+      "thumb": "thumbs/censo-secundaria-mas.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-seguro-salud",
+      "titulo": "Bolivia: Cobertura de seguro de salud",
+      "subtitulo": "Población con algún seguro de salud — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_seguro_salud"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-seguro-salud.png",
+      "thumb": "thumbs/censo-seguro-salud.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-servicio-sanitario",
+      "titulo": "Bolivia: Acceso a servicio sanitario",
+      "subtitulo": "Hogares con servicio sanitario — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_servicio_sanitario"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-servicio-sanitario.png",
+      "thumb": "thumbs/censo-servicio-sanitario.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-sin-educacion",
+      "titulo": "Bolivia: Población sin instrucción",
+      "subtitulo": "Población sin ningún nivel de instrucción — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_sin_educacion"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-sin-educacion.png",
+      "thumb": "thumbs/censo-sin-educacion.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-tamano-hogar",
+      "titulo": "Bolivia: Tamaño promedio del hogar",
+      "subtitulo": "Número promedio de personas por hogar — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "tam_hogar"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-tamano-hogar.png",
+      "thumb": "thumbs/censo-tamano-hogar.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-techo-calamina",
+      "titulo": "Bolivia: Viviendas con techo de calamina",
+      "subtitulo": "Viviendas cuyo techo es de calamina o plancha metálica — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_techo_calamina"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-techo-calamina.png",
+      "thumb": "thumbs/censo-techo-calamina.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-tv-cable",
+      "titulo": "Bolivia: Televisión por cable",
+      "subtitulo": "Hogares con televisión por cable — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_tv_cable"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-tv-cable.png",
+      "thumb": "thumbs/censo-tv-cable.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-vivienda-propia",
+      "titulo": "Bolivia: Vivienda propia",
+      "subtitulo": "Hogares con vivienda propia — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_vivienda_propia"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-vivienda-propia.png",
+      "thumb": "thumbs/censo-vivienda-propia.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-cp-ic",
+      "titulo": "Bolivia: Coparticipación sobre el ingreso corriente",
+      "subtitulo": "Coparticipación / Ing. Corriente (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sostenib",
+        "cp_ic"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-cp-ic.png",
+      "thumb": "thumbs/fiscal-cp-ic.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-cp-it",
+      "titulo": "Bolivia: Dependencia de la Coparticipación Tributaria",
+      "subtitulo": "Coparticipación / Ing. Total (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "ingresos",
+        "cp_it"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-cp-it.png",
+      "thumb": "thumbs/fiscal-cp-it.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-dcj-ic",
+      "titulo": "Bolivia: Déficit de caja",
+      "subtitulo": "Déficit de Caja / Ing. Corriente (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "fiscal",
+        "dcj_ic"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-dcj-ic.png",
+      "thumb": "thumbs/fiscal-dcj-ic.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-ed-pc",
+      "titulo": "Bolivia: Gasto en educación por habitante",
+      "subtitulo": "Educación per cápita (Bs/hab) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "percapita",
+        "ed_pc"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-ed-pc.png",
+      "thumb": "thumbs/fiscal-ed-pc.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-f1-gt",
+      "titulo": "Bolivia: Carga de deuda financiera en el gasto",
+      "subtitulo": "Amort. Deuda Fin. (F.1) / G. Total (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "gasto",
+        "f1_gt"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-f1-gt.png",
+      "thumb": "thumbs/fiscal-f1-gt.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-f1-it",
+      "titulo": "Bolivia: Deuda financiera sobre el ingreso total",
+      "subtitulo": "Deuda Financiera (F.1) / Ing. Total (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "fiscal",
+        "f1_it"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-f1-it.png",
+      "thumb": "thumbs/fiscal-f1-it.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-f2-gt",
+      "titulo": "Bolivia: Carga de deuda flotante en el gasto",
+      "subtitulo": "Amort. Flotante (F.2) / G. Total (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "gasto",
+        "f2_gt"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-f2-gt.png",
+      "thumb": "thumbs/fiscal-f2-gt.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-gc-gt",
+      "titulo": "Bolivia: Peso del gasto corriente",
+      "subtitulo": "Gasto Corriente / Gasto Total (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "gasto",
+        "gc_gt"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-gc-gt.png",
+      "thumb": "thumbs/fiscal-gc-gt.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-ge-gt",
+      "titulo": "Bolivia: Esfuerzo de inversión pública",
+      "subtitulo": "Inversión / Gasto Total (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "gasto",
+        "ge_gt"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-ge-gt.png",
+      "thumb": "thumbs/fiscal-ge-gt.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-ic-pc",
+      "titulo": "Bolivia: Ingreso corriente por habitante",
+      "subtitulo": "Ingreso Corriente per cápita (Bs/hab) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "percapita",
+        "ic_pc"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-ic-pc.png",
+      "thumb": "thumbs/fiscal-ic-pc.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-idh-ic",
+      "titulo": "Bolivia: IDH sobre el ingreso corriente",
+      "subtitulo": "IDH / Ing. Corriente (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sostenib",
+        "idh_ic"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-idh-ic.png",
+      "thumb": "thumbs/fiscal-idh-ic.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-idh-it",
+      "titulo": "Bolivia: Dependencia del IDH (renta hidrocarburífera)",
+      "subtitulo": "IDH / Ing. Total (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "ingresos",
+        "idh_it"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-idh-it.png",
+      "thumb": "thumbs/fiscal-idh-it.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-inv-pc",
+      "titulo": "Bolivia: Inversión pública por habitante",
+      "subtitulo": "Inversión per cápita (Bs/hab) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "percapita",
+        "inv_pc"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-inv-pc.png",
+      "thumb": "thumbs/fiscal-inv-pc.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-it-pc",
+      "titulo": "Bolivia: Ingreso total por habitante",
+      "subtitulo": "Ingreso Total per cápita (Bs/hab) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "percapita",
+        "it_pc"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-it-pc.png",
+      "thumb": "thumbs/fiscal-it-pc.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-op-it",
+      "titulo": "Bolivia: Acumulación de deuda flotante (cuentas por pagar)",
+      "subtitulo": "Otros Pasivos (variación de cuentas por pagar) / Ing. Total (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "fiscal",
+        "op_it"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-op-it.png",
+      "thumb": "thumbs/fiscal-op-it.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-rc-ic",
+      "titulo": "Bolivia: Recursos de capital sobre el ingreso corriente",
+      "subtitulo": "Recursos de Capital / Ing. Corriente (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "ingresos",
+        "rc_ic"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-rc-ic.png",
+      "thumb": "thumbs/fiscal-rc-ic.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-rc-it",
+      "titulo": "Bolivia: Peso de los recursos de capital",
+      "subtitulo": "Recursos de Capital / Ing. Total (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "ingresos",
+        "rc_it"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-rc-it.png",
+      "thumb": "thumbs/fiscal-rc-it.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-rp-ic",
+      "titulo": "Bolivia: Recursos propios sobre el ingreso corriente",
+      "subtitulo": "Recursos Propios / Ing. Corriente (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sostenib",
+        "rp_ic"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-rp-ic.png",
+      "thumb": "thumbs/fiscal-rp-ic.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-rp-it",
+      "titulo": "Bolivia: Autonomía fiscal: recursos propios",
+      "subtitulo": "Recursos Propios / Ing. Total (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "ingresos",
+        "rp_it"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-rp-it.png",
+      "thumb": "thumbs/fiscal-rp-it.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-rpf-ic",
+      "titulo": "Bolivia: Resultado fiscal antes de financiamiento",
+      "subtitulo": "RPF / Ing. Corriente (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "fiscal",
+        "rpf_ic"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-rpf-ic.png",
+      "thumb": "thumbs/fiscal-rpf-ic.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-s-adm",
+      "titulo": "Bolivia: Gasto en administración general",
+      "subtitulo": "Administración / G. Sectorial (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sectores",
+        "s_adm"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-s-adm.png",
+      "thumb": "thumbs/fiscal-s-adm.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-s-cul",
+      "titulo": "Bolivia: Gasto en cultura y deporte",
+      "subtitulo": "Cultura / G. Sectorial (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sectores",
+        "s_cul"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-s-cul.png",
+      "thumb": "thumbs/fiscal-s-cul.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-s-eco",
+      "titulo": "Bolivia: Gasto en sectores económicos",
+      "subtitulo": "Economía / G. Sectorial (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sectores",
+        "s_eco"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-s-eco.png",
+      "thumb": "thumbs/fiscal-s-eco.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-s-edu",
+      "titulo": "Bolivia: Gasto en educación",
+      "subtitulo": "Educación / G. Sectorial (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sectores",
+        "s_edu"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-s-edu.png",
+      "thumb": "thumbs/fiscal-s-edu.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-s-med",
+      "titulo": "Bolivia: Gasto en medio ambiente",
+      "subtitulo": "Medio Ambiente / G. Sectorial (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sectores",
+        "s_med"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-s-med.png",
+      "thumb": "thumbs/fiscal-s-med.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-s-prt",
+      "titulo": "Bolivia: Gasto en protección social",
+      "subtitulo": "Protección Social / G. Sectorial (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sectores",
+        "s_prt"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-s-prt.png",
+      "thumb": "thumbs/fiscal-s-prt.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-s-sal",
+      "titulo": "Bolivia: Gasto en salud",
+      "subtitulo": "Salud / G. Sectorial (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sectores",
+        "s_sal"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-s-sal.png",
+      "thumb": "thumbs/fiscal-s-sal.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-s-seg",
+      "titulo": "Bolivia: Gasto en seguridad ciudadana",
+      "subtitulo": "Seguridad / G. Sectorial (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sectores",
+        "s_seg"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-s-seg.png",
+      "thumb": "thumbs/fiscal-s-seg.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-s-viv",
+      "titulo": "Bolivia: Gasto en vivienda e infraestructura",
+      "subtitulo": "Vivienda e Infraestr. / G. Sectorial (%) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "sectores",
+        "s_viv"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-s-viv.png",
+      "thumb": "thumbs/fiscal-s-viv.png",
+      "datos": null
+    },
+    {
+      "slug": "fiscal-sl-pc",
+      "titulo": "Bolivia: Gasto en salud por habitante",
+      "subtitulo": "Salud per cápita (Bs/hab) — por municipio · gestión 2025",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "atlas fiscal",
+        "igf 2025",
+        "municipios",
+        "percapita",
+        "sl_pc"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/fiscal-sl-pc.png",
+      "thumb": "thumbs/fiscal-sl-pc.png",
+      "datos": null
+    },
+    {
+      "slug": "monetario-reservas-composicion",
+      "titulo": "Bolivia: ¿De qué están hechas las reservas del BCB?",
+      "subtitulo": "Reservas Internacionales Brutas por componente — millones de USD · datos a mayo 2026",
+      "categoria": "monetario",
+      "fuente": "Fuente: Banco Central de Bolivia (BCB), Estadísticas Semanales. Elaboración: Centro de Estudios POPULI.",
+      "tags": [
+        "reservas internacionales",
+        "oro",
+        "divisas",
+        "bcb",
+        "composición"
+      ],
+      "fecha": "2026-06-09",
+      "tipo": "areas",
+      "formato": "red_cuadrada",
+      "imagen": "graficas/monetario-reservas-composicion.png",
+      "thumb": "thumbs/monetario-reservas-composicion.png",
+      "datos": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "censo-poblacion-65-mas",
+  "titulo": "Bolivia: Población de 65 años o más",
+  "subtitulo": "Peso de la población de 65 años o más — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_65_mas"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-poblacion-65-mas.png",
+  "thumb": "thumbs/censo-poblacion-65-mas.png",
+  "datos": null
+}
