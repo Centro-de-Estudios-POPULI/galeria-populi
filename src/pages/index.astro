@@ -17,6 +17,18 @@ const nMapas = graficas.filter((g) => g.tipo === "mapa").length;
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Fija el tema ANTES de pintar (evita parpadeo): localStorage o preferencia del sistema -->
+  <script is:inline>
+    (function () {
+      try {
+        var p = new URLSearchParams(location.search).get('tema');
+        var t = (p === 'dark' || p === 'light') ? p : localStorage.getItem('tema');
+        if (t !== 'dark' && t !== 'light')
+          t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+    })();
+  </script>
   <title>Banco de Gráficos · Centro de Estudios POPULI</title>
   <meta name="description" content="Gráficas e indicadores de Bolivia con fuente verificada, en alta resolución y listos para compartir. Centro de Estudios POPULI." />
   <meta property="og:title" content="Banco de Gráficos · POPULI" />
@@ -60,7 +72,13 @@ const nMapas = graficas.filter((g) => g.tipo === "mapa").length;
 
   <!-- ===== CONTROLES ===== -->
   <div class="controls">
-    <input id="search" type="search" placeholder="Buscar por tema, indicador, fuente o etiqueta…" autocomplete="off" />
+    <div class="ctl-row">
+      <input id="search" type="search" placeholder="Buscar por tema, indicador, fuente o etiqueta…" autocomplete="off" />
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar tema claro/oscuro" title="Cambiar tema">
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M4.8 4.8l1.8 1.8M17.4 17.4l1.8 1.8M19.2 4.8l-1.8 1.8M6.6 17.4l-1.8 1.8"/></svg>
+      </button>
+    </div>
     <div class="chips" id="chips">
       <button class="chip active" data-cat="*">Todas <span class="n">{graficas.length}</span></button>
       {cats.map(([k, c]) => (
@@ -141,6 +159,14 @@ const nMapas = graficas.filter((g) => g.tipo === "mapa").length;
       if (t === lb || t.classList.contains('lb-close')) closeLb();
     });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLb(); });
+
+    // ----- tema claro/oscuro -----
+    const toggle = document.getElementById('theme-toggle')!;
+    toggle.addEventListener('click', () => {
+      const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('tema', next); } catch (e) {}
+    });
   </script>
 
   <!-- Partículas del hero (constellation network, estilo monitores POPULI) -->
@@ -204,12 +230,22 @@ const nMapas = graficas.filter((g) => g.tipo === "mapa").length;
   :root {
     --populi: #8B1A1A; --populi-dark: #6B0300; --gold: #D4A017;
     --navy: #0D1B2A; --navy2: #1A2940; --ink: #2B2420; --cafe: #5C3D1E; --muted: #8C8378;
-    --warm-white: #FAF8F3; --panel: #F1EDE5; --border: #E2DDD3;
+    --warm-white: #FAF8F3; --panel: #F1EDE5; --border: #E2DDD3; --card: #ffffff;
+    --chip-text: var(--cafe);
   }
+  /* ---------- TEMA OSCURO (toda la galería combina; el hero ya es oscuro) ---------- */
+  html[data-theme="dark"] {
+    --ink: #ECE7DD; --cafe: #C9BCA8; --muted: #97A1AE; --chip-text: #C9D2DD;
+    --warm-white: #0E1521; --panel: #141D29; --border: #2A3543; --card: #18222F;
+    --populi: #C8443B;          /* rojo un poco más claro para legibilidad sobre oscuro */
+    --populi-dark: #A8342C;
+  }
+  html { background: var(--warm-white); }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--warm-white); color: var(--ink);
     font-family: 'Public Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased;
+    transition: background .25s ease, color .25s ease;
   }
   a { color: var(--populi); }
   .wm-p { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; color: var(--populi); }
@@ -256,11 +292,21 @@ const nMapas = graficas.filter((g) => g.tipo === "mapa").length;
   /* ---------- CONTROLES ---------- */
   .controls { max-width: 1180px; margin: 0 auto; padding: 26px 24px 0; position: sticky; top: 0;
     background: var(--warm-white); z-index: 20; }
-  #search { width: 100%; padding: 14px 18px; font-size: 16px; font-family: inherit;
-    border: 2px solid var(--border); border-radius: 12px; background: #fff; outline: none; }
+  .ctl-row { display: flex; gap: 12px; align-items: stretch; }
+  #search { flex: 1; min-width: 0; padding: 14px 18px; font-size: 16px; font-family: inherit;
+    color: var(--ink); border: 2px solid var(--border); border-radius: 12px; background: var(--card); outline: none; }
   #search:focus { border-color: var(--populi); }
+  #search::placeholder { color: var(--muted); }
+  .theme-toggle { flex: 0 0 auto; width: 52px; display: grid; place-items: center; cursor: pointer;
+    border: 2px solid var(--border); border-radius: 12px; background: var(--card); color: var(--ink);
+    transition: border-color .15s, color .15s, background .25s; }
+  .theme-toggle:hover { border-color: var(--populi); color: var(--populi); }
+  .theme-toggle svg { width: 20px; height: 20px; }
+  .theme-toggle .i-sun { display: none; }
+  html[data-theme="dark"] .theme-toggle .i-moon { display: none; }
+  html[data-theme="dark"] .theme-toggle .i-sun { display: block; }
   .chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 14px 0 18px; }
-  .chip { --c: var(--populi); border: 1.5px solid var(--border); background: #fff; color: var(--cafe);
+  .chip { --c: var(--populi); border: 1.5px solid var(--border); background: var(--card); color: var(--chip-text);
     padding: 7px 15px; border-radius: 999px; font-size: 14px; font-weight: 600; cursor: pointer;
     font-family: inherit; transition: all .15s; }
   .chip:hover { border-color: var(--c); color: var(--c); }
@@ -272,10 +318,10 @@ const nMapas = graficas.filter((g) => g.tipo === "mapa").length;
     display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; }
   .card { display: flex; flex-direction: column; }
   .card[hidden] { display: none; }
-  .thumb { position: relative; border: 1px solid var(--border); padding: 0; cursor: zoom-in; background: #fff;
+  .thumb { position: relative; border: 1px solid var(--border); padding: 0; cursor: zoom-in; background: var(--card);
     border-radius: 14px; overflow: hidden; box-shadow: 0 1px 3px rgba(20,20,20,.06);
     transition: transform .18s, box-shadow .18s; aspect-ratio: 1; display: block; }
-  .thumb:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(13,27,42,.16); }
+  .thumb:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,0,0,.45); }
   .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .cat-chip { position: absolute; top: 10px; left: 10px; color: #fff; font-size: 11px; font-weight: 600;
     letter-spacing: .3px; padding: 4px 10px; border-radius: 999px; }
