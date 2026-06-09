@@ -21,8 +21,9 @@ from catalogo import publicar, build_manifest
 
 SRC = Path(r"C:\Users\HP\OneDrive\Desktop\Proyectos\populi-monetario\data\reservas_rin.json")
 FECHA = "2026-06-09"
+AUTOR = "Carlos Aranda"   # investigador/a responsable (a futuro puede variar por gráfico)
 FUENTE = ("Fuente: Banco Central de Bolivia (BCB), Estadísticas Semanales. "
-          "Elaboración: Centro de Estudios POPULI.")
+          f"Elaboración: Centro de Estudios POPULI · {AUTOR}.")
 
 raw = json.loads(SRC.read_text(encoding="utf-8"))
 
