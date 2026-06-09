@@ -5,7 +5,8 @@ const { categorias, graficas } = manifest as {
   graficas: any[];
 };
 const base = import.meta.env.BASE_URL;
-const u = (p: string) => `${base}${p}`.replace(/([^:])\/\//g, "$1/");
+// une base + ruta con EXACTAMENTE una barra (el base puede o no terminar en "/")
+const u = (p: string) => `${base.replace(/\/$/, "")}/${p.replace(/^\//, "")}`;
 const cats = Object.entries(categorias);
 const updated = new Date().toISOString().slice(0, 10);
 const nMapas = graficas.filter((g) => g.tipo === "mapa").length;
