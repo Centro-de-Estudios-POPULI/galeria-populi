@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-op-it",
+  "titulo": "Bolivia: Acumulación de deuda flotante (cuentas por pagar)",
+  "subtitulo": "Otros Pasivos (variación de cuentas por pagar) / Ing. Total (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "fiscal",
+    "op_it"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-op-it.png",
+  "thumb": "thumbs/fiscal-op-it.png",
+  "datos": null
+}

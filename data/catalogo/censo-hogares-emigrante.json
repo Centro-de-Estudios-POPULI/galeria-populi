@@ -1,0 +1,18 @@
+{
+  "slug": "censo-hogares-emigrante",
+  "titulo": "Bolivia: Hogares con algún emigrante",
+  "subtitulo": "Hogares con al menos un emigrante internacional — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_con_emigrante"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-hogares-emigrante.png",
+  "thumb": "thumbs/censo-hogares-emigrante.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "censo-poblacion-0-14",
+  "titulo": "Bolivia: Población de 0 a 14 años",
+  "subtitulo": "Peso de la población de 0 a 14 años — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_0_14"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-poblacion-0-14.png",
+  "thumb": "thumbs/censo-poblacion-0-14.png",
+  "datos": null
+}

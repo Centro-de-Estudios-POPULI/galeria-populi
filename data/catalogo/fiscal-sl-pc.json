@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-sl-pc",
+  "titulo": "Bolivia: Gasto en salud por habitante",
+  "subtitulo": "Salud per cápita (Bs/hab) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "percapita",
+    "sl_pc"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-sl-pc.png",
+  "thumb": "thumbs/fiscal-sl-pc.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "censo-vivienda-propia",
+  "titulo": "Bolivia: Vivienda propia",
+  "subtitulo": "Hogares con vivienda propia — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_vivienda_propia"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-vivienda-propia.png",
+  "thumb": "thumbs/censo-vivienda-propia.png",
+  "datos": null
+}

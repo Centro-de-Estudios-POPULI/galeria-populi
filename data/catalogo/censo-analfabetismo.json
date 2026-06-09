@@ -1,0 +1,18 @@
+{
+  "slug": "censo-analfabetismo",
+  "titulo": "Bolivia: Analfabetismo",
+  "subtitulo": "Tasa de analfabetismo en población de 15 años o más — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_analfabetismo"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-analfabetismo.png",
+  "thumb": "thumbs/censo-analfabetismo.png",
+  "datos": null
+}

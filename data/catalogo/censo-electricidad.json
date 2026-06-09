@@ -1,0 +1,18 @@
+{
+  "slug": "censo-electricidad",
+  "titulo": "Bolivia: Acceso a energía eléctrica",
+  "subtitulo": "Hogares con energía eléctrica — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_electricidad"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-electricidad.png",
+  "thumb": "thumbs/censo-electricidad.png",
+  "datos": null
+}

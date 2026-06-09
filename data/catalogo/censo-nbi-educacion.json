@@ -1,0 +1,18 @@
+{
+  "slug": "censo-nbi-educacion",
+  "titulo": "Bolivia: Carencia en educación (NBI)",
+  "subtitulo": "Población con carencia en educación — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_nbi_educacion"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nbi-educacion.png",
+  "thumb": "thumbs/censo-nbi-educacion.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "censo-pared-adobe",
+  "titulo": "Bolivia: Viviendas con pared de adobe",
+  "subtitulo": "Viviendas cuyas paredes son de adobe o tapial — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_pared_adobe"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-pared-adobe.png",
+  "thumb": "thumbs/censo-pared-adobe.png",
+  "datos": null
+}

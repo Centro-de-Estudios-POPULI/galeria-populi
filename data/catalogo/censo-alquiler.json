@@ -1,0 +1,18 @@
+{
+  "slug": "censo-alquiler",
+  "titulo": "Bolivia: Vivienda en alquiler",
+  "subtitulo": "Hogares que alquilan su vivienda — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_alquiler"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-alquiler.png",
+  "thumb": "thumbs/censo-alquiler.png",
+  "datos": null
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-dcj-ic",
+  "titulo": "Bolivia: Déficit de caja",
+  "subtitulo": "Déficit de Caja / Ing. Corriente (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "fiscal",
+    "dcj_ic"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-dcj-ic.png",
+  "thumb": "thumbs/fiscal-dcj-ic.png",
+  "datos": null
+}

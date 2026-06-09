@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-f2-gt",
+  "titulo": "Bolivia: Carga de deuda flotante en el gasto",
+  "subtitulo": "Amort. Flotante (F.2) / G. Total (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "gasto",
+    "f2_gt"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-f2-gt.png",
+  "thumb": "thumbs/fiscal-f2-gt.png",
+  "datos": null
+}

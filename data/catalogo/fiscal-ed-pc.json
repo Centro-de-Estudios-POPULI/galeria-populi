@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-ed-pc",
+  "titulo": "Bolivia: Gasto en educación por habitante",
+  "subtitulo": "Educación per cápita (Bs/hab) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "percapita",
+    "ed_pc"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-ed-pc.png",
+  "thumb": "thumbs/fiscal-ed-pc.png",
+  "datos": null
+}

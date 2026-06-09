@@ -1,0 +1,18 @@
+{
+  "slug": "censo-poblacion-urbana",
+  "titulo": "Bolivia: Población urbana",
+  "subtitulo": "Población que reside en áreas urbanas — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_urbano"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-poblacion-urbana.png",
+  "thumb": "thumbs/censo-poblacion-urbana.png",
+  "datos": null
+}

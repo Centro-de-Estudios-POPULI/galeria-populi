@@ -1,0 +1,18 @@
+{
+  "slug": "censo-discapacidad",
+  "titulo": "Bolivia: Población con discapacidad",
+  "subtitulo": "Población que declara alguna discapacidad — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_discapacidad"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-discapacidad.png",
+  "thumb": "thumbs/censo-discapacidad.png",
+  "datos": null
+}

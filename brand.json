@@ -1,0 +1,28 @@
+{
+  "name": "Centro de Estudios POPULI",
+  "tagline": "Centro de Estudios de Políticas Públicas para la Libertad",
+  "site": "populi.org.bo",
+  "handle": "@PopuliBolivia",
+  "colors": {
+    "red": "#C71E1D",
+    "redDark": "#8B2226",
+    "teal": "#0A9396",
+    "blue": "#005F73",
+    "amber": "#D4920A",
+    "cream": "#F5EFE0",
+    "ink": "#141414",
+    "inkSoft": "#3A3A3A",
+    "muted": "#6B7280",
+    "paper": "#FFFFFF",
+    "panel": "#FAF7F0",
+    "grid": "#E7E2D6"
+  },
+  "palette": ["#C71E1D", "#0A9396", "#D4920A", "#005F73", "#6B3F8C", "#2E7D4F", "#8B2226"],
+  "fonts": {
+    "serif": "PlayfairDisplay.ttf",
+    "serifItalic": "PlayfairDisplay-Italic.ttf",
+    "sans": "Inter.ttf",
+    "mono": "IBMPlexMono-Regular.ttf",
+    "monoBold": "IBMPlexMono-SemiBold.ttf"
+  }
+}

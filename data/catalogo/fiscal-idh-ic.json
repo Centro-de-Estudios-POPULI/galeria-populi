@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-idh-ic",
+  "titulo": "Bolivia: IDH sobre el ingreso corriente",
+  "subtitulo": "IDH / Ing. Corriente (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "sostenib",
+    "idh_ic"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-idh-ic.png",
+  "thumb": "thumbs/fiscal-idh-ic.png",
+  "datos": null
+}

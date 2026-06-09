@@ -1,0 +1,18 @@
+{
+  "slug": "censo-edu-primaria",
+  "titulo": "Bolivia: Nivel educativo: primaria",
+  "subtitulo": "Población cuyo máximo nivel alcanzado es primaria — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_edu_primaria"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-edu-primaria.png",
+  "thumb": "thumbs/censo-edu-primaria.png",
+  "datos": null
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-rc-ic",
+  "titulo": "Bolivia: Recursos de capital sobre el ingreso corriente",
+  "subtitulo": "Recursos de Capital / Ing. Corriente (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "ingresos",
+    "rc_ic"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-rc-ic.png",
+  "thumb": "thumbs/fiscal-rc-ic.png",
+  "datos": null
+}

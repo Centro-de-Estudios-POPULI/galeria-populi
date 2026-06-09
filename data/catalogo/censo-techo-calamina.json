@@ -1,0 +1,18 @@
+{
+  "slug": "censo-techo-calamina",
+  "titulo": "Bolivia: Viviendas con techo de calamina",
+  "subtitulo": "Viviendas cuyo techo es de calamina o plancha metálica — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_techo_calamina"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-techo-calamina.png",
+  "thumb": "thumbs/censo-techo-calamina.png",
+  "datos": null
+}

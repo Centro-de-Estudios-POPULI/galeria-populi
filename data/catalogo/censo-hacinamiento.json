@@ -1,0 +1,18 @@
+{
+  "slug": "censo-hacinamiento",
+  "titulo": "Bolivia: Hacinamiento",
+  "subtitulo": "Hogares en condición de hacinamiento — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_hacinamiento"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-hacinamiento.png",
+  "thumb": "thumbs/censo-hacinamiento.png",
+  "datos": null
+}

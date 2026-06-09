@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-gc-gt",
+  "titulo": "Bolivia: Peso del gasto corriente",
+  "subtitulo": "Gasto Corriente / Gasto Total (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "gasto",
+    "gc_gt"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-gc-gt.png",
+  "thumb": "thumbs/fiscal-gc-gt.png",
+  "datos": null
+}

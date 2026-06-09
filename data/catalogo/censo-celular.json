@@ -1,0 +1,18 @@
+{
+  "slug": "censo-celular",
+  "titulo": "Bolivia: Telefonía celular",
+  "subtitulo": "Hogares con servicio de telefonía celular — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_celular"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-celular.png",
+  "thumb": "thumbs/censo-celular.png",
+  "datos": null
+}

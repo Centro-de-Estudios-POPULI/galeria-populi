@@ -1,0 +1,18 @@
+{
+  "slug": "censo-nbi-moderada",
+  "titulo": "Bolivia: Pobreza moderada (NBI)",
+  "subtitulo": "Población en pobreza moderada por NBI — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_nbi_moderada"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nbi-moderada.png",
+  "thumb": "thumbs/censo-nbi-moderada.png",
+  "datos": null
+}

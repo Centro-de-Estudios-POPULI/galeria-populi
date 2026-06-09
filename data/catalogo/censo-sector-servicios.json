@@ -1,0 +1,18 @@
+{
+  "slug": "censo-sector-servicios",
+  "titulo": "Bolivia: Empleo en sector servicios",
+  "subtitulo": "Ocupados en el sector servicios — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_sector_servicios"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-sector-servicios.png",
+  "thumb": "thumbs/censo-sector-servicios.png",
+  "datos": null
+}

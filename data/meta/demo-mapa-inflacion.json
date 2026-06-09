@@ -1,0 +1,16 @@
+{
+  "slug": "demo-mapa-inflacion",
+  "title": "La inflación no golpea igual a todo el país",
+  "subtitle": "Inflación interanual por departamento",
+  "category": "Inflación",
+  "source": "INE Bolivia — IPC base 2016",
+  "date": "2026-05",
+  "tags": [
+    "inflación",
+    "mapa",
+    "departamentos",
+    "territorial"
+  ],
+  "project": "populi-inflacion",
+  "format": "portrait"
+}

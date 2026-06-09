@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-s-adm",
+  "titulo": "Bolivia: Gasto en administración general",
+  "subtitulo": "Administración / G. Sectorial (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "sectores",
+    "s_adm"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-s-adm.png",
+  "thumb": "thumbs/fiscal-s-adm.png",
+  "datos": null
+}

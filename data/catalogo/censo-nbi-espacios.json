@@ -1,0 +1,18 @@
+{
+  "slug": "censo-nbi-espacios",
+  "titulo": "Bolivia: Carencia en espacios de vivienda (NBI)",
+  "subtitulo": "Población con carencia en espacios de la vivienda — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_nbi_espacios"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nbi-espacios.png",
+  "thumb": "thumbs/censo-nbi-espacios.png",
+  "datos": null
+}

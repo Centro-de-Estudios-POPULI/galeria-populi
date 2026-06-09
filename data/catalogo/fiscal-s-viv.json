@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-s-viv",
+  "titulo": "Bolivia: Gasto en vivienda e infraestructura",
+  "subtitulo": "Vivienda e Infraestr. / G. Sectorial (%) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "sectores",
+    "s_viv"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-s-viv.png",
+  "thumb": "thumbs/fiscal-s-viv.png",
+  "datos": null
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "fiscal-it-pc",
+  "titulo": "Bolivia: Ingreso total por habitante",
+  "subtitulo": "Ingreso Total per cápita (Bs/hab) — por municipio · gestión 2025",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "atlas fiscal",
+    "igf 2025",
+    "municipios",
+    "percapita",
+    "it_pc"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/fiscal-it-pc.png",
+  "thumb": "thumbs/fiscal-it-pc.png",
+  "datos": null
+}

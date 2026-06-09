@@ -1,0 +1,18 @@
+{
+  "slug": "censo-alcantarillado",
+  "titulo": "Bolivia: Conexión a alcantarillado",
+  "subtitulo": "Hogares conectados a alcantarillado — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_alcantarillado"
+  ],
+  "fecha": "2026-06-09",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-alcantarillado.png",
+  "thumb": "thumbs/censo-alcantarillado.png",
+  "datos": null
+}
