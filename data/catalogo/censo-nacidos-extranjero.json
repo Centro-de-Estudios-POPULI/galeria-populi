@@ -1,0 +1,18 @@
+{
+  "slug": "censo-nacidos-extranjero",
+  "titulo": "Bolivia: Población nacida en el extranjero",
+  "subtitulo": "Residentes nacidos en otro país — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_nacido_extranjero"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nacidos-extranjero.png",
+  "thumb": "thumbs/censo-nacidos-extranjero.png",
+  "datos": null
+}

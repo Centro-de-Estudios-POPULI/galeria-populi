@@ -1,0 +1,18 @@
+{
+  "slug": "censo-pared-ladrillo",
+  "titulo": "Bolivia: Paredes de ladrillo o bloque",
+  "subtitulo": "Viviendas con paredes de ladrillo, bloque u hormigón — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_pared_ladrillo"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-pared-ladrillo.png",
+  "thumb": "thumbs/censo-pared-ladrillo.png",
+  "datos": null
+}

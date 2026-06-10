@@ -1,0 +1,18 @@
+{
+  "slug": "censo-empleo-publico",
+  "titulo": "Bolivia: Empleo en administración pública",
+  "subtitulo": "Ocupados en administración pública y defensa — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_admin_publica"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-empleo-publico.png",
+  "thumb": "thumbs/censo-empleo-publico.png",
+  "datos": null
+}

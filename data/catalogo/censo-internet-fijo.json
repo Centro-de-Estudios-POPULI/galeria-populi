@@ -1,0 +1,18 @@
+{
+  "slug": "censo-internet-fijo",
+  "titulo": "Bolivia: Internet fijo",
+  "subtitulo": "Hogares con internet fijo en la vivienda — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_internet_fijo"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-internet-fijo.png",
+  "thumb": "thumbs/censo-internet-fijo.png",
+  "datos": null
+}

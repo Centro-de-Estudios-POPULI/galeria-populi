@@ -1,0 +1,18 @@
+{
+  "slug": "censo-discapacidad-visual",
+  "titulo": "Bolivia: Dificultad severa para ver",
+  "subtitulo": "Personas con mucha o total dificultad para ver — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_disc_ver"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-discapacidad-visual.png",
+  "thumb": "thumbs/censo-discapacidad-visual.png",
+  "datos": null
+}

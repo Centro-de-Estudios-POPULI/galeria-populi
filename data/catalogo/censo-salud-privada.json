@@ -1,0 +1,18 @@
+{
+  "slug": "censo-salud-privada",
+  "titulo": "Bolivia: Uso de salud privada",
+  "subtitulo": "Población que acude a consultorios o clínicas privadas — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_salud_privada"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-salud-privada.png",
+  "thumb": "thumbs/censo-salud-privada.png",
+  "datos": null
+}

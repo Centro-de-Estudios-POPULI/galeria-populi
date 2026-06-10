@@ -1,0 +1,18 @@
+{
+  "slug": "censo-monoambiente",
+  "titulo": "Bolivia: Viviendas de un solo cuarto",
+  "subtitulo": "Viviendas que ocupan un solo cuarto — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_monoambiente"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-monoambiente.png",
+  "thumb": "thumbs/censo-monoambiente.png",
+  "datos": null
+}

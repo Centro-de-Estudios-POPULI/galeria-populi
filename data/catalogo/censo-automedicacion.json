@@ -1,0 +1,18 @@
+{
+  "slug": "censo-automedicacion",
+  "titulo": "Bolivia: Automedicación",
+  "subtitulo": "Población que se automedica o compra sin receta médica — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_automedicacion"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-automedicacion.png",
+  "thumb": "thumbs/censo-automedicacion.png",
+  "datos": null
+}

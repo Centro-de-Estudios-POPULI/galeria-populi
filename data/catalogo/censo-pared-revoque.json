@@ -1,0 +1,18 @@
+{
+  "slug": "censo-pared-revoque",
+  "titulo": "Bolivia: Paredes con revoque",
+  "subtitulo": "Viviendas con paredes interiores revocadas — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_revoque"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-pared-revoque.png",
+  "thumb": "thumbs/censo-pared-revoque.png",
+  "datos": null
+}

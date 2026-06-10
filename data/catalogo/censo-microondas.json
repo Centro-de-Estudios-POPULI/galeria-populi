@@ -1,0 +1,18 @@
+{
+  "slug": "censo-microondas",
+  "titulo": "Bolivia: Hogares con microondas",
+  "subtitulo": "Hogares que tienen horno microondas — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_microondas"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-microondas.png",
+  "thumb": "thumbs/censo-microondas.png",
+  "datos": null
+}

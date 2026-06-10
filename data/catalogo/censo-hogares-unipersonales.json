@@ -1,0 +1,18 @@
+{
+  "slug": "censo-hogares-unipersonales",
+  "titulo": "Bolivia: Hogares unipersonales",
+  "subtitulo": "Hogares de una sola persona — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_hogar_unipersonal"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-hogares-unipersonales.png",
+  "thumb": "thumbs/censo-hogares-unipersonales.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "censo-cajas-salud",
+  "titulo": "Bolivia: Uso de cajas de salud",
+  "subtitulo": "Población que acude a cajas de salud (seguridad social) — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_caja_salud"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-cajas-salud.png",
+  "thumb": "thumbs/censo-cajas-salud.png",
+  "datos": null
+}

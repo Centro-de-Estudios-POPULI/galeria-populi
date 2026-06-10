@@ -1,0 +1,18 @@
+{
+  "slug": "censo-parto-calificado",
+  "titulo": "Bolivia: Partos con personal calificado",
+  "subtitulo": "Últimos partos atendidos por personal de salud calificado — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_parto_calificado"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-parto-calificado.png",
+  "thumb": "thumbs/censo-parto-calificado.png",
+  "datos": null
+}

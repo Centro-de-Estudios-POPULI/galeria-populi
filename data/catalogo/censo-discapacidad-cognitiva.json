@@ -1,0 +1,18 @@
+{
+  "slug": "censo-discapacidad-cognitiva",
+  "titulo": "Bolivia: Dificultad severa cognitiva",
+  "subtitulo": "Personas con mucha o total dificultad para comunicarse o razonar — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_disc_cognitiva"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-discapacidad-cognitiva.png",
+  "thumb": "thumbs/censo-discapacidad-cognitiva.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "censo-medicina-tradicional",
+  "titulo": "Bolivia: Uso de medicina tradicional",
+  "subtitulo": "Población que acude a médicos tradicionales ancestrales — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_salud_tradicional"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-medicina-tradicional.png",
+  "thumb": "thumbs/censo-medicina-tradicional.png",
+  "datos": null
+}

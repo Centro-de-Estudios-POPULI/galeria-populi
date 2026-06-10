@@ -1,0 +1,18 @@
+{
+  "slug": "censo-camara-septica",
+  "titulo": "Bolivia: Desagüe a cámara séptica",
+  "subtitulo": "Viviendas cuyo baño desagua a cámara séptica — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_camara_septica"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-camara-septica.png",
+  "thumb": "thumbs/censo-camara-septica.png",
+  "datos": null
+}

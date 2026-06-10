@@ -1,0 +1,18 @@
+{
+  "slug": "censo-discapacidad-auditiva",
+  "titulo": "Bolivia: Dificultad severa para oír",
+  "subtitulo": "Personas con mucha o total dificultad para oír — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_disc_oir"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-discapacidad-auditiva.png",
+  "thumb": "thumbs/censo-discapacidad-auditiva.png",
+  "datos": null
+}

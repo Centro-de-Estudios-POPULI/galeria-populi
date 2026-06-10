@@ -1,0 +1,18 @@
+{
+  "slug": "censo-hijos-fallecidos",
+  "titulo": "Bolivia: Mortalidad en la niñez acumulada",
+  "subtitulo": "Hijos fallecidos sobre nacidos vivos declarados por las madres — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_hijos_fallecidos"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-hijos-fallecidos.png",
+  "thumb": "thumbs/censo-hijos-fallecidos.png",
+  "datos": null
+}

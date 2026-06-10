@@ -1,0 +1,18 @@
+{
+  "slug": "censo-agua-no-mejorada",
+  "titulo": "Bolivia: Agua de fuente no mejorada",
+  "subtitulo": "Viviendas que se abastecen de pozo sin protección, río o aguatero — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_agua_no_mejorada"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-agua-no-mejorada.png",
+  "thumb": "thumbs/censo-agua-no-mejorada.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "censo-gas-garrafa",
+  "titulo": "Bolivia: Cocina con gas en garrafa",
+  "subtitulo": "Viviendas cuyo combustible principal es el gas en garrafa — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_gas_garrafa"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-gas-garrafa.png",
+  "thumb": "thumbs/censo-gas-garrafa.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "censo-autoident-quechua",
+  "titulo": "Bolivia: Autoidentificación quechua",
+  "subtitulo": "Población que se autoidentifica quechua — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_quechua"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-autoident-quechua.png",
+  "thumb": "thumbs/censo-autoident-quechua.png",
+  "datos": null
+}

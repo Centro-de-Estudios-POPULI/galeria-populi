@@ -1,0 +1,18 @@
+{
+  "slug": "censo-nacidos-otro-municipio",
+  "titulo": "Bolivia: Atracción migratoria histórica",
+  "subtitulo": "Residentes nacidos en otro municipio del país — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_nacido_otro_municipio"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nacidos-otro-municipio.png",
+  "thumb": "thumbs/censo-nacidos-otro-municipio.png",
+  "datos": null
+}
