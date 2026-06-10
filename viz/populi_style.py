@@ -248,9 +248,9 @@ SIZES = {
 }
 
 # Márgenes (px @ 1080)
-MARGIN = 84
-TOP = 64
-BOTTOM = 52
+MARGIN = 72
+TOP = 56
+BOTTOM = 46
 
 
 def _px2pt(px: float) -> float:
@@ -391,14 +391,17 @@ def _wrap_px(texto, size_px, max_w, font_file):
 
 def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
              formato="red_vertical", titulo_familia=None, gutter_izq=0, mapa=False,
-             acento_p=None, acento_linea=None):
+             acento_p=None, acento_linea=None, margen=None, top=None, bottom=None):
     """Dibuja título/subtítulo arriba y el pie de marca abajo, y reposiciona el
-    eje del gráfico en el espacio central. Llamar DESPUÉS de dibujar los datos."""
+    eje del gráfico en el espacio central. Llamar DESPUÉS de dibujar los datos.
+    margen/top/bottom (px @1080) permiten un ajuste puntual por gráfico; si no
+    se pasan rigen los globales MARGIN/TOP/BOTTOM."""
     W, H, sc = _spec(formato)
     fig._ps_formato = formato
     fam = titulo_familia or titular_familia(formato)
     fam_file = _FONT_FILES.get(fam, "Inter.ttf")
-    M = MARGIN * sc
+    _bottom = (bottom if bottom is not None else BOTTOM)
+    M = (margen if margen is not None else MARGIN) * sc
     max_w = W - 2 * M
 
     s_tit = SIZES["titulo"] * sc
@@ -413,7 +416,7 @@ def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
     # ruta), evitando problemas de resolución por nombre de familia.
     fp_tit = font_manager.FontProperties(fname=str(FONTS_DIR / fam_file),
                                          size=_px2pt(s_tit), weight="bold")
-    cur = TOP * sc
+    cur = (top if top is not None else TOP) * sc
     for ln in _wrap_px(titulo, s_tit, max_w, fam_file):
         fig.text(M / W, fy(cur), ln, fontproperties=fp_tit,
                  color=COLORS["tinta"], va="top", ha="left")
@@ -432,10 +435,10 @@ def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
     # y nota se apila a la izquierda, acotado para no pasar bajo el wordmark.
     wm = _wordmark_img(int(SIZES["wordmark"] * sc), color_p=acento_p)
     wm_left_px = W - wm.width - M
-    fig.figimage(np.asarray(wm), xo=int(wm_left_px), yo=int(BOTTOM * sc),
+    fig.figimage(np.asarray(wm), xo=int(wm_left_px), yo=int(_bottom * sc),
                  origin="upper", zorder=6)
     # firma: hairline encima del wordmark (color de marca o acento del gráfico)
-    rule_y = (BOTTOM * sc + wm.height + 7 * sc) / H
+    rule_y = (_bottom * sc + wm.height + 7 * sc) / H
     fig.add_artist(plt.Line2D([wm_left_px / W, (W - M) / W], [rule_y, rule_y],
                               transform=fig.transFigure,
                               color=col(acento_linea) if acento_linea else COLORS["rojo"],
@@ -445,7 +448,7 @@ def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
     # texto del pie: acotado a la izquierda del wordmark
     txt_max_w = max_w - wm.width - 36 * sc
     body_file = _FONT_FILES.get(BODY, "Inter.ttf")
-    fcur = H - BOTTOM * sc
+    fcur = H - _bottom * sc
     if fuente:
         for ln in reversed(_wrap_px(fuente, s_src, txt_max_w, body_file)):
             fig.text(M / W, fy(fcur), ln, fontproperties=fp(BODY, s_src),

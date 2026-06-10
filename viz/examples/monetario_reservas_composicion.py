@@ -66,8 +66,10 @@ EVENTOS = [
      "dx": -8.4, "color": "serie_teal", "alpha": 0.12},
     {"x0": PICO, "x1": 2024, "texto": "Decadencia", "ly": 13400,
      "dx": 1.6, "color": "rojo", "alpha": 0.08},
-    {"x0": 2024, "x1": df.index[-1], "texto": "Revalorización\ndel oro", "ly": 11000,
-     "cx": 2024.6, "dx": 0.7, "color": "oro", "alpha": 0.16},
+    # texto a la IZQUIERDA del círculo: sin etiquetas de fin de línea no hay
+    # expansión derecha del lienzo y al lado derecho ya no cabe
+    {"x0": 2024, "x1": df.index[-1], "texto": "Revalorización\ndel oro", "ly": 11200,
+     "cx": 2024.8, "dx": -0.9, "color": "oro", "alpha": 0.16},
 ]
 
 publicar(
@@ -83,6 +85,17 @@ publicar(
     etiquetas=["Divisas", "Oro", "Otros"],
     colores=["azul", "oro", "cafe"],
     y_sufijo="", normalizar=False, eventos=EVENTOS,
+    # encuadre más apretado que el global (px @1080), pedido para este gráfico
+    margen=60, top=46, bottom=38,
+    # estética 2026-06-10: bandas más transparentes, división más fina, miles
+    # con punto y rótulos DENTRO de las bandas (no al final de la línea)
+    alpha=0.72, division_px=0.4, y_miles=True,
+    rotulos=[
+        {"x": 2012.2, "y": 5200, "texto": "Divisas", "color": "crema"},
+        {"x": 2025.1, "y": 1150, "texto": "Oro", "color": "cafe_oscuro"},
+        {"x": 2022.3, "y": 5750, "texto": "Otros", "color": "cafe_oscuro", "va": "bottom"},
+    ],
+    guias=[{"x": 2022.3, "y0": 5550, "y1": 4800}],
 )
 
 build_manifest()

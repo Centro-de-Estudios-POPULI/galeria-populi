@@ -18,7 +18,9 @@ import populi_style as ps
 def grafico_areas(df, series, etiquetas=None, titulo="", subtitulo="", fuente="",
                   nota="", normalizar=False, colores=None, formato="red_vertical",
                   archivo=None, titulo_familia=None, y_sufijo="%",
-                  lineas_division=True, fases=None, alpha=0.82, eventos=None):
+                  lineas_division=True, fases=None, alpha=0.82, eventos=None,
+                  margen=None, top=None, bottom=None, division_px=0.6,
+                  y_miles=False, rotulos=None, guias=None):
     """Áreas apiladas. `alpha` controla la transparencia de las bandas.
     `lineas_division` traza una línea fina en el borde superior de cada banda.
     `fases` = lista de {"x0","x1","texto", lx?,ly?,ha?} dibuja divisores verticales
@@ -46,7 +48,7 @@ def grafico_areas(df, series, etiquetas=None, titulo="", subtitulo="", fuente=""
         # línea de división muy fina en el borde superior de la banda (estilo FMI)
         if lineas_division:
             ax.plot(x, acum + datos[k], color=ps.COLORS["fondo"],
-                    linewidth=0.6 * sc, zorder=4, solid_capstyle="round")
+                    linewidth=division_px * sc, zorder=4, solid_capstyle="round")
         fin.append((x[-1], acum[-1] + datos[k][-1] / 2, nombre, c))
         acum += datos[k]
 
@@ -55,7 +57,7 @@ def grafico_areas(df, series, etiquetas=None, titulo="", subtitulo="", fuente=""
         ax.set_ylim(0, 100)
     else:                       # sin negativos: el eje arranca exacto en 0
         ax.set_ylim(bottom=0)
-    ax.yaxis.set_major_formatter(ps.formateador_es(0, y_sufijo))
+    ax.yaxis.set_major_formatter(ps.formateador_es(0, y_sufijo, miles=y_miles))
     if all(float(v).is_integer() for v in x):
         ps.ticks_x_enteros(ax, x)
     else:  # x decimal (años): poda marcas fuera del rango (evita un 2030 vacío)
@@ -104,8 +106,22 @@ def grafico_areas(df, series, etiquetas=None, titulo="", subtitulo="", fuente=""
                     fontproperties=f_an, color=ps.COLORS["cafe"], zorder=7,
                     linespacing=1.12)
 
-    ps.etiquetas_fin_linea(ax, fin, expandir=0.22)
-    ps.componer(fig, ax, titulo, subtitulo, fuente, nota, formato, titulo_familia)
+    # rotulos = [{x, y, texto, color, ha?, va?}] rotula las series DENTRO de sus
+    # bandas (coords de datos) en vez de al final de la línea; guias = [{x,y0,y1}]
+    # traza guías verticales finas (para señalar bandas demasiado angostas).
+    if rotulos is None:
+        ps.etiquetas_fin_linea(ax, fin, expandir=0.22)
+    else:
+        f_rot = ps.fp(ps.BODY, ps.SIZES["fin_linea"] * 0.88 * sc, weight="bold")
+        for r in rotulos:
+            ax.text(r["x"], r["y"], r["texto"], fontproperties=f_rot,
+                    color=ps.col(r.get("color", "tinta")), ha=r.get("ha", "center"),
+                    va=r.get("va", "center"), zorder=9)
+        for g in (guias or []):
+            ax.plot([g["x"], g["x"]], [g["y0"], g["y1"]], color=ps.COLORS["cafe"],
+                    linewidth=1.0 * sc, zorder=9, solid_capstyle="round")
+    ps.componer(fig, ax, titulo, subtitulo, fuente, nota, formato, titulo_familia,
+                margen=margen, top=top, bottom=bottom)
     if archivo:
         ps.guardar(fig, archivo, formato=formato)
     return fig, ax
