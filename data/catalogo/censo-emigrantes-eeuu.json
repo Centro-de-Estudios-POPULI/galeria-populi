@@ -1,0 +1,18 @@
+{
+  "slug": "censo-emigrantes-eeuu",
+  "titulo": "Bolivia: Emigrantes en Estados Unidos",
+  "subtitulo": "Emigrantes del municipio cuyo destino es EE.UU. — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_emi_eeuu"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-emigrantes-eeuu.png",
+  "thumb": "thumbs/censo-emigrantes-eeuu.png",
+  "datos": null
+}

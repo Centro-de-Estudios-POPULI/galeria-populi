@@ -1,0 +1,18 @@
+{
+  "slug": "censo-internet-movil",
+  "titulo": "Bolivia: Internet móvil",
+  "subtitulo": "Hogares con internet móvil (megas o datos) — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_internet_movil"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-internet-movil.png",
+  "thumb": "thumbs/censo-internet-movil.png",
+  "datos": null
+}

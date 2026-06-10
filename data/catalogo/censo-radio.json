@@ -1,0 +1,18 @@
+{
+  "slug": "censo-radio",
+  "titulo": "Bolivia: Hogares con radio",
+  "subtitulo": "Hogares que tienen radio o equipo de sonido — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_radio"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-radio.png",
+  "thumb": "thumbs/censo-radio.png",
+  "datos": null
+}

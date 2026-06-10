@@ -41,7 +41,7 @@
         "municipios",
         "pct_agua_caneria"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-agua-caneria.png",
@@ -59,11 +59,65 @@
         "municipios",
         "pct_agua_interior"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-agua-interior.png",
       "thumb": "thumbs/censo-agua-interior.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-agua-no-mejorada",
+      "titulo": "Bolivia: Agua de fuente no mejorada",
+      "subtitulo": "Viviendas que se abastecen de pozo sin protección, río o aguatero — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_agua_no_mejorada"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-agua-no-mejorada.png",
+      "thumb": "thumbs/censo-agua-no-mejorada.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-agua-pozo",
+      "titulo": "Bolivia: Abastecimiento de agua por pozo",
+      "subtitulo": "Viviendas que se abastecen de pozo excavado o perforado — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_agua_pozo"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-agua-pozo.png",
+      "thumb": "thumbs/censo-agua-pozo.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-aire-acondicionado",
+      "titulo": "Bolivia: Hogares con aire acondicionado",
+      "subtitulo": "Hogares que tienen aire acondicionado — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_aire_acond"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-aire-acondicionado.png",
+      "thumb": "thumbs/censo-aire-acondicionado.png",
       "datos": null
     },
     {
@@ -77,7 +131,7 @@
         "municipios",
         "pct_alcantarillado"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-alcantarillado.png",
@@ -95,11 +149,29 @@
         "municipios",
         "pct_alquiler"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-alquiler.png",
       "thumb": "thumbs/censo-alquiler.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-analfabetismo-femenino",
+      "titulo": "Bolivia: Analfabetismo femenino",
+      "subtitulo": "Mujeres de 15 años o más que no saben leer ni escribir — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_analfabetismo_mujeres"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-analfabetismo-femenino.png",
+      "thumb": "thumbs/censo-analfabetismo-femenino.png",
       "datos": null
     },
     {
@@ -113,7 +185,7 @@
         "municipios",
         "pct_analfabetismo"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-analfabetismo.png",
@@ -131,11 +203,47 @@
         "municipios",
         "prom_anios_estudio"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-anios-estudio.png",
       "thumb": "thumbs/censo-anios-estudio.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-asalariados",
+      "titulo": "Bolivia: Empleo asalariado",
+      "subtitulo": "Ocupados que trabajan como empleados u obreros — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_asalariados"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-asalariados.png",
+      "thumb": "thumbs/censo-asalariados.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-asistencia-18-24",
+      "titulo": "Bolivia: Asistencia educativa de 18 a 24 años",
+      "subtitulo": "Jóvenes de 18 a 24 años que continúan estudiando — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "tasa_asistencia_18_24"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-asistencia-18-24.png",
+      "thumb": "thumbs/censo-asistencia-18-24.png",
       "datos": null
     },
     {
@@ -149,11 +257,119 @@
         "municipios",
         "pct_asistencia_escolar"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-asistencia-escolar.png",
       "thumb": "thumbs/censo-asistencia-escolar.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-asistencia-inicial",
+      "titulo": "Bolivia: Asistencia a educación inicial",
+      "subtitulo": "Niños de 4 y 5 años que asisten a un establecimiento educativo — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "tasa_asistencia_4_5"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-asistencia-inicial.png",
+      "thumb": "thumbs/censo-asistencia-inicial.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-autoident-aymara",
+      "titulo": "Bolivia: Autoidentificación aymara",
+      "subtitulo": "Población que se autoidentifica aymara — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_aymara"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-autoident-aymara.png",
+      "thumb": "thumbs/censo-autoident-aymara.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-autoident-guarani",
+      "titulo": "Bolivia: Autoidentificación guaraní",
+      "subtitulo": "Población que se autoidentifica guaraní — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_guarani"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-autoident-guarani.png",
+      "thumb": "thumbs/censo-autoident-guarani.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-autoident-indigena",
+      "titulo": "Bolivia: Autoidentificación indígena",
+      "subtitulo": "Población que se autoidentifica con una nación o pueblo indígena originario campesino o afroboliviano — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_autoident_indigena"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-autoident-indigena.png",
+      "thumb": "thumbs/censo-autoident-indigena.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-autoident-quechua",
+      "titulo": "Bolivia: Autoidentificación quechua",
+      "subtitulo": "Población que se autoidentifica quechua — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_quechua"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-autoident-quechua.png",
+      "thumb": "thumbs/censo-autoident-quechua.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-automedicacion",
+      "titulo": "Bolivia: Automedicación",
+      "subtitulo": "Población que se automedica o compra sin receta médica — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_automedicacion"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-automedicacion.png",
+      "thumb": "thumbs/censo-automedicacion.png",
       "datos": null
     },
     {
@@ -167,11 +383,101 @@
         "municipios",
         "pct_basura_formal"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-basura-formal.png",
       "thumb": "thumbs/censo-basura-formal.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-bicicleta",
+      "titulo": "Bolivia: Hogares con bicicleta",
+      "subtitulo": "Hogares que tienen bicicleta — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_bicicleta"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-bicicleta.png",
+      "thumb": "thumbs/censo-bicicleta.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-bote",
+      "titulo": "Bolivia: Hogares con bote o canoa",
+      "subtitulo": "Hogares con deslizador, balsa, canoa o bote — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_bote"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-bote.png",
+      "thumb": "thumbs/censo-bote.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-cajas-salud",
+      "titulo": "Bolivia: Uso de cajas de salud",
+      "subtitulo": "Población que acude a cajas de salud (seguridad social) — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_caja_salud"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-cajas-salud.png",
+      "thumb": "thumbs/censo-cajas-salud.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-camara-septica",
+      "titulo": "Bolivia: Desagüe a cámara séptica",
+      "subtitulo": "Viviendas cuyo baño desagua a cámara séptica — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_camara_septica"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-camara-septica.png",
+      "thumb": "thumbs/censo-camara-septica.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-cedula-identidad",
+      "titulo": "Bolivia: Tenencia de cédula de identidad",
+      "subtitulo": "Personas que tienen o tuvieron cédula de identidad — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_cedula_identidad"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-cedula-identidad.png",
+      "thumb": "thumbs/censo-cedula-identidad.png",
       "datos": null
     },
     {
@@ -185,11 +491,65 @@
         "municipios",
         "pct_celular"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-celular.png",
       "thumb": "thumbs/censo-celular.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-chozas",
+      "titulo": "Bolivia: Chozas y pahuichis",
+      "subtitulo": "Viviendas clasificadas como choza o pahuichi — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_choza"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-chozas.png",
+      "thumb": "thumbs/censo-chozas.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-cocina-exclusiva",
+      "titulo": "Bolivia: Cuarto exclusivo para cocinar",
+      "subtitulo": "Viviendas con un cuarto solo para cocinar — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_cocina_exclusiva"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-cocina-exclusiva.png",
+      "thumb": "thumbs/censo-cocina-exclusiva.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-cocina-lena",
+      "titulo": "Bolivia: Cocina con leña o guano",
+      "subtitulo": "Viviendas que cocinan con leña, guano, bosta o taquia — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_combustible_solido"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-cocina-lena.png",
+      "thumb": "thumbs/censo-cocina-lena.png",
       "datos": null
     },
     {
@@ -203,7 +563,7 @@
         "municipios",
         "pct_computadora"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-computadora.png",
@@ -221,11 +581,29 @@
         "municipios",
         "pct_cuenta_propia"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-cuenta-propia.png",
       "thumb": "thumbs/censo-cuenta-propia.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-departamentos",
+      "titulo": "Bolivia: Viviendas tipo departamento",
+      "subtitulo": "Viviendas en edificios de departamentos — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_departamento"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-departamentos.png",
+      "thumb": "thumbs/censo-departamentos.png",
       "datos": null
     },
     {
@@ -239,11 +617,83 @@
         "municipios",
         "tasa_desocupacion"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-desocupacion.png",
       "thumb": "thumbs/censo-desocupacion.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-discapacidad-auditiva",
+      "titulo": "Bolivia: Dificultad severa para oír",
+      "subtitulo": "Personas con mucha o total dificultad para oír — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_disc_oir"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-discapacidad-auditiva.png",
+      "thumb": "thumbs/censo-discapacidad-auditiva.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-discapacidad-cognitiva",
+      "titulo": "Bolivia: Dificultad severa cognitiva",
+      "subtitulo": "Personas con mucha o total dificultad para comunicarse o razonar — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_disc_cognitiva"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-discapacidad-cognitiva.png",
+      "thumb": "thumbs/censo-discapacidad-cognitiva.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-discapacidad-motriz",
+      "titulo": "Bolivia: Dificultad severa para caminar",
+      "subtitulo": "Personas con mucha o total dificultad para caminar o usar brazos — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_disc_caminar"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-discapacidad-motriz.png",
+      "thumb": "thumbs/censo-discapacidad-motriz.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-discapacidad-visual",
+      "titulo": "Bolivia: Dificultad severa para ver",
+      "subtitulo": "Personas con mucha o total dificultad para ver — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_disc_ver"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-discapacidad-visual.png",
+      "thumb": "thumbs/censo-discapacidad-visual.png",
       "datos": null
     },
     {
@@ -257,11 +707,65 @@
         "municipios",
         "pct_discapacidad"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-discapacidad.png",
       "thumb": "thumbs/censo-discapacidad.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-edad-emigracion",
+      "titulo": "Bolivia: Edad promedio al emigrar",
+      "subtitulo": "Edad promedio a la que las personas salieron del país, en años — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "edad_prom_emigracion"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-edad-emigracion.png",
+      "thumb": "thumbs/censo-edad-emigracion.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-edad-fallecimiento",
+      "titulo": "Bolivia: Edad promedio de fallecimiento",
+      "subtitulo": "Edad promedio al morir de los fallecidos declarados, en años — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "edad_prom_fallecimiento"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-edad-fallecimiento.png",
+      "thumb": "thumbs/censo-edad-fallecimiento.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-edad-mediana",
+      "titulo": "Bolivia: Edad mediana",
+      "subtitulo": "Edad mediana de la población, en años — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "edad_mediana"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-edad-mediana.png",
+      "thumb": "thumbs/censo-edad-mediana.png",
       "datos": null
     },
     {
@@ -275,7 +779,7 @@
         "municipios",
         "edad_1er_hijo"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-edad-primer-hijo.png",
@@ -293,7 +797,7 @@
         "municipios",
         "pct_edu_primaria"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-edu-primaria.png",
@@ -311,7 +815,7 @@
         "municipios",
         "pct_edu_secundaria"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-edu-secundaria.png",
@@ -329,11 +833,29 @@
         "municipios",
         "pct_edu_superior"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-edu-superior.png",
       "thumb": "thumbs/censo-edu-superior.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-educacion-publica",
+      "titulo": "Bolivia: Dependencia de la educación pública",
+      "subtitulo": "Estudiantes que asisten a establecimientos públicos o de convenio — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_educacion_publica"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-educacion-publica.png",
+      "thumb": "thumbs/censo-educacion-publica.png",
       "datos": null
     },
     {
@@ -347,11 +869,173 @@
         "municipios",
         "pct_electricidad"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-electricidad.png",
       "thumb": "thumbs/censo-electricidad.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-emigrantes-argentina",
+      "titulo": "Bolivia: Emigrantes en Argentina",
+      "subtitulo": "Emigrantes del municipio cuyo destino es Argentina — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_emi_argentina"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-emigrantes-argentina.png",
+      "thumb": "thumbs/censo-emigrantes-argentina.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-emigrantes-brasil",
+      "titulo": "Bolivia: Emigrantes en Brasil",
+      "subtitulo": "Emigrantes del municipio cuyo destino es Brasil — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_emi_brasil"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-emigrantes-brasil.png",
+      "thumb": "thumbs/censo-emigrantes-brasil.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-emigrantes-chile",
+      "titulo": "Bolivia: Emigrantes en Chile",
+      "subtitulo": "Emigrantes del municipio cuyo destino es Chile — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_emi_chile"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-emigrantes-chile.png",
+      "thumb": "thumbs/censo-emigrantes-chile.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-emigrantes-eeuu",
+      "titulo": "Bolivia: Emigrantes en Estados Unidos",
+      "subtitulo": "Emigrantes del municipio cuyo destino es EE.UU. — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_emi_eeuu"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-emigrantes-eeuu.png",
+      "thumb": "thumbs/censo-emigrantes-eeuu.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-emigrantes-espana",
+      "titulo": "Bolivia: Emigrantes en España",
+      "subtitulo": "Emigrantes del municipio cuyo destino es España — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_emi_espana"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-emigrantes-espana.png",
+      "thumb": "thumbs/censo-emigrantes-espana.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-emigrantes",
+      "titulo": "Bolivia: Emigración internacional",
+      "subtitulo": "Emigrantes por cada 1.000 habitantes — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "emigrantes_x1000"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-emigrantes.png",
+      "thumb": "thumbs/censo-emigrantes.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-empleadores",
+      "titulo": "Bolivia: Empleadores",
+      "subtitulo": "Ocupados que son empleadores o socios — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_empleadores"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-empleadores.png",
+      "thumb": "thumbs/censo-empleadores.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-empleo-comercio",
+      "titulo": "Bolivia: Empleo en comercio",
+      "subtitulo": "Ocupados en comercio y reparación de vehículos — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_comercio"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-empleo-comercio.png",
+      "thumb": "thumbs/censo-empleo-comercio.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-empleo-publico",
+      "titulo": "Bolivia: Empleo en administración pública",
+      "subtitulo": "Ocupados en administración pública y defensa — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_admin_publica"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-empleo-publico.png",
+      "thumb": "thumbs/censo-empleo-publico.png",
       "datos": null
     },
     {
@@ -365,11 +1049,29 @@
         "municipios",
         "fecundidad"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-fecundidad.png",
       "thumb": "thumbs/censo-fecundidad.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-gas-garrafa",
+      "titulo": "Bolivia: Cocina con gas en garrafa",
+      "subtitulo": "Viviendas cuyo combustible principal es el gas en garrafa — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_gas_garrafa"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-gas-garrafa.png",
+      "thumb": "thumbs/censo-gas-garrafa.png",
       "datos": null
     },
     {
@@ -383,7 +1085,7 @@
         "municipios",
         "pct_gas_natural"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-gas-natural.png",
@@ -401,11 +1103,29 @@
         "municipios",
         "pct_hacinamiento"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-hacinamiento.png",
       "thumb": "thumbs/censo-hacinamiento.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-hijos-fallecidos",
+      "titulo": "Bolivia: Mortalidad en la niñez acumulada",
+      "subtitulo": "Hijos fallecidos sobre nacidos vivos declarados por las madres — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_hijos_fallecidos"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-hijos-fallecidos.png",
+      "thumb": "thumbs/censo-hijos-fallecidos.png",
       "datos": null
     },
     {
@@ -419,11 +1139,155 @@
         "municipios",
         "pct_con_emigrante"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-hogares-emigrante.png",
       "thumb": "thumbs/censo-hogares-emigrante.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-hogares-extendidos",
+      "titulo": "Bolivia: Hogares extendidos",
+      "subtitulo": "Hogares extendidos o compuestos — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_hogar_extendido"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-hogares-extendidos.png",
+      "thumb": "thumbs/censo-hogares-extendidos.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-hogares-fallecido",
+      "titulo": "Bolivia: Hogares con algún fallecido",
+      "subtitulo": "Hogares donde murió un miembro desde 2019 — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_hogar_fallecido"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-hogares-fallecido.png",
+      "thumb": "thumbs/censo-hogares-fallecido.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-hogares-unipersonales",
+      "titulo": "Bolivia: Hogares unipersonales",
+      "subtitulo": "Hogares de una sola persona — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_hogar_unipersonal"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-hogares-unipersonales.png",
+      "thumb": "thumbs/censo-hogares-unipersonales.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-idioma-castellano",
+      "titulo": "Bolivia: Idioma materno castellano",
+      "subtitulo": "Población cuyo primer idioma de la niñez es el castellano — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_idioma_materno_castellano"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-idioma-castellano.png",
+      "thumb": "thumbs/censo-idioma-castellano.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-idioma-originario",
+      "titulo": "Bolivia: Idioma materno originario",
+      "subtitulo": "Población cuyo primer idioma de la niñez es originario — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_idioma_materno_originario"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-idioma-originario.png",
+      "thumb": "thumbs/censo-idioma-originario.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-indice-masculinidad",
+      "titulo": "Bolivia: Índice de masculinidad",
+      "subtitulo": "Hombres por cada 100 mujeres — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "indice_masculinidad"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-indice-masculinidad.png",
+      "thumb": "thumbs/censo-indice-masculinidad.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-internet-fijo",
+      "titulo": "Bolivia: Internet fijo",
+      "subtitulo": "Hogares con internet fijo en la vivienda — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_internet_fijo"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-internet-fijo.png",
+      "thumb": "thumbs/censo-internet-fijo.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-internet-movil",
+      "titulo": "Bolivia: Internet móvil",
+      "subtitulo": "Hogares con internet móvil (megas o datos) — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_internet_movil"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-internet-movil.png",
+      "thumb": "thumbs/censo-internet-movil.png",
       "datos": null
     },
     {
@@ -437,11 +1301,191 @@
         "municipios",
         "pct_internet"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-internet.png",
       "thumb": "thumbs/censo-internet.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-lavadora",
+      "titulo": "Bolivia: Hogares con lavadora",
+      "subtitulo": "Hogares que tienen lavadora de ropa — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_lavadora"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-lavadora.png",
+      "thumb": "thumbs/censo-lavadora.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-madres-adolescentes",
+      "titulo": "Bolivia: Maternidad adolescente",
+      "subtitulo": "Mujeres de 15 a 19 años que ya son madres — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_madres_adolescentes"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-madres-adolescentes.png",
+      "thumb": "thumbs/censo-madres-adolescentes.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-medicina-tradicional",
+      "titulo": "Bolivia: Uso de medicina tradicional",
+      "subtitulo": "Población que acude a médicos tradicionales ancestrales — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_salud_tradicional"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-medicina-tradicional.png",
+      "thumb": "thumbs/censo-medicina-tradicional.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-microondas",
+      "titulo": "Bolivia: Hogares con microondas",
+      "subtitulo": "Hogares que tienen horno microondas — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_microondas"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-microondas.png",
+      "thumb": "thumbs/censo-microondas.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-migrantes-recientes",
+      "titulo": "Bolivia: Migración reciente",
+      "subtitulo": "Residentes que en 2019 vivían en otro municipio o país — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_migrante_reciente"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-migrantes-recientes.png",
+      "thumb": "thumbs/censo-migrantes-recientes.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-monoambiente",
+      "titulo": "Bolivia: Viviendas de un solo cuarto",
+      "subtitulo": "Viviendas que ocupan un solo cuarto — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_monoambiente"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-monoambiente.png",
+      "thumb": "thumbs/censo-monoambiente.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-motocicleta",
+      "titulo": "Bolivia: Hogares con motocicleta",
+      "subtitulo": "Hogares que tienen motocicleta o cuadratrack — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_moto"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-motocicleta.png",
+      "thumb": "thumbs/censo-motocicleta.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-muertes-covid",
+      "titulo": "Bolivia: Muertes atribuidas al COVID-19",
+      "subtitulo": "Fallecidos 2019-2024 cuya causa declarada fue el COVID-19 — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_muertes_covid"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-muertes-covid.png",
+      "thumb": "thumbs/censo-muertes-covid.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nacidos-extranjero",
+      "titulo": "Bolivia: Población nacida en el extranjero",
+      "subtitulo": "Residentes nacidos en otro país — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nacido_extranjero"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nacidos-extranjero.png",
+      "thumb": "thumbs/censo-nacidos-extranjero.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-nacidos-otro-municipio",
+      "titulo": "Bolivia: Atracción migratoria histórica",
+      "subtitulo": "Residentes nacidos en otro municipio del país — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_nacido_otro_municipio"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-nacidos-otro-municipio.png",
+      "thumb": "thumbs/censo-nacidos-otro-municipio.png",
       "datos": null
     },
     {
@@ -455,7 +1499,7 @@
         "municipios",
         "pct_nbi_agua_sanea"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-agua-saneamiento.png",
@@ -473,7 +1517,7 @@
         "municipios",
         "pct_nbi_educacion"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-educacion.png",
@@ -491,7 +1535,7 @@
         "municipios",
         "pct_nbi_energia"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-energia.png",
@@ -509,7 +1553,7 @@
         "municipios",
         "pct_nbi_espacios"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-espacios.png",
@@ -527,7 +1571,7 @@
         "municipios",
         "pct_nbi_indigente"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-indigente.png",
@@ -545,7 +1589,7 @@
         "municipios",
         "pct_nbi_marginal"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-marginal.png",
@@ -563,7 +1607,7 @@
         "municipios",
         "pct_nbi_materiales"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-materiales.png",
@@ -581,7 +1625,7 @@
         "municipios",
         "pct_nbi_moderada"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-moderada.png",
@@ -599,7 +1643,7 @@
         "municipios",
         "pct_nbi_no_pobre"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-no-pobre.png",
@@ -617,7 +1661,7 @@
         "municipios",
         "pct_nbi_salud"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-salud.png",
@@ -635,7 +1679,7 @@
         "municipios",
         "pct_nbi_satisfechas"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-satisfechas.png",
@@ -653,11 +1697,29 @@
         "municipios",
         "pct_nbi_umbral"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-nbi-umbral.png",
       "thumb": "thumbs/censo-nbi-umbral.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-ocupacion-femenina",
+      "titulo": "Bolivia: Ocupación femenina",
+      "subtitulo": "Mujeres en edad de trabajar que están ocupadas — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "tasa_ocupacion_fem"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-ocupacion-femenina.png",
+      "thumb": "thumbs/censo-ocupacion-femenina.png",
       "datos": null
     },
     {
@@ -671,11 +1733,29 @@
         "municipios",
         "tasa_ocupacion"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-ocupacion.png",
       "thumb": "thumbs/censo-ocupacion.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-panel-solar",
+      "titulo": "Bolivia: Energía por panel solar",
+      "subtitulo": "Viviendas cuya electricidad proviene de panel solar — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_panel_solar"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-panel-solar.png",
+      "thumb": "thumbs/censo-panel-solar.png",
       "datos": null
     },
     {
@@ -689,11 +1769,65 @@
         "municipios",
         "pct_pared_adobe"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-pared-adobe.png",
       "thumb": "thumbs/censo-pared-adobe.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-pared-ladrillo",
+      "titulo": "Bolivia: Paredes de ladrillo o bloque",
+      "subtitulo": "Viviendas con paredes de ladrillo, bloque u hormigón — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_pared_ladrillo"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-pared-ladrillo.png",
+      "thumb": "thumbs/censo-pared-ladrillo.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-pared-revoque",
+      "titulo": "Bolivia: Paredes con revoque",
+      "subtitulo": "Viviendas con paredes interiores revocadas — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_revoque"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-pared-revoque.png",
+      "thumb": "thumbs/censo-pared-revoque.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-participacion-femenina",
+      "titulo": "Bolivia: Participación laboral femenina",
+      "subtitulo": "Mujeres en edad de trabajar dentro de la fuerza laboral — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "tasa_participacion_fem"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-participacion-femenina.png",
+      "thumb": "thumbs/censo-participacion-femenina.png",
       "datos": null
     },
     {
@@ -707,11 +1841,29 @@
         "municipios",
         "tasa_participacion"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-participacion-laboral.png",
       "thumb": "thumbs/censo-participacion-laboral.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-parto-calificado",
+      "titulo": "Bolivia: Partos con personal calificado",
+      "subtitulo": "Últimos partos atendidos por personal de salud calificado — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_parto_calificado"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-parto-calificado.png",
+      "thumb": "thumbs/censo-parto-calificado.png",
       "datos": null
     },
     {
@@ -725,7 +1877,7 @@
         "municipios",
         "pct_piso_tierra"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-piso-tierra.png",
@@ -743,7 +1895,7 @@
         "municipios",
         "pct_0_14"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-poblacion-0-14.png",
@@ -761,7 +1913,7 @@
         "municipios",
         "pct_65_mas"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-poblacion-65-mas.png",
@@ -779,7 +1931,7 @@
         "municipios",
         "pct_urbano"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-poblacion-urbana.png",
@@ -797,11 +1949,137 @@
         "municipios",
         "pct_nbi_pobre"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-pobreza-nbi.png",
       "thumb": "thumbs/censo-pobreza-nbi.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-pozo-ciego",
+      "titulo": "Bolivia: Desagüe a pozo ciego o superficie",
+      "subtitulo": "Viviendas cuyo baño desagua a pozo ciego o a la superficie — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_pozo_ciego"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-pozo-ciego.png",
+      "thumb": "thumbs/censo-pozo-ciego.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-radio",
+      "titulo": "Bolivia: Hogares con radio",
+      "subtitulo": "Hogares que tienen radio o equipo de sonido — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_radio"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-radio.png",
+      "thumb": "thumbs/censo-radio.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-razon-dependencia",
+      "titulo": "Bolivia: Razón de dependencia",
+      "subtitulo": "Dependientes (0-14 y 65+) por cada 100 personas en edad de trabajar — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "razon_dependencia"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-razon-dependencia.png",
+      "thumb": "thumbs/censo-razon-dependencia.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-refrigerador",
+      "titulo": "Bolivia: Hogares con refrigerador",
+      "subtitulo": "Hogares que tienen refrigerador o congeladora — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_refrigerador"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-refrigerador.png",
+      "thumb": "thumbs/censo-refrigerador.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-registro-civil",
+      "titulo": "Bolivia: Inscripción en el registro civil",
+      "subtitulo": "Personas con nacimiento inscrito en el registro civil — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_registro_civil"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-registro-civil.png",
+      "thumb": "thumbs/censo-registro-civil.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-salud-privada",
+      "titulo": "Bolivia: Uso de salud privada",
+      "subtitulo": "Población que acude a consultorios o clínicas privadas — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_salud_privada"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-salud-privada.png",
+      "thumb": "thumbs/censo-salud-privada.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-salud-publica",
+      "titulo": "Bolivia: Uso de la salud pública",
+      "subtitulo": "Población que acude a establecimientos públicos de salud — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_salud_publica"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-salud-publica.png",
+      "thumb": "thumbs/censo-salud-publica.png",
       "datos": null
     },
     {
@@ -815,11 +2093,29 @@
         "municipios",
         "pct_sector_primario"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-sector-primario.png",
       "thumb": "thumbs/censo-sector-primario.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-sector-secundario",
+      "titulo": "Bolivia: Empleo en el sector secundario",
+      "subtitulo": "Ocupados en industria, construcción, electricidad y agua — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_sector_secundario"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-sector-secundario.png",
+      "thumb": "thumbs/censo-sector-secundario.png",
       "datos": null
     },
     {
@@ -833,7 +2129,7 @@
         "municipios",
         "pct_sector_servicios"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-sector-servicios.png",
@@ -851,7 +2147,7 @@
         "municipios",
         "pct_secundaria_mas"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-secundaria-mas.png",
@@ -869,7 +2165,7 @@
         "municipios",
         "pct_seguro_salud"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-seguro-salud.png",
@@ -887,7 +2183,7 @@
         "municipios",
         "pct_servicio_sanitario"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-servicio-sanitario.png",
@@ -905,11 +2201,29 @@
         "municipios",
         "pct_sin_educacion"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-sin-educacion.png",
       "thumb": "thumbs/censo-sin-educacion.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-sin-electricidad",
+      "titulo": "Bolivia: Viviendas sin energía eléctrica",
+      "subtitulo": "Viviendas sin ninguna fuente de energía eléctrica — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_sin_energia"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-sin-electricidad.png",
+      "thumb": "thumbs/censo-sin-electricidad.png",
       "datos": null
     },
     {
@@ -923,11 +2237,29 @@
         "municipios",
         "tam_hogar"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-tamano-hogar.png",
       "thumb": "thumbs/censo-tamano-hogar.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-tasa-mortalidad",
+      "titulo": "Bolivia: Mortalidad declarada",
+      "subtitulo": "Fallecidos declarados por 1.000 habitantes (anualizado 2019-2024) — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "tasa_mortalidad"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-tasa-mortalidad.png",
+      "thumb": "thumbs/censo-tasa-mortalidad.png",
       "datos": null
     },
     {
@@ -941,11 +2273,119 @@
         "municipios",
         "pct_techo_calamina"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-techo-calamina.png",
       "thumb": "thumbs/censo-techo-calamina.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-techo-paja",
+      "titulo": "Bolivia: Techos de paja o palma",
+      "subtitulo": "Viviendas con techo de paja, palma, caña o barro — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_techo_paja"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-techo-paja.png",
+      "thumb": "thumbs/censo-techo-paja.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-techo-teja",
+      "titulo": "Bolivia: Techos de teja",
+      "subtitulo": "Viviendas con techo de teja — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_techo_teja"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-techo-teja.png",
+      "thumb": "thumbs/censo-techo-teja.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-telefono-fijo",
+      "titulo": "Bolivia: Telefonía fija",
+      "subtitulo": "Hogares con servicio de telefonía fija — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_telefono_fijo"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-telefono-fijo.png",
+      "thumb": "thumbs/censo-telefono-fijo.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-televisor",
+      "titulo": "Bolivia: Hogares con televisor",
+      "subtitulo": "Hogares que tienen televisor — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_tv"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-televisor.png",
+      "thumb": "thumbs/censo-televisor.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-trabaja-fuera",
+      "titulo": "Bolivia: Trabajo fuera del municipio",
+      "subtitulo": "Ocupados cuyo lugar de trabajo está fuera del municipio — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_trabaja_fuera"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-trabaja-fuera.png",
+      "thumb": "thumbs/censo-trabaja-fuera.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-trabajo-familiar",
+      "titulo": "Bolivia: Trabajo familiar sin remuneración",
+      "subtitulo": "Ocupados en negocios familiares sin pago — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_trab_familiar"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-trabajo-familiar.png",
+      "thumb": "thumbs/censo-trabajo-familiar.png",
       "datos": null
     },
     {
@@ -959,11 +2399,29 @@
         "municipios",
         "pct_tv_cable"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-tv-cable.png",
       "thumb": "thumbs/censo-tv-cable.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-vehiculo",
+      "titulo": "Bolivia: Hogares con vehículo",
+      "subtitulo": "Hogares que tienen vehículo automotor — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_auto"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-vehiculo.png",
+      "thumb": "thumbs/censo-vehiculo.png",
       "datos": null
     },
     {
@@ -977,11 +2435,29 @@
         "municipios",
         "pct_vivienda_propia"
       ],
-      "fecha": "2026-06-09",
+      "fecha": "2026-06-10",
       "tipo": "mapa",
       "formato": "red_vertical",
       "imagen": "graficas/censo-vivienda-propia.png",
       "thumb": "thumbs/censo-vivienda-propia.png",
+      "datos": null
+    },
+    {
+      "slug": "censo-viviendas-desocupadas",
+      "titulo": "Bolivia: Viviendas desocupadas",
+      "subtitulo": "Viviendas desocupadas sobre el total registrado — por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "pct_vivienda_desocupada"
+      ],
+      "fecha": "2026-06-10",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-viviendas-desocupadas.png",
+      "thumb": "thumbs/censo-viviendas-desocupadas.png",
       "datos": null
     },
     {

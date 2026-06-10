@@ -1,0 +1,18 @@
+{
+  "slug": "censo-emigrantes",
+  "titulo": "Bolivia: Emigración internacional",
+  "subtitulo": "Emigrantes por cada 1.000 habitantes — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "emigrantes_x1000"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-emigrantes.png",
+  "thumb": "thumbs/censo-emigrantes.png",
+  "datos": null
+}

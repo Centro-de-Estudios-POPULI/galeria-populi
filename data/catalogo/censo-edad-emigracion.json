@@ -1,0 +1,18 @@
+{
+  "slug": "censo-edad-emigracion",
+  "titulo": "Bolivia: Edad promedio al emigrar",
+  "subtitulo": "Edad promedio a la que las personas salieron del país, en años — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "edad_prom_emigracion"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-edad-emigracion.png",
+  "thumb": "thumbs/censo-edad-emigracion.png",
+  "datos": null
+}

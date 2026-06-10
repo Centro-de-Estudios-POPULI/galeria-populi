@@ -1,0 +1,18 @@
+{
+  "slug": "censo-vehiculo",
+  "titulo": "Bolivia: Hogares con vehículo",
+  "subtitulo": "Hogares que tienen vehículo automotor — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_auto"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-vehiculo.png",
+  "thumb": "thumbs/censo-vehiculo.png",
+  "datos": null
+}

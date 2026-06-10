@@ -1,0 +1,18 @@
+{
+  "slug": "censo-cocina-lena",
+  "titulo": "Bolivia: Cocina con leña o guano",
+  "subtitulo": "Viviendas que cocinan con leña, guano, bosta o taquia — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_combustible_solido"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-cocina-lena.png",
+  "thumb": "thumbs/censo-cocina-lena.png",
+  "datos": null
+}

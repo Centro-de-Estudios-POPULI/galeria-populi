@@ -1,0 +1,18 @@
+{
+  "slug": "censo-agua-pozo",
+  "titulo": "Bolivia: Abastecimiento de agua por pozo",
+  "subtitulo": "Viviendas que se abastecen de pozo excavado o perforado — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_agua_pozo"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-agua-pozo.png",
+  "thumb": "thumbs/censo-agua-pozo.png",
+  "datos": null
+}

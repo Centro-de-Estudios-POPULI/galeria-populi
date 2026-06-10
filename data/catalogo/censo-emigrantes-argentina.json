@@ -1,0 +1,18 @@
+{
+  "slug": "censo-emigrantes-argentina",
+  "titulo": "Bolivia: Emigrantes en Argentina",
+  "subtitulo": "Emigrantes del municipio cuyo destino es Argentina — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_emi_argentina"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-emigrantes-argentina.png",
+  "thumb": "thumbs/censo-emigrantes-argentina.png",
+  "datos": null
+}

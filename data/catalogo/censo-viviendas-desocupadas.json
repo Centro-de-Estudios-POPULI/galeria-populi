@@ -1,0 +1,18 @@
+{
+  "slug": "censo-viviendas-desocupadas",
+  "titulo": "Bolivia: Viviendas desocupadas",
+  "subtitulo": "Viviendas desocupadas sobre el total registrado — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_vivienda_desocupada"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-viviendas-desocupadas.png",
+  "thumb": "thumbs/censo-viviendas-desocupadas.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "censo-trabaja-fuera",
+  "titulo": "Bolivia: Trabajo fuera del municipio",
+  "subtitulo": "Ocupados cuyo lugar de trabajo está fuera del municipio — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_trabaja_fuera"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-trabaja-fuera.png",
+  "thumb": "thumbs/censo-trabaja-fuera.png",
+  "datos": null
+}

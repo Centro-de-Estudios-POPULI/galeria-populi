@@ -1,0 +1,18 @@
+{
+  "slug": "censo-panel-solar",
+  "titulo": "Bolivia: Energía por panel solar",
+  "subtitulo": "Viviendas cuya electricidad proviene de panel solar — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_panel_solar"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-panel-solar.png",
+  "thumb": "thumbs/censo-panel-solar.png",
+  "datos": null
+}

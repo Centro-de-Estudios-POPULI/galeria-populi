@@ -1,0 +1,18 @@
+{
+  "slug": "censo-aire-acondicionado",
+  "titulo": "Bolivia: Hogares con aire acondicionado",
+  "subtitulo": "Hogares que tienen aire acondicionado — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_aire_acond"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-aire-acondicionado.png",
+  "thumb": "thumbs/censo-aire-acondicionado.png",
+  "datos": null
+}

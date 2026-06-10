@@ -1,0 +1,18 @@
+{
+  "slug": "censo-asistencia-18-24",
+  "titulo": "Bolivia: Asistencia educativa de 18 a 24 años",
+  "subtitulo": "Jóvenes de 18 a 24 años que continúan estudiando — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "tasa_asistencia_18_24"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-asistencia-18-24.png",
+  "thumb": "thumbs/censo-asistencia-18-24.png",
+  "datos": null
+}

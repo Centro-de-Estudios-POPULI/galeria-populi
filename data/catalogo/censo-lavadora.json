@@ -1,0 +1,18 @@
+{
+  "slug": "censo-lavadora",
+  "titulo": "Bolivia: Hogares con lavadora",
+  "subtitulo": "Hogares que tienen lavadora de ropa — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_lavadora"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-lavadora.png",
+  "thumb": "thumbs/censo-lavadora.png",
+  "datos": null
+}

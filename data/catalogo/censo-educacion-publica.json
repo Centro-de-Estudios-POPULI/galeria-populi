@@ -1,0 +1,18 @@
+{
+  "slug": "censo-educacion-publica",
+  "titulo": "Bolivia: Dependencia de la educación pública",
+  "subtitulo": "Estudiantes que asisten a establecimientos públicos o de convenio — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_educacion_publica"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-educacion-publica.png",
+  "thumb": "thumbs/censo-educacion-publica.png",
+  "datos": null
+}

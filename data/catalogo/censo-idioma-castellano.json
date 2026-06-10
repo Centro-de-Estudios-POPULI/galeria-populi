@@ -1,0 +1,18 @@
+{
+  "slug": "censo-idioma-castellano",
+  "titulo": "Bolivia: Idioma materno castellano",
+  "subtitulo": "Población cuyo primer idioma de la niñez es el castellano — por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_idioma_materno_castellano"
+  ],
+  "fecha": "2026-06-10",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-idioma-castellano.png",
+  "thumb": "thumbs/censo-idioma-castellano.png",
+  "datos": null
+}
