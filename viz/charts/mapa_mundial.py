@@ -91,11 +91,27 @@ def grafico_mapa_mundial(gdf, value_col, titulo="", subtitulo="", fuente="", not
         pass
     if "iso3" in g.columns:
         g = g[g["iso3"] != "ATA"]
-    # separar multipolígonos y descartar partes que cruzan el antimeridiano
-    # (Aleutianas/Chukotka): al reproyectar dibujarían una franja horizontal.
+    # Países que CRUZAN el antimeridiano (Rusia, EE.UU., Fiji, Nueva Zelanda…) se
+    # parten correctamente en ±180 con la librería `antimeridian`: así no dibujan
+    # una franja horizontal Y aparecen COMPLETOS (la masa de Rusia cruza los 180°;
+    # antes desaparecía o salía con bandas).
+    import antimeridian
+
+    def _fix_anti(geom):
+        try:
+            if geom.geom_type == "MultiPolygon":
+                return antimeridian.fix_multi_polygon(geom, fix_winding=True)
+            if geom.geom_type == "Polygon":
+                return antimeridian.fix_polygon(geom, fix_winding=True)
+        except Exception:
+            return geom
+        return geom
+
+    bnd = g.geometry.bounds
+    cruza = (bnd["maxx"] - bnd["minx"]) > 180
+    if cruza.any():
+        g.loc[cruza, "geometry"] = g.loc[cruza, "geometry"].apply(_fix_anti)
     g = g.explode(index_parts=False)
-    b = g.geometry.bounds
-    g = g[(b["maxx"] - b["minx"]) <= 180]
     g = g.to_crs("+proj=natearth")
 
     # ---- escala de color por cuantiles ----
