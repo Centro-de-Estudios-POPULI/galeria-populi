@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-poblacion-de-15-a-64-anos",
+  "titulo": "Mundo: Población de 15 a 64 años, por países",
+  "subtitulo": "% del total · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Población y demografía",
+    "SP.POP.1564.TO.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-poblacion-de-15-a-64-anos.png",
+  "thumb": "thumbs/mundo-poblacion-de-15-a-64-anos.png",
+  "datos": null
+}

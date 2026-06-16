@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-poblacion-urbana",
+  "titulo": "Mundo: Población urbana, por países",
+  "subtitulo": "% del total · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: División de Población de las Naciones Unidas. Perspectivas de urbanización mundial: revisión de 2018. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Población y demografía",
+    "SP.URB.TOTL.IN.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-poblacion-urbana.png",
+  "thumb": "thumbs/mundo-poblacion-urbana.png",
+  "datos": null
+}

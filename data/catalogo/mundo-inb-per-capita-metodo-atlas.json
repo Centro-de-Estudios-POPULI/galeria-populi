@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-inb-per-capita-metodo-atlas",
+  "titulo": "Mundo: INB per cápita (método Atlas), por países",
+  "subtitulo": "US$ corrientes · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Economía y crecimiento",
+    "NY.GNP.PCAP.CD"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-inb-per-capita-metodo-atlas.png",
+  "thumb": "thumbs/mundo-inb-per-capita-metodo-atlas.png",
+  "datos": null
+}

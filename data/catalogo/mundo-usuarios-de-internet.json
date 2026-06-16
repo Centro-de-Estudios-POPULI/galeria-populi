@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-usuarios-de-internet",
+  "titulo": "Mundo: Usuarios de internet, por países",
+  "subtitulo": "% de la población · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Base de datos de indicadores mundiales de telecomunicaciones/TIC de la Unión Internacional de… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Tecnología e innovación",
+    "IT.NET.USER.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-usuarios-de-internet.png",
+  "thumb": "thumbs/mundo-usuarios-de-internet.png",
+  "datos": null
+}

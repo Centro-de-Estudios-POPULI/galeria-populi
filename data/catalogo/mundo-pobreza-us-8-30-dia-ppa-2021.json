@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-pobreza-us-8-30-dia-ppa-2021",
+  "titulo": "Mundo: Pobreza (US$8,30/día PPA 2021), por países",
+  "subtitulo": "% de la población · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Pobreza y desigualdad",
+    "SI.POV.UMIC"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-pobreza-us-8-30-dia-ppa-2021.png",
+  "thumb": "thumbs/mundo-pobreza-us-8-30-dia-ppa-2021.png",
+  "datos": null
+}

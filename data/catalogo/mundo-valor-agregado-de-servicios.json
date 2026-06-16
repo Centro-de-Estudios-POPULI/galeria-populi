@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-valor-agregado-de-servicios",
+  "titulo": "Mundo: Valor agregado de servicios, por países",
+  "subtitulo": "% del PIB · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Estadísticas oficiales de los países y bancos centrales. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Economía y crecimiento",
+    "NV.SRV.TOTL.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-valor-agregado-de-servicios.png",
+  "thumb": "thumbs/mundo-valor-agregado-de-servicios.png",
+  "datos": null
+}

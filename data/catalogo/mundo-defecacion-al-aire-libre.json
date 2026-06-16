@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-defecacion-al-aire-libre",
+  "titulo": "Mundo: Defecación al aire libre, por países",
+  "subtitulo": "% de la población · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Programa Conjunto de Vigilancia de la OMS y Unicef para el Abastecimiento de Agua y el Saneamiento… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Salud",
+    "SH.STA.ODFC.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-defecacion-al-aire-libre.png",
+  "thumb": "thumbs/mundo-defecacion-al-aire-libre.png",
+  "datos": null
+}

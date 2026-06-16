@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-satisfaccion-con-la-vida",
+  "titulo": "Mundo: Satisfacción con la vida, por países",
+  "subtitulo": "Escala 0–10 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: World Happiness Report (encuesta Gallup). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Desarrollo humano y bienestar",
+    "OWID.happiness-cantril-ladder"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-satisfaccion-con-la-vida.png",
+  "thumb": "thumbs/mundo-satisfaccion-con-la-vida.png",
+  "datos": null
+}

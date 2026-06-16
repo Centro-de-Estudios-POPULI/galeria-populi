@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-emisiones-de-co2-per-capita",
+  "titulo": "Mundo: Emisiones de CO2 per cápita, por países",
+  "subtitulo": "Toneladas por persona · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Base de Datos Comunitaria de GEI EDGAR. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Medio ambiente y clima",
+    "EN.GHG.CO2.PC.CE.AR5"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-emisiones-de-co2-per-capita.png",
+  "thumb": "thumbs/mundo-emisiones-de-co2-per-capita.png",
+  "datos": null
+}

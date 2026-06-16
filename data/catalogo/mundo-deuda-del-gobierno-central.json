@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-deuda-del-gobierno-central",
+  "titulo": "Mundo: Deuda del gobierno central, por países",
+  "subtitulo": "% del PIB · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Economía y crecimiento",
+    "GC.DOD.TOTL.GD.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-deuda-del-gobierno-central.png",
+  "thumb": "thumbs/mundo-deuda-del-gobierno-central.png",
+  "datos": null
+}

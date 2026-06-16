@@ -204,6 +204,7 @@ TITLE_BY_FORMAT = {
     "red_cuadrada":  TITLE_REDES,
     "red_vertical":  TITLE_REDES,
     "red_historia":  TITLE_REDES,
+    "mundo":         TITLE_REDES,
 }
 TITLE_FONT = TITLE_REDES   # fallback
 
@@ -230,6 +231,7 @@ FORMATS = {
     "red_cuadrada":  (1080, 1080),  # Instagram / X feed
     "red_vertical":  (1080, 1350),  # IG retrato
     "red_historia":  (1080, 1920),  # stories
+    "mundo":         (2600, 2046),  # mapa mundial PANORÁMICO (estilo OWID); +10% de alto para el mapa
 }
 DPI = 200
 
@@ -284,10 +286,17 @@ def formateador_es(decimales: int = 1, sufijo: str = "", miles: bool = False):
 ESCALA = 2
 
 
+# Ancho de referencia tipográfica por formato. El panorámico "mundo" usa una
+# referencia mayor: al ensanchar el lienzo, las fuentes NO crecen, así el texto
+# del pie entra en menos líneas y el mapa queda más grande (mismo tamaño de letra
+# que el formato anterior de 2000 px de ancho).
+SC_REF = {"mundo": 1405}
+
+
 def _spec(formato: str):
     W, H = FORMATS[formato]
     W, H = int(W * ESCALA), int(H * ESCALA)
-    return W, H, W / 1080.0
+    return W, H, W / float(SC_REF.get(formato, 1080))
 
 
 def nueva_figura(formato: str = "red_vertical"):
@@ -391,7 +400,8 @@ def _wrap_px(texto, size_px, max_w, font_file):
 
 def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
              formato="red_vertical", titulo_familia=None, gutter_izq=0, mapa=False,
-             acento_p=None, acento_linea=None, margen=None, top=None, bottom=None):
+             acento_p=None, acento_linea=None, margen=None, top=None, bottom=None,
+             wordmark_top=False, freshness="", sub_scale=1.0):
     """Dibuja título/subtítulo arriba y el pie de marca abajo, y reposiciona el
     eje del gráfico en el espacio central. Llamar DESPUÉS de dibujar los datos.
     margen/top/bottom (px @1080) permiten un ajuste puntual por gráfico; si no
@@ -405,11 +415,26 @@ def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
     max_w = W - 2 * M
 
     s_tit = SIZES["titulo"] * sc
-    s_sub = SIZES["subtitulo"] * sc
+    s_sub = SIZES["subtitulo"] * sc * sub_scale
     s_src = SIZES["fuente"] * sc
 
     def fy(px):
         return 1 - px / H
+
+    # ---- wordmark: arriba-derecha (estilo OWID, p. ej. mapas) o abajo-derecha ----
+    wm = _wordmark_img(int(SIZES["wordmark"] * sc), color_p=acento_p)
+    wm_left_px = W - wm.width - M
+    title_max_w = max_w
+    if wordmark_top:
+        wm_yo = H - int((top if top is not None else TOP) * sc) - wm.height
+        fig.figimage(np.asarray(wm), xo=int(wm_left_px), yo=int(wm_yo),
+                     origin="upper", zorder=6)
+        rule_y = (wm_yo - 8 * sc) / H
+        fig.add_artist(plt.Line2D([wm_left_px / W, (W - M) / W], [rule_y, rule_y],
+                                  transform=fig.transFigure,
+                                  color=col(acento_linea) if acento_linea else COLORS["rojo"],
+                                  linewidth=2.4 * sc, zorder=6, solid_capstyle="butt"))
+        title_max_w = max_w - wm.width - 28 * sc   # el título cede ancho al logo
 
     # ---- cabecera ----
     # El titular se renderiza apuntando al ARCHIVO de fuente (FontProperties por
@@ -417,13 +442,13 @@ def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
     fp_tit = font_manager.FontProperties(fname=str(FONTS_DIR / fam_file),
                                          size=_px2pt(s_tit), weight="bold")
     cur = (top if top is not None else TOP) * sc
-    for ln in _wrap_px(titulo, s_tit, max_w, fam_file):
+    for ln in _wrap_px(titulo, s_tit, title_max_w, fam_file):
         fig.text(M / W, fy(cur), ln, fontproperties=fp_tit,
                  color=COLORS["tinta"], va="top", ha="left")
         cur += s_tit * 1.18
+    body_file = _FONT_FILES.get(BODY, "Inter.ttf")
     if subtitulo:
         cur += 14 * sc
-        body_file = _FONT_FILES.get(BODY, "Inter.ttf")
         for ln in _wrap_px(subtitulo, s_sub, max_w, body_file):
             fig.text(M / W, fy(cur), ln, fontproperties=fp(BODY, s_sub),
                      color=COLORS["cafe"], va="top", ha="left")
@@ -431,23 +456,22 @@ def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
     chart_top = cur + 30 * sc
 
     # ---- pie de página -------------------------------------------------- #
-    # Wordmark + firma roja en la esquina inferior derecha; el texto de fuente
-    # y nota se apila a la izquierda, acotado para no pasar bajo el wordmark.
-    wm = _wordmark_img(int(SIZES["wordmark"] * sc), color_p=acento_p)
-    wm_left_px = W - wm.width - M
-    fig.figimage(np.asarray(wm), xo=int(wm_left_px), yo=int(_bottom * sc),
-                 origin="upper", zorder=6)
-    # firma: hairline encima del wordmark (color de marca o acento del gráfico)
-    rule_y = (_bottom * sc + wm.height + 7 * sc) / H
-    fig.add_artist(plt.Line2D([wm_left_px / W, (W - M) / W], [rule_y, rule_y],
-                              transform=fig.transFigure,
-                              color=col(acento_linea) if acento_linea else COLORS["rojo"],
-                              linewidth=2.4 * sc, zorder=6, solid_capstyle="butt"))
-    rule_top_px = H - (rule_y * H) - 4 * sc
+    # Con el wordmark arriba, el pie usa TODO el ancho; si no, va abajo-derecha y
+    # el texto se acota a su izquierda (comportamiento previo, intacto).
+    if wordmark_top:
+        txt_max_w = max_w
+        rule_top_px = H                      # no hay regla inferior que limite el pie
+    else:
+        fig.figimage(np.asarray(wm), xo=int(wm_left_px), yo=int(_bottom * sc),
+                     origin="upper", zorder=6)
+        rule_y = (_bottom * sc + wm.height + 7 * sc) / H
+        fig.add_artist(plt.Line2D([wm_left_px / W, (W - M) / W], [rule_y, rule_y],
+                                  transform=fig.transFigure,
+                                  color=col(acento_linea) if acento_linea else COLORS["rojo"],
+                                  linewidth=2.4 * sc, zorder=6, solid_capstyle="butt"))
+        rule_top_px = H - (rule_y * H) - 4 * sc
+        txt_max_w = max_w - wm.width - 36 * sc
 
-    # texto del pie: acotado a la izquierda del wordmark
-    txt_max_w = max_w - wm.width - 36 * sc
-    body_file = _FONT_FILES.get(BODY, "Inter.ttf")
     fcur = H - _bottom * sc
     if fuente:
         for ln in reversed(_wrap_px(fuente, s_src, txt_max_w, body_file)):
@@ -459,6 +483,12 @@ def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
         for ln in reversed(_wrap_px(nota, s_src, txt_max_w, body_file)):
             fig.text(M / W, fy(fcur), ln, fontproperties=fp(BODY, s_src),
                      color=COLORS["gris"], va="bottom", ha="left")
+            fcur -= s_src * 1.4
+    if freshness:
+        fcur -= 4 * sc
+        for ln in reversed(_wrap_px(freshness, s_src, txt_max_w, body_file)):
+            fig.text(M / W, fy(fcur), ln, fontproperties=fp(BODY, s_src),
+                     color=COLORS["cafe"], va="bottom", ha="left")
             fcur -= s_src * 1.4
     text_top_px = fcur - 4 * sc
     footer_top = min(text_top_px, rule_top_px) - 20 * sc

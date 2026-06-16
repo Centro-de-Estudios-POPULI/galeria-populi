@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-inversion-extranjera-directa-salidas",
+  "titulo": "Mundo: Inversión extranjera directa (salidas), por países",
+  "subtitulo": "% del PIB · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Comercio y sector externo",
+    "BM.KLT.DINV.WD.GD.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-inversion-extranjera-directa-salidas.png",
+  "thumb": "thumbs/mundo-inversion-extranjera-directa-salidas.png",
+  "datos": null
+}

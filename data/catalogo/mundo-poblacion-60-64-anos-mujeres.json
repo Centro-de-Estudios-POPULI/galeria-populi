@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-poblacion-60-64-anos-mujeres",
+  "titulo": "Mundo: Población 60-64 años (mujeres), por países",
+  "subtitulo": "% de su sexo · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Estructura por edad (pirámide)",
+    "SP.POP.6064.FE.5Y"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-poblacion-60-64-anos-mujeres.png",
+  "thumb": "thumbs/mundo-poblacion-60-64-anos-mujeres.png",
+  "datos": null
+}

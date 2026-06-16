@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-credito-al-sector-privado",
+  "titulo": "Mundo: Crédito al sector privado, por países",
+  "subtitulo": "% del PIB · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Comercio y sector externo",
+    "FD.AST.PRVT.GD.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-credito-al-sector-privado.png",
+  "thumb": "thumbs/mundo-credito-al-sector-privado.png",
+  "datos": null
+}

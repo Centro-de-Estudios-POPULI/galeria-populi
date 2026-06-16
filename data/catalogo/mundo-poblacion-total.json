@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-poblacion-total",
+  "titulo": "Mundo: Población total, por países",
+  "subtitulo": "Personas · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión para 2022.… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Población y demografía",
+    "SP.POP.TOTL"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-poblacion-total.png",
+  "thumb": "thumbs/mundo-poblacion-total.png",
+  "datos": null
+}

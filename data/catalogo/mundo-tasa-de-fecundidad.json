@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-tasa-de-fecundidad",
+  "titulo": "Mundo: Tasa de fecundidad, por países",
+  "subtitulo": "Hijos por mujer · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión para 2022.… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Población y demografía",
+    "SP.DYN.TFRT.IN"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-tasa-de-fecundidad.png",
+  "thumb": "thumbs/mundo-tasa-de-fecundidad.png",
+  "datos": null
+}

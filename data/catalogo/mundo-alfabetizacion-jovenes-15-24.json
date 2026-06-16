@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-alfabetizacion-jovenes-15-24",
+  "titulo": "Mundo: Alfabetización (jóvenes 15-24), por países",
+  "subtitulo": "% del grupo · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Educación",
+    "SE.ADT.1524.LT.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-alfabetizacion-jovenes-15-24.png",
+  "thumb": "thumbs/mundo-alfabetizacion-jovenes-15-24.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-consumo-electrico-per-capita",
+  "titulo": "Mundo: Consumo eléctrico per cápita, por países",
+  "subtitulo": "kWh por persona · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Agencia Internacional de la Energía (AIE) (Estadísticas de la AIE © OCDE/AIE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Energía",
+    "EG.USE.ELEC.KH.PC"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-consumo-electrico-per-capita.png",
+  "thumb": "thumbs/mundo-consumo-electrico-per-capita.png",
+  "datos": null
+}

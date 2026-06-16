@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-prevalencia-de-vih-15-49",
+  "titulo": "Mundo: Prevalencia de VIH (15-49), por países",
+  "subtitulo": "% de la población · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: ONUSIDA estima. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Salud",
+    "SH.DYN.AIDS.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-prevalencia-de-vih-15-49.png",
+  "thumb": "thumbs/mundo-prevalencia-de-vih-15-49.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-inmunizacion-dpt",
+  "titulo": "Mundo: Inmunización DPT, por países",
+  "subtitulo": "% de niños 12-23 m · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: OMS y UNICEF (http://www.who.int/immunization/monitoring_surveillance/en/). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Salud",
+    "SH.IMM.IDPT"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-inmunizacion-dpt.png",
+  "thumb": "thumbs/mundo-inmunizacion-dpt.png",
+  "datos": null
+}

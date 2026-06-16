@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-libertad-de-prensa",
+  "titulo": "Mundo: Libertad de prensa, por países",
+  "subtitulo": "Índice 0–100 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Reporteros Sin Fronteras (RSF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Democracia y derechos",
+    "OWID.press-freedom-rsf"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-libertad-de-prensa.png",
+  "thumb": "thumbs/mundo-libertad-de-prensa.png",
+  "datos": null
+}

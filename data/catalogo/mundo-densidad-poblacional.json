@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-densidad-poblacional",
+  "titulo": "Mundo: Densidad poblacional, por países",
+  "subtitulo": "Hab./km² · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Estimaciones de población de la Organización de las Naciones Unidas para la Agricultura y la Alimentación y… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Población y demografía",
+    "EN.POP.DNST"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-densidad-poblacional.png",
+  "thumb": "thumbs/mundo-densidad-poblacional.png",
+  "datos": null
+}

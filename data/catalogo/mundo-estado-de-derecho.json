@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-estado-de-derecho",
+  "titulo": "Mundo: Estado de derecho, por países",
+  "subtitulo": "Estimación −2,5 a 2,5 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Indicadores Mundiales de Gobernanza (WGI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Gobernanza y sociedad",
+    "GOV_WGI_RL.EST"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-estado-de-derecho.png",
+  "thumb": "thumbs/mundo-estado-de-derecho.png",
+  "datos": null
+}

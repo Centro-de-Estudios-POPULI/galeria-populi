@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-mortalidad-por-enfermedades-no-transmisibles-30-70-a",
+  "titulo": "Mundo: Mortalidad por enfermedades no transmisibles (30-70 a.), por países",
+  "subtitulo": "% (probabilidad) · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: World Health Organization. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Desarrollo humano y bienestar",
+    "SH.DYN.NCOM.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-mortalidad-por-enfermedades-no-transmisibles-30-70-a.png",
+  "thumb": "thumbs/mundo-mortalidad-por-enfermedades-no-transmisibles-30-70-a.png",
+  "datos": null
+}

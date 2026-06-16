@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-productividad-total-de-los-factores-ee-uu-1",
+  "titulo": "Mundo: Productividad total de los factores (EE.UU.=1), por países",
+  "subtitulo": "Índice (EE.UU.=1) · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Productividad · Penn World Table",
+    "PWT.CTFP"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-productividad-total-de-los-factores-ee-uu-1.png",
+  "thumb": "thumbs/mundo-productividad-total-de-los-factores-ee-uu-1.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-gasto-publico-en-educacion",
+  "titulo": "Mundo: Gasto público en educación, por países",
+  "subtitulo": "% del PIB · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Instituto de Estadística de la UNESCO (UIS). Servicio de descarga masiva de datos UIS.Stat. Consultado el 19… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Educación",
+    "SE.XPD.TOTL.GD.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-gasto-publico-en-educacion.png",
+  "thumb": "thumbs/mundo-gasto-publico-en-educacion.png",
+  "datos": null
+}

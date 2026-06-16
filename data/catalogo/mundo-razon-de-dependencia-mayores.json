@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-razon-de-dependencia-mayores",
+  "titulo": "Mundo: Razón de dependencia (mayores), por países",
+  "subtitulo": "% pob. en edad de trabajar · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades de las Previsiones… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Población y demografía",
+    "SP.POP.DPND.OL"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-razon-de-dependencia-mayores.png",
+  "thumb": "thumbs/mundo-razon-de-dependencia-mayores.png",
+  "datos": null
+}

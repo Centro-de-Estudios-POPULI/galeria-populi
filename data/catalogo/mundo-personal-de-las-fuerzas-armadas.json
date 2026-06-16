@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-personal-de-las-fuerzas-armadas",
+  "titulo": "Mundo: Personal de las fuerzas armadas, por países",
+  "subtitulo": "Personas · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Instituto Internacional de Estudios Estratégicos. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Gobernanza y sociedad",
+    "MS.MIL.TOTL.P1"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-personal-de-las-fuerzas-armadas.png",
+  "thumb": "thumbs/mundo-personal-de-las-fuerzas-armadas.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-pib-per-capita-ppa",
+  "titulo": "Mundo: PIB per cápita (PPA), por países",
+  "subtitulo": "US$ internacionales · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Programa de Comparación Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Economía y crecimiento",
+    "NY.GDP.PCAP.PP.CD"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-pib-per-capita-ppa.png",
+  "thumb": "thumbs/mundo-pib-per-capita-ppa.png",
+  "datos": null
+}

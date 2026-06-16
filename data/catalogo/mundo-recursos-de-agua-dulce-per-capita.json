@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-recursos-de-agua-dulce-per-capita",
+  "titulo": "Mundo: Recursos de agua dulce per cápita, por países",
+  "subtitulo": "m³ por persona · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Organización de las Naciones Unidas para la Agricultura y la Alimentación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Medio ambiente y clima",
+    "ER.H2O.INTR.PC"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-recursos-de-agua-dulce-per-capita.png",
+  "thumb": "thumbs/mundo-recursos-de-agua-dulce-per-capita.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-pib-per-capita",
+  "titulo": "Mundo: PIB per cápita, por países",
+  "subtitulo": "US$ corrientes · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Economía y crecimiento",
+    "NY.GDP.PCAP.CD"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-pib-per-capita.png",
+  "thumb": "thumbs/mundo-pib-per-capita.png",
+  "datos": null
+}

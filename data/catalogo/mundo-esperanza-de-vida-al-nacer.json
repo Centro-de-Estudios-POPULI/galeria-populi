@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-esperanza-de-vida-al-nacer",
+  "titulo": "Mundo: Esperanza de vida al nacer, por países",
+  "subtitulo": "Años · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión 2022. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Salud",
+    "SP.DYN.LE00.IN"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-esperanza-de-vida-al-nacer.png",
+  "thumb": "thumbs/mundo-esperanza-de-vida-al-nacer.png",
+  "datos": null
+}

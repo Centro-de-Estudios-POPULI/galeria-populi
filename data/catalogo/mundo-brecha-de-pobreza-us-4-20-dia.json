@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-brecha-de-pobreza-us-4-20-dia",
+  "titulo": "Mundo: Brecha de pobreza (US$4,20/día), por países",
+  "subtitulo": "% · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Pobreza y desigualdad",
+    "SI.POV.LMIC.GP"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-brecha-de-pobreza-us-4-20-dia.png",
+  "thumb": "thumbs/mundo-brecha-de-pobreza-us-4-20-dia.png",
+  "datos": null
+}

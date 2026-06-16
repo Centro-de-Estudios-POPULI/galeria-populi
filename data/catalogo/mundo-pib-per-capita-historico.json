@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-pib-per-capita-historico",
+  "titulo": "Mundo: PIB per cápita (histórico), por países",
+  "subtitulo": "US$ internacionales de 2011 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Largo plazo · Maddison Project",
+    "MPD.GDPPC"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-pib-per-capita-historico.png",
+  "thumb": "thumbs/mundo-pib-per-capita-historico.png",
+  "datos": null
+}

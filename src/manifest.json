@@ -24,12 +24,4030 @@
       "label": "Empleo",
       "color": "#0D1B2A"
     },
+    "mundo": {
+      "label": "Mundo",
+      "color": "#8B1A1A"
+    },
     "general": {
       "label": "General",
       "color": "#8B1A1A"
     }
   },
   "graficas": [
+    {
+      "slug": "mundo-acceso-a-agua-potable-basica",
+      "titulo": "Mundo: Acceso a agua potable básica, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa Conjunto OMS/UNICEF de Monitoreo del Abastecimiento de Agua. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.H2O.BASW.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-acceso-a-agua-potable-basica.png",
+      "thumb": "thumbs/mundo-acceso-a-agua-potable-basica.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-acceso-a-combustibles-limpios-para-cocinar",
+      "titulo": "Mundo: Acceso a combustibles limpios para cocinar, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "EG.CFT.ACCS.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-acceso-a-combustibles-limpios-para-cocinar.png",
+      "thumb": "thumbs/mundo-acceso-a-combustibles-limpios-para-cocinar.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-acceso-a-electricidad",
+      "titulo": "Mundo: Acceso a electricidad, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: AIE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "EG.ELC.ACCS.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-acceso-a-electricidad.png",
+      "thumb": "thumbs/mundo-acceso-a-electricidad.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-acceso-a-saneamiento-basico",
+      "titulo": "Mundo: Acceso a saneamiento básico, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa Conjunto OMS/UNICEF de Monitoreo del Abastecimiento de Agua. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.STA.BASS.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-acceso-a-saneamiento-basico.png",
+      "thumb": "thumbs/mundo-acceso-a-saneamiento-basico.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-agua-potable-gestionada-de-forma-segura",
+      "titulo": "Mundo: Agua potable gestionada de forma segura, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa Conjunto OMS/UNICEF de Monitoreo del Abastecimiento de Agua. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "SH.H2O.SMDW.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-agua-potable-gestionada-de-forma-segura.png",
+      "thumb": "thumbs/mundo-agua-potable-gestionada-de-forma-segura.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-ahorro-bruto",
+      "titulo": "Mundo: Ahorro bruto, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos sobre las cuentas nacionales del Banco Mundial y archivos de datos sobre cuentas nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GNS.ICTR.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-ahorro-bruto.png",
+      "thumb": "thumbs/mundo-ahorro-bruto.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-alfabetizacion-adultos",
+      "titulo": "Mundo: Alfabetización (adultos), por países",
+      "subtitulo": "% de 15 años y más · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la UNESCO (UIS). Servicio de descarga masiva de datos UIS.Stat. Consultado el 19… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "SE.ADT.LITR.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-alfabetizacion-adultos.png",
+      "thumb": "thumbs/mundo-alfabetizacion-adultos.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-alfabetizacion-jovenes-15-24",
+      "titulo": "Mundo: Alfabetización (jóvenes 15-24), por países",
+      "subtitulo": "% del grupo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "SE.ADT.1524.LT.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-alfabetizacion-jovenes-15-24.png",
+      "thumb": "thumbs/mundo-alfabetizacion-jovenes-15-24.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-alumnos-por-docente-primaria",
+      "titulo": "Mundo: Alumnos por docente (primaria), por países",
+      "subtitulo": "Alumnos/docente · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "SE.PRM.ENRL.TC.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-alumnos-por-docente-primaria.png",
+      "thumb": "thumbs/mundo-alumnos-por-docente-primaria.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-anemia-en-mujeres-embarazadas",
+      "titulo": "Mundo: Anemia en mujeres embarazadas, por países",
+      "subtitulo": "% de embarazadas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Stevens GA. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "SH.PRG.ANEM"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-anemia-en-mujeres-embarazadas.png",
+      "thumb": "thumbs/mundo-anemia-en-mujeres-embarazadas.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-anos-promedio-de-escolaridad",
+      "titulo": "Mundo: Años promedio de escolaridad, por países",
+      "subtitulo": "Años · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Barro y Lee (2015). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "OWID.mean-years-of-schooling-long-run"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-anos-promedio-de-escolaridad.png",
+      "thumb": "thumbs/mundo-anos-promedio-de-escolaridad.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-areas-protegidas-marinas",
+      "titulo": "Mundo: Áreas protegidas marinas, por países",
+      "subtitulo": "% de aguas territoriales · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa de las Naciones Unidas para el Medio Ambiente y Centro de Seguimiento de la Conservación Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "ER.MRN.PTMR.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-areas-protegidas-marinas.png",
+      "thumb": "thumbs/mundo-areas-protegidas-marinas.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-areas-protegidas-terr-y-marinas",
+      "titulo": "Mundo: Áreas protegidas (terr. y marinas), por países",
+      "subtitulo": "% del territorio · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa de las Naciones Unidas para el Medio Ambiente y Centro de Seguimiento de la Conservación Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "ER.PTD.TOTL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-areas-protegidas-terr-y-marinas.png",
+      "thumb": "thumbs/mundo-areas-protegidas-terr-y-marinas.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-areas-protegidas-terrestres",
+      "titulo": "Mundo: Áreas protegidas terrestres, por países",
+      "subtitulo": "% del territorio · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa de las Naciones Unidas para el Medio Ambiente y Centro de Seguimiento de la Conservación Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "ER.LND.PTLD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-areas-protegidas-terrestres.png",
+      "thumb": "thumbs/mundo-areas-protegidas-terrestres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-articulos-cientificos-y-tecnicos",
+      "titulo": "Mundo: Artículos científicos y técnicos, por países",
+      "subtitulo": "Publicaciones · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fundación Nacional de la Ciencia. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Tecnología e innovación",
+        "IP.JRN.ARTC.SC"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-articulos-cientificos-y-tecnicos.png",
+      "thumb": "thumbs/mundo-articulos-cientificos-y-tecnicos.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-asalariados",
+      "titulo": "Mundo: Asalariados, por países",
+      "subtitulo": "% del empleo total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.EMP.WORK.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-asalariados.png",
+      "thumb": "thumbs/mundo-asalariados.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-banda-ancha-fija",
+      "titulo": "Mundo: Banda ancha fija, por países",
+      "subtitulo": "Por 100 personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Unión Internacional de Telecomunicaciones. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Tecnología e innovación",
+        "IT.NET.BBND.P2"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-banda-ancha-fija.png",
+      "thumb": "thumbs/mundo-banda-ancha-fija.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-brecha-de-pobreza-us-3-00-dia",
+      "titulo": "Mundo: Brecha de pobreza (US$3,00/día), por países",
+      "subtitulo": "% · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.POV.GAPS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-brecha-de-pobreza-us-3-00-dia.png",
+      "thumb": "thumbs/mundo-brecha-de-pobreza-us-3-00-dia.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-brecha-de-pobreza-us-4-20-dia",
+      "titulo": "Mundo: Brecha de pobreza (US$4,20/día), por países",
+      "subtitulo": "% · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.POV.LMIC.GP"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-brecha-de-pobreza-us-4-20-dia.png",
+      "thumb": "thumbs/mundo-brecha-de-pobreza-us-4-20-dia.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-brecha-de-pobreza-us-8-30-dia",
+      "titulo": "Mundo: Brecha de pobreza (US$8,30/día), por países",
+      "subtitulo": "% · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.POV.UMIC.GP"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-brecha-de-pobreza-us-8-30-dia.png",
+      "thumb": "thumbs/mundo-brecha-de-pobreza-us-8-30-dia.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-calidad-regulatoria",
+      "titulo": "Mundo: Calidad regulatoria, por países",
+      "subtitulo": "Estimación −2,5 a 2,5 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Indicadores Mundiales de Gobernanza (WGI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "GOV_WGI_RQ.EST"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-calidad-regulatoria.png",
+      "thumb": "thumbs/mundo-calidad-regulatoria.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-camas-de-hospital",
+      "titulo": "Mundo: Camas de hospital, por países",
+      "subtitulo": "Por 1.000 personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Los datos posteriores a 2005 son extraídos del Cuadro 6 de las Estadísticas sanitarias mundiales (WHS. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.MED.BEDS.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-camas-de-hospital.png",
+      "thumb": "thumbs/mundo-camas-de-hospital.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-comercio-de-mercancias",
+      "titulo": "Mundo: Comercio de mercancías, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Mundial de Comercio y estimaciones del PIB del Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Comercio y sector externo",
+        "TG.VAL.TOTL.GD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-comercio-de-mercancias.png",
+      "thumb": "thumbs/mundo-comercio-de-mercancias.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-confianza-interpersonal",
+      "titulo": "Mundo: Confianza interpersonal, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Integrated Values Surveys (World Values Survey + European Values Study). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "OWID.self-reported-trust-attitudes"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-confianza-interpersonal.png",
+      "thumb": "thumbs/mundo-confianza-interpersonal.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-consumo-de-los-hogares",
+      "titulo": "Mundo: Consumo de los hogares, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estadísticas oficiales de los países y bancos centrales. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NE.CON.PRVT.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-consumo-de-los-hogares.png",
+      "thumb": "thumbs/mundo-consumo-de-los-hogares.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-consumo-electrico-per-capita",
+      "titulo": "Mundo: Consumo eléctrico per cápita, por países",
+      "subtitulo": "kWh por persona · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Agencia Internacional de la Energía (AIE) (Estadísticas de la AIE © OCDE/AIE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "EG.USE.ELEC.KH.PC"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-consumo-electrico-per-capita.png",
+      "thumb": "thumbs/mundo-consumo-electrico-per-capita.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-contaminacion-del-aire-pm2-5",
+      "titulo": "Mundo: Contaminación del aire (PM2.5), por países",
+      "subtitulo": "µg/m³ · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Brauer. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "EN.ATM.PM25.MC.M3"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-contaminacion-del-aire-pm2-5.png",
+      "thumb": "thumbs/mundo-contaminacion-del-aire-pm2-5.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-control-de-la-corrupcion",
+      "titulo": "Mundo: Control de la corrupción, por países",
+      "subtitulo": "Estimación −2,5 a 2,5 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Indicadores Mundiales de Gobernanza (WGI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "GOV_WGI_CC.EST"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-control-de-la-corrupcion.png",
+      "thumb": "thumbs/mundo-control-de-la-corrupcion.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-crecimiento-del-pib-per-capita",
+      "titulo": "Mundo: Crecimiento del PIB per cápita, por países",
+      "subtitulo": "% anual · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GDP.PCAP.KD.ZG"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-crecimiento-del-pib-per-capita.png",
+      "thumb": "thumbs/mundo-crecimiento-del-pib-per-capita.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-crecimiento-del-pib",
+      "titulo": "Mundo: Crecimiento del PIB, por países",
+      "subtitulo": "% anual · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GDP.MKTP.KD.ZG"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-crecimiento-del-pib.png",
+      "thumb": "thumbs/mundo-crecimiento-del-pib.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-crecimiento-poblacional",
+      "titulo": "Mundo: Crecimiento poblacional, por países",
+      "subtitulo": "% anual · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Derivado de la población total. Fuente de población: (1) División de Población de las Naciones Unidas.… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.POP.GROW"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-crecimiento-poblacional.png",
+      "thumb": "thumbs/mundo-crecimiento-poblacional.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-credito-al-sector-privado",
+      "titulo": "Mundo: Crédito al sector privado, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Comercio y sector externo",
+        "FD.AST.PRVT.GD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-credito-al-sector-privado.png",
+      "thumb": "thumbs/mundo-credito-al-sector-privado.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-defecacion-al-aire-libre",
+      "titulo": "Mundo: Defecación al aire libre, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa Conjunto de Vigilancia de la OMS y Unicef para el Abastecimiento de Agua y el Saneamiento… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.STA.ODFC.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-defecacion-al-aire-libre.png",
+      "thumb": "thumbs/mundo-defecacion-al-aire-libre.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-densidad-poblacional",
+      "titulo": "Mundo: Densidad poblacional, por países",
+      "subtitulo": "Hab./km² · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones de población de la Organización de las Naciones Unidas para la Agricultura y la Alimentación y… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "EN.POP.DNST"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-densidad-poblacional.png",
+      "thumb": "thumbs/mundo-densidad-poblacional.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-desempeno-de-los-sistemas-estadisticos",
+      "titulo": "Mundo: Desempeño de los sistemas estadísticos, por países",
+      "subtitulo": "Índice 0-100 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Indicadores de Desempeño Estadístico (SPI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "IQ.SPI.OVRL"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-desempeno-de-los-sistemas-estadisticos.png",
+      "thumb": "thumbs/mundo-desempeno-de-los-sistemas-estadisticos.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-desempleo-con-educacion-avanzada",
+      "titulo": "Mundo: Desempleo con educación avanzada, por países",
+      "subtitulo": "% de ese grupo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.UEM.ADVN.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-desempleo-con-educacion-avanzada.png",
+      "thumb": "thumbs/mundo-desempleo-con-educacion-avanzada.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-desempleo-con-educacion-basica",
+      "titulo": "Mundo: Desempleo con educación básica, por países",
+      "subtitulo": "% de ese grupo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.UEM.BASC.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-desempleo-con-educacion-basica.png",
+      "thumb": "thumbs/mundo-desempleo-con-educacion-basica.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-desempleo-hombres",
+      "titulo": "Mundo: Desempleo (hombres), por países",
+      "subtitulo": "% de la fuerza laboral masculina · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.UEM.TOTL.MA.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-desempleo-hombres.png",
+      "thumb": "thumbs/mundo-desempleo-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-desempleo-juvenil-15-24",
+      "titulo": "Mundo: Desempleo juvenil (15-24), por países",
+      "subtitulo": "% de la fuerza laboral joven · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.UEM.1524.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-desempleo-juvenil-15-24.png",
+      "thumb": "thumbs/mundo-desempleo-juvenil-15-24.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-desempleo-mujeres",
+      "titulo": "Mundo: Desempleo (mujeres), por países",
+      "subtitulo": "% de la fuerza laboral femenina · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.UEM.TOTL.FE.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-desempleo-mujeres.png",
+      "thumb": "thumbs/mundo-desempleo-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-desempleo-total",
+      "titulo": "Mundo: Desempleo (total), por países",
+      "subtitulo": "% de la fuerza laboral · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. “Base de datos de estimaciones y proyecciones modeladas de la OIT… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.UEM.TOTL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-desempleo-total.png",
+      "thumb": "thumbs/mundo-desempleo-total.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-desnutricion-cronica-infantil-talla-baja",
+      "titulo": "Mundo: Desnutrición crónica infantil (talla baja), por países",
+      "subtitulo": "% de menores de 5 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Mundial de la Salud. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "SH.STA.STNT.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-desnutricion-cronica-infantil-talla-baja.png",
+      "thumb": "thumbs/mundo-desnutricion-cronica-infantil-talla-baja.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-deuda-del-gobierno-central",
+      "titulo": "Mundo: Deuda del gobierno central, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "GC.DOD.TOTL.GD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-deuda-del-gobierno-central.png",
+      "thumb": "thumbs/mundo-deuda-del-gobierno-central.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-efectividad-del-gobierno",
+      "titulo": "Mundo: Efectividad del gobierno, por países",
+      "subtitulo": "Estimación −2,5 a 2,5 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Indicadores Mundiales de Gobernanza (WGI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "GOV_WGI_GE.EST"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-efectividad-del-gobierno.png",
+      "thumb": "thumbs/mundo-efectividad-del-gobierno.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-electricidad-de-combustibles-fosiles",
+      "titulo": "Mundo: Electricidad de combustibles fósiles, por países",
+      "subtitulo": "% de la generación · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Agencia Internacional de la Energía (AIE) (Estadísticas de la AIE © OCDE/AIE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "EG.ELC.FOSL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-electricidad-de-combustibles-fosiles.png",
+      "thumb": "thumbs/mundo-electricidad-de-combustibles-fosiles.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-electricidad-de-fuentes-bajas-en-carbono",
+      "titulo": "Mundo: Electricidad de fuentes bajas en carbono, por países",
+      "subtitulo": "% de la generación · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Ember. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "OWID.share-electricity-low-carbon"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-electricidad-de-fuentes-bajas-en-carbono.png",
+      "thumb": "thumbs/mundo-electricidad-de-fuentes-bajas-en-carbono.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-electricidad-de-fuentes-renovables",
+      "titulo": "Mundo: Electricidad de fuentes renovables, por países",
+      "subtitulo": "% de la generación · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "EG.ELC.RNEW.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-electricidad-de-fuentes-renovables.png",
+      "thumb": "thumbs/mundo-electricidad-de-fuentes-renovables.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-electricidad-hidroelectrica",
+      "titulo": "Mundo: Electricidad hidroeléctrica, por países",
+      "subtitulo": "% de la generación · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Agencia Internacional de la Energía (AIE) (Estadísticas de la AIE © OCDE/AIE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "EG.ELC.HYRO.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-electricidad-hidroelectrica.png",
+      "thumb": "thumbs/mundo-electricidad-hidroelectrica.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-electricidad-nuclear",
+      "titulo": "Mundo: Electricidad nuclear, por países",
+      "subtitulo": "% de la generación · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Agencia Internacional de la Energía (AIE) (Estadísticas de la AIE © OCDE/AIE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "EG.ELC.NUCL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-electricidad-nuclear.png",
+      "thumb": "thumbs/mundo-electricidad-nuclear.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-emaciacion-infantil-bajo-peso-para-la-talla",
+      "titulo": "Mundo: Emaciación infantil (bajo peso para la talla), por países",
+      "subtitulo": "% de menores de 5 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Mundial de la Salud. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "SH.STA.WAST.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-emaciacion-infantil-bajo-peso-para-la-talla.png",
+      "thumb": "thumbs/mundo-emaciacion-infantil-bajo-peso-para-la-talla.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-emisiones-de-co2-per-capita",
+      "titulo": "Mundo: Emisiones de CO2 per cápita, por países",
+      "subtitulo": "Toneladas por persona · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Base de Datos Comunitaria de GEI EDGAR. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "EN.GHG.CO2.PC.CE.AR5"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-emisiones-de-co2-per-capita.png",
+      "thumb": "thumbs/mundo-emisiones-de-co2-per-capita.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-emisiones-de-co2-total",
+      "titulo": "Mundo: Emisiones de CO2 (total), por países",
+      "subtitulo": "Mt CO2e · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Base de Datos de Emisiones para la Investigación Atmosférica Global (EDGAR). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "EN.GHG.CO2.MT.CE.AR5"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-emisiones-de-co2-total.png",
+      "thumb": "thumbs/mundo-emisiones-de-co2-total.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-emisiones-de-gei-per-capita",
+      "titulo": "Mundo: Emisiones de GEI per cápita, por países",
+      "subtitulo": "Toneladas CO2e por persona · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Base de Datos Comunitaria de GEI EDGAR. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "EN.GHG.ALL.PC.CE.AR5"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-emisiones-de-gei-per-capita.png",
+      "thumb": "thumbs/mundo-emisiones-de-gei-per-capita.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-emisiones-de-metano-total",
+      "titulo": "Mundo: Emisiones de metano (total), por países",
+      "subtitulo": "Mt CO2e · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Base de Datos Comunitaria de GEI EDGAR. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "EN.GHG.CH4.MT.CE.AR5"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-emisiones-de-metano-total.png",
+      "thumb": "thumbs/mundo-emisiones-de-metano-total.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-empleadores",
+      "titulo": "Mundo: Empleadores, por países",
+      "subtitulo": "% del empleo total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Indicadores clave del mercado de trabajo (KILM. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.EMP.MPYR.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-empleadores.png",
+      "thumb": "thumbs/mundo-empleadores.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-empleo-en-agricultura",
+      "titulo": "Mundo: Empleo en agricultura, por países",
+      "subtitulo": "% del empleo total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.AGR.EMPL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-empleo-en-agricultura.png",
+      "thumb": "thumbs/mundo-empleo-en-agricultura.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-empleo-en-industria",
+      "titulo": "Mundo: Empleo en industria, por países",
+      "subtitulo": "% del empleo total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.IND.EMPL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-empleo-en-industria.png",
+      "thumb": "thumbs/mundo-empleo-en-industria.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-empleo-en-servicios",
+      "titulo": "Mundo: Empleo en servicios, por países",
+      "subtitulo": "% del empleo total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.SRV.EMPL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-empleo-en-servicios.png",
+      "thumb": "thumbs/mundo-empleo-en-servicios.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-empleo-vulnerable",
+      "titulo": "Mundo: Empleo vulnerable, por países",
+      "subtitulo": "% del empleo total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.EMP.VULN.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-empleo-vulnerable.png",
+      "thumb": "thumbs/mundo-empleo-vulnerable.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-energia-renovable",
+      "titulo": "Mundo: Energía renovable, por países",
+      "subtitulo": "% del consumo final · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "EG.FEC.RNEW.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-energia-renovable.png",
+      "thumb": "thumbs/mundo-energia-renovable.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-esperanza-de-vida-al-nacer",
+      "titulo": "Mundo: Esperanza de vida al nacer, por países",
+      "subtitulo": "Años · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión 2022. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SP.DYN.LE00.IN"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-esperanza-de-vida-al-nacer.png",
+      "thumb": "thumbs/mundo-esperanza-de-vida-al-nacer.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-esperanza-de-vida-hombres",
+      "titulo": "Mundo: Esperanza de vida (hombres), por países",
+      "subtitulo": "Años · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SP.DYN.LE00.MA.IN"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-esperanza-de-vida-hombres.png",
+      "thumb": "thumbs/mundo-esperanza-de-vida-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-esperanza-de-vida-mujeres",
+      "titulo": "Mundo: Esperanza de vida (mujeres), por países",
+      "subtitulo": "Años · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SP.DYN.LE00.FE.IN"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-esperanza-de-vida-mujeres.png",
+      "thumb": "thumbs/mundo-esperanza-de-vida-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-estabilidad-politica-y-ausencia-de-violencia",
+      "titulo": "Mundo: Estabilidad política y ausencia de violencia, por países",
+      "subtitulo": "Estimación −2,5 a 2,5 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Indicadores Mundiales de Gobernanza (WGI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "GOV_WGI_PV.EST"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-estabilidad-politica-y-ausencia-de-violencia.png",
+      "thumb": "thumbs/mundo-estabilidad-politica-y-ausencia-de-violencia.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-estado-de-derecho",
+      "titulo": "Mundo: Estado de derecho, por países",
+      "subtitulo": "Estimación −2,5 a 2,5 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Indicadores Mundiales de Gobernanza (WGI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "GOV_WGI_RL.EST"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-estado-de-derecho.png",
+      "thumb": "thumbs/mundo-estado-de-derecho.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-exportaciones-de-alta-tecnologia",
+      "titulo": "Mundo: Exportaciones de alta tecnología, por países",
+      "subtitulo": "% de exp. manufactureras · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Base de datos Comtrade de las Naciones Unidas. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Comercio y sector externo",
+        "TX.VAL.TECH.MF.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-exportaciones-de-alta-tecnologia.png",
+      "thumb": "thumbs/mundo-exportaciones-de-alta-tecnologia.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-exportaciones-de-bienes-y-servicios",
+      "titulo": "Mundo: Exportaciones de bienes y servicios, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Comercio y sector externo",
+        "NE.EXP.GNFS.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-exportaciones-de-bienes-y-servicios.png",
+      "thumb": "thumbs/mundo-exportaciones-de-bienes-y-servicios.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-extraccion-de-agua-dulce",
+      "titulo": "Mundo: Extracción de agua dulce, por países",
+      "subtitulo": "% de recursos internos · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización de las Naciones Unidas para la Agricultura y la Alimentación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "ER.H2O.FWTL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-extraccion-de-agua-dulce.png",
+      "thumb": "thumbs/mundo-extraccion-de-agua-dulce.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-fecundidad-adolescente",
+      "titulo": "Mundo: Fecundidad adolescente, por países",
+      "subtitulo": "Por 1.000 mujeres 15-19 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: División de Población de las Naciones Unidas. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.ADO.TFRT"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-fecundidad-adolescente.png",
+      "thumb": "thumbs/mundo-fecundidad-adolescente.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-finalizacion-de-la-primaria",
+      "titulo": "Mundo: Finalización de la primaria, por países",
+      "subtitulo": "% del grupo etario · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "SE.PRM.CMPT.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-finalizacion-de-la-primaria.png",
+      "thumb": "thumbs/mundo-finalizacion-de-la-primaria.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-formacion-bruta-de-capital",
+      "titulo": "Mundo: Formación bruta de capital, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos sobre las cuentas nacionales del Banco Mundial y archivos de datos sobre cuentas nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NE.GDI.TOTL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-formacion-bruta-de-capital.png",
+      "thumb": "thumbs/mundo-formacion-bruta-de-capital.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-fuerza-laboral-total",
+      "titulo": "Mundo: Fuerza laboral total, por países",
+      "subtitulo": "Personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.TLF.TOTL.IN"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-fuerza-laboral-total.png",
+      "thumb": "thumbs/mundo-fuerza-laboral-total.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-gasto-en-investigacion-y-desarrollo",
+      "titulo": "Mundo: Gasto en investigación y desarrollo, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Tecnología e innovación",
+        "GB.XPD.RSDV.GD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-gasto-en-investigacion-y-desarrollo.png",
+      "thumb": "thumbs/mundo-gasto-en-investigacion-y-desarrollo.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-gasto-en-salud-per-capita",
+      "titulo": "Mundo: Gasto en salud per cápita, por países",
+      "subtitulo": "US$ corrientes · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Base de Datos Mundial de Gasto en Salud. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.XPD.CHEX.PC.CD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-gasto-en-salud-per-capita.png",
+      "thumb": "thumbs/mundo-gasto-en-salud-per-capita.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-gasto-en-salud",
+      "titulo": "Mundo: Gasto en salud, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Base de datos sobre el gasto mundial en salud de la Organización Mundial de la Salud… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.XPD.CHEX.GD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-gasto-en-salud.png",
+      "thumb": "thumbs/mundo-gasto-en-salud.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-gasto-militar",
+      "titulo": "Mundo: Gasto militar, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto Internacional de Investigación para la Paz de Estocolmo (SIPRI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "MS.MIL.XPND.GD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-gasto-militar.png",
+      "thumb": "thumbs/mundo-gasto-militar.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-gasto-publico-en-educacion",
+      "titulo": "Mundo: Gasto público en educación, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la UNESCO (UIS). Servicio de descarga masiva de datos UIS.Stat. Consultado el 19… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "SE.XPD.TOTL.GD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-gasto-publico-en-educacion.png",
+      "thumb": "thumbs/mundo-gasto-publico-en-educacion.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-homicidios-intencionales",
+      "titulo": "Mundo: Homicidios intencionales, por países",
+      "subtitulo": "Por 100.000 personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Base de datos de estadísticas internacionales de homicidios de la Oficina de las Naciones Unidas contra la… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "VC.IHR.PSRC.P5"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-homicidios-intencionales.png",
+      "thumb": "thumbs/mundo-homicidios-intencionales.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-horas-trabajadas-al-ano-por-ocupado",
+      "titulo": "Mundo: Horas trabajadas al año por ocupado, por países",
+      "subtitulo": "Horas/año · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Productividad · Penn World Table",
+        "PWT.AVH"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-horas-trabajadas-al-ano-por-ocupado.png",
+      "thumb": "thumbs/mundo-horas-trabajadas-al-ano-por-ocupado.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-importaciones-de-bienes-y-servicios",
+      "titulo": "Mundo: Importaciones de bienes y servicios, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos sobre las cuentas nacionales del Banco Mundial y archivos de datos sobre cuentas nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Comercio y sector externo",
+        "NE.IMP.GNFS.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-importaciones-de-bienes-y-servicios.png",
+      "thumb": "thumbs/mundo-importaciones-de-bienes-y-servicios.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-inb-per-capita-metodo-atlas",
+      "titulo": "Mundo: INB per cápita (método Atlas), por países",
+      "subtitulo": "US$ corrientes · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GNP.PCAP.CD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-inb-per-capita-metodo-atlas.png",
+      "thumb": "thumbs/mundo-inb-per-capita-metodo-atlas.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-inb-per-capita-ppa",
+      "titulo": "Mundo: INB per cápita (PPA), por países",
+      "subtitulo": "US$ internacionales · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa de Comparación Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GNP.PCAP.PP.CD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-inb-per-capita-ppa.png",
+      "thumb": "thumbs/mundo-inb-per-capita-ppa.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-incidencia-de-tuberculosis",
+      "titulo": "Mundo: Incidencia de tuberculosis, por países",
+      "subtitulo": "Por 100.000 personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Mundial de la Salud. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.TBS.INCD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-incidencia-de-tuberculosis.png",
+      "thumb": "thumbs/mundo-incidencia-de-tuberculosis.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-indice-de-capital-humano",
+      "titulo": "Mundo: Índice de capital humano, por países",
+      "subtitulo": "Índice · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Productividad · Penn World Table",
+        "PWT.HC"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-indice-de-capital-humano.png",
+      "thumb": "thumbs/mundo-indice-de-capital-humano.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-indice-de-democracia-electoral",
+      "titulo": "Mundo: Índice de democracia electoral, por países",
+      "subtitulo": "Índice 0–1 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: V-Dem (Varieties of Democracy). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Democracia y derechos",
+        "OWID.electoral-democracy-index"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-indice-de-democracia-electoral.png",
+      "thumb": "thumbs/mundo-indice-de-democracia-electoral.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-indice-de-derechos-humanos",
+      "titulo": "Mundo: Índice de derechos humanos, por países",
+      "subtitulo": "Índice 0–1 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: V-Dem (Varieties of Democracy). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Democracia y derechos",
+        "OWID.human-rights-index-vdem"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-indice-de-derechos-humanos.png",
+      "thumb": "thumbs/mundo-indice-de-derechos-humanos.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-indice-de-desarrollo-humano-idh",
+      "titulo": "Mundo: Índice de Desarrollo Humano (IDH), por países",
+      "subtitulo": "Índice 0–1 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: PNUD — Informe sobre Desarrollo Humano. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "OWID.human-development-index"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-indice-de-desarrollo-humano-idh.png",
+      "thumb": "thumbs/mundo-indice-de-desarrollo-humano-idh.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-indice-de-desigualdad-de-genero",
+      "titulo": "Mundo: Índice de Desigualdad de Género, por países",
+      "subtitulo": "Índice 0–1 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: PNUD — Informe sobre Desarrollo Humano. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "OWID.gender-inequality-index-from-the-human-development-report"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-indice-de-desigualdad-de-genero.png",
+      "thumb": "thumbs/mundo-indice-de-desigualdad-de-genero.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-indice-de-gini",
+      "titulo": "Mundo: Índice de Gini, por países",
+      "subtitulo": "0-100 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.POV.GINI"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-indice-de-gini.png",
+      "thumb": "thumbs/mundo-indice-de-gini.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-indice-de-libertad-economica",
+      "titulo": "Mundo: Índice de Libertad Económica, por países",
+      "subtitulo": "Índice 0–10 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fraser Institute — Economic Freedom of the World (informe anual 2025). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Libertad económica",
+        "EFW.SUMMARY"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-indice-de-libertad-economica.png",
+      "thumb": "thumbs/mundo-indice-de-libertad-economica.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-indice-de-percepcion-de-la-corrupcion",
+      "titulo": "Mundo: Índice de percepción de la corrupción, por países",
+      "subtitulo": "Índice 0–100 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Transparency International. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Democracia y derechos",
+        "OWID.corruption-perception-index"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-indice-de-percepcion-de-la-corrupcion.png",
+      "thumb": "thumbs/mundo-indice-de-percepcion-de-la-corrupcion.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-inflacion-deflactor-del-pib",
+      "titulo": "Mundo: Inflación (deflactor del PIB), por países",
+      "subtitulo": "% anual · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GDP.DEFL.KD.ZG"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-inflacion-deflactor-del-pib.png",
+      "thumb": "thumbs/mundo-inflacion-deflactor-del-pib.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-inflacion-precios-al-consumidor",
+      "titulo": "Mundo: Inflación (precios al consumidor), por países",
+      "subtitulo": "% anual · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "FP.CPI.TOTL.ZG"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-inflacion-precios-al-consumidor.png",
+      "thumb": "thumbs/mundo-inflacion-precios-al-consumidor.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-ingreso-del-10-mas-pobre",
+      "titulo": "Mundo: Ingreso del 10% más pobre, por países",
+      "subtitulo": "% del ingreso · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.DST.FRST.10"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-ingreso-del-10-mas-pobre.png",
+      "thumb": "thumbs/mundo-ingreso-del-10-mas-pobre.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-ingreso-del-10-mas-rico",
+      "titulo": "Mundo: Ingreso del 10% más rico, por países",
+      "subtitulo": "% del ingreso · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.DST.10TH.10"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-ingreso-del-10-mas-rico.png",
+      "thumb": "thumbs/mundo-ingreso-del-10-mas-rico.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-ingreso-del-2-o-quintil",
+      "titulo": "Mundo: Ingreso del 2.º quintil, por países",
+      "subtitulo": "% del ingreso · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.DST.02ND.20"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-ingreso-del-2-o-quintil.png",
+      "thumb": "thumbs/mundo-ingreso-del-2-o-quintil.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-ingreso-del-20-mas-rico",
+      "titulo": "Mundo: Ingreso del 20% más rico, por países",
+      "subtitulo": "% del ingreso · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.DST.05TH.20"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-ingreso-del-20-mas-rico.png",
+      "thumb": "thumbs/mundo-ingreso-del-20-mas-rico.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-ingreso-del-3-o-quintil",
+      "titulo": "Mundo: Ingreso del 3.º quintil, por países",
+      "subtitulo": "% del ingreso · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.DST.03RD.20"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-ingreso-del-3-o-quintil.png",
+      "thumb": "thumbs/mundo-ingreso-del-3-o-quintil.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-ingreso-del-4-o-quintil",
+      "titulo": "Mundo: Ingreso del 4.º quintil, por países",
+      "subtitulo": "% del ingreso · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.DST.04TH.20"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-ingreso-del-4-o-quintil.png",
+      "thumb": "thumbs/mundo-ingreso-del-4-o-quintil.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-inmunizacion-contra-sarampion",
+      "titulo": "Mundo: Inmunización contra sarampión, por países",
+      "subtitulo": "% de niños 12-23 m · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: OMS y UNICEF (http://www.who.int/immunization/monitoring_surveillance/en/). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.IMM.MEAS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-inmunizacion-contra-sarampion.png",
+      "thumb": "thumbs/mundo-inmunizacion-contra-sarampion.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-inmunizacion-dpt",
+      "titulo": "Mundo: Inmunización DPT, por países",
+      "subtitulo": "% de niños 12-23 m · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: OMS y UNICEF (http://www.who.int/immunization/monitoring_surveillance/en/). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.IMM.IDPT"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-inmunizacion-dpt.png",
+      "thumb": "thumbs/mundo-inmunizacion-dpt.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-inversion-extranjera-directa-entradas",
+      "titulo": "Mundo: Inversión extranjera directa (entradas), por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Comercio y sector externo",
+        "BX.KLT.DINV.WD.GD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-inversion-extranjera-directa-entradas.png",
+      "thumb": "thumbs/mundo-inversion-extranjera-directa-entradas.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-inversion-extranjera-directa-salidas",
+      "titulo": "Mundo: Inversión extranjera directa (salidas), por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Comercio y sector externo",
+        "BM.KLT.DINV.WD.GD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-inversion-extranjera-directa-salidas.png",
+      "thumb": "thumbs/mundo-inversion-extranjera-directa-salidas.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-jovenes-que-ni-estudian-ni-trabajan",
+      "titulo": "Mundo: Jóvenes que ni estudian ni trabajan, por países",
+      "subtitulo": "% de jóvenes · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.UEM.NEET.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-jovenes-que-ni-estudian-ni-trabajan.png",
+      "thumb": "thumbs/mundo-jovenes-que-ni-estudian-ni-trabajan.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-libertad-de-prensa",
+      "titulo": "Mundo: Libertad de prensa, por países",
+      "subtitulo": "Índice 0–100 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Reporteros Sin Fronteras (RSF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Democracia y derechos",
+        "OWID.press-freedom-rsf"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-libertad-de-prensa.png",
+      "thumb": "thumbs/mundo-libertad-de-prensa.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-libertad-economica-libertad-de-comercio-internacional",
+      "titulo": "Mundo: Libertad económica: Libertad de Comercio Internacional, por países",
+      "subtitulo": "Índice 0–10 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fraser Institute — Economic Freedom of the World (informe anual 2025). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Libertad económica",
+        "EFW.A4"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-libertad-economica-libertad-de-comercio-internacional.png",
+      "thumb": "thumbs/mundo-libertad-economica-libertad-de-comercio-internacional.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-libertad-economica-regulacion",
+      "titulo": "Mundo: Libertad económica: Regulación, por países",
+      "subtitulo": "Índice 0–10 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fraser Institute — Economic Freedom of the World (informe anual 2025). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Libertad económica",
+        "EFW.A5"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-libertad-economica-regulacion.png",
+      "thumb": "thumbs/mundo-libertad-economica-regulacion.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-libertad-economica-sistema-legal-y-derechos-de-propiedad",
+      "titulo": "Mundo: Libertad económica: Sistema Legal y Derechos de Propiedad, por países",
+      "subtitulo": "Índice 0–10 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fraser Institute — Economic Freedom of the World (informe anual 2025). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Libertad económica",
+        "EFW.A2"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-libertad-economica-sistema-legal-y-derechos-de-propiedad.png",
+      "thumb": "thumbs/mundo-libertad-economica-sistema-legal-y-derechos-de-propiedad.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-libertad-economica-solidez-del-dinero",
+      "titulo": "Mundo: Libertad económica: Solidez del Dinero, por países",
+      "subtitulo": "Índice 0–10 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fraser Institute — Economic Freedom of the World (informe anual 2025). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Libertad económica",
+        "EFW.A3"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-libertad-economica-solidez-del-dinero.png",
+      "thumb": "thumbs/mundo-libertad-economica-solidez-del-dinero.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-libertad-economica-tamano-del-gobierno",
+      "titulo": "Mundo: Libertad económica: Tamaño del Gobierno, por países",
+      "subtitulo": "Índice 0–10 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fraser Institute — Economic Freedom of the World (informe anual 2025). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Libertad económica",
+        "EFW.A1"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-libertad-economica-tamano-del-gobierno.png",
+      "thumb": "thumbs/mundo-libertad-economica-tamano-del-gobierno.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-matricula-en-educacion-terciaria",
+      "titulo": "Mundo: Matrícula en educación terciaria, por países",
+      "subtitulo": "% bruto · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "SE.TER.ENRR"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-matricula-en-educacion-terciaria.png",
+      "thumb": "thumbs/mundo-matricula-en-educacion-terciaria.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-matricula-en-preprimaria",
+      "titulo": "Mundo: Matrícula en preprimaria, por países",
+      "subtitulo": "% bruto · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "SE.PRE.ENRR"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-matricula-en-preprimaria.png",
+      "thumb": "thumbs/mundo-matricula-en-preprimaria.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-matricula-en-primaria",
+      "titulo": "Mundo: Matrícula en primaria, por países",
+      "subtitulo": "% bruto · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "SE.PRM.ENRR"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-matricula-en-primaria.png",
+      "thumb": "thumbs/mundo-matricula-en-primaria.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-matricula-en-secundaria",
+      "titulo": "Mundo: Matrícula en secundaria, por países",
+      "subtitulo": "% bruto · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "SE.SEC.ENRR"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-matricula-en-secundaria.png",
+      "thumb": "thumbs/mundo-matricula-en-secundaria.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-medicos",
+      "titulo": "Mundo: Médicos, por países",
+      "subtitulo": "Por 1.000 personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estadísticas mundiales sobre el personal sanitario de la Organización Mundial de la Salud. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.MED.PHYS.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-medicos.png",
+      "thumb": "thumbs/mundo-medicos.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-migracion-neta",
+      "titulo": "Mundo: Migración neta, por países",
+      "subtitulo": "Personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión para 2022. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SM.POP.NETM"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-migracion-neta.png",
+      "thumb": "thumbs/mundo-migracion-neta.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-mortalidad-de-menores-de-5-anos",
+      "titulo": "Mundo: Mortalidad de menores de 5 años, por países",
+      "subtitulo": "Por 1.000 nacidos vivos · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones elaboradas por el Grupo Interinstitucional para las Estimaciones sobre Mortalidad Infantil de… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.DYN.MORT"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-mortalidad-de-menores-de-5-anos.png",
+      "thumb": "thumbs/mundo-mortalidad-de-menores-de-5-anos.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-mortalidad-infantil",
+      "titulo": "Mundo: Mortalidad infantil, por países",
+      "subtitulo": "Por 1.000 nacidos vivos · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones desarrolladas por el Grupo Interinstitucional de las Naciones Unidas para la Estimación de la… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SP.DYN.IMRT.IN"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-mortalidad-infantil.png",
+      "thumb": "thumbs/mundo-mortalidad-infantil.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-mortalidad-materna",
+      "titulo": "Mundo: Mortalidad materna, por países",
+      "subtitulo": "Por 100.000 nacidos vivos · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Trends in Maternal Mortality: 1990-2015. Estimates Developed by WHO. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.STA.MMRT"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-mortalidad-materna.png",
+      "thumb": "thumbs/mundo-mortalidad-materna.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-mortalidad-neonatal",
+      "titulo": "Mundo: Mortalidad neonatal, por países",
+      "subtitulo": "Por 1.000 nacidos vivos · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones elaboradas por el Grupo Interinstitucional para las Estimaciones sobre Mortalidad Infantil de… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.DYN.NMRT"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-mortalidad-neonatal.png",
+      "thumb": "thumbs/mundo-mortalidad-neonatal.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-mortalidad-por-enfermedades-no-transmisibles-30-70-a",
+      "titulo": "Mundo: Mortalidad por enfermedades no transmisibles (30-70 a.), por países",
+      "subtitulo": "% (probabilidad) · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: World Health Organization. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "SH.DYN.NCOM.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-mortalidad-por-enfermedades-no-transmisibles-30-70-a.png",
+      "thumb": "thumbs/mundo-mortalidad-por-enfermedades-no-transmisibles-30-70-a.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-muertes-por-terrorismo",
+      "titulo": "Mundo: Muertes por terrorismo, por países",
+      "subtitulo": "Personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: START — Global Terrorism Database. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Paz y conflicto",
+        "OWID.terrorism-deaths"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-muertes-por-terrorismo.png",
+      "thumb": "thumbs/mundo-muertes-por-terrorismo.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-mujeres-en-el-parlamento",
+      "titulo": "Mundo: Mujeres en el parlamento, por países",
+      "subtitulo": "% de escaños · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Unión Interparlamentaria (UIP) (www.ipu.org). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "SG.GEN.PARL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-mujeres-en-el-parlamento.png",
+      "thumb": "thumbs/mundo-mujeres-en-el-parlamento.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-paridad-de-genero-en-primaria",
+      "titulo": "Mundo: Paridad de género en primaria, por países",
+      "subtitulo": "Índice (M/H) · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Educación",
+        "SE.ENR.PRIM.FM.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-paridad-de-genero-en-primaria.png",
+      "thumb": "thumbs/mundo-paridad-de-genero-en-primaria.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-participacion-del-trabajo-en-el-ingreso",
+      "titulo": "Mundo: Participación del trabajo en el ingreso, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Productividad · Penn World Table",
+        "PWT.LABSH"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-participacion-del-trabajo-en-el-ingreso.png",
+      "thumb": "thumbs/mundo-participacion-del-trabajo-en-el-ingreso.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-participacion-laboral-hombres",
+      "titulo": "Mundo: Participación laboral (hombres), por países",
+      "subtitulo": "% de hombres 15+ · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.TLF.CACT.MA.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-participacion-laboral-hombres.png",
+      "thumb": "thumbs/mundo-participacion-laboral-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-participacion-laboral-mujer-hombre",
+      "titulo": "Mundo: Participación laboral mujer/hombre, por países",
+      "subtitulo": "Razón % · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.TLF.CACT.FM.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-participacion-laboral-mujer-hombre.png",
+      "thumb": "thumbs/mundo-participacion-laboral-mujer-hombre.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-participacion-laboral-mujeres",
+      "titulo": "Mundo: Participación laboral (mujeres), por países",
+      "subtitulo": "% de mujeres 15+ · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.TLF.CACT.FE.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-participacion-laboral-mujeres.png",
+      "thumb": "thumbs/mundo-participacion-laboral-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-participacion-laboral-total",
+      "titulo": "Mundo: Participación laboral (total), por países",
+      "subtitulo": "% de 15 años y más · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.TLF.CACT.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-participacion-laboral-total.png",
+      "thumb": "thumbs/mundo-participacion-laboral-total.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-personal-de-las-fuerzas-armadas",
+      "titulo": "Mundo: Personal de las fuerzas armadas, por países",
+      "subtitulo": "Personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Instituto Internacional de Estudios Estratégicos. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "MS.MIL.TOTL.P1"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-personal-de-las-fuerzas-armadas.png",
+      "thumb": "thumbs/mundo-personal-de-las-fuerzas-armadas.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pib-per-capita-constante",
+      "titulo": "Mundo: PIB per cápita (constante), por países",
+      "subtitulo": "US$ de 2015 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GDP.PCAP.KD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pib-per-capita-constante.png",
+      "thumb": "thumbs/mundo-pib-per-capita-constante.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pib-per-capita-historico",
+      "titulo": "Mundo: PIB per cápita (histórico), por países",
+      "subtitulo": "US$ internacionales de 2011 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Largo plazo · Maddison Project",
+        "MPD.GDPPC"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pib-per-capita-historico.png",
+      "thumb": "thumbs/mundo-pib-per-capita-historico.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pib-per-capita-ppa-pwt",
+      "titulo": "Mundo: PIB per cápita (PPA, PWT), por países",
+      "subtitulo": "US$ internacionales de 2017 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Productividad · Penn World Table",
+        "PWT.GDPPC"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pib-per-capita-ppa-pwt.png",
+      "thumb": "thumbs/mundo-pib-per-capita-ppa-pwt.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pib-per-capita-ppa",
+      "titulo": "Mundo: PIB per cápita (PPA), por países",
+      "subtitulo": "US$ internacionales · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa de Comparación Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GDP.PCAP.PP.CD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pib-per-capita-ppa.png",
+      "thumb": "thumbs/mundo-pib-per-capita-ppa.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pib-per-capita",
+      "titulo": "Mundo: PIB per cápita, por países",
+      "subtitulo": "US$ corrientes · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GDP.PCAP.CD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pib-per-capita.png",
+      "thumb": "thumbs/mundo-pib-per-capita.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pib-por-trabajador-productividad-laboral",
+      "titulo": "Mundo: PIB por trabajador (productividad laboral), por países",
+      "subtitulo": "US$ internacionales de 2017 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Productividad · Penn World Table",
+        "PWT.GDPWK"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pib-por-trabajador-productividad-laboral.png",
+      "thumb": "thumbs/mundo-pib-por-trabajador-productividad-laboral.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pib-total-ppa",
+      "titulo": "Mundo: PIB total (PPA), por países",
+      "subtitulo": "US$ internacionales · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa de Comparación Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GDP.MKTP.PP.CD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pib-total-ppa.png",
+      "thumb": "thumbs/mundo-pib-total-ppa.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pib-total",
+      "titulo": "Mundo: PIB total, por países",
+      "subtitulo": "US$ corrientes · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NY.GDP.MKTP.CD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pib-total.png",
+      "thumb": "thumbs/mundo-pib-total.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-0-4-anos-hombres",
+      "titulo": "Mundo: Población 0-4 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.0004.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-0-4-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-0-4-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-0-4-anos-mujeres",
+      "titulo": "Mundo: Población 0-4 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.0004.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-0-4-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-0-4-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-10-14-anos-hombres",
+      "titulo": "Mundo: Población 10-14 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.1014.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-10-14-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-10-14-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-10-14-anos-mujeres",
+      "titulo": "Mundo: Población 10-14 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.1014.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-10-14-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-10-14-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-15-19-anos-hombres",
+      "titulo": "Mundo: Población 15-19 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.1519.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-15-19-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-15-19-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-15-19-anos-mujeres",
+      "titulo": "Mundo: Población 15-19 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.1519.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-15-19-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-15-19-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-20-24-anos-hombres",
+      "titulo": "Mundo: Población 20-24 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.2024.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-20-24-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-20-24-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-20-24-anos-mujeres",
+      "titulo": "Mundo: Población 20-24 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.2024.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-20-24-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-20-24-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-25-29-anos-hombres",
+      "titulo": "Mundo: Población 25-29 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.2529.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-25-29-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-25-29-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-25-29-anos-mujeres",
+      "titulo": "Mundo: Población 25-29 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.2529.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-25-29-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-25-29-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-30-34-anos-hombres",
+      "titulo": "Mundo: Población 30-34 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.3034.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-30-34-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-30-34-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-30-34-anos-mujeres",
+      "titulo": "Mundo: Población 30-34 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.3034.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-30-34-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-30-34-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-35-39-anos-hombres",
+      "titulo": "Mundo: Población 35-39 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.3539.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-35-39-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-35-39-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-35-39-anos-mujeres",
+      "titulo": "Mundo: Población 35-39 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.3539.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-35-39-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-35-39-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-40-44-anos-hombres",
+      "titulo": "Mundo: Población 40-44 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.4044.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-40-44-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-40-44-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-40-44-anos-mujeres",
+      "titulo": "Mundo: Población 40-44 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.4044.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-40-44-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-40-44-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-45-49-anos-hombres",
+      "titulo": "Mundo: Población 45-49 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.4549.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-45-49-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-45-49-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-45-49-anos-mujeres",
+      "titulo": "Mundo: Población 45-49 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.4549.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-45-49-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-45-49-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-5-9-anos-hombres",
+      "titulo": "Mundo: Población 5-9 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.0509.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-5-9-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-5-9-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-5-9-anos-mujeres",
+      "titulo": "Mundo: Población 5-9 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.0509.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-5-9-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-5-9-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-50-54-anos-hombres",
+      "titulo": "Mundo: Población 50-54 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.5054.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-50-54-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-50-54-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-50-54-anos-mujeres",
+      "titulo": "Mundo: Población 50-54 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.5054.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-50-54-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-50-54-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-55-59-anos-hombres",
+      "titulo": "Mundo: Población 55-59 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.5559.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-55-59-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-55-59-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-55-59-anos-mujeres",
+      "titulo": "Mundo: Población 55-59 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.5559.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-55-59-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-55-59-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-60-64-anos-hombres",
+      "titulo": "Mundo: Población 60-64 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.6064.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-60-64-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-60-64-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-60-64-anos-mujeres",
+      "titulo": "Mundo: Población 60-64 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.6064.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-60-64-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-60-64-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-65-69-anos-hombres",
+      "titulo": "Mundo: Población 65-69 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.6569.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-65-69-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-65-69-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-65-69-anos-mujeres",
+      "titulo": "Mundo: Población 65-69 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.6569.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-65-69-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-65-69-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-70-74-anos-hombres",
+      "titulo": "Mundo: Población 70-74 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.7074.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-70-74-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-70-74-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-70-74-anos-mujeres",
+      "titulo": "Mundo: Población 70-74 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.7074.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-70-74-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-70-74-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-75-79-anos-hombres",
+      "titulo": "Mundo: Población 75-79 años (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.7579.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-75-79-anos-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-75-79-anos-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-75-79-anos-mujeres",
+      "titulo": "Mundo: Población 75-79 años (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.7579.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-75-79-anos-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-75-79-anos-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-80-anos-y-mas-hombres",
+      "titulo": "Mundo: Población 80 años y más (hombres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.80UP.MA.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-80-anos-y-mas-hombres.png",
+      "thumb": "thumbs/mundo-poblacion-80-anos-y-mas-hombres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-80-anos-y-mas-mujeres",
+      "titulo": "Mundo: Población 80 años y más (mujeres), por países",
+      "subtitulo": "% de su sexo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Estructura por edad (pirámide)",
+        "SP.POP.80UP.FE.5Y"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-80-anos-y-mas-mujeres.png",
+      "thumb": "thumbs/mundo-poblacion-80-anos-y-mas-mujeres.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-bajo-el-50-de-la-mediana",
+      "titulo": "Mundo: Población bajo el 50% de la mediana, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Plataforma de Pobreza y Desigualdad. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.DST.50MD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-bajo-el-50-de-la-mediana.png",
+      "thumb": "thumbs/mundo-poblacion-bajo-el-50-de-la-mediana.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-de-0-a-14-anos",
+      "titulo": "Mundo: Población de 0 a 14 años, por países",
+      "subtitulo": "% del total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.POP.0014.TO.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-de-0-a-14-anos.png",
+      "thumb": "thumbs/mundo-poblacion-de-0-a-14-anos.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-de-15-a-64-anos",
+      "titulo": "Mundo: Población de 15 a 64 años, por países",
+      "subtitulo": "% del total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.POP.1564.TO.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-de-15-a-64-anos.png",
+      "thumb": "thumbs/mundo-poblacion-de-15-a-64-anos.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-de-65-anos-y-mas",
+      "titulo": "Mundo: Población de 65 años y más, por países",
+      "subtitulo": "% del total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.POP.65UP.TO.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-de-65-anos-y-mas.png",
+      "thumb": "thumbs/mundo-poblacion-de-65-anos-y-mas.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-expuesta-a-pm2-5-sobre-oms",
+      "titulo": "Mundo: Población expuesta a PM2.5 sobre OMS, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Brauer. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "EN.ATM.PM25.MC.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-expuesta-a-pm2-5-sobre-oms.png",
+      "thumb": "thumbs/mundo-poblacion-expuesta-a-pm2-5-sobre-oms.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-femenina",
+      "titulo": "Mundo: Población femenina, por países",
+      "subtitulo": "% del total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial basadas en distribuciones por edad y sexo de World Population… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.POP.TOTL.FE.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-femenina.png",
+      "thumb": "thumbs/mundo-poblacion-femenina.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-historica",
+      "titulo": "Mundo: Población (histórica), por países",
+      "subtitulo": "Personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Largo plazo · Maddison Project",
+        "MPD.POP"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-historica.png",
+      "thumb": "thumbs/mundo-poblacion-historica.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-rural",
+      "titulo": "Mundo: Población rural, por países",
+      "subtitulo": "% del total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones de personal del Banco Mundial sobre la base de las  Perspectivas de la urbanización mundial de… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.RUR.TOTL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-rural.png",
+      "thumb": "thumbs/mundo-poblacion-rural.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-total",
+      "titulo": "Mundo: Población total, por países",
+      "subtitulo": "Personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión para 2022.… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.POP.TOTL"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-total.png",
+      "thumb": "thumbs/mundo-poblacion-total.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-poblacion-urbana",
+      "titulo": "Mundo: Población urbana, por países",
+      "subtitulo": "% del total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: División de Población de las Naciones Unidas. Perspectivas de urbanización mundial: revisión de 2018. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.URB.TOTL.IN.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-poblacion-urbana.png",
+      "thumb": "thumbs/mundo-poblacion-urbana.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pobreza-extrema-us-3-00-dia-ppa-2021",
+      "titulo": "Mundo: Pobreza extrema (US$3,00/día PPA 2021), por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.POV.DDAY"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pobreza-extrema-us-3-00-dia-ppa-2021.png",
+      "thumb": "thumbs/mundo-pobreza-extrema-us-3-00-dia-ppa-2021.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pobreza-linea-nacional",
+      "titulo": "Mundo: Pobreza (línea nacional), por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.POV.NAHC"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pobreza-linea-nacional.png",
+      "thumb": "thumbs/mundo-pobreza-linea-nacional.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pobreza-us-4-20-dia-ppa-2021",
+      "titulo": "Mundo: Pobreza (US$4,20/día PPA 2021), por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.POV.LMIC"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pobreza-us-4-20-dia-ppa-2021.png",
+      "thumb": "thumbs/mundo-pobreza-us-4-20-dia-ppa-2021.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-pobreza-us-8-30-dia-ppa-2021",
+      "titulo": "Mundo: Pobreza (US$8,30/día PPA 2021), por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Pobreza y desigualdad",
+        "SI.POV.UMIC"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-pobreza-us-8-30-dia-ppa-2021.png",
+      "thumb": "thumbs/mundo-pobreza-us-8-30-dia-ppa-2021.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-prevalencia-de-subalimentacion",
+      "titulo": "Mundo: Prevalencia de subalimentación, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización de las Naciones Unidas para la Agricultura y la Alimentación… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "SN.ITK.DEFC.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-prevalencia-de-subalimentacion.png",
+      "thumb": "thumbs/mundo-prevalencia-de-subalimentacion.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-prevalencia-de-vih-15-49",
+      "titulo": "Mundo: Prevalencia de VIH (15-49), por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: ONUSIDA estima. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.DYN.AIDS.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-prevalencia-de-vih-15-49.png",
+      "thumb": "thumbs/mundo-prevalencia-de-vih-15-49.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-productividad-total-de-los-factores-ee-uu-1",
+      "titulo": "Mundo: Productividad total de los factores (EE.UU.=1), por países",
+      "subtitulo": "Índice (EE.UU.=1) · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Productividad · Penn World Table",
+        "PWT.CTFP"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-productividad-total-de-los-factores-ee-uu-1.png",
+      "thumb": "thumbs/mundo-productividad-total-de-los-factores-ee-uu-1.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-razon-de-dependencia-jovenes",
+      "titulo": "Mundo: Razón de dependencia (jóvenes), por países",
+      "subtitulo": "% pob. en edad de trabajar · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades de las Previsiones… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.POP.DPND.YG"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-razon-de-dependencia-jovenes.png",
+      "thumb": "thumbs/mundo-razon-de-dependencia-jovenes.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-razon-de-dependencia-mayores",
+      "titulo": "Mundo: Razón de dependencia (mayores), por países",
+      "subtitulo": "% pob. en edad de trabajar · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades de las Previsiones… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.POP.DPND.OL"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-razon-de-dependencia-mayores.png",
+      "thumb": "thumbs/mundo-razon-de-dependencia-mayores.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-razon-de-dependencia-total",
+      "titulo": "Mundo: Razón de dependencia (total), por países",
+      "subtitulo": "% pob. en edad de trabajar · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades de las Previsiones… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.POP.DPND"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-razon-de-dependencia-total.png",
+      "thumb": "thumbs/mundo-razon-de-dependencia-total.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-razon-de-sexos-al-nacer",
+      "titulo": "Mundo: Razón de sexos al nacer, por países",
+      "subtitulo": "Varones por mujer · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión para 2022. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.POP.BRTH.MF"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-razon-de-sexos-al-nacer.png",
+      "thumb": "thumbs/mundo-razon-de-sexos-al-nacer.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-recursos-de-agua-dulce-per-capita",
+      "titulo": "Mundo: Recursos de agua dulce per cápita, por países",
+      "subtitulo": "m³ por persona · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización de las Naciones Unidas para la Agricultura y la Alimentación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "ER.H2O.INTR.PC"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-recursos-de-agua-dulce-per-capita.png",
+      "thumb": "thumbs/mundo-recursos-de-agua-dulce-per-capita.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-registro-de-nacimientos",
+      "titulo": "Mundo: Registro de nacimientos, por países",
+      "subtitulo": "% de menores de 5 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: UNICEF's State of the World's Children based mostly on household surveys and ministry of health data. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "SP.REG.BRTH.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-registro-de-nacimientos.png",
+      "thumb": "thumbs/mundo-registro-de-nacimientos.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-relacion-empleo-poblacion",
+      "titulo": "Mundo: Relación empleo-población, por países",
+      "subtitulo": "% de 15 años y más · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.EMP.TOTL.SP.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-relacion-empleo-poblacion.png",
+      "thumb": "thumbs/mundo-relacion-empleo-poblacion.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-remesas-recibidas",
+      "titulo": "Mundo: Remesas recibidas, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de los datos de la Balanza de Pagos del FMI y las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Comercio y sector externo",
+        "BX.TRF.PWKR.DT.GD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-remesas-recibidas.png",
+      "thumb": "thumbs/mundo-remesas-recibidas.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-rentas-de-recursos-naturales",
+      "titulo": "Mundo: Rentas de recursos naturales, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Los cálculos se basan en fuentes y métodos descritos en \"The Changing Wealth of Nations: Measuring… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "NY.GDP.TOTL.RT.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-rentas-de-recursos-naturales.png",
+      "thumb": "thumbs/mundo-rentas-de-recursos-naturales.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-reservas-internacionales",
+      "titulo": "Mundo: Reservas internacionales, por países",
+      "subtitulo": "Meses de importaciones · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Comercio y sector externo",
+        "FI.RES.TOTL.MO"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-reservas-internacionales.png",
+      "thumb": "thumbs/mundo-reservas-internacionales.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-saneamiento-gestionado-de-forma-segura",
+      "titulo": "Mundo: Saneamiento gestionado de forma segura, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Programa Conjunto OMS/UNICEF de Monitoreo del Abastecimiento de Agua. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "SH.STA.SMSS.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-saneamiento-gestionado-de-forma-segura.png",
+      "thumb": "thumbs/mundo-saneamiento-gestionado-de-forma-segura.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-satisfaccion-con-la-vida",
+      "titulo": "Mundo: Satisfacción con la vida, por países",
+      "subtitulo": "Escala 0–10 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: World Happiness Report (encuesta Gallup). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "OWID.happiness-cantril-ladder"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-satisfaccion-con-la-vida.png",
+      "thumb": "thumbs/mundo-satisfaccion-con-la-vida.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-sobrepeso-en-adultos",
+      "titulo": "Mundo: Sobrepeso en adultos, por países",
+      "subtitulo": "% de adultos · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Mundial de la Salud (OMS). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Desarrollo humano y bienestar",
+        "SH.STA.OWAD.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-sobrepeso-en-adultos.png",
+      "thumb": "thumbs/mundo-sobrepeso-en-adultos.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-solicitudes-de-patentes-residentes",
+      "titulo": "Mundo: Solicitudes de patentes (residentes), por países",
+      "subtitulo": "Solicitudes · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Mundial de la Propiedad  Intelectual (OMPI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Tecnología e innovación",
+        "IP.PAT.RESD"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-solicitudes-de-patentes-residentes.png",
+      "thumb": "thumbs/mundo-solicitudes-de-patentes-residentes.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-stock-de-migrantes-internacionales",
+      "titulo": "Mundo: Stock de migrantes internacionales, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: División de Población de las Naciones Unidas. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SM.POP.TOTL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-stock-de-migrantes-internacionales.png",
+      "thumb": "thumbs/mundo-stock-de-migrantes-internacionales.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-superficie-forestal",
+      "titulo": "Mundo: Superficie forestal, por países",
+      "subtitulo": "% del territorio · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización de las Naciones Unidas para la Agricultura y la Alimentación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "AG.LND.FRST.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-superficie-forestal.png",
+      "thumb": "thumbs/mundo-superficie-forestal.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-suscripciones-de-telefonia-movil",
+      "titulo": "Mundo: Suscripciones de telefonía móvil, por países",
+      "subtitulo": "Por 100 personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Unión Internacional de Telecomunicaciones. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Tecnología e innovación",
+        "IT.CEL.SETS.P2"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-suscripciones-de-telefonia-movil.png",
+      "thumb": "thumbs/mundo-suscripciones-de-telefonia-movil.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-tasa-bruta-de-mortalidad",
+      "titulo": "Mundo: Tasa bruta de mortalidad, por países",
+      "subtitulo": "Por 1.000 personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión para 2022.… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SP.DYN.CDRT.IN"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-tasa-bruta-de-mortalidad.png",
+      "thumb": "thumbs/mundo-tasa-bruta-de-mortalidad.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-tasa-bruta-de-natalidad",
+      "titulo": "Mundo: Tasa bruta de natalidad, por países",
+      "subtitulo": "Por 1.000 personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión para 2022.… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.DYN.CBRT.IN"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-tasa-bruta-de-natalidad.png",
+      "thumb": "thumbs/mundo-tasa-bruta-de-natalidad.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-tasa-de-fecundidad",
+      "titulo": "Mundo: Tasa de fecundidad, por países",
+      "subtitulo": "Hijos por mujer · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión para 2022.… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Población y demografía",
+        "SP.DYN.TFRT.IN"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-tasa-de-fecundidad.png",
+      "thumb": "thumbs/mundo-tasa-de-fecundidad.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-tasa-de-mortalidad-por-suicidio",
+      "titulo": "Mundo: Tasa de mortalidad por suicidio, por países",
+      "subtitulo": "Por 100.000 personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: World Health Organization. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Salud",
+        "SH.STA.SUIC.P5"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-tasa-de-mortalidad-por-suicidio.png",
+      "thumb": "thumbs/mundo-tasa-de-mortalidad-por-suicidio.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-telefonia-fija",
+      "titulo": "Mundo: Telefonía fija, por países",
+      "subtitulo": "Por 100 personas · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Unión Internacional de Telecomunicaciones. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Tecnología e innovación",
+        "IT.MLT.MAIN.P2"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-telefonia-fija.png",
+      "thumb": "thumbs/mundo-telefonia-fija.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-tierra-agricola",
+      "titulo": "Mundo: Tierra agrícola, por países",
+      "subtitulo": "% del territorio · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización de las Naciones Unidas para la Agricultura y la Alimentación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "AG.LND.AGRI.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-tierra-agricola.png",
+      "thumb": "thumbs/mundo-tierra-agricola.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-tierra-cultivable",
+      "titulo": "Mundo: Tierra cultivable, por países",
+      "subtitulo": "% del territorio · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización de las Naciones Unidas para la Agricultura y la Alimentación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Medio ambiente y clima",
+        "AG.LND.ARBL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-tierra-cultivable.png",
+      "thumb": "thumbs/mundo-tierra-cultivable.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-tipo-de-cambio-oficial",
+      "titulo": "Mundo: Tipo de cambio oficial, por países",
+      "subtitulo": "LCU por US$ · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Comercio y sector externo",
+        "PA.NUS.FCRF"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-tipo-de-cambio-oficial.png",
+      "thumb": "thumbs/mundo-tipo-de-cambio-oficial.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-trabajadores-familiares",
+      "titulo": "Mundo: Trabajadores familiares, por países",
+      "subtitulo": "% del empleo total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.FAM.WORK.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-trabajadores-familiares.png",
+      "thumb": "thumbs/mundo-trabajadores-familiares.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-trabajo-por-cuenta-propia",
+      "titulo": "Mundo: Trabajo por cuenta propia, por países",
+      "subtitulo": "% del empleo total · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Empleo y protección social",
+        "SL.EMP.SELF.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-trabajo-por-cuenta-propia.png",
+      "thumb": "thumbs/mundo-trabajo-por-cuenta-propia.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-uso-de-energia-per-capita",
+      "titulo": "Mundo: Uso de energía per cápita, por países",
+      "subtitulo": "kg equiv. petróleo · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Agencia Internacional de la Energía (Estadísticas de la AIE © OCDE/AIE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Energía",
+        "EG.USE.PCAP.KG.OE"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-uso-de-energia-per-capita.png",
+      "thumb": "thumbs/mundo-uso-de-energia-per-capita.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-usuarios-de-internet",
+      "titulo": "Mundo: Usuarios de internet, por países",
+      "subtitulo": "% de la población · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Base de datos de indicadores mundiales de telecomunicaciones/TIC de la Unión Internacional de… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Tecnología e innovación",
+        "IT.NET.USER.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-usuarios-de-internet.png",
+      "thumb": "thumbs/mundo-usuarios-de-internet.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-valor-agregado-agricola",
+      "titulo": "Mundo: Valor agregado agrícola, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NV.AGR.TOTL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-valor-agregado-agricola.png",
+      "thumb": "thumbs/mundo-valor-agregado-agricola.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-valor-agregado-de-servicios",
+      "titulo": "Mundo: Valor agregado de servicios, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Estadísticas oficiales de los países y bancos centrales. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NV.SRV.TOTL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-valor-agregado-de-servicios.png",
+      "thumb": "thumbs/mundo-valor-agregado-de-servicios.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-valor-agregado-industrial",
+      "titulo": "Mundo: Valor agregado industrial, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos sobre las cuentas nacionales del Banco Mundial y archivos de datos sobre cuentas nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NV.IND.TOTL.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-valor-agregado-industrial.png",
+      "thumb": "thumbs/mundo-valor-agregado-industrial.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-valor-agregado-manufacturero",
+      "titulo": "Mundo: Valor agregado manufacturero, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Datos sobre las cuentas nacionales del Banco Mundial y archivos de datos sobre cuentas nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Economía y crecimiento",
+        "NV.IND.MANF.ZS"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-valor-agregado-manufacturero.png",
+      "thumb": "thumbs/mundo-valor-agregado-manufacturero.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-voz-y-rendicion-de-cuentas",
+      "titulo": "Mundo: Voz y rendición de cuentas, por países",
+      "subtitulo": "Estimación −2,5 a 2,5 · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Indicadores Mundiales de Gobernanza (WGI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Gobernanza y sociedad",
+        "GOV_WGI_VA.EST"
+      ],
+      "fecha": "2026-06-15",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-voz-y-rendicion-de-cuentas.png",
+      "thumb": "thumbs/mundo-voz-y-rendicion-de-cuentas.png",
+      "datos": null
+    },
     {
       "slug": "censo-agua-caneria",
       "titulo": "Bolivia: Acceso a agua por cañería de red",

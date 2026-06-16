@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-desempleo-hombres",
+  "titulo": "Mundo: Desempleo (hombres), por países",
+  "subtitulo": "% de la fuerza laboral masculina · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Empleo y protección social",
+    "SL.UEM.TOTL.MA.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-desempleo-hombres.png",
+  "thumb": "thumbs/mundo-desempleo-hombres.png",
+  "datos": null
+}

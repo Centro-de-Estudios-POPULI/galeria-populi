@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-solicitudes-de-patentes-residentes",
+  "titulo": "Mundo: Solicitudes de patentes (residentes), por países",
+  "subtitulo": "Solicitudes · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Organización Mundial de la Propiedad  Intelectual (OMPI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Tecnología e innovación",
+    "IP.PAT.RESD"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-solicitudes-de-patentes-residentes.png",
+  "thumb": "thumbs/mundo-solicitudes-de-patentes-residentes.png",
+  "datos": null
+}

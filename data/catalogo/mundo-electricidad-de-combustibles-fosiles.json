@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-electricidad-de-combustibles-fosiles",
+  "titulo": "Mundo: Electricidad de combustibles fósiles, por países",
+  "subtitulo": "% de la generación · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Agencia Internacional de la Energía (AIE) (Estadísticas de la AIE © OCDE/AIE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Energía",
+    "EG.ELC.FOSL.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-electricidad-de-combustibles-fosiles.png",
+  "thumb": "thumbs/mundo-electricidad-de-combustibles-fosiles.png",
+  "datos": null
+}

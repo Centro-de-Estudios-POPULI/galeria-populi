@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-telefonia-fija",
+  "titulo": "Mundo: Telefonía fija, por países",
+  "subtitulo": "Por 100 personas · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Unión Internacional de Telecomunicaciones. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Tecnología e innovación",
+    "IT.MLT.MAIN.P2"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-telefonia-fija.png",
+  "thumb": "thumbs/mundo-telefonia-fija.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-reservas-internacionales",
+  "titulo": "Mundo: Reservas internacionales, por países",
+  "subtitulo": "Meses de importaciones · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Fondo Monetario Internacional. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Comercio y sector externo",
+    "FI.RES.TOTL.MO"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-reservas-internacionales.png",
+  "thumb": "thumbs/mundo-reservas-internacionales.png",
+  "datos": null
+}

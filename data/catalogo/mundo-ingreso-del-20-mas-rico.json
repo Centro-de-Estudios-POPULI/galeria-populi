@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-ingreso-del-20-mas-rico",
+  "titulo": "Mundo: Ingreso del 20% más rico, por países",
+  "subtitulo": "% del ingreso · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Pobreza y desigualdad",
+    "SI.DST.05TH.20"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-ingreso-del-20-mas-rico.png",
+  "thumb": "thumbs/mundo-ingreso-del-20-mas-rico.png",
+  "datos": null
+}

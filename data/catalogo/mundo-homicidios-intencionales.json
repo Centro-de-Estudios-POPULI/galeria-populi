@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-homicidios-intencionales",
+  "titulo": "Mundo: Homicidios intencionales, por países",
+  "subtitulo": "Por 100.000 personas · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Base de datos de estadísticas internacionales de homicidios de la Oficina de las Naciones Unidas contra la… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Gobernanza y sociedad",
+    "VC.IHR.PSRC.P5"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-homicidios-intencionales.png",
+  "thumb": "thumbs/mundo-homicidios-intencionales.png",
+  "datos": null
+}

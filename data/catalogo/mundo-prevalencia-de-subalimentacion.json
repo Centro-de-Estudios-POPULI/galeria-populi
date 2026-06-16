@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-prevalencia-de-subalimentacion",
+  "titulo": "Mundo: Prevalencia de subalimentación, por países",
+  "subtitulo": "% de la población · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Organización de las Naciones Unidas para la Agricultura y la Alimentación… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Desarrollo humano y bienestar",
+    "SN.ITK.DEFC.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-prevalencia-de-subalimentacion.png",
+  "thumb": "thumbs/mundo-prevalencia-de-subalimentacion.png",
+  "datos": null
+}

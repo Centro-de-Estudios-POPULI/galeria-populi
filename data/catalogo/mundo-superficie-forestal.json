@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-superficie-forestal",
+  "titulo": "Mundo: Superficie forestal, por países",
+  "subtitulo": "% del territorio · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Organización de las Naciones Unidas para la Agricultura y la Alimentación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Medio ambiente y clima",
+    "AG.LND.FRST.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-superficie-forestal.png",
+  "thumb": "thumbs/mundo-superficie-forestal.png",
+  "datos": null
+}
