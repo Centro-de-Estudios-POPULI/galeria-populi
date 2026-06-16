@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-gasto-en-salud-per-capita",
+  "titulo": "Mundo: Gasto en salud per cápita, por países",
+  "subtitulo": "US$ corrientes · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Base de Datos Mundial de Gasto en Salud. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Salud",
+    "SH.XPD.CHEX.PC.CD"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-gasto-en-salud-per-capita.png",
+  "thumb": "thumbs/mundo-gasto-en-salud-per-capita.png",
+  "datos": null
+}

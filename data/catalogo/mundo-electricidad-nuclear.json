@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-electricidad-nuclear",
+  "titulo": "Mundo: Electricidad nuclear, por países",
+  "subtitulo": "% de la generación · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Agencia Internacional de la Energía (AIE) (Estadísticas de la AIE © OCDE/AIE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Energía",
+    "EG.ELC.NUCL.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-electricidad-nuclear.png",
+  "thumb": "thumbs/mundo-electricidad-nuclear.png",
+  "datos": null
+}

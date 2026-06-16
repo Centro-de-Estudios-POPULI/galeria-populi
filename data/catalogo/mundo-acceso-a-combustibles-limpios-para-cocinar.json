@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-acceso-a-combustibles-limpios-para-cocinar",
+  "titulo": "Mundo: Acceso a combustibles limpios para cocinar, por países",
+  "subtitulo": "% de la población · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Energía",
+    "EG.CFT.ACCS.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-acceso-a-combustibles-limpios-para-cocinar.png",
+  "thumb": "thumbs/mundo-acceso-a-combustibles-limpios-para-cocinar.png",
+  "datos": null
+}

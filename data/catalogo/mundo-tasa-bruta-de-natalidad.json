@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-tasa-bruta-de-natalidad",
+  "titulo": "Mundo: Tasa bruta de natalidad, por países",
+  "subtitulo": "Por 1.000 personas · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: (1) División de Población de las Naciones Unidas. Perspectivas de la población mundial: revisión para 2022.… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Población y demografía",
+    "SP.DYN.CBRT.IN"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-tasa-bruta-de-natalidad.png",
+  "thumb": "thumbs/mundo-tasa-bruta-de-natalidad.png",
+  "datos": null
+}

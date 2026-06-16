@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-pib-per-capita-ppa-pwt",
+  "titulo": "Mundo: PIB per cápita (PPA, PWT), por países",
+  "subtitulo": "US$ internacionales de 2017 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Productividad · Penn World Table",
+    "PWT.GDPPC"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-pib-per-capita-ppa-pwt.png",
+  "thumb": "thumbs/mundo-pib-per-capita-ppa-pwt.png",
+  "datos": null
+}

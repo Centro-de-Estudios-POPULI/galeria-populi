@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-muertes-por-terrorismo",
+  "titulo": "Mundo: Muertes por terrorismo, por países",
+  "subtitulo": "Personas · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: START — Global Terrorism Database. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Paz y conflicto",
+    "OWID.terrorism-deaths"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-muertes-por-terrorismo.png",
+  "thumb": "thumbs/mundo-muertes-por-terrorismo.png",
+  "datos": null
+}

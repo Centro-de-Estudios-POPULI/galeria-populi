@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-articulos-cientificos-y-tecnicos",
+  "titulo": "Mundo: Artículos científicos y técnicos, por países",
+  "subtitulo": "Publicaciones · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Fundación Nacional de la Ciencia. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Tecnología e innovación",
+    "IP.JRN.ARTC.SC"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-articulos-cientificos-y-tecnicos.png",
+  "thumb": "thumbs/mundo-articulos-cientificos-y-tecnicos.png",
+  "datos": null
+}

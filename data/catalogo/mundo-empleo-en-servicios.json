@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-empleo-en-servicios",
+  "titulo": "Mundo: Empleo en servicios, por países",
+  "subtitulo": "% del empleo total · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Empleo y protección social",
+    "SL.SRV.EMPL.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-empleo-en-servicios.png",
+  "thumb": "thumbs/mundo-empleo-en-servicios.png",
+  "datos": null
+}

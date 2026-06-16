@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-comercio-de-mercancias",
+  "titulo": "Mundo: Comercio de mercancías, por países",
+  "subtitulo": "% del PIB · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Organización Mundial de Comercio y estimaciones del PIB del Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Comercio y sector externo",
+    "TG.VAL.TOTL.GD.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-comercio-de-mercancias.png",
+  "thumb": "thumbs/mundo-comercio-de-mercancias.png",
+  "datos": null
+}

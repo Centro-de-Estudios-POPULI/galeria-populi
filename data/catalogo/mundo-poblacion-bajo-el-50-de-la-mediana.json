@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-poblacion-bajo-el-50-de-la-mediana",
+  "titulo": "Mundo: Población bajo el 50% de la mediana, por países",
+  "subtitulo": "% de la población · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Plataforma de Pobreza y Desigualdad. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Pobreza y desigualdad",
+    "SI.DST.50MD"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-poblacion-bajo-el-50-de-la-mediana.png",
+  "thumb": "thumbs/mundo-poblacion-bajo-el-50-de-la-mediana.png",
+  "datos": null
+}

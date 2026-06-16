@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-finalizacion-de-la-primaria",
+  "titulo": "Mundo: Finalización de la primaria, por países",
+  "subtitulo": "% del grupo etario · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Educación",
+    "SE.PRM.CMPT.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-finalizacion-de-la-primaria.png",
+  "thumb": "thumbs/mundo-finalizacion-de-la-primaria.png",
+  "datos": null
+}

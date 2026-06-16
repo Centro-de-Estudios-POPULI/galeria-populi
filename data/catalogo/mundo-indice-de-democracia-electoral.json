@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-indice-de-democracia-electoral",
+  "titulo": "Mundo: Índice de democracia electoral, por países",
+  "subtitulo": "Índice 0–1 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: V-Dem (Varieties of Democracy). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Democracia y derechos",
+    "OWID.electoral-democracy-index"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-indice-de-democracia-electoral.png",
+  "thumb": "thumbs/mundo-indice-de-democracia-electoral.png",
+  "datos": null
+}

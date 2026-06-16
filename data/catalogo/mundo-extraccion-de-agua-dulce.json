@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-extraccion-de-agua-dulce",
+  "titulo": "Mundo: Extracción de agua dulce, por países",
+  "subtitulo": "% de recursos internos · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Organización de las Naciones Unidas para la Agricultura y la Alimentación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Medio ambiente y clima",
+    "ER.H2O.FWTL.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-extraccion-de-agua-dulce.png",
+  "thumb": "thumbs/mundo-extraccion-de-agua-dulce.png",
+  "datos": null
+}

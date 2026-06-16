@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-poblacion-rural",
+  "titulo": "Mundo: Población rural, por países",
+  "subtitulo": "% del total · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Estimaciones de personal del Banco Mundial sobre la base de las  Perspectivas de la urbanización mundial de… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Población y demografía",
+    "SP.RUR.TOTL.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-poblacion-rural.png",
+  "thumb": "thumbs/mundo-poblacion-rural.png",
+  "datos": null
+}

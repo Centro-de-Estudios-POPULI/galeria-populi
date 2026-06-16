@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-mortalidad-infantil",
+  "titulo": "Mundo: Mortalidad infantil, por países",
+  "subtitulo": "Por 1.000 nacidos vivos · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Estimaciones desarrolladas por el Grupo Interinstitucional de las Naciones Unidas para la Estimación de la… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Salud",
+    "SP.DYN.IMRT.IN"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-mortalidad-infantil.png",
+  "thumb": "thumbs/mundo-mortalidad-infantil.png",
+  "datos": null
+}

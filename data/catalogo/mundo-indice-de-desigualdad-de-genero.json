@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-indice-de-desigualdad-de-genero",
+  "titulo": "Mundo: Índice de Desigualdad de Género, por países",
+  "subtitulo": "Índice 0–1 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: PNUD — Informe sobre Desarrollo Humano. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Desarrollo humano y bienestar",
+    "OWID.gender-inequality-index-from-the-human-development-report"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-indice-de-desigualdad-de-genero.png",
+  "thumb": "thumbs/mundo-indice-de-desigualdad-de-genero.png",
+  "datos": null
+}

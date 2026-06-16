@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-poblacion-75-79-anos-hombres",
+  "titulo": "Mundo: Población 75-79 años (hombres), por países",
+  "subtitulo": "% de su sexo · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Estimaciones del personal del Banco Mundial sobre la base de la distribución por edades/sexo de las… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Estructura por edad (pirámide)",
+    "SP.POP.7579.MA.5Y"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-poblacion-75-79-anos-hombres.png",
+  "thumb": "thumbs/mundo-poblacion-75-79-anos-hombres.png",
+  "datos": null
+}

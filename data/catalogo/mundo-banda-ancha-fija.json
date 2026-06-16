@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-banda-ancha-fija",
+  "titulo": "Mundo: Banda ancha fija, por países",
+  "subtitulo": "Por 100 personas · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Unión Internacional de Telecomunicaciones. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Tecnología e innovación",
+    "IT.NET.BBND.P2"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-banda-ancha-fija.png",
+  "thumb": "thumbs/mundo-banda-ancha-fija.png",
+  "datos": null
+}

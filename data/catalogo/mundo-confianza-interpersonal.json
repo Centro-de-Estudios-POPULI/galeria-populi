@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-confianza-interpersonal",
+  "titulo": "Mundo: Confianza interpersonal, por países",
+  "subtitulo": "% de la población · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Integrated Values Surveys (World Values Survey + European Values Study). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Gobernanza y sociedad",
+    "OWID.self-reported-trust-attitudes"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-confianza-interpersonal.png",
+  "thumb": "thumbs/mundo-confianza-interpersonal.png",
+  "datos": null
+}

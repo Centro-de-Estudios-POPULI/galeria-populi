@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-estabilidad-politica-y-ausencia-de-violencia",
+  "titulo": "Mundo: Estabilidad política y ausencia de violencia, por países",
+  "subtitulo": "Estimación −2,5 a 2,5 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Indicadores Mundiales de Gobernanza (WGI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Gobernanza y sociedad",
+    "GOV_WGI_PV.EST"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-estabilidad-politica-y-ausencia-de-violencia.png",
+  "thumb": "thumbs/mundo-estabilidad-politica-y-ausencia-de-violencia.png",
+  "datos": null
+}

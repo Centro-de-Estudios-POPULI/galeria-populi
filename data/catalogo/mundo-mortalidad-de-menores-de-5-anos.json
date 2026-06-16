@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-mortalidad-de-menores-de-5-anos",
+  "titulo": "Mundo: Mortalidad de menores de 5 años, por países",
+  "subtitulo": "Por 1.000 nacidos vivos · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Estimaciones elaboradas por el Grupo Interinstitucional para las Estimaciones sobre Mortalidad Infantil de… Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Salud",
+    "SH.DYN.MORT"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-mortalidad-de-menores-de-5-anos.png",
+  "thumb": "thumbs/mundo-mortalidad-de-menores-de-5-anos.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-desempeno-de-los-sistemas-estadisticos",
+  "titulo": "Mundo: Desempeño de los sistemas estadísticos, por países",
+  "subtitulo": "Índice 0-100 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Indicadores de Desempeño Estadístico (SPI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Gobernanza y sociedad",
+    "IQ.SPI.OVRL"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-desempeno-de-los-sistemas-estadisticos.png",
+  "thumb": "thumbs/mundo-desempeno-de-los-sistemas-estadisticos.png",
+  "datos": null
+}

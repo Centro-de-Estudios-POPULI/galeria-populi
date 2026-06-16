@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-formacion-bruta-de-capital",
+  "titulo": "Mundo: Formación bruta de capital, por países",
+  "subtitulo": "% del PIB · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Datos sobre las cuentas nacionales del Banco Mundial y archivos de datos sobre cuentas nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Economía y crecimiento",
+    "NE.GDI.TOTL.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-formacion-bruta-de-capital.png",
+  "thumb": "thumbs/mundo-formacion-bruta-de-capital.png",
+  "datos": null
+}

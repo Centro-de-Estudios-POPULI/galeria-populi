@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-matricula-en-primaria",
+  "titulo": "Mundo: Matrícula en primaria, por países",
+  "subtitulo": "% bruto · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Educación",
+    "SE.PRM.ENRR"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-matricula-en-primaria.png",
+  "thumb": "thumbs/mundo-matricula-en-primaria.png",
+  "datos": null
+}

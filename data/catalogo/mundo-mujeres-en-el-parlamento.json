@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-mujeres-en-el-parlamento",
+  "titulo": "Mundo: Mujeres en el parlamento, por países",
+  "subtitulo": "% de escaños · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Unión Interparlamentaria (UIP) (www.ipu.org). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Gobernanza y sociedad",
+    "SG.GEN.PARL.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-mujeres-en-el-parlamento.png",
+  "thumb": "thumbs/mundo-mujeres-en-el-parlamento.png",
+  "datos": null
+}

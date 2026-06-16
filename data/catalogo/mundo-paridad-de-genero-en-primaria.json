@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-paridad-de-genero-en-primaria",
+  "titulo": "Mundo: Paridad de género en primaria, por países",
+  "subtitulo": "Índice (M/H) · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Instituto de Estadística de la Organización de las Naciones Unidas para la Educación. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Educación",
+    "SE.ENR.PRIM.FM.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-paridad-de-genero-en-primaria.png",
+  "thumb": "thumbs/mundo-paridad-de-genero-en-primaria.png",
+  "datos": null
+}

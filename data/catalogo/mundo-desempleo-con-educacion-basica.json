@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-desempleo-con-educacion-basica",
+  "titulo": "Mundo: Desempleo con educación básica, por países",
+  "subtitulo": "% de ese grupo · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Empleo y protección social",
+    "SL.UEM.BASC.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-desempleo-con-educacion-basica.png",
+  "thumb": "thumbs/mundo-desempleo-con-educacion-basica.png",
+  "datos": null
+}

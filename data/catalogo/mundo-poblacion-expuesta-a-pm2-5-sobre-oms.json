@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-poblacion-expuesta-a-pm2-5-sobre-oms",
+  "titulo": "Mundo: Población expuesta a PM2.5 sobre OMS, por países",
+  "subtitulo": "% de la población · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Brauer. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Medio ambiente y clima",
+    "EN.ATM.PM25.MC.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-poblacion-expuesta-a-pm2-5-sobre-oms.png",
+  "thumb": "thumbs/mundo-poblacion-expuesta-a-pm2-5-sobre-oms.png",
+  "datos": null
+}

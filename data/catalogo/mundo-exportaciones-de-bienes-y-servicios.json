@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-exportaciones-de-bienes-y-servicios",
+  "titulo": "Mundo: Exportaciones de bienes y servicios, por países",
+  "subtitulo": "% del PIB · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Datos de cuentas nacionales del Banco Mundial y archivos de datos de Cuentas Nacionales de la OCDE. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Comercio y sector externo",
+    "NE.EXP.GNFS.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-exportaciones-de-bienes-y-servicios.png",
+  "thumb": "thumbs/mundo-exportaciones-de-bienes-y-servicios.png",
+  "datos": null
+}

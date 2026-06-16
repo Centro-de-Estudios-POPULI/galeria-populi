@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-exportaciones-de-alta-tecnologia",
+  "titulo": "Mundo: Exportaciones de alta tecnología, por países",
+  "subtitulo": "% de exp. manufactureras · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Base de datos Comtrade de las Naciones Unidas. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Comercio y sector externo",
+    "TX.VAL.TECH.MF.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-exportaciones-de-alta-tecnologia.png",
+  "thumb": "thumbs/mundo-exportaciones-de-alta-tecnologia.png",
+  "datos": null
+}

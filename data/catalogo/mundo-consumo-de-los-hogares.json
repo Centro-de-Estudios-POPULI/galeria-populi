@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-consumo-de-los-hogares",
+  "titulo": "Mundo: Consumo de los hogares, por países",
+  "subtitulo": "% del PIB · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Estadísticas oficiales de los países y bancos centrales. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Economía y crecimiento",
+    "NE.CON.PRVT.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-consumo-de-los-hogares.png",
+  "thumb": "thumbs/mundo-consumo-de-los-hogares.png",
+  "datos": null
+}

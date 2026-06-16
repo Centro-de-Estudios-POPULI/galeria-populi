@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-areas-protegidas-terr-y-marinas",
+  "titulo": "Mundo: Áreas protegidas (terr. y marinas), por países",
+  "subtitulo": "% del territorio · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Programa de las Naciones Unidas para el Medio Ambiente y Centro de Seguimiento de la Conservación Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Medio ambiente y clima",
+    "ER.PTD.TOTL.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-areas-protegidas-terr-y-marinas.png",
+  "thumb": "thumbs/mundo-areas-protegidas-terr-y-marinas.png",
+  "datos": null
+}

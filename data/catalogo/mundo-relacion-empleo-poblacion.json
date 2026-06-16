@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-relacion-empleo-poblacion",
+  "titulo": "Mundo: Relación empleo-población, por países",
+  "subtitulo": "% de 15 años y más · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Organización Internacional del Trabajo. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Empleo y protección social",
+    "SL.EMP.TOTL.SP.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-relacion-empleo-poblacion.png",
+  "thumb": "thumbs/mundo-relacion-empleo-poblacion.png",
+  "datos": null
+}

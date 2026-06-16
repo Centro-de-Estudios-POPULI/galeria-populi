@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-indice-de-gini",
+  "titulo": "Mundo: Índice de Gini, por países",
+  "subtitulo": "0-100 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Banco Mundial. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Pobreza y desigualdad",
+    "SI.POV.GINI"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-indice-de-gini.png",
+  "thumb": "thumbs/mundo-indice-de-gini.png",
+  "datos": null
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-empleadores",
+  "titulo": "Mundo: Empleadores, por países",
+  "subtitulo": "% del empleo total · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Indicadores clave del mercado de trabajo (KILM. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Empleo y protección social",
+    "SL.EMP.MPYR.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-empleadores.png",
+  "thumb": "thumbs/mundo-empleadores.png",
+  "datos": null
+}

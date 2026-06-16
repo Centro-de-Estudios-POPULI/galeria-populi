@@ -40,6 +40,7 @@ from lineas import grafico_lineas
 from barras import grafico_barras, grafico_barras_ranking
 from areas import grafico_areas
 from mapas import grafico_mapa
+from mapa_mundial import grafico_mapa_mundial
 
 GRAFICAS = ROOT / "public" / "graficas"
 DATOS = ROOT / "public" / "datos"
@@ -53,6 +54,7 @@ CATEGORIAS = {
     "actividad":  {"label": "Actividad económica",  "color": "oro"},
     "censo":      {"label": "Censo y social",       "color": "rojo"},
     "empleo":     {"label": "Empleo",               "color": "azul"},
+    "mundo":      {"label": "Mundo",                "color": "rojo"},
     "general":    {"label": "General",              "color": "rojo"},
 }
 
@@ -64,6 +66,7 @@ _BUILDERS = {
     "barras":        (grafico_barras,        False),
     "ranking":       (grafico_barras_ranking, False),
     "mapa":          (grafico_mapa,          False),  # datos vía gdf en chart_kwargs
+    "mapa_mundial":  (grafico_mapa_mundial,  False),  # mundial (ISO3) vía gdf
 }
 
 

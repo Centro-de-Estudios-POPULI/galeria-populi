@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-registro-de-nacimientos",
+  "titulo": "Mundo: Registro de nacimientos, por países",
+  "subtitulo": "% de menores de 5 · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: UNICEF's State of the World's Children based mostly on household surveys and ministry of health data. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Desarrollo humano y bienestar",
+    "SP.REG.BRTH.ZS"
+  ],
+  "fecha": "2026-06-15",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-registro-de-nacimientos.png",
+  "thumb": "thumbs/mundo-registro-de-nacimientos.png",
+  "datos": null
+}
