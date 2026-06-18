@@ -1,0 +1,21 @@
+{
+  "slug": "monetario-reservas-oro-pignorado",
+  "titulo": "Bolivia: evolución de los componentes de las RIN",
+  "subtitulo": "Componentes principales —oro y divisas—, evolución semanal · millones de USD",
+  "categoria": "monetario",
+  "fuente": "Fuente: Banco Central de Bolivia (BCB), Estadísticas Semanales; Nota de Prensa NP10/2026. Elaboración: Centro de Estudios POPULI.",
+  "tags": [
+    "reservas internacionales",
+    "oro",
+    "oro pignorado",
+    "divisas",
+    "bcb",
+    "monetario"
+  ],
+  "fecha": "2026-06-18",
+  "tipo": "series_eventos",
+  "formato": "informe_horizontal",
+  "imagen": "graficas/monetario-reservas-oro-pignorado.png",
+  "thumb": "thumbs/monetario-reservas-oro-pignorado.png",
+  "datos": null
+}
