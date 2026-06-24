@@ -35,6 +35,78 @@
   },
   "graficas": [
     {
+      "slug": "mundo-horas-trabajadas-al-ano-por-ocupado",
+      "titulo": "Mundo: Horas trabajadas al año por ocupado, por países",
+      "subtitulo": "Horas/año · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Productividad · Penn World Table",
+        "PWT.AVH"
+      ],
+      "fecha": "2026-06-24",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-horas-trabajadas-al-ano-por-ocupado.png",
+      "thumb": "thumbs/mundo-horas-trabajadas-al-ano-por-ocupado.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-indice-de-capital-humano-pwt",
+      "titulo": "Mundo: Índice de capital humano, por países",
+      "subtitulo": "Índice · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Productividad · Penn World Table",
+        "PWT.HC"
+      ],
+      "fecha": "2026-06-24",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-indice-de-capital-humano-pwt.png",
+      "thumb": "thumbs/mundo-indice-de-capital-humano-pwt.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-participacion-del-trabajo-en-el-ingreso",
+      "titulo": "Mundo: Participación del trabajo en el ingreso, por países",
+      "subtitulo": "% del PIB · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Productividad · Penn World Table",
+        "PWT.LABSH"
+      ],
+      "fecha": "2026-06-24",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-participacion-del-trabajo-en-el-ingreso.png",
+      "thumb": "thumbs/mundo-participacion-del-trabajo-en-el-ingreso.png",
+      "datos": null
+    },
+    {
+      "slug": "mundo-productividad-total-de-los-factores-ee-uu-1",
+      "titulo": "Mundo: Productividad total de los factores (EE.UU.=1), por países",
+      "subtitulo": "Índice (EE.UU.=1) · último dato disponible",
+      "categoria": "mundo",
+      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "mundo",
+        "Productividad · Penn World Table",
+        "PWT.CTFP"
+      ],
+      "fecha": "2026-06-24",
+      "tipo": "mapa_mundial",
+      "formato": "mundo",
+      "imagen": "graficas/mundo-productividad-total-de-los-factores-ee-uu-1.png",
+      "thumb": "thumbs/mundo-productividad-total-de-los-factores-ee-uu-1.png",
+      "datos": null
+    },
+    {
       "slug": "monetario-reservas-oro-pignorado",
       "titulo": "Bolivia: evolución de los componentes de las RIN",
       "subtitulo": "Componentes principales —oro y divisas—, evolución semanal · millones de USD",
@@ -1460,24 +1532,6 @@
       "datos": null
     },
     {
-      "slug": "mundo-horas-trabajadas-al-ano-por-ocupado",
-      "titulo": "Mundo: Horas trabajadas al año por ocupado, por países",
-      "subtitulo": "Horas/año · último dato disponible",
-      "categoria": "mundo",
-      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
-      "tags": [
-        "mundo",
-        "Productividad · Penn World Table",
-        "PWT.AVH"
-      ],
-      "fecha": "2026-06-15",
-      "tipo": "mapa_mundial",
-      "formato": "mundo",
-      "imagen": "graficas/mundo-horas-trabajadas-al-ano-por-ocupado.png",
-      "thumb": "thumbs/mundo-horas-trabajadas-al-ano-por-ocupado.png",
-      "datos": null
-    },
-    {
       "slug": "mundo-importaciones-de-bienes-y-servicios",
       "titulo": "Mundo: Importaciones de bienes y servicios, por países",
       "subtitulo": "% del PIB · último dato disponible",
@@ -1547,24 +1601,6 @@
       "formato": "mundo",
       "imagen": "graficas/mundo-incidencia-de-tuberculosis.png",
       "thumb": "thumbs/mundo-incidencia-de-tuberculosis.png",
-      "datos": null
-    },
-    {
-      "slug": "mundo-indice-de-capital-humano-pwt",
-      "titulo": "Mundo: Índice de capital humano, por países",
-      "subtitulo": "Índice · último dato disponible",
-      "categoria": "mundo",
-      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
-      "tags": [
-        "mundo",
-        "Productividad · Penn World Table",
-        "PWT.HC"
-      ],
-      "fecha": "2026-06-15",
-      "tipo": "mapa_mundial",
-      "formato": "mundo",
-      "imagen": "graficas/mundo-indice-de-capital-humano-pwt.png",
-      "thumb": "thumbs/mundo-indice-de-capital-humano-pwt.png",
       "datos": null
     },
     {
@@ -2306,24 +2342,6 @@
       "datos": null
     },
     {
-      "slug": "mundo-participacion-del-trabajo-en-el-ingreso",
-      "titulo": "Mundo: Participación del trabajo en el ingreso, por países",
-      "subtitulo": "% del PIB · último dato disponible",
-      "categoria": "mundo",
-      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
-      "tags": [
-        "mundo",
-        "Productividad · Penn World Table",
-        "PWT.LABSH"
-      ],
-      "fecha": "2026-06-15",
-      "tipo": "mapa_mundial",
-      "formato": "mundo",
-      "imagen": "graficas/mundo-participacion-del-trabajo-en-el-ingreso.png",
-      "thumb": "thumbs/mundo-participacion-del-trabajo-en-el-ingreso.png",
-      "datos": null
-    },
-    {
       "slug": "mundo-participacion-laboral-hombres",
       "titulo": "Mundo: Participación laboral (hombres), por países",
       "subtitulo": "% de hombres 15+ · último dato disponible",
@@ -2450,24 +2468,6 @@
       "datos": null
     },
     {
-      "slug": "mundo-pib-per-capita-ppa-pwt",
-      "titulo": "Mundo: PIB per cápita (PPA, PWT), por países",
-      "subtitulo": "US$ internacionales de 2017 · último dato disponible",
-      "categoria": "mundo",
-      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
-      "tags": [
-        "mundo",
-        "Productividad · Penn World Table",
-        "PWT.GDPPC"
-      ],
-      "fecha": "2026-06-15",
-      "tipo": "mapa_mundial",
-      "formato": "mundo",
-      "imagen": "graficas/mundo-pib-per-capita-ppa-pwt.png",
-      "thumb": "thumbs/mundo-pib-per-capita-ppa-pwt.png",
-      "datos": null
-    },
-    {
       "slug": "mundo-pib-per-capita-ppa",
       "titulo": "Mundo: PIB per cápita (PPA), por países",
       "subtitulo": "US$ internacionales · último dato disponible",
@@ -2501,24 +2501,6 @@
       "formato": "mundo",
       "imagen": "graficas/mundo-pib-per-capita.png",
       "thumb": "thumbs/mundo-pib-per-capita.png",
-      "datos": null
-    },
-    {
-      "slug": "mundo-pib-por-trabajador-productividad-laboral",
-      "titulo": "Mundo: PIB por trabajador (productividad laboral), por países",
-      "subtitulo": "US$ internacionales de 2017 · último dato disponible",
-      "categoria": "mundo",
-      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
-      "tags": [
-        "mundo",
-        "Productividad · Penn World Table",
-        "PWT.GDPWK"
-      ],
-      "fecha": "2026-06-15",
-      "tipo": "mapa_mundial",
-      "formato": "mundo",
-      "imagen": "graficas/mundo-pib-por-trabajador-productividad-laboral.png",
-      "thumb": "thumbs/mundo-pib-por-trabajador-productividad-laboral.png",
       "datos": null
     },
     {
@@ -3455,24 +3437,6 @@
       "formato": "mundo",
       "imagen": "graficas/mundo-prevalencia-de-vih-15-49.png",
       "thumb": "thumbs/mundo-prevalencia-de-vih-15-49.png",
-      "datos": null
-    },
-    {
-      "slug": "mundo-productividad-total-de-los-factores-ee-uu-1",
-      "titulo": "Mundo: Productividad total de los factores (EE.UU.=1), por países",
-      "subtitulo": "Índice (EE.UU.=1) · último dato disponible",
-      "categoria": "mundo",
-      "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
-      "tags": [
-        "mundo",
-        "Productividad · Penn World Table",
-        "PWT.CTFP"
-      ],
-      "fecha": "2026-06-15",
-      "tipo": "mapa_mundial",
-      "formato": "mundo",
-      "imagen": "graficas/mundo-productividad-total-de-los-factores-ee-uu-1.png",
-      "thumb": "thumbs/mundo-productividad-total-de-los-factores-ee-uu-1.png",
       "datos": null
     },
     {

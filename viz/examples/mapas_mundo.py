@@ -31,7 +31,7 @@ from catalogo import publicar, build_manifest  # noqa: E402
 GEO = VIZ / "geo"
 ATLAS = Path(r"C:\Users\HP\OneDrive\Desktop\Proyectos\nuestro-mundo-en-datos")
 ATLAS_DATA = ATLAS / "data"
-FECHA = "2026-06-15"
+FECHA = "2026-06-24"
 AUTOR = "Carlos Aranda"
 
 # muestra para validar el diseño antes de correr todos
