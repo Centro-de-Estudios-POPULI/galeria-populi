@@ -155,7 +155,28 @@ def paleta_para(name, category, signed):
     return "calido"
 
 
-def publicar_indicador(gdf_base, meta, source_default):
+def slugs_unicos(indicators):
+    """Slug por id garantizando UNICIDAD. Si dos indicadores producen el mismo
+    slug (p. ej. 'Índice de Capital Humano' del Banco Mundial vs 'Índice de
+    capital humano' de Penn World Table — difieren solo en mayúsculas), el
+    primero por id conserva el slug base y los demás reciben un sufijo con la
+    fuente (prefijo del id: PWT.HC -> '-pwt'). Antes uno sobrescribía al otro y
+    se perdía un mapa."""
+    grupos = {}
+    for ind in indicators:
+        grupos.setdefault(slugify(ind["name"]), []).append(ind["id"])
+    out = {}
+    for base, ids in grupos.items():
+        if len(ids) == 1:
+            out[ids[0]] = base
+            continue
+        for k, iid in enumerate(sorted(ids)):
+            tag = re.sub(r"[^a-z0-9]+", "-", re.split(r"[._]", iid)[0].lower()).strip("-")
+            out[iid] = base if k == 0 else f"{base}-{tag}"
+    return out
+
+
+def publicar_indicador(gdf_base, meta, source_default, slug):
     iid = meta["id"]
     raw = json.loads((ATLAS_DATA / "indicators" / f"{iid}.json").read_text(encoding="utf-8"))
     valid = set(gdf_base["iso3"].dropna())
@@ -182,7 +203,7 @@ def publicar_indicador(gdf_base, meta, source_default):
 
     publicar(
         meta={
-            "slug": slugify(name),
+            "slug": slug,
             "tipo": "mapa_mundial",
             "titulo": f"Mundo: {name}, por países",
             "subtitulo": (f"{formato_unidad(unit)} · último dato disponible"
@@ -201,11 +222,17 @@ def publicar_indicador(gdf_base, meta, source_default):
 
 
 def main():
-    todos = len(sys.argv) > 1 and sys.argv[1].lower() == "todos"
+    arg = sys.argv[1].lower() if len(sys.argv) > 1 else ""
     catalog = json.loads((ATLAS_DATA / "catalog.json").read_text(encoding="utf-8"))
     source_default = catalog.get("source_default", "Banco Mundial.")
     by_id = {d["id"]: d for d in catalog["indicators"]}
-    ids = list(by_id) if todos else SAMPLE
+    slug_by_id = slugs_unicos(catalog["indicators"])   # slugs únicos (sin colisiones)
+    if arg == "todos":
+        ids = list(by_id)
+    elif arg == "ids":                                  # regenerar indicadores puntuales
+        ids = sys.argv[2:]
+    else:
+        ids = SAMPLE
 
     gdf_base = cargar_geo()
     n = 0
@@ -214,7 +241,7 @@ def main():
         if not meta:
             print(f"SKIP {iid}: no está en el catálogo")
             continue
-        if publicar_indicador(gdf_base, meta, source_default):
+        if publicar_indicador(gdf_base, meta, source_default, slug_by_id[iid]):
             n += 1
     build_manifest()
     print(f"\n{n} mapas mundiales publicados al Banco.")
