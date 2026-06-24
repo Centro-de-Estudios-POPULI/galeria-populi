@@ -164,7 +164,11 @@ def grafico_mapa_mundial(gdf, value_col, titulo="", subtitulo="", fuente="", not
     f_num = ps.fp(ps.MONO, ps.SIZES["leyenda"] * sc)
     n = len(colors)
     sw_h = 16 * sc
-    leg_x0, leg_x1 = mx, mx + nw
+    # La leyenda se alinea al margen ESTÁNDAR (el mismo que usan título, logo y
+    # pie: MARGIN), no al borde del mapa (full-bleed mm=40), para que la barra y
+    # el chip "Sin dato" queden cabal dentro del mismo encuadre de la imagen.
+    M = ps.MARGIN * sc
+    leg_x0, leg_x1 = M, W - M
     bar_y = my - 56 * sc                       # justo debajo del mapa
 
     nd_sw = 42 * sc
