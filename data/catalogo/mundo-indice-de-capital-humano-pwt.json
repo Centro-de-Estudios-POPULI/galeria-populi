@@ -1,0 +1,18 @@
+{
+  "slug": "mundo-indice-de-capital-humano-pwt",
+  "titulo": "Mundo: Índice de capital humano, por países",
+  "subtitulo": "Índice · último dato disponible",
+  "categoria": "mundo",
+  "fuente": "Fuente: Groningen Growth and Development Centre. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "mundo",
+    "Productividad · Penn World Table",
+    "PWT.HC"
+  ],
+  "fecha": "2026-06-24",
+  "tipo": "mapa_mundial",
+  "formato": "mundo",
+  "imagen": "graficas/mundo-indice-de-capital-humano-pwt.png",
+  "thumb": "thumbs/mundo-indice-de-capital-humano-pwt.png",
+  "datos": null
+}
