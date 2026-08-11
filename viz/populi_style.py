@@ -44,11 +44,14 @@ FONTS_DIR = ROOT / "assets" / "fonts"
 # Paleta — tokens reales del sitio (global.css). Fuente de la verdad.
 # --------------------------------------------------------------------------- #
 COLORS = {
-    # Identidad
-    "rojo":        "#8B1A1A",   # --color-populi  (serie principal / marca)
-    "rojo_oscuro": "#6B0300",   # --color-populi-dark
-    "rojo_claro":  "#C00000",   # --color-populi-light
-    "oro":         "#D4A017",   # --color-populi-gold (acento puntual)
+    # Identidad — paleta oficial POPULI (2026-08-11).
+    # Fuente única: Proyectos/populi-marca/paleta.py
+    "rojo":        "#C71E1D",   # --color-populi  (serie principal / marca)
+    "rojo_oscuro": "#8B1A1A",   # --color-populi-dark (el oxblood, para campos grandes)
+    "rojo_claro":  "#E8706B",   # --color-populi-light (SOLO texto sobre fondo oscuro)
+    "rojo_profundo": "#6B0300", # --color-populi-deep
+    "oro":         "#EE9B00",   # --color-populi-gold (acento; sobre claro usar oro_tinta)
+    "oro_tinta":   "#A86E00",   # --color-populi-gold-ink (texto sobre fondo claro)
     # Tonos cálidos
     "crema":       "#F5EFE0",   # --color-cream
     "cafe":        "#5C3D1E",   # --color-brown  (texto/ejes secundarios)
@@ -65,19 +68,28 @@ COLORS = {
     # Texto
     "tinta":       "#2B2420",   # títulos / línea de cero
     "gris":        "#8C8378",   # notas de fuente, texto terciario cálido
-    # Paleta de series cuantitativas (del sitio, sección "Chart colors")
-    "serie_azul":    "#2563EB",
-    "serie_teal":    "#0D9488",
-    "serie_ambar":   "#D97706",
-    "serie_rosa":    "#E11D48",
-    "serie_esmeralda": "#059669",
+    # Series cuantitativas — rampa oficial. Antes eran los de fábrica de Tailwind.
+    "serie_azul":    "#005F73",   # petróleo — estructura/ejes, NO sirve de serie
+    "serie_teal":    "#0A9396",   # turquesa — el par validado con el rojo
+    "serie_ambar":   "#EE9B00",   # ámbar — ⚠️ 2,12:1, exige etiqueta visible
+    "serie_rosa":    "#9B2226",   # granate — ⚠️ NUNCA adyacente al rojo de marca
+    "serie_esmeralda": "#94D2BD", # menta
+    "serie_tierra":  "#DF5D25",   # rojo anaranjado
+    "serie_arena":   "#E9D8A6",   # arena
 }
 
-# Secuencia categórica por defecto (sobria, empieza por la marca)
+# Secuencia categórica por defecto = CATEGORICAL_12 de la paleta oficial,
+# ordenada para que las PRIMERAS series sean las más separadas entre sí.
+# Regla: rojo (1ª) y granate (7ª) nunca deben quedar adyacentes en una leyenda.
 PALETTE = [
-    COLORS["rojo"], COLORS["azul"], COLORS["oro"], COLORS["serie_teal"],
-    COLORS["cafe"], COLORS["serie_ambar"], COLORS["pizarra"],
+    COLORS["rojo"], COLORS["serie_teal"], COLORS["oro"], COLORS["serie_azul"],
+    COLORS["serie_tierra"], COLORS["serie_esmeralda"], COLORS["serie_rosa"],
+    COLORS["serie_arena"], COLORS["rojo_oscuro"], COLORS["rojo_claro"],
+    COLORS["oro_tinta"], "#E57D22",
 ]
+
+# Ordinal de 4 pasos (cuartiles): frío → cálido = mejor → peor.
+ORDINAL_4 = ["#0A9396", "#94D2BD", "#EE9B00", "#C71E1D"]
 
 
 def col(nombre: str) -> str:
@@ -111,16 +123,21 @@ def contraste_texto(hex_color: str) -> str:
 # cálidos análogos, un teal/azul-petróleo complementario y un slate apagado
 # (no "icy") — todos conviven bien con el rojo del wordmark/firma.
 PALETAS = {
-    # secuencial cálida (ancha, multitono) — análoga al rojo, la más versátil
-    "calido":     ["#F6E6BE", "#E6B24A", "#CF7B33", "#B23A2C", "#8B1A1A", "#5E1010"],
+    # Escalas continuas construidas SOBRE la rampa oficial de 10 tonos, no
+    # aproximadas a ojo. Todas arrancan en un tono claro distinto del papel
+    # (#FAF8F3) para que el valor bajo no se confunda con el fondo.
+    #
+    # secuencial cálida — recorre la mitad cálida de la rampa. La más versátil.
+    "calido":     ["#E9D8A6", "#EE9B00", "#E57D22", "#DF5D25", "#C71E1D", "#9B2226"],
     # secuencial roja monocroma — sobria, editorial
-    "rojo":       ["#F3D9D2", "#D98E80", "#BC4B3F", "#8B1A1A", "#5E1010"],
-    # secuencial slate/azul apagado — neutro cálido-frío que acompaña al rojo
-    "azul":       ["#E6EAEF", "#A9B7C6", "#647D97", "#3A516B", "#22344A"],
-    # secuencial teal/petróleo — complemento del rojo, apagado (no neón)
-    "verde":      ["#E3EDEA", "#9AC4B9", "#4F9E90", "#2C7468", "#16504A"],
-    # divergente slate↔crema cálida↔rojo — para variables con signo (TwoSlopeNorm)
-    "divergente": ["#3A516B", "#7E94A8", "#EFE7D6", "#CB7A6D", "#8B1A1A"],
+    "rojo":       ["#F8E5E3", "#E8706B", "#C71E1D", "#9B2226", "#6B0300"],
+    # secuencial fría — la mitad fría de la rampa. Complemento del rojo.
+    "azul":       ["#D9EAE6", "#94D2BD", "#0A9396", "#005F73", "#001219"],
+    # alias histórico: "verde" apuntaba a un teal. Mismo recorrido que "azul".
+    "verde":      ["#E3EDEA", "#94D2BD", "#0A9396", "#005F73", "#16504A"],
+    # divergente frío ↔ arena ↔ cálido — para variables con signo (TwoSlopeNorm).
+    # El punto medio es la arena de la rampa, no un gris: mantiene la temperatura.
+    "divergente": ["#005F73", "#0A9396", "#94D2BD", "#E9D8A6", "#EE9B00", "#C71E1D"],
 }
 
 
@@ -153,6 +170,9 @@ _FONT_FILES = {
     "Source Sans 3": "SourceSans3-Regular.ttf",
     "Source Sans 3 Bold": "SourceSans3-Bold.ttf",
     "Mulish Bold": "Mulish-Bold.ttf",
+    # cifras — estándar POPULI desde 2026-08-10
+    "JetBrains Mono": "JetBrainsMono-Regular.ttf",
+    "JetBrains Mono SemiBold": "JetBrainsMono-SemiBold.ttf",
 }
 
 _REGISTERED = set()
@@ -167,11 +187,16 @@ for _name, _file in _FONT_FILES.items():
 
 # Roles tipográficos (con fallback si una fuente faltara)
 TITLE_SERIF = "Playfair Display" if "Playfair Display" in _REGISTERED else "DejaVu Serif"
-TITLE_SANS = "Archivo" if "Archivo" in _REGISTERED else "DejaVu Sans"
-# Estándar POPULI (elegido 2026-06-09): cuerpo y números en Public Sans
-# (sans humanista, look FMI de una sola familia).
-BODY = "Public Sans" if "Public Sans" in _REGISTERED else "Inter"
-MONO = "Public Sans" if "Public Sans" in _REGISTERED else "IBM Plex Mono"
+TITLE_SANS = "Inter" if "Inter" in _REGISTERED else "DejaVu Sans"
+# ── Estándar POPULI, CERRADO el 2026-08-10 ───────────────────────────────────
+# Playfair Display (titulares) + Inter (texto) + JetBrains Mono (cifras).
+# Es la tipografía del sitio; la Galería se alinea a ella, no al revés.
+# Deroga el estándar del 2026-06-09 (Zilla Slab + Public Sans): quedaba bien en
+# la Galería pero era una segunda identidad — quien pasaba del sitio a la
+# Galería veía dos marcas. Las TTF de Public Sans y Zilla Slab siguen en
+# assets/fonts por si hace falta reproducir una lámina vieja.
+BODY = "Inter" if "Inter" in _REGISTERED else "DejaVu Sans"
+MONO = "JetBrains Mono" if "JetBrains Mono" in _REGISTERED else BODY
 
 
 def fp(familia, size_px=None, weight="normal"):
@@ -186,21 +211,22 @@ def fp(familia, size_px=None, weight="normal"):
     return font_manager.FontProperties(family=familia, **kw)
 
 
-def set_tema(texto="Public Sans", numeros="Public Sans"):
+def set_tema(texto="Inter", numeros="JetBrains Mono"):
     """Define la familia de TEXTO (subtítulo, notas, etiquetas, ejes) y de los
-    NÚMEROS. Por defecto = estándar POPULI (Public Sans en todo). Pasar otra
+    NÚMEROS. Por defecto = estándar POPULI (Inter + JetBrains Mono). Pasar otra
     familia para experimentar; set_tema() restablece el estándar."""
     global BODY, MONO
     BODY, MONO = texto, numeros
 
 # Titular por formato: serif (Playfair, como la web/informes) para soportes de
 # informe; grotesca (Archivo, como el FMI) para redes — más legible en miniatura.
-# Titular estándar POPULI (elegido 2026-06-09): Zilla Slab (slab serif, robusta)
-# en todos los formatos, emparejado con cuerpo Public Sans.
-TITLE_REDES = "Zilla Slab" if "Zilla Slab" in _REGISTERED else TITLE_SERIF
+# Titular estándar POPULI (CERRADO 2026-08-10): Playfair Display en todos los
+# formatos, igual que el sitio y las portadas del blog. Deroga a Zilla Slab.
+TITLE_REDES = "Playfair Display" if "Playfair Display" in _REGISTERED else TITLE_SERIF
 TITLE_BY_FORMAT = {
     "informe":       TITLE_REDES,
     "informe_ancho": TITLE_REDES,
+    "informe_horizontal": TITLE_REDES,
     "red_cuadrada":  TITLE_REDES,
     "red_vertical":  TITLE_REDES,
     "red_historia":  TITLE_REDES,
@@ -228,6 +254,7 @@ FORMATS = {
     # nombre          (W,    H),    dpi
     "informe":       (1800, 1800),  # ~9x9 in @200dpi -> PDF/HTML/presentaciones
     "informe_ancho": (2000, 1200),
+    "informe_horizontal": (1850, 1333),  # ~3:2 horizontal (blog/informe); fuentes fijas vía SC_REF
     "red_cuadrada":  (1080, 1080),  # Instagram / X feed
     "red_vertical":  (1080, 1350),  # IG retrato
     "red_historia":  (1080, 1920),  # stories
@@ -290,7 +317,7 @@ ESCALA = 2
 # referencia mayor: al ensanchar el lienzo, las fuentes NO crecen, así el texto
 # del pie entra en menos líneas y el mapa queda más grande (mismo tamaño de letra
 # que el formato anterior de 2000 px de ancho).
-SC_REF = {"mundo": 1405}
+SC_REF = {"mundo": 1405, "informe_horizontal": 1370}
 
 
 def _spec(formato: str):
@@ -401,7 +428,7 @@ def _wrap_px(texto, size_px, max_w, font_file):
 def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
              formato="red_vertical", titulo_familia=None, gutter_izq=0, mapa=False,
              acento_p=None, acento_linea=None, margen=None, top=None, bottom=None,
-             wordmark_top=False, freshness="", sub_scale=1.0):
+             wordmark_top=False, freshness="", sub_scale=1.0, fuente_scale=1.0):
     """Dibuja título/subtítulo arriba y el pie de marca abajo, y reposiciona el
     eje del gráfico en el espacio central. Llamar DESPUÉS de dibujar los datos.
     margen/top/bottom (px @1080) permiten un ajuste puntual por gráfico; si no
@@ -416,7 +443,7 @@ def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
 
     s_tit = SIZES["titulo"] * sc
     s_sub = SIZES["subtitulo"] * sc * sub_scale
-    s_src = SIZES["fuente"] * sc
+    s_src = SIZES["fuente"] * sc * fuente_scale
 
     def fy(px):
         return 1 - px / H
