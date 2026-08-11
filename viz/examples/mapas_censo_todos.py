@@ -15,23 +15,48 @@ VIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(VIZ))
 from catalogo import publicar, build_manifest
 
-GEO = VIZ / "geo" / "bolivia_municipios_sigep.topojson"
-CENSO = VIZ / "geo" / "censo_municipios_con_nbi.json"   # v2: 136 indicadores (microdatos)
+# Mapa MAESTRO de Bolivia: 343 municipios (339 del OEP + los 4 GAIOC de conversión
+# total). Reemplaza a `bolivia_municipios_sigep.topojson`, que tenía 339 y dejaba
+# fuera a Raqaypampa, Jatún Ayllu Yura, TIM y San Pedro de Macha.
+# Fuente: Proyectos/bo-geo-maestro (crosswalk INE↔SIGEP congelado, clave `sigep`).
+GEO = VIZ.parent.parent / "bo-geo-maestro" / "geo" / "atlas_muni_343.topojson"
+if not GEO.exists():                                   # respaldo local
+    GEO = VIZ / "geo" / "atlas_muni_343.topojson"
+# Datos del censo: se toman del ATLAS SOCIOECONÓMICO MUNICIPAL, que es la fuente
+# viva y completa — 343 entidades × 136 indicadores, con los 4 GAIOC ya
+# desagregados. Reemplaza a `viz/geo/censo_municipios_con_nbi.json`, que era una
+# copia congelada con 340 entidades y dejaba a Raqaypampa, Jatún Ayllu Yura y el
+# TIM sin dato propio. Sus claves YA son códigos sigep, así que no hace falta
+# crosswalk: el join con el mapa maestro es directo.
+CENSO = (VIZ.parent.parent / "Observatorio de Presupuesto Fiscal Departamental"
+         / "_github_atlas_fiscal" / "data.json")
+if not CENSO.exists():                                 # respaldo congelado
+    CENSO = VIZ / "geo" / "censo_municipios_con_nbi.json"
 FECHA = "2026-06-10"
 AUTOR = "Carlos Aranda"   # investigador/a responsable (a futuro puede variar por gráfico)
 FUENTE = ("Fuente: INE Bolivia, Censo de Población y Vivienda 2024. "
           f"Elaboración: Centro de Estudios POPULI · {AUTOR}.")
 
-# --- join con crosswalk de GAIOC/reclasificados (339/339) ------------------ #
+# --- join con crosswalk de GAIOC/reclasificados (340/343) ------------------ #
+# Con el mapa maestro quedan 3 municipios SIN dato censal propio: Raqaypampa
+# (3301), Jatún Ayllu Yura (3501) y TIM (3801). Son GAIOC cuya población el INE
+# contabiliza dentro de su municipio padre, así que NO se les hereda el valor del
+# padre —sería inventar un dato—: se dibujan en gris como «sin dato», que es lo
+# que el motor hace solo con los NaN. Aparecer en gris es información: dice que
+# la unidad existe y que el censo no la publicó desagregada.
 gdf = gpd.read_file(GEO)
 censo = json.loads(CENSO.read_text(encoding="utf-8"))
+# El Atlas viene indexado por sigep. El crosswalk de GAIOC/reclasificados solo se
+# aplica si caemos al respaldo congelado, que usaba claves "nd_*".
 CROSSWALK = {"1280": "nd_020807", "1435": "nd_040104", "3101": "nd_011002",
              "3401": "nd_040903", "3402": "nd_040801", "3701": "nd_070702",
              "3702": "nd_070705"}
 cdf = pd.DataFrame.from_dict(censo, orient="index"); cdf.index.name = "key"; cdf = cdf.reset_index()
 inv = {ck: sg for sg, ck in CROSSWALK.items()}
 cdf["sigep"] = cdf["key"].map(lambda k: inv.get(k, k))
-gdf = gdf.merge(cdf.drop(columns="key"), on="sigep", how="left", suffixes=("", "_c"))
+# columnas de identidad del Atlas: las trae el mapa maestro, así que sobran
+cdf = cdf.drop(columns=[c for c in ("key", "cod_ine", "nombre", "dpto") if c in cdf.columns])
+gdf = gdf.merge(cdf, on="sigep", how="left", suffixes=("", "_c"))
 print(f"Unidos {gdf['pob_total'].notna().sum()}/{len(gdf)} municipios.\n")
 
 # --- catálogo de indicadores: (col, slug, titulo, subtitulo, paleta, sufijo, dec)

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Explorador · Reservas semanales BCB</title>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<style>
+  :root{--populi:#8B1A1A;--ink:#1A1A1A;--muted:#6B7280;--border:#E5E1D8;--bg:#FAF8F3;--card:#fff}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Public Sans',system-ui,sans-serif;background:var(--bg);color:var(--ink);padding:24px;line-height:1.5}
+  .wrap{max-width:1240px;margin:0 auto}
+  h1{font-size:1.5rem;font-weight:800;color:var(--populi);display:flex;align-items:center;gap:10px}
+  h1 .bar{width:5px;height:26px;background:var(--populi);border-radius:2px}
+  .sub{color:var(--muted);font-size:.85rem;margin:4px 0 18px 15px}
+  .ctrls{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-bottom:14px}
+  .grp{display:flex;gap:2px;background:#EDE8DD;border:1px solid var(--border);border-radius:9px;padding:3px}
+  .grp .lbl{font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);align-self:center;padding:0 8px}
+  .btn{border:none;background:transparent;border-radius:6px;padding:6px 13px;font-family:'Public Sans';font-size:.72rem;font-weight:700;color:var(--muted);cursor:pointer;transition:.15s}
+  .btn:hover{color:var(--ink)}
+  .btn.on{background:var(--populi);color:#fff;box-shadow:0 2px 6px rgba(139,26,26,.25)}
+  .pill{border:1.5px solid;border-radius:8px;padding:5px 12px;font-size:.72rem;font-weight:700;cursor:pointer;background:transparent;transition:.15s;display:flex;align-items:center;gap:6px}
+  .pill .dot{width:11px;height:11px;border-radius:3px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px}
+  #chart{width:100%;height:560px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+  @media(max-width:880px){.grid2{grid-template-columns:1fr}#chart{height:440px}}
+  table{width:100%;border-collapse:collapse;font-size:.78rem}
+  th,td{text-align:right;padding:5px 8px;border-bottom:1px solid var(--border)}
+  th:first-child,td:first-child{text-align:left}
+  th{font-size:.62rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700}
+  td.mono{font-family:'JetBrains Mono';font-weight:600}
+  .up{color:#047857}.down{color:var(--populi)}
+  .tt{font-weight:800;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:8px}
+  .note{font-size:.72rem;color:var(--muted);margin-top:10px;padding-left:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1><span class="bar"></span>Reservas Internacionales del BCB · evolución semanal</h1>
+  <div class="sub" id="sub">Cargando…</div>
+
+  <div class="ctrls">
+    <div class="grp"><span class="lbl">Vista</span>
+      <button class="btn on" data-view="stack" onclick="setView('stack')">Apilado $</button>
+      <button class="btn" data-view="pct" onclick="setView('pct')">Composición %</button>
+      <button class="btn" data-view="lines" onclick="setView('lines')">Líneas</button>
+    </div>
+    <div class="grp" id="comps"><span class="lbl">Componentes</span></div>
+    <div class="grp"><span class="lbl">Eventos</span>
+      <button class="btn on" id="evBtn" onclick="showEvents=!showEvents;document.getElementById('evBtn').classList.toggle('on',showEvents);draw()">Mostrar</button>
+    </div>
+  </div>
+
+  <div class="card"><div id="chart"></div>
+    <div class="note" id="note"></div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <div class="tt">Series separadas · componentes principales (cada una en su escala)</div>
+    <div id="panelOro" style="width:100%;height:320px"></div>
+    <div id="panelDiv" style="width:100%;height:320px;margin-top:10px"></div>
+  </div>
+
+  <div class="grid2">
+    <div class="card"><div class="tt">Mayores variaciones semanales · Oro</div><div id="topOro"></div></div>
+    <div class="card"><div class="tt">Mayores variaciones semanales · RIN</div><div id="topRin"></div></div>
+  </div>
+</div>
+
+<script>
+var COMP=[{k:'oro',n:'Oro',c:'#C68A1E'},{k:'divisas',n:'Divisas',c:'#2E6F95'},{k:'deg',n:'DEG',c:'#9B8AA8'},{k:'fmi',n:'Pos. FMI',c:'#7FA8A0'}];
+var COLOR={};COMP.forEach(function(c){COLOR[c.k]=c.c});
+var RINC='#374151';                 // RIN total: gris neutro (referencia)
+var EV_UP='#15803D', EV_DOWN='#8B1A1A', EV_EST='#6D28D9';
+function evColor(e){return e.estimated?EV_EST:(e.dir==='up'?EV_UP:EV_DOWN)}
+var DATA, S, EVENTS=[], chart, chartOro, chartDiv, view='stack';
+var active=new Set(['oro','divisas','deg','fmi']);
+var showEvents=true;
+var MES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+
+function fmt(v){return v==null?'—':v>=1000?Math.round(v).toLocaleString('es-BO'):(+v).toFixed(1)}
+function shortDate(iso){var p=iso.split('-');return (+p[2])+'-'+MES[+p[1]-1]}
+function sign(v){return (v>0?'+':'')+v.toFixed(0)}
+
+async function init(){
+  var r=await fetch('data/serie_final.json');DATA=await r.json();S=DATA.serie;
+  try{EVENTS=await (await fetch('data/events.json')).json()}catch(e){EVENTS=[]}
+  document.getElementById('sub').textContent=DATA.meta.titulo+' · '+DATA.meta.unidad+' · '+S[0].date+' → '+S[S.length-1].date+' · '+DATA.meta.nota;
+  buildComps();chart=echarts.init(document.getElementById('chart'));draw();
+  chartOro=echarts.init(document.getElementById('panelOro'));
+  chartDiv=echarts.init(document.getElementById('panelDiv'));
+  renderPanel(chartOro,'oro',COLOR.oro,'Oro','oro',true);
+  renderPanel(chartDiv,'divisas',COLOR.divisas,'Divisas','divisas',false);
+  buildTopTables();
+  window.addEventListener('resize',function(){chart.resize();chartOro.resize();chartDiv.resize()});
+}
+function idxOfDate(d){for(var i=0;i<S.length;i++){if(S[i].date===d)return i}return -1}
+
+function buildComps(){
+  var box=document.getElementById('comps');
+  COMP.forEach(function(c){
+    var b=document.createElement('button');b.className='pill';b.dataset.k=c.k;
+    b.innerHTML='<span class="dot"></span>'+c.n;
+    b.onclick=function(){if(active.has(c.k)){if(active.size>1)active.delete(c.k)}else active.add(c.k);syncComps();draw()};
+    box.appendChild(b);
+  });syncComps();
+}
+function syncComps(){document.querySelectorAll('#comps .pill').forEach(function(b){var c=COLOR[b.dataset.k],on=active.has(b.dataset.k);b.style.borderColor=c;b.style.color=on?'#fff':c;b.style.background=on?c:'transparent';b.querySelector('.dot').style.background=on?'#fff':c})}
+function setView(v){view=v;document.querySelectorAll('.btn[data-view]').forEach(function(b){b.classList.toggle('on',b.dataset.view===v)});draw()}
+
+function totals(){return S.map(function(x){var t=0,any=false;COMP.forEach(function(c){if(x[c.k]!=null){t+=x[c.k];any=true}});return any?t:null})}
+
+function draw(){
+  var labels=S.map(function(x){return shortDate(x.date)});
+  var tot=totals();var pct=view==='pct',lines=view==='lines';
+  var series=COMP.filter(function(c){return active.has(c.k)}).map(function(c){
+    var data=S.map(function(x,i){
+      var v=x[c.k];if(v==null)return lines?null:(pct?null:0);
+      if(pct){return tot[i]?+(v/tot[i]*100).toFixed(2):null}return v;
+    });
+    var o={name:c.n,type:'line',data:data,symbol:'none',smooth:0.45,smoothMonotone:'x',itemStyle:{color:c.c},lineStyle:{width:lines?2.2:0.7,color:c.c}};
+    if(!lines){o.stack='t';o.areaStyle={color:c.c,opacity:.40}}
+    return o;
+  });
+  // En líneas, agrega RIN total como referencia
+  if(lines){series.push({name:'RIN (total)',type:'line',data:S.map(function(x){return x.rin}),symbol:'none',smooth:0.45,lineStyle:{width:2.5,color:RINC,type:'dashed'},itemStyle:{color:RINC},z:5});}
+  // Callouts de eventos como líneas verticales con etiqueta
+  if(showEvents && series[0]){
+    var stackEv=EVENTS.filter(function(e){return (e.panels||['stack']).indexOf('stack')>=0});
+    var ev=stackEv.map(function(e){var i=idxOfDate(e.date);if(i<0)return null;
+      var col=evColor(e);
+      return {xAxis:shortDate(e.date),lineStyle:{color:col,type:e.estimated?'dotted':'dashed',width:2},
+        label:{show:true,formatter:(e.dir==='up'?'▲ ':'▼ ')+e.title,color:col,fontSize:14,fontWeight:'bold',
+          position:'insideEndTop',rotate:90,textBorderColor:'#fff',textBorderWidth:3}};
+    }).filter(Boolean);
+    series[0].markLine={silent:true,symbol:'none',data:ev};
+    // Banda sombreada sobre el tramo donde ocurre el cambio (semana previa → evento)
+    var bands=stackEv.map(function(e){var i=idxOfDate(e.date);if(i<=0)return null;
+      var col=evColor(e);
+      return [{xAxis:shortDate(S[i-1].date),itemStyle:{color:col,opacity:0.16}},{xAxis:shortDate(e.date)}];
+    }).filter(Boolean);
+    series[0].markArea={silent:true,data:bands};
+  }
+  // Punto estimado: marcarlo con símbolo hueco en la serie de oro
+  var estIdx=idxOfDate('2026-06-15');
+  if(estIdx>=0 && !lines){
+    var oroSerie=series.find(function(s){return s.name==='Oro'});
+    if(oroSerie){oroSerie.markPoint={symbol:'circle',symbolSize:9,data:[{xAxis:shortDate('2026-06-15'),yAxis:0,
+      itemStyle:{color:'#fff',borderColor:EV_EST,borderWidth:2}}],label:{show:false}};}
+  }
+
+  chart.setOption({
+    grid:{left:62,right:18,top:18,bottom:64},
+    legend:{show:false},
+    xAxis:{type:'category',boundaryGap:!lines,data:labels,axisTick:{show:false},axisLine:{lineStyle:{color:'#D8D2C6'}},
+      axisLabel:{fontSize:10,color:'#6B7280',rotate:55,interval:0,fontFamily:'JetBrains Mono'}},
+    yAxis:{type:'value',max:pct?100:null,axisLine:{show:false},splitLine:{lineStyle:{color:'#F0EBE0'}},
+      axisLabel:{fontFamily:'JetBrains Mono',fontSize:11,color:'#6B7280',formatter:function(v){return pct?v+'%':'$'+(v>=1000?(v/1000).toFixed(1)+'k':v)+'M'}}},
+    tooltip:{trigger:'axis',backgroundColor:'rgba(20,16,12,.97)',borderWidth:0,padding:13,extraCssText:'border-radius:10px;',textStyle:{color:'#fff',fontFamily:'Public Sans',fontSize:12},
+      formatter:function(p){
+        if(!p.length)return'';var i=p[0].dataIndex;var x=S[i],xp=i>0?S[i-1]:null;
+        var tag=x.tipo==='mensual'?' (mensual)':(x.tipo==='estimado'?' (ESTIMADO)':'');
+        var h='<div style="font-weight:800;color:#F5D77E;margin-bottom:2px">'+x.date+' · '+x.label+tag+'</div>';
+        h+='<div style="font-size:10px;color:#B8B0A4;margin-bottom:6px">RIN total: <b style="color:#fff">$'+fmt(x.rin)+' MM</b></div>';
+        COMP.forEach(function(c){if(!active.has(c.k))return;var v=x[c.k];if(v==null)return;
+          var d=xp&&xp[c.k]!=null?(v-xp[c.k]):null;
+          var dtxt=d==null?'':' <span style="color:'+(d>=0?'#6EE7B7':'#FCA5A5')+';font-family:JetBrains Mono;font-size:10px">'+sign(d)+'</span>';
+          var val=pct?((x.rin?(v/totals()[i]*100):0).toFixed(1)+'%'):('$'+fmt(v)+' MM');
+          h+='<div style="display:flex;align-items:center;gap:6px;margin-top:3px"><span style="width:9px;height:9px;border-radius:2px;background:'+c.c+'"></span>'+c.n+': <b style="font-family:JetBrains Mono">'+val+'</b>'+dtxt+'</div>';
+        });
+        return h;
+      }},
+    series:series
+  },true);
+}
+
+function renderPanel(inst,key,color,name,panelKey,scaleY){
+  var labels=S.map(function(x){return shortDate(x.date)});
+  var data=S.map(function(x){return x[key]});
+  var evs=EVENTS.filter(function(e){return (e.panels||[]).indexOf(panelKey)>=0});
+  var ml=evs.map(function(e){var col=evColor(e);
+    return {xAxis:shortDate(e.date),lineStyle:{color:col,type:e.estimated?'dotted':'dashed',width:1.8},
+      label:{show:true,formatter:(e.dir==='up'?'▲ ':'▼ ')+e.short,color:col,fontSize:12,fontWeight:'bold',
+        position:'insideEndTop',rotate:90,textBorderColor:'#fff',textBorderWidth:3}};
+  });
+  var ma=evs.map(function(e){var i=idxOfDate(e.date);if(i<=0)return null;var col=evColor(e);
+    return [{xAxis:shortDate(S[i-1].date),itemStyle:{color:col,opacity:0.14}},{xAxis:shortDate(e.date)}];}).filter(Boolean);
+  var s={name:name,type:'line',data:data,symbol:'none',smooth:0.45,connectNulls:true,
+    lineStyle:{width:1.6,color:color},itemStyle:{color:color},areaStyle:{color:color,opacity:0.30},
+    markLine:{silent:true,symbol:'none',data:ml},markArea:{silent:true,data:ma}};
+  if(key==='oro'){var ei=idxOfDate('2026-06-15');if(ei>=0)s.markPoint={symbol:'circle',symbolSize:10,
+    data:[{xAxis:shortDate('2026-06-15'),yAxis:S[ei].oro,itemStyle:{color:'#fff',borderColor:EV_EST,borderWidth:2.5}}],label:{show:false}};}
+  inst.setOption({grid:{left:64,right:18,top:30,bottom:46},
+    title:{text:name+' · MM USD',left:8,top:5,textStyle:{fontSize:13,fontWeight:800,color:color,fontFamily:'Public Sans'}},
+    xAxis:{type:'category',boundaryGap:false,data:labels,axisTick:{show:false},axisLine:{lineStyle:{color:'#D8D2C6'}},
+      axisLabel:{fontSize:9,color:'#9CA3AF',rotate:55,interval:0,fontFamily:'JetBrains Mono'}},
+    yAxis:{type:'value',scale:!!scaleY,axisLine:{show:false},splitLine:{lineStyle:{color:'#F0EBE0'}},
+      axisLabel:{fontFamily:'JetBrains Mono',fontSize:10,color:'#9CA3AF',formatter:function(v){return '$'+(v>=1000?(v/1000).toFixed(1)+'k':Math.round(v))+'M'}}},
+    tooltip:{trigger:'axis',backgroundColor:'rgba(20,16,12,.97)',borderWidth:0,padding:10,extraCssText:'border-radius:9px;',textStyle:{color:'#fff',fontFamily:'Public Sans',fontSize:12},
+      formatter:function(p){if(!p.length)return'';var i=p[0].dataIndex;var x=S[i],xp=i>0?S[i-1]:null;var d=xp?(x[key]-xp[key]):null;
+        return '<b style="color:#F5D77E">'+x.date+'</b> · '+x.label+'<br>'+name+': <b style="font-family:JetBrains Mono">$'+fmt(x[key])+' MM</b>'+(d!=null?' <span style="color:'+(d>=0?'#6EE7B7':'#FCA5A5')+';font-family:JetBrains Mono">'+sign(d)+'</span>':'');}},
+    series:[s]},true);
+}
+
+function buildTopTables(){
+  var rows=[];for(var i=1;i<S.length;i++){rows.push({date:S[i].date,label:S[i].label,doro:S[i].oro-S[i-1].oro,drin:S[i].rin-S[i-1].rin,oro:S[i].oro,rin:S[i].rin})}
+  function tbl(arr,key,baseKey){
+    var top=arr.slice().sort(function(a,b){return Math.abs(b[key])-Math.abs(a[key])}).slice(0,8);
+    var h='<table><tr><th>Semana</th><th>Δ '+(key==='doro'?'Oro':'RIN')+'</th><th>Nivel</th></tr>';
+    top.forEach(function(r){var cls=r[key]>=0?'up':'down';h+='<tr><td>'+r.date+' · '+r.label.slice(5)+'</td><td class="mono '+cls+'">'+sign(r[key])+'</td><td class="mono">'+fmt(r[baseKey])+'</td></tr>'});
+    return h+'</table>';
+  }
+  document.getElementById('topOro').innerHTML=tbl(rows,'doro','oro');
+  document.getElementById('topRin').innerHTML=tbl(rows,'drin','rin');
+}
+document.getElementById('note').textContent='Tip: en "Líneas" se agrega la RIN total (granate). El tooltip muestra la variación vs. la semana anterior por componente. El primer punto (nov-2025) es dato mensual.';
+init();
+</script>
+</body>
+</html>

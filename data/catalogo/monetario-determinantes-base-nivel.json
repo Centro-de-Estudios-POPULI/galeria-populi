@@ -1,0 +1,21 @@
+{
+  "slug": "monetario-determinantes-base-nivel",
+  "titulo": "Bolivia: ¿De dónde nace el dinero que emite el BCB?",
+  "subtitulo": "Determinantes de la base monetaria · millones de Bs · serie mensual · datos a junio 2026",
+  "categoria": "monetario",
+  "fuente": "Fuente: BCB (Base Monetaria, Determinantes y Componentes). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "base monetaria",
+    "determinantes",
+    "reservas internacionales",
+    "crédito al sector público",
+    "dominancia fiscal",
+    "bcb"
+  ],
+  "fecha": "2026-06-29",
+  "tipo": "barras_apiladas",
+  "formato": "informe_horizontal",
+  "imagen": "graficas/monetario-determinantes-base-nivel.png",
+  "thumb": "thumbs/monetario-determinantes-base-nivel.png",
+  "datos": null
+}
