@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "titulo": "Reservas Internacionales del BCB — evolución semanal",
+    "fuente": "Banco Central de Bolivia — Estadísticas Semanales · NP10/2026",
+    "unidad": "Millones de USD",
+    "nota": "Punto inicial (nov-2025) es dato mensual; tramo semanal con corte real del BCB. El último punto (15-jun-2026) es ESTIMACIÓN POPULI del impacto de la entrega de 4,3 t de oro pignorado (NP10/2026, −USD 586 MM en oro), manteniendo constantes los demás componentes respecto al 1-jun-2026; el BCB aún no publica esa semana. Oro valuado a precio de mercado.",
+    "primer_dato": "2025-11-30",
+    "ultimo_dato": "2026-06-15",
+    "n_puntos": 30
+  },
+  "serie": [
+    {
+      "date": "2025-11-30",
+      "label": "Nov 2025",
+      "tipo": "mensual",
+      "oro": 3135.41,
+      "divisas": 51.28,
+      "deg": 39.28,
+      "fmi": 35.41,
+      "rin": 3261.38
+    },
+    {
+      "date": "2025-12-05",
+      "label": "2025-12-S1",
+      "tipo": "semanal",
+      "oro": 3104.35,
+      "divisas": 52.57,
+      "deg": 39.47,
+      "fmi": 35.59,
+      "rin": 3231.98
+    },
+    {
+      "date": "2025-12-12",
+      "label": "2025-12-S2",
+      "tipo": "semanal",
+      "oro": 3039.62,
+      "divisas": 189.9,
+      "deg": 39.5,
+      "fmi": 35.61,
+      "rin": 3304.64
+    },
+    {
+      "date": "2025-12-19",
+      "label": "2025-12-S3",
+      "tipo": "semanal",
+      "oro": 3081.77,
+      "divisas": 135.53,
+      "deg": 39.52,
+      "fmi": 35.63,
+      "rin": 3292.44
+    },
+    {
+      "date": "2025-12-24",
+      "label": "2025-12-S4",
+      "tipo": "semanal",
+      "oro": 3201.7,
+      "divisas": 521.84,
+      "deg": 39.64,
+      "fmi": 35.74,
+      "rin": 3798.92
+    },
+    {
+      "date": "2025-12-29",
+      "label": "2025-12-S5",
+      "tipo": "semanal",
+      "oro": 3200.07,
+      "divisas": 522.17,
+      "deg": 39.74,
+      "fmi": 35.79,
+      "rin": 3797.78
+    },
+    {
+      "date": "2026-01-09",
+      "label": "2026-01-S1",
+      "tipo": "semanal",
+      "oro": 3214.8,
+      "divisas": 522.89,
+      "deg": 39.6,
+      "fmi": 35.67,
+      "rin": 3812.96
+    },
+    {
+      "date": "2026-01-16",
+      "label": "2026-01-S2",
+      "tipo": "semanal",
+      "oro": 3344.77,
+      "divisas": 486.75,
+      "deg": 39.53,
+      "fmi": 35.6,
+      "rin": 3906.66
+    },
+    {
+      "date": "2026-01-22",
+      "label": "2026-01-S3",
+      "tipo": "semanal",
+      "oro": 3473.17,
+      "divisas": 492.95,
+      "deg": 39.63,
+      "fmi": 35.69,
+      "rin": 4041.45
+    },
+    {
+      "date": "2026-01-26",
+      "label": "2026-01-S4",
+      "tipo": "semanal",
+      "oro": 3560.4,
+      "divisas": 455.97,
+      "deg": 39.6,
+      "fmi": 35.67,
+      "rin": 4091.63
+    },
+    {
+      "date": "2026-02-06",
+      "label": "2026-02-S1",
+      "tipo": "semanal",
+      "oro": 3536.32,
+      "divisas": 440.96,
+      "deg": 36.17,
+      "fmi": 35.88,
+      "rin": 4049.32
+    },
+    {
+      "date": "2026-02-13",
+      "label": "2026-02-S2",
+      "tipo": "semanal",
+      "oro": 3620.83,
+      "divisas": 459.38,
+      "deg": 36.52,
+      "fmi": 35.91,
+      "rin": 4152.65
+    },
+    {
+      "date": "2026-02-20",
+      "label": "2026-02-S3",
+      "tipo": "semanal",
+      "oro": 3665.89,
+      "divisas": 434.66,
+      "deg": 36.36,
+      "fmi": 35.75,
+      "rin": 4172.66
+    },
+    {
+      "date": "2026-02-23",
+      "label": "2026-02-S4",
+      "tipo": "semanal",
+      "oro": 3725.66,
+      "divisas": 425.52,
+      "deg": 35.73,
+      "fmi": 36.34,
+      "rin": 4223.25
+    },
+    {
+      "date": "2026-03-06",
+      "label": "2026-03-S1",
+      "tipo": "semanal",
+      "oro": 3737.6,
+      "divisas": 383.15,
+      "deg": 35.57,
+      "fmi": 36.2,
+      "rin": 4192.52
+    },
+    {
+      "date": "2026-03-13",
+      "label": "2026-03-S2",
+      "tipo": "semanal",
+      "oro": 3781.94,
+      "divisas": 402.52,
+      "deg": 35.53,
+      "fmi": 36.16,
+      "rin": 4256.14
+    },
+    {
+      "date": "2026-03-20",
+      "label": "2026-03-S3",
+      "tipo": "semanal",
+      "oro": 3360.2,
+      "divisas": 52.22,
+      "deg": 36.03,
+      "fmi": 35.4,
+      "rin": 3483.85
+    },
+    {
+      "date": "2026-03-27",
+      "label": "2026-03-S4",
+      "tipo": "semanal",
+      "oro": 3226.73,
+      "divisas": 145.75,
+      "deg": 36.06,
+      "fmi": 35.44,
+      "rin": 3443.98
+    },
+    {
+      "date": "2026-03-30",
+      "label": "2026-03-S5",
+      "tipo": "semanal",
+      "oro": 3315.64,
+      "divisas": 137.24,
+      "deg": 36.03,
+      "fmi": 35.41,
+      "rin": 3524.32
+    },
+    {
+      "date": "2026-04-02",
+      "label": "2026-04-S1",
+      "tipo": "semanal",
+      "oro": 3506.79,
+      "divisas": 206.32,
+      "deg": 36.26,
+      "fmi": 35.6,
+      "rin": 3784.97
+    },
+    {
+      "date": "2026-04-10",
+      "label": "2026-04-S2",
+      "tipo": "semanal",
+      "oro": 3571.42,
+      "divisas": 192.08,
+      "deg": 36.37,
+      "fmi": 35.71,
+      "rin": 3835.57
+    },
+    {
+      "date": "2026-04-17",
+      "label": "2026-04-S3",
+      "tipo": "semanal",
+      "oro": 3640.6,
+      "divisas": 180.97,
+      "deg": 36.52,
+      "fmi": 35.85,
+      "rin": 3893.94
+    },
+    {
+      "date": "2026-04-24",
+      "label": "2026-04-S4",
+      "tipo": "semanal",
+      "oro": 3628.16,
+      "divisas": 143.19,
+      "deg": 36.39,
+      "fmi": 35.73,
+      "rin": 3843.46
+    },
+    {
+      "date": "2026-04-27",
+      "label": "2026-04-S5",
+      "tipo": "semanal",
+      "oro": 3658.74,
+      "divisas": 144.87,
+      "deg": 36.41,
+      "fmi": 35.75,
+      "rin": 3875.77
+    },
+    {
+      "date": "2026-05-08",
+      "label": "2026-05-S1",
+      "tipo": "semanal",
+      "oro": 3583.23,
+      "divisas": 139.62,
+      "deg": 33.21,
+      "fmi": 35.81,
+      "rin": 3791.87
+    },
+    {
+      "date": "2026-05-15",
+      "label": "2026-05-S2",
+      "tipo": "semanal",
+      "oro": 3608.2,
+      "divisas": 1016.99,
+      "deg": 33.13,
+      "fmi": 35.71,
+      "rin": 4694.04
+    },
+    {
+      "date": "2026-05-22",
+      "label": "2026-05-S3",
+      "tipo": "semanal",
+      "oro": 3551.4,
+      "divisas": 962.6,
+      "deg": 32.99,
+      "fmi": 35.57,
+      "rin": 4582.56
+    },
+    {
+      "date": "2026-05-25",
+      "label": "2026-05-S4",
+      "tipo": "semanal",
+      "oro": 3534.96,
+      "divisas": 965.5,
+      "deg": 32.99,
+      "fmi": 35.56,
+      "rin": 4569.0
+    },
+    {
+      "date": "2026-06-01",
+      "label": "2026-06-S1",
+      "tipo": "semanal",
+      "oro": 3677.88,
+      "divisas": 849.69,
+      "deg": 33.12,
+      "fmi": 35.68,
+      "rin": 4596.37
+    },
+    {
+      "date": "2026-06-15",
+      "label": "15-jun (est.)",
+      "tipo": "estimado",
+      "oro": 3091.88,
+      "divisas": 849.69,
+      "deg": 33.12,
+      "fmi": 35.68,
+      "rin": 4010.37
+    }
+  ]
+}

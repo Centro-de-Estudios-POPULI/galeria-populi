@@ -38,6 +38,7 @@ import populi_style as ps
 from lineas_bandas import grafico_lineas_bandas
 from lineas import grafico_lineas
 from barras import grafico_barras, grafico_barras_ranking
+from barras_apiladas import grafico_barras_apiladas
 from areas import grafico_areas
 from mapas import grafico_mapa
 from mapa_mundial import grafico_mapa_mundial
@@ -63,6 +64,7 @@ _BUILDERS = {
     "lineas_bandas": (grafico_lineas_bandas, True),
     "lineas":        (grafico_lineas,        True),
     "areas":         (grafico_areas,         True),
+    "barras_apiladas": (grafico_barras_apiladas, True),
     "barras":        (grafico_barras,        False),
     "ranking":       (grafico_barras_ranking, False),
     "mapa":          (grafico_mapa,          False),  # datos vía gdf en chart_kwargs

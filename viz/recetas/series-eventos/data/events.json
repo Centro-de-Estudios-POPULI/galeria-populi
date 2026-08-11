@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2025-12-24",
+    "comp": "divisas",
+    "dir": "up",
+    "title": "Desembolso CAF",
+    "short": "Desembolso CAF",
+    "panels": [
+      "stack",
+      "divisas"
+    ],
+    "desc": "Ingreso de divisas por desembolso de la CAF."
+  },
+  {
+    "date": "2026-03-20",
+    "comp": "rin",
+    "dir": "down",
+    "title": "Pago de deuda externa + caída del precio del oro",
+    "short": "Deuda externa + precio oro",
+    "panels": [
+      "stack",
+      "oro",
+      "divisas"
+    ],
+    "desc": "Vencimientos de deuda externa (divisas) y desplome de la cotización internacional del oro (>10% en marzo 2026)."
+  },
+  {
+    "date": "2026-05-15",
+    "comp": "divisas",
+    "dir": "up",
+    "title": "Colocación de bonos soberanos",
+    "short": "Bonos soberanos",
+    "panels": [
+      "stack",
+      "divisas"
+    ],
+    "desc": "Ingreso de divisas por emisión de bonos en mercados internacionales."
+  },
+  {
+    "date": "2026-06-15",
+    "comp": "oro",
+    "dir": "down",
+    "title": "Entrega de oro pignorado (−USD 586 MM)",
+    "short": "Oro pignorado −586",
+    "panels": [
+      "stack",
+      "oro"
+    ],
+    "estimated": true,
+    "desc": "Pago de la operación de pignoración de 4,3 t de oro (NP10/2026). Punto estimado."
+  }
+]

@@ -22,9 +22,14 @@ viz/
 │   ├── lineas_bandas.py  # líneas + bandas de confianza (estrella, IRF/FMI)
 │   ├── lineas.py         # series simples (con punto final opcional)
 │   ├── barras.py         # barras verticales + ranking horizontal
-│   └── areas.py          # áreas apiladas (100%)
+│   ├── areas.py          # áreas apiladas (100%)
+│   ├── mapas.py          # coropletas de Bolivia (municipios)
+│   ├── mapa_mundial.py   # coropletas del mundo (estilo OWID)
+│   └── series_eventos.py # eje de fechas + anotación de eventos (estilo "series-eventos")
 ├── catalogo.py         # publicar() + build_manifest() -> Banco
-└── examples/           # demos y ejemplos de autoría
+├── examples/           # demos y ejemplos de autoría (1 panel, vía publicar())
+└── recetas/            # guías de FIGURAS DE PUBLICACIÓN (multi-panel, layout a mano)
+    └── series-eventos/   # serie temporal anotada con hitos — caso: reservas/oro BCB
 ```
 
 Salidas del Banco:

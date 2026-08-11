@@ -21,8 +21,20 @@ VIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(VIZ))
 from catalogo import publicar, build_manifest
 
-ATLAS = Path(r"C:\Users\HP\OneDrive\Desktop\Proyectos\Observatorio de Presupuesto Fiscal Departamental\_github_atlas_fiscal\mapa.html")
-GEO = VIZ / "geo" / "bolivia_municipios_sigep.topojson"
+# El Atlas Fiscal dejó de tener los datos embebidos en el HTML: ahora publica
+# `fiscal_data.json` (343 entidades × 30 indicadores × 10 gestiones) y
+# `fiscal_catalogo.json` (años + grupos de indicadores). Leerlos es más robusto
+# que scrapear `const MUN_DATA` del HTML, que es como se hacía y ya no funciona.
+ATLAS_DIR = Path(r"C:\Users\HP\OneDrive\Desktop\Proyectos\Observatorio de Presupuesto Fiscal Departamental\_github_atlas_fiscal")
+ATLAS_DATA = ATLAS_DIR / "fiscal_data.json"
+ATLAS_CAT = ATLAS_DIR / "fiscal_catalogo.json"
+
+# Mapa MAESTRO: 343 municipios (339 del OEP + los 4 GAIOC de conversión total).
+# El anterior tenía 339 y dejaba fuera a Raqaypampa, Jatún Ayllu Yura, TIM y
+# San Pedro de Macha. Fuente: Proyectos/bo-geo-maestro, clave de join `sigep`.
+GEO = VIZ.parent.parent / "bo-geo-maestro" / "geo" / "atlas_muni_343.topojson"
+if not GEO.exists():
+    GEO = VIZ / "geo" / "atlas_muni_343.topojson"
 YEAR = "2025"
 FECHA = "2026-06-09"
 AUTOR = "Carlos Aranda"   # investigador/a responsable (a futuro puede variar por gráfico)
@@ -63,18 +75,28 @@ def extraer(name, html):
     return json.loads(html[i:j])
 
 
-html = ATLAS.read_text(encoding="utf-8")
-MUN = extraer("MUN_DATA", html)
-INDS = extraer("INDICATORS", html)
+MUN = json.loads(ATLAS_DATA.read_text(encoding="utf-8"))
+CAT = json.loads(ATLAS_CAT.read_text(encoding="utf-8"))
+
+# El catálogo agrupa los indicadores; el script los quiere planos, con `id` y el
+# nombre del grupo en `grp` (que va a las etiquetas de la ficha).
+INDS = [{**i, "id": i["key"], "grp": g["label"]}
+        for g in CAT["grupos"] for i in g["indicadores"]]
+
+# Cada indicador viene como una serie de 10 valores, uno por gestión.
+ANIOS = CAT["anios"]
+YI = ANIOS.index(int(YEAR))
 print(f"Atlas: {len(MUN)} entidades · {len(INDS)} indicadores · gestión {YEAR}")
 
 # --- geometría + tabla ancha de valores del año, unida por sigep ------------ #
 gdf = gpd.read_file(GEO)                              # sigep, municipio, dpto, geom
 filas = {}
 for sigep, m in MUN.items():
-    yr = m.get("y", {}).get(YEAR)
-    if yr:
-        filas[sigep] = yr
+    serie = m.get("s") or {}
+    fila = {k: (v[YI] if isinstance(v, list) and len(v) > YI else None)
+            for k, v in serie.items()}
+    if any(v is not None for v in fila.values()):
+        filas[sigep] = fila
 vals = pd.DataFrame.from_dict(filas, orient="index")
 vals.index.name = "sigep"
 gdf = gdf.merge(vals, left_on="sigep", right_index=True, how="left")
