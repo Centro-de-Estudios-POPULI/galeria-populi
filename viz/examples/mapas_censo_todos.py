@@ -14,6 +14,7 @@ import pandas as pd
 VIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(VIZ))
 from catalogo import publicar, build_manifest
+import populi_style as ps
 
 # Mapa MAESTRO de Bolivia: 343 municipios (339 del OEP + los 4 GAIOC de conversión
 # total). Reemplaza a `bolivia_municipios_sigep.topojson`, que tenía 339 y dejaba
@@ -222,16 +223,44 @@ IND = [
     ("pct_muertes_covid", "censo-muertes-covid", "Muertes atribuidas al COVID-19", "Fallecidos 2019-2024 cuya causa declarada fue el COVID-19", P, "%", 0),
 ]
 
+# --- dirección del indicador, desde el MISMO catálogo que usa la página ------ #
+# El `dir` no se vuelve a declarar acá: se lee del catálogo del Atlas para que no
+# puedan divergir. Es lo que decide si la rampa se invierte, y con eso el ROJO
+# pasa a marcar siempre el lado malo — antes el color lo fijaba la paleta que
+# alguien eligió a mano por familia temática (verde=servicios, cálido=carencias),
+# así que el mismo tono cambiaba de sentido entre láminas.
+CAT_ATLAS = CENSO.parent / "catalogo.json"     # vecino de data.json en el Atlas
+META = {}
+if CAT_ATLAS.exists():
+    _c = json.loads(CAT_ATLAS.read_text(encoding="utf-8"))
+    META = {i["key"]: i for g in _c["grupos"] for i in g["indicadores"]}
+    print(f"Direcciones leídas del catálogo del Atlas: {len(META)} indicadores.\n")
+else:
+    print(f"⚠️  sin catálogo del Atlas en {CAT_ATLAS} — todos los mapas irán con dir=0.\n")
+
+sin_dir = []
 for col, slug, titulo, subtitulo, pal, suf, dec in IND:
     datos = gdf[["sigep", "municipio", "dpto", col]].rename(columns={"municipio": "nombre"}).set_index("sigep")
+    m = META.get(col, {})
+    if col not in META:
+        sin_dir.append(col)
+    escala = ps.escala_atlas(gdf[col], pesos=gdf["pob_total"],
+                             direccion=m.get("dir", 0), con_signo=bool(m.get("div")))
+    # Decimales EXACTAMENTE como la página: un decimal en todo salvo conteos de
+    # habitantes (que acá ni aparecen: pob_total está excluido). Con cero
+    # decimales un p02 de 3,7% se redondeaba a 4% —hundiendo el extremo bajo— y
+    # la edad mediana del país salía 28 donde el Atlas dice 27,6.
+    d = 0 if m.get("unit") == "hab" else 1
     publicar(
         meta={"slug": slug, "tipo": "mapa", "titulo": f"Bolivia: {titulo}",
               "subtitulo": f"{subtitulo} — por municipio", "fuente": FUENTE,
               "categoria": "censo", "tags": ["censo 2024", "municipios", col],
               "fecha": FECHA, "formato": "red_vertical"},
-        df=datos, gdf=gdf, value_col=col, paleta=pal, sufijo=suf,
-        label_fmt="{:." + str(dec) + "f}",
+        df=datos, gdf=gdf, value_col=col, sufijo=suf,
+        label_fmt="{:." + str(d) + "f}", escala=escala,
     )
 
 build_manifest()
+if sin_dir:
+    print(f"\n⚠️  {len(sin_dir)} sin `dir` en el catálogo (van con dir=0): {', '.join(sin_dir)}")
 print(f"\n{len(IND)} mapas del Censo publicados al Banco.")
