@@ -218,11 +218,22 @@ def set_tema(texto="Inter", numeros="JetBrains Mono"):
     global BODY, MONO
     BODY, MONO = texto, numeros
 
-# Titular por formato: serif (Playfair, como la web/informes) para soportes de
-# informe; grotesca (Archivo, como el FMI) para redes — más legible en miniatura.
-# Titular estándar POPULI (CERRADO 2026-08-10): Playfair Display en todos los
-# formatos, igual que el sitio y las portadas del blog. Deroga a Zilla Slab.
-TITLE_REDES = "Playfair Display" if "Playfair Display" in _REGISTERED else TITLE_SERIF
+# ── TITULAR DE LA GALERÍA: Zilla Slab (2026-08-11) ───────────────────────────
+# Vuelve Zilla Slab, y SÓLO acá: el Banco de Gráficos es el único producto que la
+# usa. El sitio, el blog y las portadas siguen en Playfair — la regla de que el
+# sitio es el ancla no cambia.
+#
+# El motivo es de soporte, no de gusto: un titular de gráfico compite con la
+# tinta del propio gráfico y suele leerse en miniatura, y ahí la slab aguanta
+# mejor que la didona. Playfair tiene un contraste grueso/fino muy alto: al bajar
+# de tamaño los finos se adelgazan y el titular pierde peso justo donde tiene que
+# anclar la lámina. Zilla Slab tiene trazo parejo y serifas rectas, así que
+# sostiene el peso al achicarse.
+#
+# El CUERPO sigue en Inter y las CIFRAS en JetBrains Mono (ver BODY/MONO arriba):
+# lo que vuelve es el titular, no el estándar viejo de 2026-06-09, que además
+# traía Public Sans. Esto NO reabre aquello.
+TITLE_REDES = "Zilla Slab" if "Zilla Slab" in _REGISTERED else TITLE_SERIF
 TITLE_BY_FORMAT = {
     "informe":       TITLE_REDES,
     "informe_ancho": TITLE_REDES,
