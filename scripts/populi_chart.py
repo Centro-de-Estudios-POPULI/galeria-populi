@@ -146,6 +146,7 @@ def _px2pt(px: float) -> float:
 HEADLINE_FILES = {
     "Inter": "Inter.ttf",
     "Playfair Display": "PlayfairDisplay.ttf",
+    "Zilla Slab": "ZillaSlab-Bold.ttf",
     "Archivo": "Archivo.ttf",
     "Source Serif 4": "SourceSerif4.ttf",
 }
@@ -184,7 +185,7 @@ def _logo_img(height_px: int) -> Image.Image:
 class Chart:
     def __init__(self, fmt="wide", title="", highlight="", intro="", note="",
                  source="", category="", accent=None, highlight_text=None,
-                 headline_family="Archivo"):
+                 headline_family="Zilla Slab"):   # titular del Banco de Gráficos (2026-08-11)
         self.W, self.H = FORMATS[fmt]
         self.fmt = fmt
         self.title = title
