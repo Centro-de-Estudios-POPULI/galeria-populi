@@ -5,10 +5,10 @@
   "handle": "@PopuliBolivia",
   "colors": {
     "red": "#C71E1D",
-    "redDark": "#8B2226",
+    "redDark": "#8B1A1A",
     "teal": "#0A9396",
     "blue": "#005F73",
-    "amber": "#D4920A",
+    "amber": "#EE9B00",
     "cream": "#F5EFE0",
     "ink": "#141414",
     "inkSoft": "#3A3A3A",
@@ -17,12 +17,20 @@
     "panel": "#FAF7F0",
     "grid": "#E7E2D6"
   },
-  "palette": ["#C71E1D", "#0A9396", "#D4920A", "#005F73", "#6B3F8C", "#2E7D4F", "#8B2226"],
+  "palette": [
+    "#C71E1D",
+    "#0A9396",
+    "#EE9B00",
+    "#005F73",
+    "#DF5D25",
+    "#94D2BD",
+    "#9B2226"
+  ],
   "fonts": {
     "serif": "PlayfairDisplay.ttf",
     "serifItalic": "PlayfairDisplay-Italic.ttf",
     "sans": "Inter.ttf",
-    "mono": "IBMPlexMono-Regular.ttf",
-    "monoBold": "IBMPlexMono-SemiBold.ttf"
+    "mono": "JetBrainsMono-Regular.ttf",
+    "monoBold": "JetBrainsMono-SemiBold.ttf"
   }
 }

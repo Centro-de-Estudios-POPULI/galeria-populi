@@ -40,7 +40,7 @@ FORMATS = {
 }
 
 PALETTE = bk.BRAND["palette"]
-MONO = "IBM Plex Mono"   # cifras y etiquetas de datos
+MONO = "JetBrains Mono"  # cifras y etiquetas de datos (estándar POPULI 2026-08-10)
 BODY = "Inter"           # intro, notas, nombres de categoría
 
 # Escala tipográfica (px a 1080 de ancho; se escala con el formato).
