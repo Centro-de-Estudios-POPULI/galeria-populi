@@ -20,6 +20,7 @@ import pandas as pd
 VIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(VIZ))
 from catalogo import publicar, build_manifest
+import populi_style as ps
 
 # El Atlas Fiscal dejó de tener los datos embebidos en el HTML: ahora publica
 # `fiscal_data.json` (343 entidades × 30 indicadores × 10 gestiones) y
@@ -99,6 +100,11 @@ for sigep, m in MUN.items():
         filas[sigep] = fila
 vals = pd.DataFrame.from_dict(filas, orient="index")
 vals.index.name = "sigep"
+# Población de la gestión: es el PESO del pivote (promedio nacional ponderado),
+# igual que el `agg(rows,ind,yi)` del atlas fiscal, que divide por r.pob[yi].
+vals["_pob"] = pd.Series({s: (m.get("pob") or [None])[YI]
+                          if isinstance(m.get("pob"), list) and len(m["pob"]) > YI else None
+                          for s, m in MUN.items()})
 gdf = gdf.merge(vals, left_on="sigep", right_index=True, how="left")
 algun = [i["id"] for i in INDS if i["id"] in gdf.columns]
 cobertura = gdf[algun[0]].notna().sum() if algun else 0
@@ -139,11 +145,13 @@ TITULOS = {
 }
 
 
-def paleta_de(ind):
-    if ind.get("div"):                # variables con signo → divergente en 0
-        return "divergente"
-    d = ind.get("dir", 0)
-    return {1: "verde", -1: "calido"}.get(d, "azul")
+# La paleta por nombre quedó obsoleta para estos mapas: ahora todos usan la MISMA
+# escala del atlas de la página (una sola rampa divergente, orientada por `dir` y
+# anclada en el promedio nacional ponderado). Con eso el rojo marca siempre el
+# lado malo, y un municipio se lee igual en el Banco que en el Atlas.
+def escala_de(ind):
+    return ps.escala_atlas(gdf[ind["id"]], pesos=gdf["_pob"],
+                           direccion=ind.get("dir", 0), con_signo=bool(ind.get("div")))
 
 
 n = 0
@@ -167,8 +175,9 @@ for ind in INDS:
               "fuente": FUENTE, "categoria": "fiscal",
               "tags": ["atlas fiscal", f"igf {YEAR}", "municipios", ind["grp"], iid],
               "fecha": FECHA, "formato": "red_vertical"},
-        df=datos, gdf=gdf, value_col=iid, paleta=paleta_de(ind),
-        sufijo=sufijo, label_fmt="{:.0f}",
+        df=datos, gdf=gdf, value_col=iid, escala=escala_de(ind),
+        # Un decimal en los porcentajes, igual que la página.
+        sufijo=sufijo, label_fmt="{:.1f}" if pct else "{:.0f}",
     )
     n += 1
 

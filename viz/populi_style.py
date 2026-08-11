@@ -149,6 +149,89 @@ def colormap(nombre: str = "calido"):
 
 
 # --------------------------------------------------------------------------- #
+# ESCALA DE MAPA MUNICIPAL — la MISMA que el Atlas de la página                #
+# --------------------------------------------------------------------------- #
+# ⚠️ FUENTE ÚNICA. Esto replica exactamente lo que hacen los dos atlas web:
+#     Atlas-Fiscal-Municipal/mapa.html                  (fiscal)
+#     Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html (socioeconómico)
+# Si cambia allá, cambia acá. El motivo de unificar: es el MISMO dato y el MISMO
+# mapa; que el Banco y la página pinten distinto al mismo municipio es un costo
+# de credibilidad, no una variante de estilo.
+#
+# La rampa es divergente de 9 tonos y va de petróleo profundo a granate. NO es la
+# secuencial de PALETAS: acá el color no dice "cuánto" sino "de qué lado del
+# centro", que es una pregunta distinta.
+DIV_ATLAS = ["#00323d", "#005f73", "#0a9396", "#94d2bd", "#e9d8a6",
+             "#eda13e", "#df5d25", "#c71e1d", "#8f1f22"]
+
+
+def escala_atlas(valores, pesos=None, direccion=0, con_signo=False):
+    """Escala divergente de ancla real, idéntica a la de los atlas web.
+
+    valores    : serie de valores municipales (los NaN se ignoran)
+    pesos      : población por municipio. Si viene, el pivote es el PROMEDIO
+                 NACIONAL PONDERADO —una magnitud real, la del país—; si no,
+                 cae en la mediana, que es lo único disponible cuando no hay
+                 un valor-país comparable (p. ej. un conteo).
+    direccion  : `dir` del catálogo. +1 (más es mejor) INVIERTE la rampa para
+                 que el mejor resultado no salga pintado de rojo. −1 y 0 la
+                 dejan como está; con el pivote en un centro real, el 0 no dice
+                 bien/mal sino por debajo / por encima del país.
+    con_signo  : variables que cruzan el cero (resultado fiscal). Ahí el pivote
+                 con sentido es el CERO, no un promedio, y el dominio se hace
+                 simétrico para que el rojo y el petróleo pesen igual.
+
+    Devuelve (cmap, norm, info) con info = dict(lo, piv, hi, piv_tipo, min, max,
+    recorte) — `lo`/`hi` son p02/p98, así que la leyenda debe rotularlos con
+    ≤ y ≥, y `min`/`max` son los extremos REALES, que en una lámina que viaja
+    sola a veces son la noticia.
+    """
+    import numpy as _np
+    from matplotlib.colors import LinearSegmentedColormap, TwoSlopeNorm
+
+    v = _np.asarray(valores, dtype=float)
+    ok = _np.isfinite(v)
+    if not ok.any():
+        return None, None, None
+    vv = v[ok]
+
+    # p02/p98: recorta colas para que un outlier no se coma la rampa y deje al
+    # 80% de los municipios apilado en un solo tono.
+    lo, hi = float(_np.quantile(vv, 0.02)), float(_np.quantile(vv, 0.98))
+    if hi <= lo:                                   # serie casi constante
+        lo, hi = float(vv.min()), float(vv.max()) or 1.0
+        if hi <= lo:
+            hi = lo + 1.0
+
+    if con_signo:
+        m = max(abs(lo), abs(hi)) or 1.0
+        lo, piv, hi, piv_tipo = -m, 0.0, m, "cero"
+    else:
+        piv, piv_tipo = None, "mediana"
+        if pesos is not None:
+            w = _np.asarray(pesos, dtype=float)
+            m = ok & _np.isfinite(w)
+            if m.any() and _np.nansum(w[m]) > 0:
+                piv = float(_np.sum(v[m] * w[m]) / _np.sum(w[m]))
+                piv_tipo = "país"
+        if piv is None or not _np.isfinite(piv):
+            piv, piv_tipo = float(_np.median(vv)), "mediana"
+        # El pivote tiene que caer DENTRO del rango dibujado: pegado a un extremo
+        # la rampa se degenera y media paleta no se usa nunca.
+        pad = (hi - lo) * 0.08
+        if pad > 0:
+            piv = min(max(piv, lo + pad), hi - pad)
+
+    tonos = DIV_ATLAS[::-1] if direccion == 1 else DIV_ATLAS
+    cmap = LinearSegmentedColormap.from_list("populi_atlas", tonos)
+    norm = TwoSlopeNorm(vmin=lo, vcenter=piv, vmax=hi)
+    info = {"lo": lo, "piv": piv, "hi": hi, "piv_tipo": piv_tipo,
+            "min": float(vv.min()), "max": float(vv.max()),
+            "recorte": bool(vv.min() < lo or vv.max() > hi)}
+    return cmap, norm, info
+
+
+# --------------------------------------------------------------------------- #
 # Tipografía — fuentes del sitio (Playfair Display + Inter + mono), con fallback
 # --------------------------------------------------------------------------- #
 # familia matplotlib -> archivo .ttf en assets/fonts

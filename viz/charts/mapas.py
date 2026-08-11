@@ -34,20 +34,31 @@ PALETA_ACENTO = {
 def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
                  formato="red_vertical", archivo=None, titulo_familia=None,
                  paleta="calido", leyenda="", label_fmt="{:.0f}", sufijo="",
-                 acento_p=None, acento_linea=None):
+                 acento_p=None, acento_linea=None, escala=None):
+    """`escala` = salida de ps.escala_atlas() → usa la MISMA escala que el atlas
+    de la página (divergente con ancla real y rampa orientada por dirección) y
+    dibuja el pivote rotulado en el termómetro. Sin `escala` se conserva el
+    comportamiento viejo: secuencial lineal entre mínimo y máximo."""
     from matplotlib.colors import Normalize, TwoSlopeNorm
     fig, ax = ps.nueva_figura(formato)
     W, H, sc = ps._spec(formato)
 
-    diverging = (paleta == "divergente")
-    cmap = ps.colormap(paleta)
     vals = gdf[value_col].astype(float)
-    vmin, vmax = float(np.nanmin(vals)), float(np.nanmax(vals))
-    if diverging:
-        m = max(abs(vmin), abs(vmax)) or 1.0
-        norm = TwoSlopeNorm(vmin=-m, vcenter=0, vmax=m)
+    if escala is not None:
+        cmap, norm, info = escala
+        lo_lbl, hi_lbl = info["lo"], info["hi"]
+        recorte = info["recorte"]
     else:
-        norm = Normalize(vmin, vmax)
+        diverging = (paleta == "divergente")
+        cmap = ps.colormap(paleta)
+        vmin, vmax = float(np.nanmin(vals)), float(np.nanmax(vals))
+        if diverging:
+            m = max(abs(vmin), abs(vmax)) or 1.0
+            norm = TwoSlopeNorm(vmin=-m, vcenter=0, vmax=m)
+        else:
+            norm = Normalize(vmin, vmax)
+        info, recorte = None, False
+        lo_lbl, hi_lbl = vmin, vmax
 
     # municipios sin dato → gris neutro; el resto coloreado
     falta = gdf[gdf[value_col].isna()]
@@ -85,13 +96,18 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
     # ---- termómetro vertical arriba-derecha. Las CIFRAS se alinean exacto al
     # margen derecho (borde respetado, igual que el wordmark) y la barra queda a
     # su izquierda. La unidad va en el subtítulo, no se rotula aquí. ----
-    smin = ps.es_num(vmin, _dec(label_fmt)) + sufijo
-    smax = ps.es_num(vmax, _dec(label_fmt)) + sufijo
+    # Con recorte p02/p98 los extremos de la barra NO son el mínimo y el máximo:
+    # se rotulan ≤ y ≥ para no hacer pasar un percentil por un extremo real.
+    smin = ("≤" if recorte else "") + ps.es_num(lo_lbl, _dec(label_fmt)) + sufijo
+    smax = ("≥" if recorte else "") + ps.es_num(hi_lbl, _dec(label_fmt)) + sufijo
+    spiv = ps.es_num(info["piv"], _dec(label_fmt)) + sufijo if info else ""
     from PIL import Image as _I, ImageDraw as _D, ImageFont as _F
     _ff = _F.truetype(str(ps.FONTS_DIR / ps._FONT_FILES.get(ps.MONO, "IBMPlexMono-Regular.ttf")),
                       int(ps.SIZES["leyenda"] * sc))
-    lab_w = max(_D.Draw(_I.new("RGB", (4, 4))).textlength(s, font=_ff) for s in (smin, smax))
+    _med = _D.Draw(_I.new("RGB", (4, 4)))
+    lab_w = max(_med.textlength(s, font=_ff) for s in (smin, smax, spiv) if s)
     f_num = ps.fp(ps.MONO, ps.SIZES["leyenda"] * sc)
+    f_cap = ps.fp(ps.BODY, ps.SIZES["leyenda"] * sc * 0.8, weight="bold")
     bar_w, bar_h = 18 * sc, bh * 0.46
     bar_x = right - lab_w - 12 * sc - bar_w
     bar_top = by0 + bh - 26 * sc
@@ -102,6 +118,34 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
              color=ps.COLORS["cafe"], va="center", ha="right")
     fig.text(right / W, (bar_top - bar_h) / H, smin, fontproperties=f_num,
              color=ps.COLORS["cafe"], va="center", ha="right")
+
+    if info:
+        # ── PIVOTE ──────────────────────────────────────────────────────────
+        # TwoSlopeNorm manda el pivote al 0,5 del eje de color, así que cae
+        # exacto en la mitad VISUAL de la barra aunque no esté en la mitad
+        # numérica. Se marca y se NOMBRA: sin el rótulo cualquiera supone que es
+        # el punto medio entre mínimo y máximo, que es justo lo que no es.
+        bar.axhline(127.5, color=ps.COLORS["fondo"], lw=2.2 * sc, zorder=4)
+        bar.axhline(127.5, color=ps.COLORS["tinta"], lw=0.9 * sc, zorder=5)
+        y_piv = bar_top - bar_h / 2
+        fig.text((bar_x - 5 * sc) / W, y_piv / H,
+                 "país" if info["piv_tipo"] == "país" else info["piv_tipo"],
+                 fontproperties=f_cap, color=ps.COLORS["gris"],
+                 va="center", ha="right")
+        fig.text(right / W, y_piv / H, spiv, fontproperties=f_num,
+                 color=ps.COLORS["tinta"], va="center", ha="right")
+        # Los extremos REALES sólo se declaran cuando el recorte los escondió.
+        # En una lámina que viaja sola a redes, el municipio del extremo suele
+        # ser la noticia.
+        if recorte:
+            f_ex = ps.fp(ps.MONO, ps.SIZES["leyenda"] * sc * 0.78)
+            # En dos renglones y no en uno: la línea corrida se estiraba más allá
+            # del ancho de la barra y rompía la columna de la leyenda.
+            for i, ex in enumerate((f"mín {ps.es_num(info['min'], _dec(label_fmt))}{sufijo}",
+                                    f"máx {ps.es_num(info['max'], _dec(label_fmt))}{sufijo}")):
+                fig.text(right / W, (bar_top - bar_h - (34 + i * 20) * sc) / H, ex,
+                         fontproperties=f_ex, color=ps.COLORS["gris"],
+                         va="center", ha="right")
 
     if archivo:
         ps.guardar(fig, archivo, formato=formato)
