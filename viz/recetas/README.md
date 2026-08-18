@@ -21,6 +21,7 @@ receta codifica las decisiones de diseño para que el siguiente sea más rápido
 | Receta | Estilo | Caso de referencia |
 |---|---|---|
 | [`series-eventos/`](series-eventos/) | Serie temporal económica anotada con hitos (bandas + callouts), multi-panel | Reservas del BCB y el oro pignorado |
+| [`serie-y-ranking/`](serie-y-ranking/) | Serie temporal a la izquierda + ranking de componentes a la derecha; color por signo | PIB trimestral e IpAEC 2026 |
 
 ## Crear una receta nueva
 

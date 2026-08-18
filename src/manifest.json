@@ -35,6 +35,31 @@
   },
   "graficas": [
     {
+      "slug": "pib-ipaec-2026",
+      "titulo": "Bolivia: Evolución del PIB",
+      "subtitulo": "Variación en porcentaje · trimestres 2022–2026 y actividades del primer semestre de 2026",
+      "categoria": "actividad",
+      "fuente": "Fuente: Instituto Nacional de Estadística (INE), PIB trimestral base 2017; Banco Central de Bolivia (BCB), Reporte de Inflación y Política Monetaria (IpAEC). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "pib",
+        "ipaec",
+        "actividad económica",
+        "crecimiento",
+        "recesión",
+        "sectores",
+        "construcción",
+        "bcb",
+        "ine",
+        "2026"
+      ],
+      "fecha": "2026-08-18",
+      "tipo": "serie_y_ranking",
+      "formato": "informe_panorama",
+      "imagen": "graficas/pib-ipaec-2026.png",
+      "thumb": "thumbs/pib-ipaec-2026.png",
+      "datos": null
+    },
+    {
       "slug": "monetario-determinantes-base-nivel",
       "titulo": "Bolivia: ¿De dónde nace el dinero que emite el BCB?",
       "subtitulo": "Determinantes de la base monetaria · millones de Bs · serie mensual · datos a junio 2026",
