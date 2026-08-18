@@ -239,6 +239,10 @@ _FONT_FILES = {
     "Playfair Display": "PlayfairDisplay.ttf",
     "Playfair Display Italic": "PlayfairDisplay-Italic.ttf",
     "Inter": "Inter.ttf",
+    # Inter.ttf es VARIABLE (wght 100-900) y matplotlib no navega ejes ni sintetiza
+    # negritas: weight="bold" sobre el regular no hacia nada. Instancia estatica
+    # wght=700 generada con fontTools.varLib.instancer.
+    "Inter Bold": "Inter-Bold.ttf",
     "Archivo": "Archivo.ttf",
     "Source Serif 4": "SourceSerif4.ttf",
     "IBM Plex Mono": "IBMPlexMono-Regular.ttf",
@@ -349,6 +353,8 @@ FORMATS = {
     "informe":       (1800, 1800),  # ~9x9 in @200dpi -> PDF/HTML/presentaciones
     "informe_ancho": (2000, 1200),
     "informe_horizontal": (1850, 1333),  # ~3:2 horizontal (blog/informe); fuentes fijas vía SC_REF
+    "informe_panorama": (2200, 1350),    # DOS paneles lado a lado; SC_REF propio para
+                                         # que el texto no crezca al ensanchar el lienzo
     "red_cuadrada":  (1080, 1080),  # Instagram / X feed
     "red_vertical":  (1080, 1350),  # IG retrato
     "red_historia":  (1080, 1920),  # stories
@@ -411,7 +417,7 @@ ESCALA = 2
 # referencia mayor: al ensanchar el lienzo, las fuentes NO crecen, así el texto
 # del pie entra en menos líneas y el mapa queda más grande (mismo tamaño de letra
 # que el formato anterior de 2000 px de ancho).
-SC_REF = {"mundo": 1405, "informe_horizontal": 1370}
+SC_REF = {"mundo": 1405, "informe_horizontal": 1370, "informe_panorama": 1560}
 
 
 def _spec(formato: str):
