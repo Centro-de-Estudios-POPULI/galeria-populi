@@ -1,15 +1,16 @@
 {
   "slug": "censo-ocupacion",
   "titulo": "Bolivia: Tasa de ocupación",
-  "subtitulo": "Población ocupada respecto a la población en edad de trabajar — por municipio",
+  "subtitulo": "Qué proporción de la población en edad de trabajar tiene efectivamente una ocupación — sobre la población en edad de trabajar (15 años o más), por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "tasa_ocupacion"
+    "tasa_ocupacion",
+    "Empleo"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-ocupacion.png",

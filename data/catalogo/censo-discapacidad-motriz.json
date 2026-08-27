@@ -1,15 +1,16 @@
 {
   "slug": "censo-discapacidad-motriz",
   "titulo": "Bolivia: Dificultad severa para caminar",
-  "subtitulo": "Personas con mucha o total dificultad para caminar o usar brazos — por municipio",
+  "subtitulo": "Personas con dificultad severa para caminar, subir gradas o usar brazos y manos — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_disc_caminar"
+    "pct_disc_caminar",
+    "Discapacidad"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-discapacidad-motriz.png",

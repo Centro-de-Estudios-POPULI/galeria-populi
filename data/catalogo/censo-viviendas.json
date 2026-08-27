@@ -1,0 +1,19 @@
+{
+  "slug": "censo-viviendas",
+  "titulo": "Bolivia: Viviendas",
+  "subtitulo": "Cuántas viviendas particulares ocupadas hay en el municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "viviendas",
+    "Vivienda y Materiales"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-viviendas.png",
+  "thumb": "thumbs/censo-viviendas.png",
+  "datos": null
+}

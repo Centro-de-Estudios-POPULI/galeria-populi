@@ -1,0 +1,19 @@
+{
+  "slug": "censo-ocupados-en-construccion",
+  "titulo": "Bolivia: Ocupados en construcción",
+  "subtitulo": "Personas ocupadas en construcción, la rama que más responde al ciclo económico — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_construccion",
+    "Empleo"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-ocupados-en-construccion.png",
+  "thumb": "thumbs/censo-ocupados-en-construccion.png",
+  "datos": null
+}

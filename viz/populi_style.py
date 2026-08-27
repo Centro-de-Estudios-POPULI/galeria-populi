@@ -165,7 +165,8 @@ DIV_ATLAS = ["#00323d", "#005f73", "#0a9396", "#94d2bd", "#e9d8a6",
              "#eda13e", "#df5d25", "#c71e1d", "#8f1f22"]
 
 
-def escala_atlas(valores, pesos=None, direccion=0, con_signo=False):
+def escala_atlas(valores, pesos=None, direccion=0, con_signo=False,
+                 dominio=None, conteo=False):
     """Escala divergente de ancla real, idéntica a la de los atlas web.
 
     valores    : serie de valores municipales (los NaN se ignoran)
@@ -177,6 +178,23 @@ def escala_atlas(valores, pesos=None, direccion=0, con_signo=False):
                  que el mejor resultado no salga pintado de rojo. −1 y 0 la
                  dejan como está; con el pivote en un centro real, el 0 no dice
                  bien/mal sino por debajo / por encima del país.
+    dominio    : `dom` del catálogo — el rango (lo, hi) que ya usa la página.
+                 ★ SIN ESTO LA LÁMINA Y LA WEB NO COINCIDEN. Medido el
+                   2026-08-27: recalcular p02/p98 acá daba un rango distinto en
+                   **176 de los 215** indicadores (82 %), porque la página lo
+                   calcula sobre la UNIÓN de 2012 y 2024 —para que un tono
+                   signifique lo mismo en los dos censos— y acá sólo había 2024.
+                   `pct_internet` iba de 0,0–83,7 en la web y de 33,9–86,7 en la
+                   lámina descargable: el mismo indicador con dos repartos de
+                   color. Se declara, no se recalcula.
+    conteo     : `agg == "suma"`. Un conteo NO se centra en el promedio
+                 ponderado: ese promedio es Σp²/Σp —el tamaño del municipio de
+                 la persona promedio— y para `pob_total` da 441.536 contra una
+                 mediana de 12.296, o sea que el pivote cae FUERA del rango
+                 dibujado (tope 218.819) y la rampa se degenera. Ésa es la razón
+                 real por la que los mapas de conteo estaban excluidos del Banco
+                 con la excusa de que «no son aptos para coroplético». Centrados
+                 en su MEDIANA, que sí es una magnitud municipal, funcionan.
     con_signo  : variables que cruzan el cero (resultado fiscal). Ahí el pivote
                  con sentido es el CERO, no un promedio, y el dominio se hace
                  simétrico para que el rojo y el petróleo pesen igual.
@@ -196,19 +214,27 @@ def escala_atlas(valores, pesos=None, direccion=0, con_signo=False):
     vv = v[ok]
 
     # p02/p98: recorta colas para que un outlier no se coma la rampa y deje al
-    # 80% de los municipios apilado en un solo tono.
-    lo, hi = float(_np.quantile(vv, 0.02)), float(_np.quantile(vv, 0.98))
+    # 80% de los municipios apilado en un solo tono. Si el catálogo declara el
+    # dominio, MANDA el declarado: es el que usa la página.
+    if dominio is not None and len(dominio) == 2 and dominio[1] > dominio[0]:
+        lo, hi = float(dominio[0]), float(dominio[1])
+    else:
+        lo, hi = float(_np.quantile(vv, 0.02)), float(_np.quantile(vv, 0.98))
     if hi <= lo:                                   # serie casi constante
         lo, hi = float(vv.min()), float(vv.max()) or 1.0
         if hi <= lo:
             hi = lo + 1.0
 
+    piv_real = None
     if con_signo:
         m = max(abs(lo), abs(hi)) or 1.0
         lo, piv, hi, piv_tipo = -m, 0.0, m, "cero"
+        piv_real = 0.0
     else:
         piv, piv_tipo = None, "mediana"
-        if pesos is not None:
+        if conteo:
+            piv, piv_tipo = float(_np.median(vv)), "mediana"
+        elif pesos is not None:
             w = _np.asarray(pesos, dtype=float)
             m = ok & _np.isfinite(w)
             if m.any() and _np.nansum(w[m]) > 0:
@@ -218,6 +244,11 @@ def escala_atlas(valores, pesos=None, direccion=0, con_signo=False):
             piv, piv_tipo = float(_np.median(vv)), "mediana"
         # El pivote tiene que caer DENTRO del rango dibujado: pegado a un extremo
         # la rampa se degenera y media paleta no se usa nunca.
+        # ⚠️ CUANDO SE RECORTA, EL NÚMERO YA NO ES LA ESTADÍSTICA QUE DICE SER.
+        #    Se guarda el real aparte para que la leyenda no publique «mediana
+        #    18.580» cuando la mediana es 12.296. Es el mismo defecto que ya se
+        #    arregló en el tablero, y pasa en 17 de los 215.
+        piv_real = piv
         pad = (hi - lo) * 0.08
         if pad > 0:
             piv = min(max(piv, lo + pad), hi - pad)
@@ -225,7 +256,7 @@ def escala_atlas(valores, pesos=None, direccion=0, con_signo=False):
     tonos = DIV_ATLAS[::-1] if direccion == 1 else DIV_ATLAS
     cmap = LinearSegmentedColormap.from_list("populi_atlas", tonos)
     norm = TwoSlopeNorm(vmin=lo, vcenter=piv, vmax=hi)
-    info = {"lo": lo, "piv": piv, "hi": hi, "piv_tipo": piv_tipo,
+    info = {"lo": lo, "piv": piv, "piv_real": piv_real, "hi": hi, "piv_tipo": piv_tipo,
             "min": float(vv.min()), "max": float(vv.max()),
             "recorte": bool(vv.min() < lo or vv.max() > hi)}
     return cmap, norm, info
@@ -355,6 +386,10 @@ FORMATS = {
     "informe_horizontal": (1850, 1333),  # ~3:2 horizontal (blog/informe); fuentes fijas vía SC_REF
     "informe_panorama": (2200, 1350),    # DOS paneles lado a lado; SC_REF propio para
                                          # que el texto no crezca al ensanchar el lienzo
+    "informe_mosaico": (2400, 1680),     # CUADRICULA de paneles chicos (small multiples,
+                                         # 4x3). Mas ancho para las cuatro columnas y mas
+                                         # alto para las tres filas; SC_REF aun mayor para
+                                         # que el bloque de titulo no se coma la cuadricula
     "red_cuadrada":  (1080, 1080),  # Instagram / X feed
     "red_vertical":  (1080, 1350),  # IG retrato
     "red_historia":  (1080, 1920),  # stories
@@ -417,7 +452,8 @@ ESCALA = 2
 # referencia mayor: al ensanchar el lienzo, las fuentes NO crecen, así el texto
 # del pie entra en menos líneas y el mapa queda más grande (mismo tamaño de letra
 # que el formato anterior de 2000 px de ancho).
-SC_REF = {"mundo": 1405, "informe_horizontal": 1370, "informe_panorama": 1560}
+SC_REF = {"mundo": 1405, "informe_horizontal": 1370, "informe_panorama": 1560,
+          "informe_mosaico": 1700}
 
 
 def _spec(formato: str):

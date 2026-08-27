@@ -1,0 +1,19 @@
+{
+  "slug": "censo-hogares-nucleares",
+  "titulo": "Bolivia: Hogares nucleares",
+  "subtitulo": "Hogares formados por una pareja, con hijas e hijos o sin ellos — sobre los hogares, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_hogar_nuclear",
+    "Hogares y Jefatura"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-hogares-nucleares.png",
+  "thumb": "thumbs/censo-hogares-nucleares.png",
+  "datos": null
+}

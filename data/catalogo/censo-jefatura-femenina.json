@@ -1,0 +1,19 @@
+{
+  "slug": "censo-jefatura-femenina",
+  "titulo": "Bolivia: Jefatura femenina",
+  "subtitulo": "Hogares donde la persona reconocida como jefa es una mujer — sobre los hogares, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_jefatura_femenina",
+    "Hogares y Jefatura"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-jefatura-femenina.png",
+  "thumb": "thumbs/censo-jefatura-femenina.png",
+  "datos": null
+}

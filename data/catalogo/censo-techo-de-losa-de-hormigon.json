@@ -1,0 +1,19 @@
+{
+  "slug": "censo-techo-de-losa-de-hormigon",
+  "titulo": "Bolivia: Techo de losa de hormigón",
+  "subtitulo": "Viviendas con losa de hormigón armado, que además permite construir un piso encima — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_techo_losa",
+    "Vivienda y Materiales"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-techo-de-losa-de-hormigon.png",
+  "thumb": "thumbs/censo-techo-de-losa-de-hormigon.png",
+  "datos": null
+}

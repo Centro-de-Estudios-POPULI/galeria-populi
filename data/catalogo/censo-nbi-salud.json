@@ -1,15 +1,16 @@
 {
   "slug": "censo-nbi-salud",
-  "titulo": "Bolivia: Carencia en salud (NBI)",
-  "subtitulo": "Población con carencia en atención de salud — por municipio",
+  "titulo": "Bolivia: NBI: Atención en salud",
+  "subtitulo": "Población sin atención de salud adecuada según el método oficial — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_nbi_salud"
+    "pct_nbi_salud",
+    "Componentes NBI"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-salud.png",

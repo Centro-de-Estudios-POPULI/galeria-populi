@@ -1,0 +1,19 @@
+{
+  "slug": "censo-afiliados-al-sus",
+  "titulo": "Bolivia: Afiliados al SUS",
+  "subtitulo": "Personas afiliadas al Sistema Único de Salud, la cobertura pública universal — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_sus",
+    "Salud"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-afiliados-al-sus.png",
+  "thumb": "thumbs/censo-afiliados-al-sus.png",
+  "datos": null
+}

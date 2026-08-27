@@ -1,0 +1,19 @@
+{
+  "slug": "censo-deposita-en-contenedor-publico",
+  "titulo": "Bolivia: Deposita en contenedor público",
+  "subtitulo": "Viviendas que dejan la basura en un contenedor o basurero público — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_basura_contenedor",
+    "Servicios Básicos"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-deposita-en-contenedor-publico.png",
+  "thumb": "thumbs/censo-deposita-en-contenedor-publico.png",
+  "datos": null
+}

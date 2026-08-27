@@ -1,0 +1,19 @@
+{
+  "slug": "censo-habla-dos-o-mas-idiomas",
+  "titulo": "Bolivia: Habla dos o más idiomas",
+  "subtitulo": "Personas que hablan dos o más idiomas — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_bilingue",
+    "Pueblos e Idiomas"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-habla-dos-o-mas-idiomas.png",
+  "thumb": "thumbs/censo-habla-dos-o-mas-idiomas.png",
+  "datos": null
+}

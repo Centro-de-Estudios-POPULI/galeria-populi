@@ -1,0 +1,19 @@
+{
+  "slug": "censo-ocupados-en-manufactura",
+  "titulo": "Bolivia: Ocupados en manufactura",
+  "subtitulo": "Personas ocupadas en la industria manufacturera — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_manufactura",
+    "Empleo"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-ocupados-en-manufactura.png",
+  "thumb": "thumbs/censo-ocupados-en-manufactura.png",
+  "datos": null
+}

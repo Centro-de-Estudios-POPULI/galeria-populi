@@ -30,6 +30,8 @@ viz/
 ├── examples/           # demos y ejemplos de autoría (1 panel, vía publicar())
 └── recetas/            # guías de FIGURAS DE PUBLICACIÓN (multi-panel, layout a mano)
     └── series-eventos/   # serie temporal anotada con hitos — caso: reservas/oro BCB
+    ├── serie-y-ranking/  # serie + ranking de componentes — caso: PIB trimestral e IpAEC
+    └── small-multiples/  # cuadrícula 4×3 de paneles chicos — caso: PIB sectorial semestral
 ```
 
 Salidas del Banco:

@@ -1,15 +1,16 @@
 {
   "slug": "censo-sector-secundario",
-  "titulo": "Bolivia: Empleo en el sector secundario",
-  "subtitulo": "Ocupados en industria, construcción, electricidad y agua — por municipio",
+  "titulo": "Bolivia: Sector secundario",
+  "subtitulo": "Personas ocupadas en manufactura y construcción: lo que se transforma o se levanta — sobre la población ocupada, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_sector_secundario"
+    "pct_sector_secundario",
+    "Empleo"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-sector-secundario.png",

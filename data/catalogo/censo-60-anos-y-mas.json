@@ -1,0 +1,19 @@
+{
+  "slug": "censo-60-anos-y-mas",
+  "titulo": "Bolivia: 60 años y más",
+  "subtitulo": "Personas de sesenta años o más — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_60_mas",
+    "Demografía"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-60-anos-y-mas.png",
+  "thumb": "thumbs/censo-60-anos-y-mas.png",
+  "datos": null
+}

@@ -1,15 +1,16 @@
 {
   "slug": "censo-edu-secundaria",
-  "titulo": "Bolivia: Nivel educativo: secundaria",
-  "subtitulo": "Población cuyo máximo nivel alcanzado es secundaria — por municipio",
+  "titulo": "Bolivia: Secundaria (19+)",
+  "subtitulo": "Personas de diecinueve años o más cuyo máximo nivel alcanzado es la secundaria — sobre la población de 19 años o más, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_edu_secundaria"
+    "pct_edu_secundaria",
+    "Educación"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edu-secundaria.png",

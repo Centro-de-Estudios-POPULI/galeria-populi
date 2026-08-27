@@ -1,15 +1,16 @@
 {
   "slug": "censo-edad-mediana",
   "titulo": "Bolivia: Edad mediana",
-  "subtitulo": "Edad mediana de la población, en años — por municipio",
+  "subtitulo": "La edad que parte a la población en dos mitades iguales; sube cuando el municipio envejece — sobre la población",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "edad_mediana"
+    "edad_mediana",
+    "Demografía"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-mediana.png",

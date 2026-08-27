@@ -1,15 +1,16 @@
 {
   "slug": "censo-alcantarillado",
-  "titulo": "Bolivia: Conexión a alcantarillado",
-  "subtitulo": "Hogares conectados a alcantarillado — por municipio",
+  "titulo": "Bolivia: Con alcantarillado",
+  "subtitulo": "Viviendas conectadas a la red de alcantarillado. Es lo que distingue a la ciudad servida de la que se expandió sin red — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_alcantarillado"
+    "pct_alcantarillado",
+    "Servicios Básicos"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-alcantarillado.png",

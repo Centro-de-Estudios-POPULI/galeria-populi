@@ -1,0 +1,19 @@
+{
+  "slug": "censo-sin-afiliacion-a-salud",
+  "titulo": "Bolivia: Sin afiliación a salud",
+  "subtitulo": "Personas sin ninguna afiliación de salud — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_sin_seguro",
+    "Salud"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-sin-afiliacion-a-salud.png",
+  "thumb": "thumbs/censo-sin-afiliacion-a-salud.png",
+  "datos": null
+}

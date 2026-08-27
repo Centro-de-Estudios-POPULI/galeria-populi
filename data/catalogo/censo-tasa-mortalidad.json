@@ -1,15 +1,16 @@
 {
   "slug": "censo-tasa-mortalidad",
-  "titulo": "Bolivia: Mortalidad declarada",
-  "subtitulo": "Fallecidos declarados por 1.000 habitantes (anualizado 2019-2024) — por municipio",
+  "titulo": "Bolivia: Tasa de mortalidad declarada",
+  "subtitulo": "Cuántas muertes declaradas hay por cada mil habitantes. Es lo que el hogar recuerda, no un registro civil — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "tasa_mortalidad"
+    "tasa_mortalidad",
+    "Mortalidad"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-tasa-mortalidad.png",

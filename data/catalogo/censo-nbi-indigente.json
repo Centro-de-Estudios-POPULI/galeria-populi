@@ -1,15 +1,16 @@
 {
   "slug": "censo-nbi-indigente",
-  "titulo": "Bolivia: Indigencia (NBI)",
-  "subtitulo": "Población en pobreza indigente por NBI — por municipio",
+  "titulo": "Bolivia: Indigencia",
+  "subtitulo": "Población en indigencia, con carencias graves en varias dimensiones a la vez — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_nbi_indigente"
+    "pct_nbi_indigente",
+    "Pobreza (NBI)"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-indigente.png",

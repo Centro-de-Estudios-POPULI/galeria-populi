@@ -1,15 +1,16 @@
 {
   "slug": "censo-poblacion-0-14",
-  "titulo": "Bolivia: Población de 0 a 14 años",
-  "subtitulo": "Peso de la población de 0 a 14 años — por municipio",
+  "titulo": "Bolivia: Población 0–14 años",
+  "subtitulo": "Niñas, niños y adolescentes de hasta catorce años — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_0_14"
+    "pct_0_14",
+    "Demografía"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-poblacion-0-14.png",

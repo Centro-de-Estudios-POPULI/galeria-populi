@@ -1,15 +1,16 @@
 {
   "slug": "censo-desocupacion",
   "titulo": "Bolivia: Tasa de desocupación",
-  "subtitulo": "Población desocupada respecto a la fuerza de trabajo — por municipio",
+  "subtitulo": "De quienes están en el mercado laboral —trabajando o buscando—, cuántos buscan trabajo y no lo encuentran — sobre la población económicamente activa, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "tasa_desocupacion"
+    "tasa_desocupacion",
+    "Empleo"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-desocupacion.png",

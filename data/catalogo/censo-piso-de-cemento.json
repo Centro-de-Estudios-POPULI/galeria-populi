@@ -1,0 +1,19 @@
+{
+  "slug": "censo-piso-de-cemento",
+  "titulo": "Bolivia: Piso de cemento",
+  "subtitulo": "Viviendas con piso de cemento — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_piso_cemento",
+    "Vivienda y Materiales"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-piso-de-cemento.png",
+  "thumb": "thumbs/censo-piso-de-cemento.png",
+  "datos": null
+}

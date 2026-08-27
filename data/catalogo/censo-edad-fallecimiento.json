@@ -1,15 +1,16 @@
 {
   "slug": "censo-edad-fallecimiento",
   "titulo": "Bolivia: Edad promedio de fallecimiento",
-  "subtitulo": "Edad promedio al morir de los fallecidos declarados, en años — por municipio",
+  "subtitulo": "A qué edad, en promedio, murieron las personas declaradas — sobre las personas fallecidas declaradas en el período, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "edad_prom_fallecimiento"
+    "edad_prom_fallecimiento",
+    "Mortalidad"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-fallecimiento.png",

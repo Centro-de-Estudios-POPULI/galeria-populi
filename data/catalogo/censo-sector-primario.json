@@ -1,15 +1,16 @@
 {
   "slug": "censo-sector-primario",
-  "titulo": "Bolivia: Empleo en sector primario",
-  "subtitulo": "Ocupados en agricultura, ganadería y minería — por municipio",
+  "titulo": "Bolivia: Sector primario (agri.+miner.)",
+  "subtitulo": "Personas ocupadas en agricultura, ganadería o minería: lo que se extrae de la tierra — sobre la población ocupada, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_sector_primario"
+    "pct_sector_primario",
+    "Empleo"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-sector-primario.png",

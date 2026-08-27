@@ -1,15 +1,16 @@
 {
   "slug": "censo-cuenta-propia",
-  "titulo": "Bolivia: Trabajo por cuenta propia",
-  "subtitulo": "Ocupados que trabajan por cuenta propia — por municipio",
+  "titulo": "Bolivia: Trabajadores por cuenta propia",
+  "subtitulo": "Personas ocupadas que trabajan por su cuenta, sin patrón ni empleados — sobre la población ocupada, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_cuenta_propia"
+    "pct_cuenta_propia",
+    "Empleo"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-cuenta-propia.png",

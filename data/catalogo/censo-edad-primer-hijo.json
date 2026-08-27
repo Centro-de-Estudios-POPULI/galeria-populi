@@ -1,15 +1,16 @@
 {
   "slug": "censo-edad-primer-hijo",
-  "titulo": "Bolivia: Edad al primer hijo",
-  "subtitulo": "Edad promedio de la madre al primer hijo (años) — por municipio",
+  "titulo": "Bolivia: Edad promedio al primer hijo",
+  "subtitulo": "A qué edad tuvo, en promedio, su primer hijo — sobre las mujeres que declararon la edad a su primer hijo, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "edad_1er_hijo"
+    "edad_1er_hijo",
+    "Salud"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-primer-hijo.png",

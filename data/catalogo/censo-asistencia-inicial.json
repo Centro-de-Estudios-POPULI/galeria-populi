@@ -1,15 +1,16 @@
 {
   "slug": "censo-asistencia-inicial",
-  "titulo": "Bolivia: Asistencia a educación inicial",
-  "subtitulo": "Niños de 4 y 5 años que asisten a un establecimiento educativo — por municipio",
+  "titulo": "Bolivia: Asistencia inicial (4-5 años)",
+  "subtitulo": "Niñas y niños de cuatro y cinco años que ya asisten a educación inicial — sobre la población de 4 y 5 años, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "tasa_asistencia_4_5"
+    "tasa_asistencia_4_5",
+    "Educación"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-asistencia-inicial.png",

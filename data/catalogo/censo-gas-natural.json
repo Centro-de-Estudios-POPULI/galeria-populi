@@ -1,15 +1,16 @@
 {
   "slug": "censo-gas-natural",
-  "titulo": "Bolivia: Gas natural por red",
-  "subtitulo": "Hogares con gas natural por red domiciliaria — por municipio",
+  "titulo": "Bolivia: Con gas natural a domicilio",
+  "subtitulo": "Viviendas con gas domiciliario por cañería, la forma más barata y segura de cocinar — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_gas_natural"
+    "pct_gas_natural",
+    "Energía y Cocina"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-gas-natural.png",

@@ -1,0 +1,19 @@
+{
+  "slug": "censo-nacimientos-inscritos-menores-de-5",
+  "titulo": "Bolivia: Nacimientos inscritos (menores de 5)",
+  "subtitulo": "Niñas y niños menores de cinco años ya inscritos; es el indicador que anticipa la indocumentación futura — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_registro_menores5",
+    "Pueblos e Idiomas"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nacimientos-inscritos-menores-de-5.png",
+  "thumb": "thumbs/censo-nacimientos-inscritos-menores-de-5.png",
+  "datos": null
+}

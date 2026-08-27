@@ -1,0 +1,19 @@
+{
+  "slug": "censo-pileta-publica",
+  "titulo": "Bolivia: Pileta pública",
+  "subtitulo": "Viviendas que se abastecen de una pileta pública compartida — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_agua_pileta",
+    "Servicios Básicos"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-pileta-publica.png",
+  "thumb": "thumbs/censo-pileta-publica.png",
+  "datos": null
+}

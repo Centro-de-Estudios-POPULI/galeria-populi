@@ -1,15 +1,16 @@
 {
   "slug": "censo-ocupacion-femenina",
-  "titulo": "Bolivia: Ocupación femenina",
-  "subtitulo": "Mujeres en edad de trabajar que están ocupadas — por municipio",
+  "titulo": "Bolivia: Tasa de ocupación femenina",
+  "subtitulo": "Porcentaje de mujeres en edad de trabajar que están ocupadas — sobre las mujeres en edad de trabajar (15 años o más), por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "tasa_ocupacion_fem"
+    "tasa_ocupacion_fem",
+    "Empleo"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-ocupacion-femenina.png",

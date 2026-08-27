@@ -1,0 +1,19 @@
+{
+  "slug": "censo-residia-en-otro-municipio",
+  "titulo": "Bolivia: Residía en otro municipio",
+  "subtitulo": "Personas cuya residencia habitual declarada está en otro municipio — sobre la población",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_residia_otro_mun",
+    "Migración interna"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-residia-en-otro-municipio.png",
+  "thumb": "thumbs/censo-residia-en-otro-municipio.png",
+  "datos": null
+}

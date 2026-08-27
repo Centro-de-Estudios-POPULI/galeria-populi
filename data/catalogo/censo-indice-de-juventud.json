@@ -1,0 +1,19 @@
+{
+  "slug": "censo-indice-de-juventud",
+  "titulo": "Bolivia: Índice de juventud",
+  "subtitulo": "Cuántos menores de quince años hay por cada cien personas de sesenta y cinco o más. Es el espejo del índice de envejecimiento: por encima de cien hay más chicos que viejos, y en Bolivia llega a pasar de mil — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "indice_juventud",
+    "Demografía"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-indice-de-juventud.png",
+  "thumb": "thumbs/censo-indice-de-juventud.png",
+  "datos": null
+}

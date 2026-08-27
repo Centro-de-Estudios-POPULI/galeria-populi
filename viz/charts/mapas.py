@@ -34,7 +34,7 @@ PALETA_ACENTO = {
 def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
                  formato="red_vertical", archivo=None, titulo_familia=None,
                  paleta="calido", leyenda="", label_fmt="{:.0f}", sufijo="",
-                 acento_p=None, acento_linea=None, escala=None):
+                 acento_p=None, acento_linea=None, escala=None, bordes=None):
     """`escala` = salida de ps.escala_atlas() → usa la MISMA escala que el atlas
     de la página (divergente con ancla real y rampa orientada por dirección) y
     dibuja el pivote rotulado en el termómetro. Sin `escala` se conserva el
@@ -69,6 +69,17 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
         ax=ax, column=value_col, cmap=cmap, norm=norm,
         edgecolor=ps.COLORS["fondo"], linewidth=0.4 * sc, zorder=3)
 
+    # ★ LÍMITES DEPARTAMENTALES, como en el tablero. Con 343 municipios dibujados
+    #   todos con la misma línea no hay forma de ver dónde termina Cochabamba: el
+    #   país es una sola mancha de 343 piezas. Va ENCIMA de los rellenos y más
+    #   gruesa que la municipal — es la jerarquía la que se lee, no el color, así
+    #   que no compite con la rampa.
+    #   Llega ya calculada (`bordes`): disolver los 343 por departamento en cada
+    #   una de las 215 láminas sería repetir el mismo trabajo 215 veces.
+    if bordes is not None:
+        bordes.plot(ax=ax, color=ps.COLORS["pizarra"], linewidth=0.9 * sc,
+                    zorder=4, alpha=.85)
+
     ax.axis("off")
     minx, miny, maxx, maxy = gdf.total_bounds
     cosf = np.cos(np.radians((miny + maxy) / 2))
@@ -100,7 +111,15 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
     # se rotulan ≤ y ≥ para no hacer pasar un percentil por un extremo real.
     smin = ("≤" if recorte else "") + ps.es_num(lo_lbl, _dec(label_fmt)) + sufijo
     smax = ("≥" if recorte else "") + ps.es_num(hi_lbl, _dec(label_fmt)) + sufijo
-    spiv = ps.es_num(info["piv"], _dec(label_fmt)) + sufijo if info else ""
+    # ⚠️ SE ROTULA EL PIVOTE REAL, NO EL RECORTADO. Cuando el ancla cae pegada a
+    #    un extremo se la corre hacia adentro para que la rampa no se degenere,
+    #    pero entonces el número dibujado YA NO ES la mediana ni el país:
+    #    publicarlo con ese nombre es rebautizar un borde con el nombre de una
+    #    estadística. En «Población total» la leyenda decía «mediana 18.580»
+    #    cuando la mediana es 12.296.
+    _pr = info.get("piv_real") if info else None
+    _recortado = info and _pr is not None and abs(_pr - info["piv"]) > 1e-9
+    spiv = ps.es_num(_pr if _recortado else info["piv"], _dec(label_fmt)) + sufijo if info else ""
     from PIL import Image as _I, ImageDraw as _D, ImageFont as _F
     _ff = _F.truetype(str(ps.FONTS_DIR / ps._FONT_FILES.get(ps.MONO, "IBMPlexMono-Regular.ttf")),
                       int(ps.SIZES["leyenda"] * sc))
@@ -129,7 +148,8 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
         bar.axhline(127.5, color=ps.COLORS["tinta"], lw=0.9 * sc, zorder=5)
         y_piv = bar_top - bar_h / 2
         fig.text((bar_x - 5 * sc) / W, y_piv / H,
-                 "país" if info["piv_tipo"] == "país" else info["piv_tipo"],
+                 ("país" if info["piv_tipo"] == "país" else info["piv_tipo"])
+                 + ("*" if _recortado else ""),
                  fontproperties=f_cap, color=ps.COLORS["gris"],
                  va="center", ha="right")
         fig.text(right / W, y_piv / H, spiv, fontproperties=f_num,
@@ -137,12 +157,19 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
         # Los extremos REALES sólo se declaran cuando el recorte los escondió.
         # En una lámina que viaja sola a redes, el municipio del extremo suele
         # ser la noticia.
+        lineas = []
         if recorte:
+            lineas += [f"mín {ps.es_num(info['min'], _dec(label_fmt))}{sufijo}",
+                       f"máx {ps.es_num(info['max'], _dec(label_fmt))}{sufijo}"]
+        # el asterisco del rótulo se explica: la marca está corrida hacia adentro
+        # para que la rampa no se degenere, y el número es el REAL
+        if _recortado:
+            lineas.append(f"*marca en {ps.es_num(info['piv'], _dec(label_fmt))}{sufijo}")
+        if lineas:
             f_ex = ps.fp(ps.MONO, ps.SIZES["leyenda"] * sc * 0.78)
-            # En dos renglones y no en uno: la línea corrida se estiraba más allá
-            # del ancho de la barra y rompía la columna de la leyenda.
-            for i, ex in enumerate((f"mín {ps.es_num(info['min'], _dec(label_fmt))}{sufijo}",
-                                    f"máx {ps.es_num(info['max'], _dec(label_fmt))}{sufijo}")):
+            # En renglones y no en una línea corrida: se estiraba más allá del
+            # ancho de la barra y rompía la columna de la leyenda.
+            for i, ex in enumerate(lineas):
                 fig.text(right / W, (bar_top - bar_h - (34 + i * 20) * sc) / H, ex,
                          fontproperties=f_ex, color=ps.COLORS["gris"],
                          va="center", ha="right")

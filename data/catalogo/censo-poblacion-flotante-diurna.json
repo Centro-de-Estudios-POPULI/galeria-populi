@@ -1,0 +1,19 @@
+{
+  "slug": "censo-poblacion-flotante-diurna",
+  "titulo": "Bolivia: Población flotante diurna",
+  "subtitulo": "Cuánta gente suma o resta el municipio de día por el movimiento del trabajo",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "poblacion_flotante",
+    "Flujos Metropolitanos"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-poblacion-flotante-diurna.png",
+  "thumb": "thumbs/censo-poblacion-flotante-diurna.png",
+  "datos": null
+}

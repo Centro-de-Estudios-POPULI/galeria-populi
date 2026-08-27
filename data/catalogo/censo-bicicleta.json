@@ -1,15 +1,16 @@
 {
   "slug": "censo-bicicleta",
-  "titulo": "Bolivia: Hogares con bicicleta",
-  "subtitulo": "Hogares que tienen bicicleta — por municipio",
+  "titulo": "Bolivia: Con bicicleta",
+  "subtitulo": "Hogares con bicicleta — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_bicicleta"
+    "pct_bicicleta",
+    "Equipamiento del Hogar"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-bicicleta.png",

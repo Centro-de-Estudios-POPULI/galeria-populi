@@ -1,15 +1,16 @@
 {
   "slug": "censo-asalariados",
-  "titulo": "Bolivia: Empleo asalariado",
-  "subtitulo": "Ocupados que trabajan como empleados u obreros — por municipio",
+  "titulo": "Bolivia: Asalariados",
+  "subtitulo": "Personas ocupadas que trabajan para un empleador a cambio de un sueldo — sobre la población ocupada, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_asalariados"
+    "pct_asalariados",
+    "Empleo"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-asalariados.png",

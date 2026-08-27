@@ -1,15 +1,16 @@
 {
   "slug": "censo-agua-caneria",
-  "titulo": "Bolivia: Acceso a agua por cañería de red",
-  "subtitulo": "Hogares con agua por cañería de red — por municipio",
+  "titulo": "Bolivia: Agua por cañería",
+  "subtitulo": "Viviendas cuya agua llega desde una red pública de cañerías — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_agua_caneria"
+    "pct_agua_caneria",
+    "Servicios Básicos"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-agua-caneria.png",

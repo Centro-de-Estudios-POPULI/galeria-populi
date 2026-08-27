@@ -1,15 +1,16 @@
 {
   "slug": "censo-agua-interior",
-  "titulo": "Bolivia: Agua por cañería dentro de la vivienda",
-  "subtitulo": "Hogares con agua por cañería dentro de la vivienda — por municipio",
+  "titulo": "Bolivia: Agua dentro de la vivienda",
+  "subtitulo": "Viviendas donde el agua sale de una llave dentro de la casa, no del patio ni del lote — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_agua_interior"
+    "pct_agua_interior",
+    "Servicios Básicos"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-agua-interior.png",

@@ -1,15 +1,16 @@
 {
   "slug": "censo-anios-estudio",
-  "titulo": "Bolivia: Años promedio de estudio",
-  "subtitulo": "Años promedio de estudio de la población de 25 años o más — por municipio",
+  "titulo": "Bolivia: Años de estudio promedio (19+)",
+  "subtitulo": "Cuántos años de escuela acumula, en promedio, una persona de diecinueve años o más — sobre la población de 19 años o más, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "prom_anios_estudio"
+    "prom_anios_estudio",
+    "Educación"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-anios-estudio.png",

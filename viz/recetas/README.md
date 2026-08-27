@@ -22,6 +22,7 @@ receta codifica las decisiones de diseño para que el siguiente sea más rápido
 |---|---|---|
 | [`series-eventos/`](series-eventos/) | Serie temporal económica anotada con hitos (bandas + callouts), multi-panel | Reservas del BCB y el oro pignorado |
 | [`serie-y-ranking/`](serie-y-ranking/) | Serie temporal a la izquierda + ranking de componentes a la derecha; color por signo | PIB trimestral e IpAEC 2026 |
+| [`small-multiples/`](small-multiples/) | Cuadrícula de paneles chicos (4×3), uno por categoría, cada uno con SU escala; área coloreada por signo contra una línea base | PIB sectorial del primer semestre (índice 2019 = 100 y variación interanual) |
 
 ## Crear una receta nueva
 

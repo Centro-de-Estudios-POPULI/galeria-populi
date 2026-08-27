@@ -1,0 +1,19 @@
+{
+  "slug": "censo-saldo-migratorio-absoluto",
+  "titulo": "Bolivia: Saldo migratorio absoluto",
+  "subtitulo": "Cuánta población ganó o perdió el municipio por mudanzas internas: los que llegaron menos los que se fueron",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "saldo_migratorio",
+    "Migración interna"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-saldo-migratorio-absoluto.png",
+  "thumb": "thumbs/censo-saldo-migratorio-absoluto.png",
+  "datos": null
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "censo-mujeres",
+  "titulo": "Bolivia: Mujeres",
+  "subtitulo": "Personas censadas que se declararon mujeres, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pob_mujeres",
+    "Demografía"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-mujeres.png",
+  "thumb": "thumbs/censo-mujeres.png",
+  "datos": null
+}

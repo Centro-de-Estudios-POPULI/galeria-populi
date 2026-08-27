@@ -1,15 +1,16 @@
 {
   "slug": "censo-edu-superior",
-  "titulo": "Bolivia: Nivel educativo: superior",
-  "subtitulo": "Población de 25 años o más con educación superior — por municipio",
+  "titulo": "Bolivia: Educación superior (19+)",
+  "subtitulo": "Personas de diecinueve años o más con estudios técnicos o universitarios. Es el indicador que más separa a unos municipios de otros — sobre la población de 19 años o más",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_edu_superior"
+    "pct_edu_superior",
+    "Educación"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edu-superior.png",

@@ -1,15 +1,16 @@
 {
   "slug": "censo-cedula-identidad",
-  "titulo": "Bolivia: Tenencia de cédula de identidad",
-  "subtitulo": "Personas que tienen o tuvieron cédula de identidad — por municipio",
+  "titulo": "Bolivia: Con cédula de identidad",
+  "subtitulo": "Personas que tienen o tuvieron cédula de identidad boliviana. Sin cédula no hay trámite, banco ni voto — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_cedula_identidad"
+    "pct_cedula_identidad",
+    "Ciudadanía y Registro"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-cedula-identidad.png",

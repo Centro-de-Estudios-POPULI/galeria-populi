@@ -1,0 +1,19 @@
+{
+  "slug": "censo-ocupados-en-transporte",
+  "titulo": "Bolivia: Ocupados en transporte",
+  "subtitulo": "Personas ocupadas en transporte y almacenamiento — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_transporte",
+    "Empleo"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-ocupados-en-transporte.png",
+  "thumb": "thumbs/censo-ocupados-en-transporte.png",
+  "datos": null
+}

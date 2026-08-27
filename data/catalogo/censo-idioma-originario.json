@@ -1,15 +1,16 @@
 {
   "slug": "censo-idioma-originario",
   "titulo": "Bolivia: Idioma materno originario",
-  "subtitulo": "Población cuyo primer idioma de la niñez es originario — por municipio",
+  "subtitulo": "Personas cuyo primer idioma fue una lengua originaria — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_idioma_materno_originario"
+    "pct_idioma_materno_originario",
+    "Pueblos e Idiomas"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-idioma-originario.png",

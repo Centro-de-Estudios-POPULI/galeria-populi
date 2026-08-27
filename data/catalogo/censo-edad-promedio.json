@@ -1,0 +1,19 @@
+{
+  "slug": "censo-edad-promedio",
+  "titulo": "Bolivia: Edad promedio",
+  "subtitulo": "El promedio simple de las edades. A diferencia de la mediana, se estira cuando hay muchas personas mayores — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "edad_promedio",
+    "Demografía"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-edad-promedio.png",
+  "thumb": "thumbs/censo-edad-promedio.png",
+  "datos": null
+}

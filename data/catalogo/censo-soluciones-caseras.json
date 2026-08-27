@@ -1,0 +1,19 @@
+{
+  "slug": "censo-soluciones-caseras",
+  "titulo": "Bolivia: Soluciones caseras",
+  "subtitulo": "Personas que resuelven con remedios caseros — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_remedios_caseros",
+    "Salud"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-soluciones-caseras.png",
+  "thumb": "thumbs/censo-soluciones-caseras.png",
+  "datos": null
+}

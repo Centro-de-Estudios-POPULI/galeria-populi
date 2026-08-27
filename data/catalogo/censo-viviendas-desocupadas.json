@@ -1,15 +1,16 @@
 {
   "slug": "censo-viviendas-desocupadas",
   "titulo": "Bolivia: Viviendas desocupadas",
-  "subtitulo": "Viviendas desocupadas sobre el total registrado — por municipio",
+  "subtitulo": "Viviendas que existen pero nadie habita. Una proporción alta puede señalar loteamiento especulativo o migración — sobre todas las viviendas particulares, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_vivienda_desocupada"
+    "pct_vivienda_desocupada",
+    "Vivienda y Materiales"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-viviendas-desocupadas.png",

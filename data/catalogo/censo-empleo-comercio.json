@@ -1,15 +1,16 @@
 {
   "slug": "censo-empleo-comercio",
-  "titulo": "Bolivia: Empleo en comercio",
-  "subtitulo": "Ocupados en comercio y reparación de vehículos — por municipio",
+  "titulo": "Bolivia: Ocupados en comercio",
+  "subtitulo": "Personas ocupadas en comercio al por mayor o menor; es la segunda rama del país, después de la agricultura — sobre la población ocupada, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_comercio"
+    "pct_comercio",
+    "Empleo"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-empleo-comercio.png",

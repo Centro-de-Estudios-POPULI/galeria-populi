@@ -1,0 +1,19 @@
+{
+  "slug": "censo-jovenes-15-29",
+  "titulo": "Bolivia: Jóvenes (15-29)",
+  "subtitulo": "Personas jóvenes, la franja que entra al mercado de trabajo y a la educación superior — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_15_29",
+    "Demografía"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-jovenes-15-29.png",
+  "thumb": "thumbs/censo-jovenes-15-29.png",
+  "datos": null
+}

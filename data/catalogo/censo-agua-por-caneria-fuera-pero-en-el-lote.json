@@ -1,0 +1,19 @@
+{
+  "slug": "censo-agua-por-caneria-fuera-pero-en-el-lote",
+  "titulo": "Bolivia: Agua por cañería fuera pero en el lote",
+  "subtitulo": "Viviendas donde el agua llega por cañería pero la llave está fuera de la casa, dentro del terreno — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_agua_lote",
+    "Servicios Básicos"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-agua-por-caneria-fuera-pero-en-el-lote.png",
+  "thumb": "thumbs/censo-agua-por-caneria-fuera-pero-en-el-lote.png",
+  "datos": null
+}

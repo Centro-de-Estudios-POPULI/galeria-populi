@@ -1,0 +1,19 @@
+{
+  "slug": "censo-cuarta-edad-80",
+  "titulo": "Bolivia: Cuarta edad (80+)",
+  "subtitulo": "Personas de ochenta años o más, la franja de mayor dependencia de cuidados — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_80_mas",
+    "Demografía"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-cuarta-edad-80.png",
+  "thumb": "thumbs/censo-cuarta-edad-80.png",
+  "datos": null
+}

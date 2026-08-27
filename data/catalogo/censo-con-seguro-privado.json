@@ -1,0 +1,19 @@
+{
+  "slug": "censo-con-seguro-privado",
+  "titulo": "Bolivia: Con seguro privado",
+  "subtitulo": "Personas con un seguro privado de salud — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_seguro_privado",
+    "Salud"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-con-seguro-privado.png",
+  "thumb": "thumbs/censo-con-seguro-privado.png",
+  "datos": null
+}

@@ -1,15 +1,16 @@
 {
   "slug": "censo-madres-adolescentes",
-  "titulo": "Bolivia: Maternidad adolescente",
-  "subtitulo": "Mujeres de 15 a 19 años que ya son madres — por municipio",
+  "titulo": "Bolivia: Madres adolescentes (15-19)",
+  "subtitulo": "Adolescentes de quince a diecinueve años que ya tuvieron al menos un hijo — sobre las mujeres de 15 a 19 años, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_madres_adolescentes"
+    "pct_madres_adolescentes",
+    "Salud"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-madres-adolescentes.png",

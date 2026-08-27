@@ -1,0 +1,19 @@
+{
+  "slug": "censo-poblacion-en-edad-activa-15-64",
+  "titulo": "Bolivia: Población en edad activa (15-64)",
+  "subtitulo": "Población de quince a sesenta y cuatro años, la franja en edades típicamente activas; es el grupo que sostiene económicamente a los otros dos — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_15_64",
+    "Demografía"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-poblacion-en-edad-activa-15-64.png",
+  "thumb": "thumbs/censo-poblacion-en-edad-activa-15-64.png",
+  "datos": null
+}

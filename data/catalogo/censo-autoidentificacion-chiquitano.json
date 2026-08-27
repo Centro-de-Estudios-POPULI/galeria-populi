@@ -1,0 +1,19 @@
+{
+  "slug": "censo-autoidentificacion-chiquitano",
+  "titulo": "Bolivia: Autoidentificación chiquitano",
+  "subtitulo": "Personas que se autoidentifican como chiquitanas o chiquitanos, un pueblo concentrado en la Chiquitania cruceña — sobre la población de 15 años o más, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_chiquitano",
+    "Pueblos e Idiomas"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-autoidentificacion-chiquitano.png",
+  "thumb": "thumbs/censo-autoidentificacion-chiquitano.png",
+  "datos": null
+}

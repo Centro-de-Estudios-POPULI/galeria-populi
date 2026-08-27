@@ -1,15 +1,16 @@
 {
   "slug": "censo-asistencia-escolar",
-  "titulo": "Bolivia: Asistencia escolar",
-  "subtitulo": "Asistencia escolar en edad obligatoria — por municipio",
+  "titulo": "Bolivia: Asistencia escolar (6–17)",
+  "subtitulo": "Niñas, niños y adolescentes en edad escolar que efectivamente están estudiando — sobre la población de 6 a 17 años, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_asistencia_escolar"
+    "pct_asistencia_escolar",
+    "Educación"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-asistencia-escolar.png",

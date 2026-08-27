@@ -1,15 +1,16 @@
 {
   "slug": "censo-analfabetismo-femenino",
-  "titulo": "Bolivia: Analfabetismo femenino",
-  "subtitulo": "Mujeres de 15 años o más que no saben leer ni escribir — por municipio",
+  "titulo": "Bolivia: Analfabetismo femenino (15+)",
+  "subtitulo": "Porcentaje de mujeres de 15 años o más que no saben leer ni escribir. Compárese con el analfabetismo total para ver la brecha de género — sobre las mujeres de 15 años o más, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_analfabetismo_mujeres"
+    "pct_analfabetismo_mujeres",
+    "Educación"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-analfabetismo-femenino.png",

@@ -1,15 +1,16 @@
 {
   "slug": "censo-departamentos",
-  "titulo": "Bolivia: Viviendas tipo departamento",
-  "subtitulo": "Viviendas en edificios de departamentos — por municipio",
+  "titulo": "Bolivia: Departamentos",
+  "subtitulo": "Viviendas que son departamentos; su peso indica cuánto creció el municipio en altura y no en extensión — sobre las viviendas particulares ocupadas",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_departamento"
+    "pct_departamento",
+    "Vivienda y Materiales"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-departamentos.png",

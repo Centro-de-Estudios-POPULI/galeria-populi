@@ -1,15 +1,16 @@
 {
   "slug": "censo-salud-publica",
-  "titulo": "Bolivia: Uso de la salud pública",
-  "subtitulo": "Población que acude a establecimientos públicos de salud — por municipio",
+  "titulo": "Bolivia: Acude a salud pública",
+  "subtitulo": "Personas que, cuando se enferman, acuden a un puesto, centro u hospital público — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_salud_publica"
+    "pct_salud_publica",
+    "Salud"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-salud-publica.png",

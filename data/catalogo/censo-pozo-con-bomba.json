@@ -1,0 +1,19 @@
+{
+  "slug": "censo-pozo-con-bomba",
+  "titulo": "Bolivia: Pozo con bomba",
+  "subtitulo": "Viviendas con pozo perforado y bomba, que es la forma protegida de usar agua subterránea — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "pct_agua_pozo_bomba",
+    "Servicios Básicos"
+  ],
+  "fecha": "2026-08-27",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-pozo-con-bomba.png",
+  "thumb": "thumbs/censo-pozo-con-bomba.png",
+  "datos": null
+}

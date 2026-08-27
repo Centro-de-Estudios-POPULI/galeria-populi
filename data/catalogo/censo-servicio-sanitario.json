@@ -1,15 +1,16 @@
 {
   "slug": "censo-servicio-sanitario",
-  "titulo": "Bolivia: Acceso a servicio sanitario",
-  "subtitulo": "Hogares con servicio sanitario — por municipio",
+  "titulo": "Bolivia: Con servicio sanitario",
+  "subtitulo": "Viviendas que tienen baño o letrina, sea propio o compartido — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "censo 2024",
     "municipios",
-    "pct_servicio_sanitario"
+    "pct_servicio_sanitario",
+    "Servicios Básicos"
   ],
-  "fecha": "2026-06-10",
+  "fecha": "2026-08-27",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-servicio-sanitario.png",
