@@ -30,6 +30,10 @@ BRAND_DEEP = "#8B1A1A"   # oxblood · heros, campos grandes, hover
 BRAND_LIGHT = "#E8706B"  # SOLO texto sobre fondo oscuro (de fondo da 3:1 con blanco)
 GOLD = "#EE9B00"         # acento sobre fondo oscuro
 GOLD_INK = "#A86E00"     # el mismo oro para texto sobre fondo claro
+# El logo del sitio (Logo.astro): «opuli» va en este café sobre papel y en este
+# papel sobre oscuro; la P en BRAND (claro) o BRAND_LIGHT (oscuro).
+LOGO_INK = "#3D2B1F"
+LOGO_PAPER = "#F5EFE0"
 
 # ─── Neutros (ya compartidos con el sitio) ───────────────────────────────────
 BG = "#FAF8F3"           # fondo claro

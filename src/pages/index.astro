@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import vitrina from "../vitrina.json";
 import { categorias, graficas, meta, u, modoLabel, grupoDe, temasPorCategoria, cortesPorCategoria, fichaTecnica, SITE } from "../lib/banco";
 const base = import.meta.env.BASE_URL;
 const cats = Object.entries(categorias);
@@ -9,10 +10,10 @@ const nCat = Object.fromEntries(cats.map(([k]) => [k, graficas.filter((g) => g.c
 const TEMAS = temasPorCategoria();
 const CORTES = cortesPorCategoria();
 const desc = "Gráficas e indicadores de Bolivia con fuente verificada: mapas municipales del Censo y del Atlas Fiscal, mapas del mundo y series económicas, en alta resolución y listos para compartir.";
-// la lámina destacada rota entre unas pocas elegidas; si alguna no existe, se salta
-const DESTACADAS = ["censo-poblacion-urbana", "censo-poblacion-total-cambio", "fiscal-ic-pc", "mundo-pib-per-capita-ppa", "pib-semestre-variacion", "censo-acceso-a-fuente-mejorada"]
-  .map((s) => graficas.find((g) => g.slug === s)).filter(Boolean).slice(0, 5) as typeof graficas;
-const destacadas = DESTACADAS.length ? DESTACADAS : graficas.slice(0, 5);
+// la vitrina: el mapa de los 343 pintado con la escala real de unas pocas láminas (viz/vitrina.py)
+const VIT = vitrina as { vb: number[]; rampa: string[]; geo: { s: string; d: string }[]; items: { slug: string; titulo: string; sub: string; lo: string; hi: string; piv: string; invertida: boolean; colores: string[] }[] };
+const vit0 = VIT.items[0];
+const rampaCSS = (inv: boolean) => `linear-gradient(to right, ${(inv ? [...VIT.rampa].reverse() : VIT.rampa).join(",")})`;
 const icoDown = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v12M6 10l6 6 6-6M4 20h16"/></svg>`;
 const icoMap = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14"/></svg>`;
 const icoEye = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>`;
@@ -32,12 +33,16 @@ const icoEye = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M
           <span><b>{nMundo}</b><small>mapas del mundo</small></span>
         </div>
       </div>
-      <figure class="destacada" id="destacada">
-        <div class="marco">
-          {destacadas.map((g, i) => <img src={u(base, g.thumb)} alt="" class={i === 0 ? "on" : ""} loading={i === 0 ? "eager" : "lazy"} decoding="async" width="600" height="600" data-slug={g.slug} data-titulo={g.titulo} data-sub={[modoLabel(g), grupoDe(g)].filter(Boolean).join(" · ")} />)}
-        </div>
-        <figcaption><span style="min-width:0"><b id="dest-t">{destacadas[0]?.titulo}</b><span id="dest-s">{[modoLabel(destacadas[0]), grupoDe(destacadas[0])].filter(Boolean).join(" · ")}</span></span><a id="dest-a" href={u(base, `g/${destacadas[0]?.slug}/`)}>Ver la ficha →</a></figcaption>
-        <div class="puntos" aria-hidden="true">{destacadas.map((_, i) => <i class={i === 0 ? "on" : ""}></i>)}</div>
+      <figure class="vitrina" id="vitrina">
+        <svg class="vit-map" viewBox={`0 0 ${VIT.vb[0]} ${VIT.vb[1]}`} aria-hidden="true">
+          {VIT.geo.map((g, i) => <path d={g.d} fill={vit0.colores[i] || undefined} class={vit0.colores[i] ? "" : "nd"} />)}
+        </svg>
+        <figcaption>
+          <b id="vit-t">{vit0.titulo}</b><span class="vit-s" id="vit-s">{vit0.sub} · 343 municipios</span>
+          <div class="vit-rampa" id="vit-rampa" style={`--rampa:${rampaCSS(vit0.invertida)}`}></div>
+          <div class="vit-ext"><span id="vit-lo">≤ {vit0.lo}</span><span class="piv" id="vit-piv">{vit0.piv}</span><span id="vit-hi">≥ {vit0.hi}</span></div>
+          <div class="vit-pie"><div class="puntos" aria-hidden="true">{VIT.items.map((_, i) => <i class={i === 0 ? "on" : ""}></i>)}</div><a id="vit-a" href={u(base, `g/${vit0.slug}/`)}>Ver la lámina →</a></div>
+        </figcaption>
       </figure>
     </div>
   </section>
@@ -140,7 +145,7 @@ const icoEye = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M
     </div>
   </dialog>
 
-  <script define:vars={{ base, SITE, TEMAS, CORTES }}>
+  <script define:vars={{ base, SITE, TEMAS, CORTES, VIT_ITEMS: VIT.items, VIT_RAMPA: VIT.rampa }}>
     const norm = (t) => (t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
     const $ = (s) => document.querySelector(s);
     const grid = $('#grid'), busca = $('#busca'), vacio = $('#vacio'), conteo = $('#conteo');
@@ -290,18 +295,23 @@ const icoEye = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M
     }));
     document.addEventListener('keydown', (e) => { if (e.key === '/' && document.activeElement !== busca && !dlg.open) { e.preventDefault(); busca.focus(); } });
 
-    // ---- la lámina destacada rota ----
+    // ---- la vitrina rota: cambia sólo el color de cada municipio (transición CSS) ----
     (function () {
-      const fig = document.getElementById('destacada'); if (!fig) return;
-      const imgs = [...fig.querySelectorAll('.marco img')], pts = [...fig.querySelectorAll('.puntos i')];
-      const t = document.getElementById('dest-t'), s = document.getElementById('dest-s'), a = document.getElementById('dest-a');
-      if (imgs.length < 2 || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const fig = document.getElementById('vitrina'); if (!fig || VIT_ITEMS.length < 2) return;
+      const paths = [...fig.querySelectorAll('path')], pts = [...fig.querySelectorAll('.puntos i')];
+      const t = document.getElementById('vit-t'), s = document.getElementById('vit-s'), lo = document.getElementById('vit-lo'),
+        hi = document.getElementById('vit-hi'), piv = document.getElementById('vit-piv'), a = document.getElementById('vit-a'), rampa = document.getElementById('vit-rampa');
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
       let i = 0;
-      setInterval(() => {
-        i = (i + 1) % imgs.length;
-        imgs.forEach((im, j) => im.classList.toggle('on', j === i)); pts.forEach((p, j) => p.classList.toggle('on', j === i));
-        t.textContent = imgs[i].dataset.titulo; s.textContent = imgs[i].dataset.sub; a.href = base.replace(/\/$/, '') + '/g/' + imgs[i].dataset.slug + '/';
-      }, 6000);
+      const pintar = () => {
+        const it = VIT_ITEMS[i];
+        paths.forEach((p, j) => { const c = it.colores[j]; p.classList.toggle('nd', !c); if (c) p.setAttribute('fill', c); else p.removeAttribute('fill'); });
+        t.textContent = it.titulo; s.textContent = it.sub + ' · 343 municipios'; lo.textContent = '≤ ' + it.lo; hi.textContent = '≥ ' + it.hi; piv.textContent = it.piv;
+        rampa.style.setProperty('--rampa', 'linear-gradient(to right,' + (it.invertida ? [...VIT_RAMPA].reverse() : VIT_RAMPA).join(',') + ')');
+        a.href = base.replace(/\/$/, '') + '/g/' + it.slug + '/';
+        pts.forEach((p, j) => p.classList.toggle('on', j === i));
+      };
+      setInterval(() => { if (document.hidden) return; i = (i + 1) % VIT_ITEMS.length; pintar(); }, 7000);
     })();
 
     // ---- arranque ----

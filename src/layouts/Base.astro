@@ -4,6 +4,7 @@
 // `interior` = página sin el cielo (ficha de una gráfica, 404): la barra va en papel.
 import "../styles/paleta.css";
 import "../styles/banco.css";
+import Logo from "../components/Logo.astro";
 import { SITE, u } from "../lib/banco";
 const { titulo, descripcion, og, canonical, interior } = Astro.props as {
   titulo: string; descripcion: string; og?: string; canonical?: string; interior?: boolean;
@@ -50,7 +51,7 @@ const FONTS = "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wg
 <body class={interior ? "pg-int" : ""}>
   <header class="top">
     <div class="wrap">
-      <a class="wordmark" href={u(base, "/")} aria-label="Banco de Gráficos POPULI"><span class="wm-p">P</span><span class="wm-rest">opuli</span></a>
+      <a class="wordmark" href={u(base, "/")} aria-label="Populi · Banco de Gráficos"><Logo variante={interior ? "claro" : "oscuro"} /></a>
       <span class="nombre">Banco de Gráficos</span>
       <span class="sp"></span>
       <nav aria-label="Herramientas relacionadas">
@@ -69,7 +70,7 @@ const FONTS = "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wg
 
   <footer class="foot">
     <div class="wrap">
-      <span><span class="wm-p">P</span>opuli · Banco de Gráficos · Centro de Estudios de Políticas Públicas para la Libertad</span>
+      <span class="foot-marca"><Logo variante="claro" class="chico" /><span>Banco de Gráficos · Centro de Estudios de Políticas Públicas para la Libertad</span></span>
       <span class="links">
         <a href="https://populi.org.bo">populi.org.bo</a>
         <a href="https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html">Atlas Socioeconómico Municipal</a>

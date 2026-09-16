@@ -16,6 +16,8 @@
   --po-brand-light:  #E8706B;  /* SOLO texto sobre fondo oscuro                */
   --po-gold:         #EE9B00;  /* acento sobre fondo oscuro                    */
   --po-gold-ink:     #A86E00;  /* el mismo oro para texto sobre fondo claro    */
+  --po-logo-ink:     #3D2B1F;  /* «opuli» del logo sobre papel                 */
+  --po-logo-paper:   #F5EFE0;  /* «opuli» del logo sobre fondo oscuro          */
 
   /* ── Superficies y tinta (tema claro) ──────────────────────────────────── */
   --po-bg:           #FAF8F3;
