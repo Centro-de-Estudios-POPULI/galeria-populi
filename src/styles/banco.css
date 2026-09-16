@@ -48,8 +48,9 @@ svg.i { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-widt
 @media (min-width: 768px) { .logo { height: 48px; } }
 .logo.chico { height: 30px; }
 .logo.claro .logo-p { fill: var(--po-brand); } .logo.claro .logo-rest { fill: var(--po-logo-ink); }
-.logo.oscuro .logo-p { fill: var(--po-brand-light); } .logo.oscuro .logo-rest { fill: var(--po-logo-paper); }
-html[data-theme="dark"] .logo.claro .logo-p { fill: var(--po-brand-light); }
+/* sobre el navy la P va en el ORO de la barra (el rojo de marca se apagaba contra el fondo) */
+.logo.oscuro .logo-p { fill: var(--po-gold); } .logo.oscuro .logo-rest { fill: var(--po-logo-paper); }
+html[data-theme="dark"] .logo.claro .logo-p { fill: var(--po-gold); }
 html[data-theme="dark"] .logo.claro .logo-rest { fill: var(--po-logo-paper); }
 .top .nombre { font-size: 12.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--gold);
   border-left: 1px solid rgba(255,255,255,.18); padding-left: 16px; }
@@ -77,7 +78,7 @@ html[data-theme="dark"] .tema .i-sun { display: block; }
   border-bottom: 4px solid var(--brand); }
 #cielo { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
 .hero-in { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
-  gap: 40px; align-items: center; padding: 56px 0 60px; }
+  gap: 40px; align-items: center; padding-block: 56px 60px; }
 .kicker { display: inline-flex; align-items: center; gap: 10px; font-size: 12px; font-weight: 700; letter-spacing: .22em;
   text-transform: uppercase; color: var(--gold); }
 .kicker::before { content: ""; width: 22px; height: 3px; background: var(--gold); }
@@ -236,7 +237,7 @@ dialog.visor::backdrop { background: rgba(0,18,25,.84); }
 .copiado { font-size: 12px; color: var(--teal-dk); font-weight: 600; }
 
 /* ---------- página de una gráfica ---------- */
-.pg { padding: 30px 0 60px; }
+.pg { padding-block: 30px 60px; }
 .miga { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px; }
 .miga a { color: var(--muted); text-decoration: none; }
 .miga a:hover { color: var(--brand); }
@@ -269,24 +270,38 @@ dialog.visor::backdrop { background: rgba(0,18,25,.84); }
   .ficha { position: static; }
 }
 @media (max-width: 640px) {
-  :root { --gut: 16px; --alto-ctl: 44px; }
-  .top .wrap { height: 54px; gap: 12px; }
+  :root { --gut: 22px; --alto-ctl: 44px; }
+  .top .wrap { height: 58px; gap: 12px; }
   .top .nombre, .top nav { display: none; }
-  .hero-in { padding: 34px 0 34px; }
-  .stats { gap: 8px 24px; }
+  .logo { height: 38px; }
+  .hero-in { grid-template-columns: 1fr; gap: 30px; padding-block: 34px 32px; }
+  .hero h1 { font-size: clamp(38px, 11vw, 46px); }
+  .hero p.lead { font-size: 15.5px; margin-top: 14px; }
+  .stats { gap: 10px 20px; margin-top: 24px; }
   .stats b { font-size: 24px; }
-  .vitrina { display: none; }
+  .stats small { font-size: 10px; letter-spacing: .12em; }
+  /* la vitrina sí se ve en el teléfono: es la tesis de la página, centrada y contenida */
+  .vitrina { display: block; justify-self: center; width: min(100%, 330px); }
+  .vitrina figcaption b { font-size: 17px; }
+  .controls { padding: 12px 0 10px; }
+  .fila { gap: 8px; }
   .pestanas { width: 100%; }
   .pestanas button { padding: 0 13px; font-size: 13px; }
   .busca { flex: 1 1 100%; }
-  .menu { flex: 1; } .disparador { min-width: 0; width: 100%; }
+  /* Tema y Corte lado a lado; Orden abajo a todo el ancho */
+  .menu { flex: 1 1 calc(50% - 4px); min-width: 0; }
+  #m-orden { flex: 1 1 100%; }
+  .disparador { min-width: 0; width: 100%; padding: 0 12px; }
+  .disparador .etq { display: none; }
   .conteo { display: none; }
-  .grid { grid-template-columns: repeat(auto-fill, minmax(156px, 1fr)); gap: 14px; padding-top: 18px; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; padding-top: 18px; }
   .cuerpo { padding: 11px 12px 8px; }
   .card h3 { font-size: 15.5px; }
   .donde, .ficha-t { display: none; }
   .pie-t { padding: 8px 12px 10px; }
   .acciones { flex-wrap: wrap; gap: 6px 12px; }
   .vivo span { display: none; }
+  .pg { padding-block: 22px 48px; }
+  .foot .wrap { flex-direction: column; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
