@@ -10,10 +10,25 @@
     "pct_edu_primaria",
     "Educación"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edu-primaria.png",
-  "thumb": "thumbs/censo-edu-primaria.png",
-  "datos": null
+  "thumb": "thumbs/censo-edu-primaria.webp",
+  "datos": null,
+  "clave": "pct_edu_primaria",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_edu_primaria",
+  "grupo": "Educación",
+  "universo": "sobre la población de 19 años o más",
+  "unidad": "%",
+  "escala": {
+    "lo": 13.44,
+    "piv": 20.021559159226804,
+    "piv_real": 20.021559159226804,
+    "hi": 52.43,
+    "piv_tipo": "país 2024"
+  }
 }

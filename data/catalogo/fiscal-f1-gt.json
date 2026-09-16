@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-f1-gt",
   "titulo": "Bolivia: Carga de deuda financiera en el gasto",
-  "subtitulo": "Amort. Deuda Fin. (F.1) / G. Total (%) — por municipio · gestión 2025",
+  "subtitulo": "Amortización de deuda financiera (F.1) como porcentaje del gasto total. Mide la carga del servicio de deuda bancaria o bonos — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Estructura del Gasto",
     "f1_gt"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-f1-gt.png",
-  "thumb": "thumbs/fiscal-f1-gt.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-f1-gt.webp",
+  "datos": null,
+  "clave": "f1_gt",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=f1_gt&g=2025",
+  "grupo": "Estructura del Gasto",
+  "unidad": "%",
+  "indicador": "Amort. Deuda Fin. (F.1) / G. Total",
+  "escala": {
+    "lo": 0.0,
+    "piv": 4.177140472370525,
+    "piv_real": 4.177140472370525,
+    "hi": 9.243199999999968,
+    "piv_tipo": "promedio nacional"
+  }
 }

@@ -10,10 +10,25 @@
     "pers_x_vivienda",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-personas-por-vivienda.png",
-  "thumb": "thumbs/censo-personas-por-vivienda.png",
-  "datos": null
+  "thumb": "thumbs/censo-personas-por-vivienda.webp",
+  "datos": null,
+  "clave": "pers_x_vivienda",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pers_x_vivienda",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre los hogares",
+  "unidad": "pers",
+  "escala": {
+    "lo": 2.2121,
+    "piv": 3.0726295689694902,
+    "piv_real": 3.0726295689694902,
+    "hi": 4.9796,
+    "piv_tipo": "país 2024"
+  }
 }

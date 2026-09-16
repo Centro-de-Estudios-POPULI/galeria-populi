@@ -1,0 +1,34 @@
+{
+  "slug": "censo-personas-por-habitacion-cambio",
+  "titulo": "Bolivia: Personas por habitación, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en pers — sobre las habitaciones de las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pers_x_habitacion",
+    "Vivienda y Materiales"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-personas-por-habitacion-cambio.png",
+  "thumb": "thumbs/censo-personas-por-habitacion-cambio.webp",
+  "datos": null,
+  "clave": "pers_x_habitacion",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pers_x_habitacion&a=cambio",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las habitaciones de las viviendas particulares ocupadas",
+  "unidad": "pers",
+  "escala": {
+    "lo": -0.5282,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 0.5282,
+    "piv_tipo": "sin cambio"
+  }
+}

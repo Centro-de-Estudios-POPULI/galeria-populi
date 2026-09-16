@@ -10,10 +10,25 @@
     "pct_muertes_covid",
     "Mortalidad"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-muertes-covid.png",
-  "thumb": "thumbs/censo-muertes-covid.png",
-  "datos": null
+  "thumb": "thumbs/censo-muertes-covid.webp",
+  "datos": null,
+  "clave": "pct_muertes_covid",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_muertes_covid",
+  "grupo": "Mortalidad",
+  "universo": "sobre las personas fallecidas declaradas en el período",
+  "unidad": "%",
+  "escala": {
+    "lo": 4.868,
+    "piv": 15.865948296690028,
+    "piv_real": 15.865948296690028,
+    "hi": 23.676,
+    "piv_tipo": "país 2024"
+  }
 }

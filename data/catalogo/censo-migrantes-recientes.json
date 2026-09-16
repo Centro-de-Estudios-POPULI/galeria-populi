@@ -10,10 +10,25 @@
     "pct_migrante_reciente",
     "Migración interna"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-migrantes-recientes.png",
-  "thumb": "thumbs/censo-migrantes-recientes.png",
-  "datos": null
+  "thumb": "thumbs/censo-migrantes-recientes.webp",
+  "datos": null,
+  "clave": "pct_migrante_reciente",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_migrante_reciente",
+  "grupo": "Migración interna",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 2.1,
+    "piv": 10.93531638141547,
+    "piv_real": 10.93531638141547,
+    "hi": 28.29,
+    "piv_tipo": "país 2024"
+  }
 }

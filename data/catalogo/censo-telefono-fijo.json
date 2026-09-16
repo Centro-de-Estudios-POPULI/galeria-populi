@@ -10,10 +10,25 @@
     "pct_telefono_fijo",
     "Tecnología y Conectividad"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-telefono-fijo.png",
-  "thumb": "thumbs/censo-telefono-fijo.png",
-  "datos": null
+  "thumb": "thumbs/censo-telefono-fijo.webp",
+  "datos": null,
+  "clave": "pct_telefono_fijo",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_telefono_fijo",
+  "grupo": "Tecnología y Conectividad",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.4,
+    "piv": 7.8690600050611135,
+    "piv_real": 7.8690600050611135,
+    "hi": 13.612,
+    "piv_tipo": "país 2024"
+  }
 }

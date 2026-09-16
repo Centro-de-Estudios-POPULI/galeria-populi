@@ -1,0 +1,34 @@
+{
+  "slug": "censo-personas-por-dormitorio-2012",
+  "titulo": "Bolivia: Personas por dormitorio (censo 2012)",
+  "subtitulo": "Cuántas personas hay, en promedio, por cada dormitorio — sobre los dormitorios de las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pers_x_dormitorio",
+    "Vivienda y Materiales"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-personas-por-dormitorio-2012.png",
+  "thumb": "thumbs/censo-personas-por-dormitorio-2012.webp",
+  "datos": null,
+  "clave": "pers_x_dormitorio",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pers_x_dormitorio&a=2012",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre los dormitorios de las viviendas particulares ocupadas",
+  "unidad": "pers",
+  "escala": {
+    "lo": 1.4397,
+    "piv": 1.6516380575809257,
+    "piv_real": 1.6516380575809257,
+    "hi": 3.1586,
+    "piv_tipo": "país 2024"
+  }
+}

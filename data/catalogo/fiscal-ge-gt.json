@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-ge-gt",
   "titulo": "Bolivia: Esfuerzo de inversión pública",
-  "subtitulo": "Inversión / Gasto Total (%) — por municipio · gestión 2025",
+  "subtitulo": "Inversión pública (Gasto de Capital) como porcentaje del gasto total. Refleja la capacidad de invertir en infraestructura y servicios — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Estructura del Gasto",
     "ge_gt"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-ge-gt.png",
-  "thumb": "thumbs/fiscal-ge-gt.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-ge-gt.webp",
+  "datos": null,
+  "clave": "ge_gt",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=ge_gt&g=2025",
+  "grupo": "Estructura del Gasto",
+  "unidad": "%",
+  "indicador": "Inversión / Gasto Total",
+  "escala": {
+    "lo": 0.8848,
+    "piv": 19.316857024488154,
+    "piv_real": 19.316857024488154,
+    "hi": 52.264799999999966,
+    "piv_tipo": "promedio nacional"
+  }
 }

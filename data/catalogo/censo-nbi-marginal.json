@@ -10,10 +10,25 @@
     "pct_nbi_marginal",
     "Pobreza (NBI)"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-marginal.png",
-  "thumb": "thumbs/censo-nbi-marginal.png",
-  "datos": null
+  "thumb": "thumbs/censo-nbi-marginal.webp",
+  "datos": null,
+  "clave": "pct_nbi_marginal",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_marginal",
+  "grupo": "Pobreza (NBI)",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 0.256,
+    "piv_real": 0.11245030840904685,
+    "hi": 3.2,
+    "piv_tipo": "país 2024"
+  }
 }

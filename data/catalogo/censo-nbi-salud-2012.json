@@ -1,0 +1,34 @@
+{
+  "slug": "censo-nbi-salud-2012",
+  "titulo": "Bolivia: NBI: Atención en salud (censo 2012)",
+  "subtitulo": "Población sin atención de salud adecuada según el método oficial — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_nbi_salud",
+    "Componentes NBI"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nbi-salud-2012.png",
+  "thumb": "thumbs/censo-nbi-salud-2012.webp",
+  "datos": null,
+  "clave": "pct_nbi_salud",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_salud&a=2012",
+  "grupo": "Componentes NBI",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.97,
+    "piv": 16.12376443671484,
+    "piv_real": 16.12376443671484,
+    "hi": 55.53,
+    "piv_tipo": "país 2024"
+  }
+}

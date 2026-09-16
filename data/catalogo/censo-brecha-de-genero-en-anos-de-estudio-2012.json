@@ -1,0 +1,34 @@
+{
+  "slug": "censo-brecha-de-genero-en-anos-de-estudio-2012",
+  "titulo": "Bolivia: Brecha de género en años de estudio (censo 2012)",
+  "subtitulo": "Cuántos años de escuela separan, en promedio, a las mujeres de los hombres — sobre la población de 19 años o más, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "brecha_anios_estudio",
+    "Educación"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-brecha-de-genero-en-anos-de-estudio-2012.png",
+  "thumb": "thumbs/censo-brecha-de-genero-en-anos-de-estudio-2012.webp",
+  "datos": null,
+  "clave": "brecha_anios_estudio",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=brecha_anios_estudio&a=2012",
+  "grupo": "Educación",
+  "universo": "sobre la población de 19 años o más",
+  "unidad": "años",
+  "escala": {
+    "lo": -2.6745,
+    "piv": -0.8298450157157706,
+    "piv_real": -0.8298450157157706,
+    "hi": 0.4133,
+    "piv_tipo": "país 2024"
+  }
+}

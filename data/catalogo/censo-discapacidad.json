@@ -10,10 +10,25 @@
     "pct_discapacidad",
     "Discapacidad"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-discapacidad.png",
-  "thumb": "thumbs/censo-discapacidad.png",
-  "datos": null
+  "thumb": "thumbs/censo-discapacidad.webp",
+  "datos": null,
+  "clave": "pct_discapacidad",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_discapacidad",
+  "grupo": "Discapacidad",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 2.568,
+    "piv": 5.216881658444556,
+    "piv_real": 5.216881658444556,
+    "hi": 9.732,
+    "piv_tipo": "país 2024"
+  }
 }

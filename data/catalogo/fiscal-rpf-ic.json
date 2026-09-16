@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-rpf-ic",
   "titulo": "Bolivia: Resultado fiscal antes de financiamiento",
-  "subtitulo": "RPF / Ing. Corriente (%) — por municipio · gestión 2025",
+  "subtitulo": "Resultado Pre-Financiamiento como porcentaje del Ingreso Corriente. Negativo indica que el municipio gastó más de lo generado antes de recurrir a deuda — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Resultado Fiscal",
     "rpf_ic"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-rpf-ic.png",
-  "thumb": "thumbs/fiscal-rpf-ic.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-rpf-ic.webp",
+  "datos": null,
+  "clave": "rpf_ic",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=rpf_ic&g=2025",
+  "grupo": "Resultado Fiscal",
+  "unidad": "%",
+  "indicador": "RPF / Ing. Corriente",
+  "escala": {
+    "lo": -36.2496,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 36.2496,
+    "piv_tipo": "cero"
+  }
 }

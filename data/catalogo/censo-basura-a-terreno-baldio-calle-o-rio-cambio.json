@@ -1,0 +1,34 @@
+{
+  "slug": "censo-basura-a-terreno-baldio-calle-o-rio-cambio",
+  "titulo": "Bolivia: Basura a terreno baldío, calle o río, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pct_basura_informal",
+    "Servicios Básicos"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-basura-a-terreno-baldio-calle-o-rio-cambio.png",
+  "thumb": "thumbs/censo-basura-a-terreno-baldio-calle-o-rio-cambio.webp",
+  "datos": null,
+  "clave": "pct_basura_informal",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_basura_informal&a=cambio",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "pp",
+  "escala": {
+    "lo": -48.3,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 48.3,
+    "piv_tipo": "sin cambio"
+  }
+}

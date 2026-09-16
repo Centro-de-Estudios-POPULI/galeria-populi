@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-idh-ic",
   "titulo": "Bolivia: IDH sobre el ingreso corriente",
-  "subtitulo": "IDH / Ing. Corriente (%) — por municipio · gestión 2025",
+  "subtitulo": "IDH como porcentaje del Ingreso Corriente. Refleja la dependencia hidrocarburífera sobre la base fiscal recurrente — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Sostenibilidad de Ing. Corrientes",
     "idh_ic"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-idh-ic.png",
-  "thumb": "thumbs/fiscal-idh-ic.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-idh-ic.webp",
+  "datos": null,
+  "clave": "idh_ic",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=idh_ic&g=2025",
+  "grupo": "Sostenibilidad de Ing. Corrientes",
+  "unidad": "%",
+  "indicador": "IDH / Ing. Corriente",
+  "escala": {
+    "lo": 3.512,
+    "piv": 7.816109787583449,
+    "piv_real": 7.816109787583449,
+    "hi": 44.91159999999996,
+    "piv_tipo": "promedio nacional"
+  }
 }

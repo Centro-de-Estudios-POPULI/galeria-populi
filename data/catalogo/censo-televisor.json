@@ -10,10 +10,25 @@
     "pct_tv",
     "Equipamiento del Hogar"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-televisor.png",
-  "thumb": "thumbs/censo-televisor.png",
-  "datos": null
+  "thumb": "thumbs/censo-televisor.webp",
+  "datos": null,
+  "clave": "pct_tv",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_tv",
+  "grupo": "Equipamiento del Hogar",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 7.55,
+    "piv": 68.58354002292123,
+    "piv_real": 68.58354002292123,
+    "hi": 85.13,
+    "piv_tipo": "país 2024"
+  }
 }

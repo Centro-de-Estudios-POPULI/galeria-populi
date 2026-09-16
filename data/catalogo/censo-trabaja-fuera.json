@@ -10,10 +10,25 @@
     "pct_trabaja_fuera",
     "Migración interna"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-trabaja-fuera.png",
-  "thumb": "thumbs/censo-trabaja-fuera.png",
-  "datos": null
+  "thumb": "thumbs/censo-trabaja-fuera.webp",
+  "datos": null,
+  "clave": "pct_trabaja_fuera",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_trabaja_fuera",
+  "grupo": "Migración interna",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.884,
+    "piv": 9.162981210150464,
+    "piv_real": 9.162981210150464,
+    "hi": 34.112,
+    "piv_tipo": "país 2024"
+  }
 }

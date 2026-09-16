@@ -10,10 +10,25 @@
     "pct_aire_acond",
     "Equipamiento del Hogar"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-aire-acondicionado.png",
-  "thumb": "thumbs/censo-aire-acondicionado.png",
-  "datos": null
+  "thumb": "thumbs/censo-aire-acondicionado.webp",
+  "datos": null,
+  "clave": "pct_aire_acond",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_aire_acond",
+  "grupo": "Equipamiento del Hogar",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 6.288707515582783,
+    "piv_real": 6.288707515582783,
+    "hi": 18.248,
+    "piv_tipo": "país 2024"
+  }
 }

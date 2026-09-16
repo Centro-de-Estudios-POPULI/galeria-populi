@@ -10,10 +10,25 @@
     "pct_emi_eeuu",
     "Emigración internacional"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-emigrantes-eeuu.png",
-  "thumb": "thumbs/censo-emigrantes-eeuu.png",
-  "datos": null
+  "thumb": "thumbs/censo-emigrantes-eeuu.webp",
+  "datos": null,
+  "clave": "pct_emi_eeuu",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_emi_eeuu",
+  "grupo": "Emigración internacional",
+  "universo": "sobre las personas que emigraron al exterior",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 5.053892605007799,
+    "piv_real": 5.053892605007799,
+    "hi": 13.35,
+    "piv_tipo": "país 2024"
+  }
 }

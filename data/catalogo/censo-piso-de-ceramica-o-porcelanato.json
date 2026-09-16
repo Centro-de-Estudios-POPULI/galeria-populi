@@ -10,10 +10,25 @@
     "pct_piso_ceramica",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-piso-de-ceramica-o-porcelanato.png",
-  "thumb": "thumbs/censo-piso-de-ceramica-o-porcelanato.png",
-  "datos": null
+  "thumb": "thumbs/censo-piso-de-ceramica-o-porcelanato.webp",
+  "datos": null,
+  "clave": "pct_piso_ceramica",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_piso_ceramica",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.1,
+    "piv": 27.988130482811684,
+    "piv_real": 27.988130482811684,
+    "hi": 45.68,
+    "piv_tipo": "país 2024"
+  }
 }

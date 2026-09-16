@@ -10,10 +10,25 @@
     "pct_0_4",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-primera-infancia-0-4.png",
-  "thumb": "thumbs/censo-primera-infancia-0-4.png",
-  "datos": null
+  "thumb": "thumbs/censo-primera-infancia-0-4.webp",
+  "datos": null,
+  "clave": "pct_0_4",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_0_4",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.57,
+    "piv": 7.503685778498528,
+    "piv_real": 7.503685778498528,
+    "hi": 14.53,
+    "piv_tipo": "país 2024"
+  }
 }

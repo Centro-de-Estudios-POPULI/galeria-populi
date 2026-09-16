@@ -10,10 +10,25 @@
     "pct_80_mas",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-cuarta-edad-80.png",
-  "thumb": "thumbs/censo-cuarta-edad-80.png",
-  "datos": null
+  "thumb": "thumbs/censo-cuarta-edad-80.webp",
+  "datos": null,
+  "clave": "pct_80_mas",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_80_mas",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.37,
+    "piv": 1.4458401614805299,
+    "piv_real": 1.4458401614805299,
+    "hi": 4.0,
+    "piv_tipo": "país 2024"
+  }
 }

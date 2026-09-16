@@ -1,0 +1,34 @@
+{
+  "slug": "censo-rezago-escolar-8-17-cambio",
+  "titulo": "Bolivia: Rezago escolar (8-17), cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población de 8 a 17 años que asiste a la escuela, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pct_rezago_escolar",
+    "Educación"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-rezago-escolar-8-17-cambio.png",
+  "thumb": "thumbs/censo-rezago-escolar-8-17-cambio.webp",
+  "datos": null,
+  "clave": "pct_rezago_escolar",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_rezago_escolar&a=cambio",
+  "grupo": "Educación",
+  "universo": "sobre la población de 8 a 17 años que asiste a la escuela",
+  "unidad": "pp",
+  "escala": {
+    "lo": -10.98,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 10.98,
+    "piv_tipo": "sin cambio"
+  }
+}

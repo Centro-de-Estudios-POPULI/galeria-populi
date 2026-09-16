@@ -10,10 +10,25 @@
     "pct_con_emigrante",
     "Emigración internacional"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hogares-emigrante.png",
-  "thumb": "thumbs/censo-hogares-emigrante.png",
-  "datos": null
+  "thumb": "thumbs/censo-hogares-emigrante.webp",
+  "datos": null,
+  "clave": "pct_con_emigrante",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_con_emigrante",
+  "grupo": "Emigración internacional",
+  "universo": "sobre los hogares",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.71,
+    "piv": 8.374530695190652,
+    "piv_real": 8.374530695190652,
+    "hi": 23.72,
+    "piv_tipo": "país 2024"
+  }
 }

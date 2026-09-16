@@ -1,0 +1,34 @@
+{
+  "slug": "censo-asalariados-2012",
+  "titulo": "Bolivia: Asalariados (censo 2012)",
+  "subtitulo": "Personas ocupadas que trabajan para un empleador a cambio de un sueldo — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_asalariados",
+    "Empleo"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-asalariados-2012.png",
+  "thumb": "thumbs/censo-asalariados-2012.webp",
+  "datos": null,
+  "clave": "pct_asalariados",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_asalariados&a=2012",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 6.37,
+    "piv": 33.412420383643315,
+    "piv_real": 33.412420383643315,
+    "hi": 48.5,
+    "piv_tipo": "país 2024"
+  }
+}

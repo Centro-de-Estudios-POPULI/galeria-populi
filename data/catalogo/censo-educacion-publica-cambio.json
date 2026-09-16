@@ -1,0 +1,34 @@
+{
+  "slug": "censo-educacion-publica-cambio",
+  "titulo": "Bolivia: Estudia en sistema público, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre quienes asisten a un establecimiento educativo, de 4 a 17 años, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pct_educacion_publica",
+    "Educación"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-educacion-publica-cambio.png",
+  "thumb": "thumbs/censo-educacion-publica-cambio.webp",
+  "datos": null,
+  "clave": "pct_educacion_publica",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_educacion_publica&a=cambio",
+  "grupo": "Educación",
+  "universo": "sobre quienes asisten a un establecimiento educativo, de 4 a 17 años",
+  "unidad": "pp",
+  "escala": {
+    "lo": -34.96,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 34.96,
+    "piv_tipo": "sin cambio"
+  }
+}

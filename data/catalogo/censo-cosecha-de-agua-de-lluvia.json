@@ -10,10 +10,25 @@
     "pct_agua_lluvia",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-cosecha-de-agua-de-lluvia.png",
-  "thumb": "thumbs/censo-cosecha-de-agua-de-lluvia.png",
-  "datos": null
+  "thumb": "thumbs/censo-cosecha-de-agua-de-lluvia.webp",
+  "datos": null,
+  "clave": "pct_agua_lluvia",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_agua_lluvia",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.1,
+    "piv": 2.6122316045622838,
+    "piv_real": 2.6122316045622838,
+    "hi": 23.728,
+    "piv_tipo": "país 2024"
+  }
 }

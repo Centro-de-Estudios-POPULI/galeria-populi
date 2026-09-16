@@ -10,10 +10,25 @@
     "tasa_asistencia_4_5",
     "Educación"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-asistencia-inicial.png",
-  "thumb": "thumbs/censo-asistencia-inicial.png",
-  "datos": null
+  "thumb": "thumbs/censo-asistencia-inicial.webp",
+  "datos": null,
+  "clave": "tasa_asistencia_4_5",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tasa_asistencia_4_5",
+  "grupo": "Educación",
+  "universo": "sobre la población de 4 y 5 años",
+  "unidad": "%",
+  "escala": {
+    "lo": 28.57,
+    "piv": 84.43140313510771,
+    "piv_real": 84.43140313510771,
+    "hi": 94.63,
+    "piv_tipo": "país 2024"
+  }
 }

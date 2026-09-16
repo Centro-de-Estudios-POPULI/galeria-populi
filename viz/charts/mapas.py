@@ -3,19 +3,24 @@ mapas.py — Mapas coropléticos (GeoPandas) con la identidad POPULI.
 
 Hereda el estilo de populi_style: título/subtítulo alineados y pie de marca. El
 mapa usa la proporción geográfica real (corrección por latitud), sin ejes, y se
-inscribe centrado en el área disponible. La escala de color va en una FRANJA
-propia arriba (no se encima con el mapa).
+inscribe centrado en el área disponible. La escala de color va en un termómetro
+vertical a la derecha.
 
-  grafico_mapa(gdf, value_col, titulo=…, leyenda=…, paleta="calido", …)
+  grafico_mapa(gdf, value_col, titulo=…, escala=ps.escala_atlas(...), …)
 
-Paletas (ver populi_style.PALETAS): "calido" (default, secuencial ancha),
-"rojo", "azul", "verde" (secuenciales) y "divergente" (azul↔crema↔rojo, con
-TwoSlopeNorm centrada en 0, para variables con signo).
+★ EL MAPA ES EL MAPA, NO EL TABLERO (Carlos, 2026-09-16). La lámina dibuja los
+  343 municipios con un borde FINO Y BLANCO, y nada más: sin la malla
+  departamental gruesa que sí lleva el Atlas en pantalla. En la web la malla
+  ayuda a orientarse mientras se navega; en una lámina que viaja sola el país es
+  el relleno, y una segunda jerarquía de líneas compite con la rampa.
 
-`gdf` debe traer ya unida la columna `value_col`. Los polígonos sin dato (NaN)
-se pintan en gris neutro.
+Paletas (ver populi_style.PALETAS) para el modo sin `escala`: "calido",
+"rojo", "azul", "verde" (secuenciales) y "divergente" (con TwoSlopeNorm en 0).
+Los polígonos sin dato (NaN) van en el gris de «sin dato» de la paleta oficial,
+el mismo que pintan los atlas.
 """
 from __future__ import annotations
+import re
 import sys
 from pathlib import Path
 import numpy as np
@@ -23,22 +28,29 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import populi_style as ps
 
-
-# color de acento (P y/o línea de firma) según la paleta del mapa
+# color de acento (P y/o línea de firma) según la paleta del mapa — de la marca
 PALETA_ACENTO = {
-    "calido": "#8B1A1A", "rojo": "#8B1A1A", "azul": "#1A2940",
-    "verde": "#0D7E72", "divergente": "#8B1A1A",
+    "calido": ps.COLORS["rojo_oscuro"], "rojo": ps.COLORS["rojo_oscuro"],
+    "azul": ps.COLORS["azul"], "verde": ps.COLORS["serie_azul"],
+    "divergente": ps.COLORS["rojo_oscuro"],
 }
+
+# borde municipal: blanco, fino. El mismo en los que tienen dato y en los que no.
+BORDE_MUNI = "#FFFFFF"
+LW_MUNI = 0.35
 
 
 def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
                  formato="red_vertical", archivo=None, titulo_familia=None,
                  paleta="calido", leyenda="", label_fmt="{:.0f}", sufijo="",
-                 acento_p=None, acento_linea=None, escala=None, bordes=None):
+                 acento_p=None, acento_linea=None, escala=None, miles=False,
+                 signo=False):
     """`escala` = salida de ps.escala_atlas() → usa la MISMA escala que el atlas
     de la página (divergente con ancla real y rampa orientada por dirección) y
     dibuja el pivote rotulado en el termómetro. Sin `escala` se conserva el
-    comportamiento viejo: secuencial lineal entre mínimo y máximo."""
+    comportamiento viejo: secuencial lineal entre mínimo y máximo.
+    `miles`  → separador de miles en las cifras del termómetro (conteos).
+    `signo`  → las cifras positivas llevan «+» (mapas de cambio)."""
     from matplotlib.colors import Normalize, TwoSlopeNorm
     fig, ax = ps.nueva_figura(formato)
     W, H, sc = ps._spec(formato)
@@ -60,25 +72,15 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
         info, recorte = None, False
         lo_lbl, hi_lbl = vmin, vmax
 
-    # municipios sin dato → gris neutro; el resto coloreado
+    # municipios sin dato → gris «sin dato» de la paleta; el resto coloreado.
+    # Borde fino y blanco en todos (ver cabecera).
     falta = gdf[gdf[value_col].isna()]
     if len(falta):
         falta.plot(ax=ax, color=ps.COLORS["gris_claro"],
-                   edgecolor=ps.COLORS["fondo"], linewidth=0.4 * sc, zorder=2)
+                   edgecolor=BORDE_MUNI, linewidth=LW_MUNI * sc, zorder=2)
     gdf[gdf[value_col].notna()].plot(
         ax=ax, column=value_col, cmap=cmap, norm=norm,
-        edgecolor=ps.COLORS["fondo"], linewidth=0.4 * sc, zorder=3)
-
-    # ★ LÍMITES DEPARTAMENTALES, como en el tablero. Con 343 municipios dibujados
-    #   todos con la misma línea no hay forma de ver dónde termina Cochabamba: el
-    #   país es una sola mancha de 343 piezas. Va ENCIMA de los rellenos y más
-    #   gruesa que la municipal — es la jerarquía la que se lee, no el color, así
-    #   que no compite con la rampa.
-    #   Llega ya calculada (`bordes`): disolver los 343 por departamento en cada
-    #   una de las 215 láminas sería repetir el mismo trabajo 215 veces.
-    if bordes is not None:
-        bordes.plot(ax=ax, color=ps.COLORS["pizarra"], linewidth=0.9 * sc,
-                    zorder=4, alpha=.85)
+        edgecolor=BORDE_MUNI, linewidth=LW_MUNI * sc, zorder=3)
 
     ax.axis("off")
     minx, miny, maxx, maxy = gdf.total_bounds
@@ -106,11 +108,19 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
 
     # ---- termómetro vertical arriba-derecha. Las CIFRAS se alinean exacto al
     # margen derecho (borde respetado, igual que el wordmark) y la barra queda a
-    # su izquierda. La unidad va en el subtítulo, no se rotula aquí. ----
-    # Con recorte p02/p98 los extremos de la barra NO son el mínimo y el máximo:
-    # se rotulan ≤ y ≥ para no hacer pasar un percentil por un extremo real.
-    smin = ("≤" if recorte else "") + ps.es_num(lo_lbl, _dec(label_fmt)) + sufijo
-    smax = ("≥" if recorte else "") + ps.es_num(hi_lbl, _dec(label_fmt)) + sufijo
+    # su izquierda. ----
+    dec = _dec(label_fmt)
+
+    def num(v):
+        s = ps.es_num(abs(v), dec, miles) if signo else ps.es_num(v, dec, miles)
+        if signo:
+            s = ("+" if v > 0 else "−" if v < 0 else "") + s
+        return s + sufijo
+
+    # Con recorte p02/p98 (o dominio declarado) los extremos de la barra NO son
+    # el mínimo y el máximo: se rotulan ≤ y ≥, como la leyenda de la web.
+    smin = ("≤" if recorte else "") + num(lo_lbl)
+    smax = ("≥" if recorte else "") + num(hi_lbl)
     # ⚠️ SE ROTULA EL PIVOTE REAL, NO EL RECORTADO. Cuando el ancla cae pegada a
     #    un extremo se la corre hacia adentro para que la rampa no se degenere,
     #    pero entonces el número dibujado YA NO ES la mediana ni el país:
@@ -119,14 +129,14 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
     #    cuando la mediana es 12.296.
     _pr = info.get("piv_real") if info else None
     _recortado = info and _pr is not None and abs(_pr - info["piv"]) > 1e-9
-    spiv = ps.es_num(_pr if _recortado else info["piv"], _dec(label_fmt)) + sufijo if info else ""
+    spiv = num(_pr if _recortado else info["piv"]) if info else ""
     from PIL import Image as _I, ImageDraw as _D, ImageFont as _F
-    _ff = _F.truetype(str(ps.FONTS_DIR / ps._FONT_FILES.get(ps.MONO, "IBMPlexMono-Regular.ttf")),
+    _ff = _F.truetype(str(ps.FONTS_DIR / ps._FONT_FILES.get(ps.MONO, "JetBrainsMono-Regular.ttf")),
                       int(ps.SIZES["leyenda"] * sc))
     _med = _D.Draw(_I.new("RGB", (4, 4)))
     lab_w = max(_med.textlength(s, font=_ff) for s in (smin, smax, spiv) if s)
     f_num = ps.fp(ps.MONO, ps.SIZES["leyenda"] * sc)
-    f_cap = ps.fp(ps.BODY, ps.SIZES["leyenda"] * sc * 0.8, weight="bold")
+    f_cap = ps.fp(ps.BOLD, ps.SIZES["leyenda"] * sc * 0.8)      # negrita REAL
     bar_w, bar_h = 18 * sc, bh * 0.46
     bar_x = right - lab_w - 12 * sc - bar_w
     bar_top = by0 + bh - 26 * sc
@@ -142,14 +152,14 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
         # ── PIVOTE ──────────────────────────────────────────────────────────
         # TwoSlopeNorm manda el pivote al 0,5 del eje de color, así que cae
         # exacto en la mitad VISUAL de la barra aunque no esté en la mitad
-        # numérica. Se marca y se NOMBRA: sin el rótulo cualquiera supone que es
-        # el punto medio entre mínimo y máximo, que es justo lo que no es.
+        # numérica. Se marca y se NOMBRA con el rótulo que trae la escala
+        # («país 2024», «promedio nacional», «mediana», «cero», «sin cambio»):
+        # el mismo que la web, para que la lámina y el tablero digan lo mismo.
         bar.axhline(127.5, color=ps.COLORS["fondo"], lw=2.2 * sc, zorder=4)
         bar.axhline(127.5, color=ps.COLORS["tinta"], lw=0.9 * sc, zorder=5)
         y_piv = bar_top - bar_h / 2
         fig.text((bar_x - 5 * sc) / W, y_piv / H,
-                 ("país" if info["piv_tipo"] == "país" else info["piv_tipo"])
-                 + ("*" if _recortado else ""),
+                 info["piv_tipo"] + ("*" if _recortado else ""),
                  fontproperties=f_cap, color=ps.COLORS["gris"],
                  va="center", ha="right")
         fig.text(right / W, y_piv / H, spiv, fontproperties=f_num,
@@ -159,12 +169,11 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
         # ser la noticia.
         lineas = []
         if recorte:
-            lineas += [f"mín {ps.es_num(info['min'], _dec(label_fmt))}{sufijo}",
-                       f"máx {ps.es_num(info['max'], _dec(label_fmt))}{sufijo}"]
+            lineas += [f"mín {num(info['min'])}", f"máx {num(info['max'])}"]
         # el asterisco del rótulo se explica: la marca está corrida hacia adentro
         # para que la rampa no se degenere, y el número es el REAL
         if _recortado:
-            lineas.append(f"*marca en {ps.es_num(info['piv'], _dec(label_fmt))}{sufijo}")
+            lineas.append(f"*marca en {num(info['piv'])}")
         if lineas:
             f_ex = ps.fp(ps.MONO, ps.SIZES["leyenda"] * sc * 0.78)
             # En renglones y no en una línea corrida: se estiraba más allá del
@@ -180,6 +189,5 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
 
 
 def _dec(fmt):
-    import re
     m = re.search(r"\.(\d+)f", fmt)
     return int(m.group(1)) if m else 0

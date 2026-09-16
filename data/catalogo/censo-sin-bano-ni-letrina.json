@@ -10,10 +10,25 @@
     "pct_sin_sanitario",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-sin-bano-ni-letrina.png",
-  "thumb": "thumbs/censo-sin-bano-ni-letrina.png",
-  "datos": null
+  "thumb": "thumbs/censo-sin-bano-ni-letrina.webp",
+  "datos": null,
+  "clave": "pct_sin_sanitario",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_sin_sanitario",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 4.27,
+    "piv": 20.263605320622982,
+    "piv_real": 20.263605320622982,
+    "hi": 93.93,
+    "piv_tipo": "país 2024"
+  }
 }

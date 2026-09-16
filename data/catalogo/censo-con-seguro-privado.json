@@ -10,10 +10,25 @@
     "pct_seguro_privado",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-con-seguro-privado.png",
-  "thumb": "thumbs/censo-con-seguro-privado.png",
-  "datos": null
+  "thumb": "thumbs/censo-con-seguro-privado.webp",
+  "datos": null,
+  "clave": "pct_seguro_privado",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_seguro_privado",
+  "grupo": "Salud",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.1,
+    "piv": 1.5474140272458305,
+    "piv_real": 1.5474140272458305,
+    "hi": 4.232,
+    "piv_tipo": "país 2024"
+  }
 }

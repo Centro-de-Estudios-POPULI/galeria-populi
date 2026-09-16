@@ -1,0 +1,34 @@
+{
+  "slug": "censo-nacidos-otro-municipio-2012",
+  "titulo": "Bolivia: Nacidos en otro municipio (censo 2012)",
+  "subtitulo": "Personas que viven acá pero nacieron en otro municipio. Es un stock sin fecha: no dice cuándo llegaron — sobre la población",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_nacido_otro_municipio",
+    "Migración interna"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nacidos-otro-municipio-2012.png",
+  "thumb": "thumbs/censo-nacidos-otro-municipio-2012.webp",
+  "datos": null,
+  "clave": "pct_nacido_otro_municipio",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nacido_otro_municipio&a=2012",
+  "grupo": "Migración interna",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.1,
+    "piv": 36.07984559780996,
+    "piv_real": 36.07984559780996,
+    "hi": 69.93,
+    "piv_tipo": "país 2024"
+  }
+}

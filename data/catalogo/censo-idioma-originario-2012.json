@@ -1,0 +1,34 @@
+{
+  "slug": "censo-idioma-originario-2012",
+  "titulo": "Bolivia: Idioma materno originario (censo 2012)",
+  "subtitulo": "Personas cuyo primer idioma fue una lengua originaria — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_idioma_materno_originario",
+    "Pueblos e Idiomas"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-idioma-originario-2012.png",
+  "thumb": "thumbs/censo-idioma-originario-2012.webp",
+  "datos": null,
+  "clave": "pct_idioma_materno_originario",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_idioma_materno_originario&a=2012",
+  "grupo": "Pueblos e Idiomas",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.0,
+    "piv": 21.290018865243415,
+    "piv_real": 21.290018865243415,
+    "hi": 92.13,
+    "piv_tipo": "país 2024"
+  }
+}

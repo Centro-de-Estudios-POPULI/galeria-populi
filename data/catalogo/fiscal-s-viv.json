@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-s-viv",
   "titulo": "Bolivia: Gasto en vivienda e infraestructura",
-  "subtitulo": "Vivienda e Infraestr. / G. Sectorial (%) — por municipio · gestión 2025",
+  "subtitulo": "Gasto en Vivienda e Infraestructura (COFOG 5): agua potable, alcantarillado, urbanismo y construcción — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Gasto por Sectores",
     "s_viv"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-viv.png",
-  "thumb": "thumbs/fiscal-s-viv.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-s-viv.webp",
+  "datos": null,
+  "clave": "s_viv",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=s_viv&g=2025",
+  "grupo": "Gasto por Sectores",
+  "unidad": "%",
+  "indicador": "Vivienda e Infraestr. / G. Sectorial",
+  "escala": {
+    "lo": 0.9988,
+    "piv": 11.460520000998335,
+    "piv_real": 11.460520000998335,
+    "hi": 27.903199999999977,
+    "piv_tipo": "promedio nacional"
+  }
 }

@@ -10,10 +10,25 @@
     "pct_vivienda_propia",
     "Tenencia"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-vivienda-propia.png",
-  "thumb": "thumbs/censo-vivienda-propia.png",
-  "datos": null
+  "thumb": "thumbs/censo-vivienda-propia.webp",
+  "datos": null,
+  "clave": "pct_vivienda_propia",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_vivienda_propia",
+  "grupo": "Tenencia",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 58.52,
+    "piv": 72.18314851819034,
+    "piv_real": 72.18314851819034,
+    "hi": 96.9,
+    "piv_tipo": "país 2024"
+  }
 }

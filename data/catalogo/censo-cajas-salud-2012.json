@@ -1,0 +1,34 @@
+{
+  "slug": "censo-cajas-salud-2012",
+  "titulo": "Bolivia: Acude a cajas de salud (censo 2012)",
+  "subtitulo": "Personas que se atienden en una caja de salud, que es el sistema ligado al empleo formal — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_caja_salud",
+    "Salud"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-cajas-salud-2012.png",
+  "thumb": "thumbs/censo-cajas-salud-2012.webp",
+  "datos": null,
+  "clave": "pct_caja_salud",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_caja_salud&a=2012",
+  "grupo": "Salud",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 3.77,
+    "piv": 19.214668545127548,
+    "piv_real": 19.214668545127548,
+    "hi": 33.12,
+    "piv_tipo": "país 2024"
+  }
+}

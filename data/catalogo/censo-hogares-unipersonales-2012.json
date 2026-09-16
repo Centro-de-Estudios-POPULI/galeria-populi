@@ -1,0 +1,34 @@
+{
+  "slug": "censo-hogares-unipersonales-2012",
+  "titulo": "Bolivia: Hogares unipersonales (censo 2012)",
+  "subtitulo": "Hogares formados por una sola persona — sobre los hogares, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_hogar_unipersonal",
+    "Demografía"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-hogares-unipersonales-2012.png",
+  "thumb": "thumbs/censo-hogares-unipersonales-2012.webp",
+  "datos": null,
+  "clave": "pct_hogar_unipersonal",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_hogar_unipersonal&a=2012",
+  "grupo": "Demografía",
+  "universo": "sobre los hogares",
+  "unidad": "%",
+  "escala": {
+    "lo": 8.01,
+    "piv": 25.757083459126882,
+    "piv_real": 25.757083459126882,
+    "hi": 45.6,
+    "piv_tipo": "país 2024"
+  }
+}

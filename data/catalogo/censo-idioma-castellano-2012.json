@@ -1,0 +1,34 @@
+{
+  "slug": "censo-idioma-castellano-2012",
+  "titulo": "Bolivia: Idioma materno castellano (censo 2012)",
+  "subtitulo": "Personas cuyo primer idioma fue el castellano — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_idioma_materno_castellano",
+    "Pueblos e Idiomas"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-idioma-castellano-2012.png",
+  "thumb": "thumbs/censo-idioma-castellano-2012.webp",
+  "datos": null,
+  "clave": "pct_idioma_materno_castellano",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_idioma_materno_castellano&a=2012",
+  "grupo": "Pueblos e Idiomas",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.45,
+    "piv": 76.76413085182512,
+    "piv_real": 76.76413085182512,
+    "hi": 97.33,
+    "piv_tipo": "país 2024"
+  }
+}

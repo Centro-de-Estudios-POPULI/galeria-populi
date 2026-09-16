@@ -10,10 +10,25 @@
     "tasa_mortalidad",
     "Mortalidad"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-tasa-mortalidad.png",
-  "thumb": "thumbs/censo-tasa-mortalidad.png",
-  "datos": null
+  "thumb": "thumbs/censo-tasa-mortalidad.webp",
+  "datos": null,
+  "clave": "tasa_mortalidad",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tasa_mortalidad",
+  "grupo": "Mortalidad",
+  "universo": "sobre la población",
+  "unidad": "‰",
+  "escala": {
+    "lo": 2.284,
+    "piv": 6.484970708733303,
+    "piv_real": 6.484970708733303,
+    "hi": 14.148,
+    "piv_tipo": "país 2024"
+  }
 }

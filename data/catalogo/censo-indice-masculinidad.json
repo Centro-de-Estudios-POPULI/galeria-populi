@@ -10,10 +10,25 @@
     "indice_masculinidad",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-indice-masculinidad.png",
-  "thumb": "thumbs/censo-indice-masculinidad.png",
-  "datos": null
+  "thumb": "thumbs/censo-indice-masculinidad.webp",
+  "datos": null,
+  "clave": "indice_masculinidad",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=indice_masculinidad",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "h/100m",
+  "escala": {
+    "lo": 91.54,
+    "piv": 100.33708621225607,
+    "piv_real": 100.33708621225607,
+    "hi": 135.3664,
+    "piv_tipo": "país 2024"
+  }
 }

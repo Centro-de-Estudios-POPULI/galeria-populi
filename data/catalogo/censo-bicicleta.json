@@ -10,10 +10,25 @@
     "pct_bicicleta",
     "Equipamiento del Hogar"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-bicicleta.png",
-  "thumb": "thumbs/censo-bicicleta.png",
-  "datos": null
+  "thumb": "thumbs/censo-bicicleta.webp",
+  "datos": null,
+  "clave": "pct_bicicleta",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_bicicleta",
+  "grupo": "Equipamiento del Hogar",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 6.97,
+    "piv": 35.82064665200949,
+    "piv_real": 35.82064665200949,
+    "hi": 66.93,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "censo-televisor-2012",
+  "titulo": "Bolivia: Con televisor (censo 2012)",
+  "subtitulo": "Hogares con televisor — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_tv",
+    "Equipamiento del Hogar"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-televisor-2012.png",
+  "thumb": "thumbs/censo-televisor-2012.webp",
+  "datos": null,
+  "clave": "pct_tv",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_tv&a=2012",
+  "grupo": "Equipamiento del Hogar",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 7.55,
+    "piv": 68.58354002292123,
+    "piv_real": 68.58354002292123,
+    "hi": 85.13,
+    "piv_tipo": "país 2024"
+  }
+}

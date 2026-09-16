@@ -24,9 +24,11 @@ import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import populi_style as ps
 
+# color de acento (P y/o línea de firma) según la paleta del mapa — de la marca
 PALETA_ACENTO = {
-    "calido": "#8B1A1A", "rojo": "#8B1A1A", "azul": "#1A2940",
-    "verde": "#0D7E72", "divergente": "#8B1A1A",
+    "calido": ps.COLORS["rojo_oscuro"], "rojo": ps.COLORS["rojo_oscuro"],
+    "azul": ps.COLORS["azul"], "verde": ps.COLORS["serie_azul"],
+    "divergente": ps.COLORS["rojo_oscuro"],
 }
 
 
@@ -174,9 +176,12 @@ def grafico_mapa_mundial(gdf, value_col, titulo="", subtitulo="", fuente="", not
     nd_sw = 42 * sc
     _fnt = _IF.truetype(str(ps.FONTS_DIR / ps._FONT_FILES[ps.MONO]), int(ps.SIZES["leyenda"] * sc))
     nd_txt_w = _ID.Draw(_IM.new("RGB", (4, 4))).textlength("Sin dato", font=_fnt)
+    # el chip «Sin dato» lleva EL MISMO relleno que los países sin dato del
+    # mapa (antes iba tramado sobre papel, y los polígonos lisos en otro gris:
+    # la leyenda mostraba un color que no estaba en el mapa)
     fig.add_artist(Rectangle((leg_x0 / W, bar_y / H), nd_sw / W, sw_h / H,
-                             transform=fig.transFigure, facecolor=ps.COLORS["fondo"],
-                             edgecolor=ps.COLORS["gris"], hatch="////", linewidth=0.8 * sc, zorder=6))
+                             transform=fig.transFigure, facecolor=ps.COLORS["gris_claro"],
+                             edgecolor=ps.COLORS["borde"], linewidth=0.8 * sc, zorder=6))
     fig.text((leg_x0 + nd_sw + 10 * sc) / W, (bar_y + sw_h / 2) / H, "Sin dato",
              fontproperties=f_num, color=ps.COLORS["gris"], va="center", ha="left")
 

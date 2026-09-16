@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-inv-pc",
   "titulo": "Bolivia: Inversión pública por habitante",
-  "subtitulo": "Inversión per cápita (Bs/hab) — por municipio · gestión 2025",
+  "subtitulo": "Inversión pública total (Gasto de Capital, partida E) por habitante. Mide el esfuerzo inversor por persona — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Per Cápita",
     "inv_pc"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-inv-pc.png",
-  "thumb": "thumbs/fiscal-inv-pc.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-inv-pc.webp",
+  "datos": null,
+  "clave": "inv_pc",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=inv_pc&g=2025",
+  "grupo": "Per Cápita",
+  "unidad": "Bs/hab",
+  "indicador": "Inversión per cápita",
+  "escala": {
+    "lo": 9.84,
+    "piv": 350.0,
+    "piv_real": 350.0,
+    "hi": 1383.799999999999,
+    "piv_tipo": "mediana"
+  }
 }

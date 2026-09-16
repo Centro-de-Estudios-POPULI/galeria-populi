@@ -10,10 +10,25 @@
     "pct_viv_anticretico",
     "Tenencia"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-vivienda-en-anticretico.png",
-  "thumb": "thumbs/censo-vivienda-en-anticretico.png",
-  "datos": null
+  "thumb": "thumbs/censo-vivienda-en-anticretico.webp",
+  "datos": null,
+  "clave": "pct_viv_anticretico",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_viv_anticretico",
+  "grupo": "Tenencia",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 3.0790820515212167,
+    "piv_real": 3.0790820515212167,
+    "hi": 4.99,
+    "piv_tipo": "país 2024"
+  }
 }

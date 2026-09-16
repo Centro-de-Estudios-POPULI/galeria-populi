@@ -1,0 +1,34 @@
+{
+  "slug": "censo-paredes-precarias-cana-palma-tronco-2012",
+  "titulo": "Bolivia: Paredes precarias (caña, palma, tronco) (censo 2012)",
+  "subtitulo": "Viviendas con paredes de caña, palma o tronco, materiales que no resisten una temporada de lluvias — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_pared_precaria",
+    "Vivienda y Materiales"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-paredes-precarias-cana-palma-tronco-2012.png",
+  "thumb": "thumbs/censo-paredes-precarias-cana-palma-tronco-2012.webp",
+  "datos": null,
+  "clave": "pct_pared_precaria",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_pared_precaria&a=2012",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 0.976,
+    "piv_real": 0.4625346502521863,
+    "hi": 12.2,
+    "piv_tipo": "país 2024"
+  }
+}

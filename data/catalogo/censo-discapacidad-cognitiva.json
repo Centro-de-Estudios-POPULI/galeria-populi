@@ -10,10 +10,25 @@
     "pct_disc_cognitiva",
     "Discapacidad"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-discapacidad-cognitiva.png",
-  "thumb": "thumbs/censo-discapacidad-cognitiva.png",
-  "datos": null
+  "thumb": "thumbs/censo-discapacidad-cognitiva.webp",
+  "datos": null,
+  "clave": "pct_disc_cognitiva",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_disc_cognitiva",
+  "grupo": "Discapacidad",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.5,
+    "piv": 1.1812906790214477,
+    "piv_real": 1.1812906790214477,
+    "hi": 3.9,
+    "piv_tipo": "país 2024"
+  }
 }

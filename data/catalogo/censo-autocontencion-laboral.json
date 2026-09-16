@@ -10,10 +10,25 @@
     "autocontencion_laboral",
     "Flujos Metropolitanos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-autocontencion-laboral.png",
-  "thumb": "thumbs/censo-autocontencion-laboral.png",
-  "datos": null
+  "thumb": "thumbs/censo-autocontencion-laboral.webp",
+  "datos": null,
+  "clave": "autocontencion_laboral",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=autocontencion_laboral",
+  "grupo": "Flujos Metropolitanos",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 65.885,
+    "piv": 90.838071502928,
+    "piv_real": 90.838071502928,
+    "hi": 98.1338,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -1,0 +1,94 @@
+---
+// Una página por gráfica: es lo que enlazan los atlas y lo que se comparte.
+// Trae su imagen para las tarjetas de redes (og:image), la ficha completa y
+// las otras versiones del mismo indicador (2024 · 2012 · cambio).
+import Base from "../../layouts/Base.astro";
+import { categorias, graficas, u, modoLabel, grupoDe, versionesDe, tagsVisibles, SITE } from "../../lib/banco";
+
+export function getStaticPaths() {
+  return graficas.map((g) => ({ params: { slug: g.slug }, props: { g } }));
+}
+const { g } = Astro.props as { g: (typeof graficas)[number] };
+const base = import.meta.env.BASE_URL;
+const c = categorias[g.categoria] ?? { label: g.categoria, color: "" };
+const grupo = grupoDe(g);
+const modo = modoLabel(g);
+const versiones = versionesDe(g);
+const relacionadas = graficas
+  .filter((x) => x.slug !== g.slug && !versiones.some((v) => v.slug === x.slug) && grupoDe(x) === grupo && x.categoria === g.categoria)
+  .slice(0, 8);
+const url = `${SITE}g/${g.slug}/`;
+const descripcion = (g.subtitulo || g.titulo).replace(/\s+/g, " ").slice(0, 300);
+const etiquetaModo = (v: typeof g) => (v.atlas === "censo" ? (v.modo === "cambio" ? "Cambio 2012–2024" : v.modo) : v.modo);
+---
+<Base titulo={`${g.titulo} · Banco de Gráficos POPULI`} descripcion={descripcion} og={g.imagen} canonical={url}>
+  <main class="wrap pg">
+    <nav class="miga" aria-label="Ruta">
+      <a href={u(base, "/")}>Banco de Gráficos</a><span>›</span>
+      <a href={u(base, `/?cat=${g.categoria}`)}>{c.label}</a>
+      {grupo && (<><span>›</span><a href={u(base, `/?tag=${encodeURIComponent(grupo)}`)}>{grupo}</a></>)}
+    </nav>
+    <h1>{g.titulo}</h1>
+    {g.subtitulo && <p class="sub">{g.subtitulo}</p>}
+
+    <div class="pg-cols">
+      <figure class="pg-img" style="margin:0">
+        <img src={u(base, g.imagen)} alt={g.titulo} decoding="async" fetchpriority="high" />
+      </figure>
+      <aside class="ficha" aria-label="Ficha de la gráfica">
+        <a class="btn" href={u(base, g.imagen)} download={`${g.slug}.png`}>↓ Descargar PNG en alta resolución</a>
+        {g.enlace && <a class="btn sec" href={g.enlace}>Ver en el atlas interactivo ↗</a>}
+        {g.datos && <a class="btn sec" href={u(base, g.datos)}>Datos (CSV)</a>}
+        <button class="btn sec" type="button" id="copiar" data-url={url}>Copiar enlace</button>
+        <span class="copiado" id="copiado" hidden>Enlace copiado</span>
+        {versiones.length > 1 && (
+          <div>
+            <p style="font-size:13px;font-weight:600;color:var(--muted);margin:10px 0 6px">Este indicador en los tres mapas</p>
+            <div class="versiones">
+              {versiones.map((v) => (
+                <a href={u(base, `g/${v.slug}/`)} aria-current={v.slug === g.slug ? "page" : undefined}>{etiquetaModo(v)}</a>
+              ))}
+            </div>
+          </div>
+        )}
+        <dl>
+          <dt>Categoría</dt><dd><a href={u(base, `/?cat=${g.categoria}`)}>{c.label}</a></dd>
+          {grupo && (<><dt>Tema</dt><dd>{grupo}</dd></>)}
+          {modo && (<><dt>Corte</dt><dd>{modo}</dd></>)}
+          {g.universo && (<><dt>Universo</dt><dd>{g.universo}</dd></>)}
+          {g.unidad && (<><dt>Unidad</dt><dd>{g.unidad}</dd></>)}
+          {g.fecha && (<><dt>Publicada</dt><dd class="mono">{g.fecha}</dd></>)}
+          {g.fuente && (<><dt>Fuente</dt><dd>{g.fuente.replace(/^Fuente:\s*/, "")}</dd></>)}
+        </dl>
+        {tagsVisibles(g).length > 0 && (
+          <div class="tags">
+            {tagsVisibles(g).map((t) => <a class="tag" href={u(base, `/?tag=${encodeURIComponent(t)}`)}>{t}</a>)}
+          </div>
+        )}
+      </aside>
+    </div>
+
+    {relacionadas.length > 0 && (
+      <section class="rel">
+        <h2>Más de {grupo || c.label}</h2>
+        <div class="grid">
+          {relacionadas.map((r) => (
+            <article class="card">
+              <a class="thumb" href={u(base, `g/${r.slug}/`)}><img src={u(base, r.thumb)} alt="" loading="lazy" decoding="async" width="600" height="600" /></a>
+              <div class="meta"><h3><a href={u(base, `g/${r.slug}/`)}>{r.titulo}</a></h3><p class="sub">{modoLabel(r)}</p></div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+  </main>
+
+  <script>
+    const b = document.getElementById('copiar') as HTMLButtonElement;
+    b?.addEventListener('click', async () => {
+      const url = b.dataset.url!;
+      try { await navigator.clipboard.writeText(url); document.getElementById('copiado')!.hidden = false; }
+      catch (e) { prompt('Copiá el enlace:', url); }
+    });
+  </script>
+</Base>

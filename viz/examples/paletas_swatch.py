@@ -31,7 +31,7 @@ for i, nombre in enumerate(orden):
     for s in ax.spines.values():
         s.set_visible(False)
     fig.text(0.26, y + 0.042, nombre, ha="right", va="center",
-             fontproperties=ps.fp("Public Sans", 17), color=ps.COLORS["cafe"])
+             fontproperties=ps.fp(ps.BODY, 17), color=ps.COLORS["cafe"])
 
 fig.text(0.06, 0.965, "Paletas de mapa POPULI", fontproperties=ps.fp("Zilla Slab", 26),
          color=ps.COLORS["tinta"], va="center")

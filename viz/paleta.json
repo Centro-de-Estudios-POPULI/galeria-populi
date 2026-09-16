@@ -1,0 +1,124 @@
+{
+  "RAMP": [
+    "#001219",
+    "#005F73",
+    "#0A9396",
+    "#94D2BD",
+    "#E9D8A6",
+    "#EE9B00",
+    "#E57D22",
+    "#DF5D25",
+    "#C71E1D",
+    "#9B2226"
+  ],
+  "BRAND": "#C71E1D",
+  "BRAND_DEEP": "#8B1A1A",
+  "BRAND_DEEPEST": "#6B0300",
+  "BRAND_LIGHT": "#E8706B",
+  "GOLD": "#EE9B00",
+  "GOLD_INK": "#A86E00",
+  "BG": "#FAF8F3",
+  "BG_DARK": "#0B0E13",
+  "CARD": "#FFFFFF",
+  "CARD_DARK": "#141414",
+  "GRID": "#E2DDD3",
+  "GRID_DARK": "#2A3A50",
+  "INK": "#001219",
+  "INK_DARK": "#E2E8F0",
+  "MUTED": "#5C6B70",
+  "MUTED_DARK": "#8A9699",
+  "MUTED_LIGHT": "#8A9699",
+  "SERIES_4": [
+    "#C71E1D",
+    "#0A9396",
+    "#EE9B00",
+    "#9B2226"
+  ],
+  "FAMILIES": {
+    "rojo": [
+      "#E8706B",
+      "#C71E1D",
+      "#8B1A1A"
+    ],
+    "turquesa": [
+      "#94D2BD",
+      "#0A9396",
+      "#005F73"
+    ],
+    "ambar": [
+      "#E9D8A6",
+      "#EE9B00",
+      "#A86E00"
+    ],
+    "tierra": [
+      "#E57D22",
+      "#DF5D25",
+      "#9B2226"
+    ]
+  },
+  "CATEGORICAL_12": [
+    "#C71E1D",
+    "#0A9396",
+    "#EE9B00",
+    "#005F73",
+    "#DF5D25",
+    "#94D2BD",
+    "#9B2226",
+    "#E9D8A6",
+    "#8B1A1A",
+    "#E8706B",
+    "#A86E00",
+    "#E57D22"
+  ],
+  "ORDINAL_4": [
+    "#0A9396",
+    "#94D2BD",
+    "#EE9B00",
+    "#C71E1D"
+  ],
+  "POSITIVE": "#0A9396",
+  "NEGATIVE": "#C71E1D",
+  "NEUTRAL": "#8A9699",
+  "NEUTRAL_DARK": "#6E7A7D",
+  "HIGHLIGHT_MUTED": "#B9BEC0",
+  "HIGHLIGHT_MUTED_DARK": "#4A5457",
+  "SEQUENTIAL_WARM": [
+    "#E9D8A6",
+    "#EE9B00",
+    "#DF5D25",
+    "#C71E1D",
+    "#9B2226"
+  ],
+  "SEQUENTIAL_COOL": [
+    "#94D2BD",
+    "#0A9396",
+    "#005F73",
+    "#001219"
+  ],
+  "DIVERGING": [
+    "#005F73",
+    "#0A9396",
+    "#94D2BD",
+    "#E9D8A6",
+    "#EE9B00",
+    "#C71E1D"
+  ],
+  "DIVERGING_MAPA": [
+    "#00323D",
+    "#005F73",
+    "#0A9396",
+    "#94D2BD",
+    "#E9D8A6",
+    "#EDA13E",
+    "#DF5D25",
+    "#C71E1D",
+    "#8F1F22"
+  ],
+  "NO_DATA": "#DFE5EA",
+  "TINT_ROJO": "#F8E5E3",
+  "TINT_TURQUESA": "#D9EAE6",
+  "FONT_DISPLAY": "Playfair Display",
+  "FONT_BODY": "Inter",
+  "FONT_MONO": "JetBrains Mono",
+  "GOOGLE_FONTS_HREF": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap"
+}

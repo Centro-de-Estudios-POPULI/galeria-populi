@@ -10,10 +10,25 @@
     "edad_prom_fallecimiento",
     "Mortalidad"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-fallecimiento.png",
-  "thumb": "thumbs/censo-edad-fallecimiento.png",
-  "datos": null
+  "thumb": "thumbs/censo-edad-fallecimiento.webp",
+  "datos": null,
+  "clave": "edad_prom_fallecimiento",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=edad_prom_fallecimiento",
+  "grupo": "Mortalidad",
+  "universo": "sobre las personas fallecidas declaradas en el período",
+  "unidad": "años",
+  "escala": {
+    "lo": 39.2121,
+    "piv": 61.224453582138366,
+    "piv_real": 61.224453582138366,
+    "hi": 68.8221,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -10,10 +10,25 @@
     "pct_agua_lote",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-agua-por-caneria-fuera-pero-en-el-lote.png",
-  "thumb": "thumbs/censo-agua-por-caneria-fuera-pero-en-el-lote.png",
-  "datos": null
+  "thumb": "thumbs/censo-agua-por-caneria-fuera-pero-en-el-lote.webp",
+  "datos": null,
+  "clave": "pct_agua_lote",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_agua_lote",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.59,
+    "piv": 19.245931394639364,
+    "piv_real": 19.245931394639364,
+    "hi": 59.26,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -10,10 +10,25 @@
     "tasa_asistencia_18_24",
     "Educación"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-asistencia-18-24.png",
-  "thumb": "thumbs/censo-asistencia-18-24.png",
-  "datos": null
+  "thumb": "thumbs/censo-asistencia-18-24.webp",
+  "datos": null,
+  "clave": "tasa_asistencia_18_24",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tasa_asistencia_18_24",
+  "grupo": "Educación",
+  "universo": "sobre la población de 18 a 24 años",
+  "unidad": "%",
+  "escala": {
+    "lo": 16.07,
+    "piv": 54.41236260751303,
+    "piv_real": 54.41236260751303,
+    "hi": 62.96,
+    "piv_tipo": "país 2024"
+  }
 }

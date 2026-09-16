@@ -1,0 +1,34 @@
+{
+  "slug": "censo-hombres-cambio",
+  "titulo": "Bolivia: Hombres, cambio 2012–2024",
+  "subtitulo": "Variación porcentual entre los censos de 2012 y 2024, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pob_hombres",
+    "Demografía"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-hombres-cambio.png",
+  "thumb": "thumbs/censo-hombres-cambio.webp",
+  "datos": null,
+  "clave": "pob_hombres",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pob_hombres&a=cambio",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": -87.0235,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 87.0235,
+    "piv_tipo": "sin cambio"
+  }
+}

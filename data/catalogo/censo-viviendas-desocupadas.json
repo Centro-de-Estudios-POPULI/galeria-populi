@@ -10,10 +10,25 @@
     "pct_vivienda_desocupada",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-viviendas-desocupadas.png",
-  "thumb": "thumbs/censo-viviendas-desocupadas.png",
-  "datos": null
+  "thumb": "thumbs/censo-viviendas-desocupadas.webp",
+  "datos": null,
+  "clave": "pct_vivienda_desocupada",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_vivienda_desocupada",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre todas las viviendas particulares",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.7,
+    "piv": 7.394243442702799,
+    "piv_real": 7.394243442702799,
+    "hi": 16.738,
+    "piv_tipo": "país 2024"
+  }
 }

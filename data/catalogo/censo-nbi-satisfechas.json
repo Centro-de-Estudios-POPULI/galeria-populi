@@ -10,10 +10,25 @@
     "pct_nbi_satisfechas",
     "Pobreza (NBI)"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-satisfechas.png",
-  "thumb": "thumbs/censo-nbi-satisfechas.png",
-  "datos": null
+  "thumb": "thumbs/censo-nbi-satisfechas.webp",
+  "datos": null,
+  "clave": "pct_nbi_satisfechas",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_satisfechas",
+  "grupo": "Pobreza (NBI)",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.5,
+    "piv": 30.02624758470419,
+    "piv_real": 30.02624758470419,
+    "hi": 42.73,
+    "piv_tipo": "país 2024"
+  }
 }

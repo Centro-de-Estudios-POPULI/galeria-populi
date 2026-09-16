@@ -10,10 +10,25 @@
     "pct_empleadores",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-empleadores.png",
-  "thumb": "thumbs/censo-empleadores.png",
-  "datos": null
+  "thumb": "thumbs/censo-empleadores.webp",
+  "datos": null,
+  "clave": "pct_empleadores",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_empleadores",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.4,
+    "piv": 1.736684316323135,
+    "piv_real": 1.736684316323135,
+    "hi": 4.83,
+    "piv_tipo": "país 2024"
+  }
 }

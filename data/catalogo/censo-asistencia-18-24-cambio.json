@@ -1,0 +1,34 @@
+{
+  "slug": "censo-asistencia-18-24-cambio",
+  "titulo": "Bolivia: Asistencia 18-24 años, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población de 18 a 24 años, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "tasa_asistencia_18_24",
+    "Educación"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-asistencia-18-24-cambio.png",
+  "thumb": "thumbs/censo-asistencia-18-24-cambio.webp",
+  "datos": null,
+  "clave": "tasa_asistencia_18_24",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tasa_asistencia_18_24&a=cambio",
+  "grupo": "Educación",
+  "universo": "sobre la población de 18 a 24 años",
+  "unidad": "pp",
+  "escala": {
+    "lo": -40.96,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 40.96,
+    "piv_tipo": "sin cambio"
+  }
+}

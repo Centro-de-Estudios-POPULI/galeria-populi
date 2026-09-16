@@ -10,10 +10,25 @@
     "pct_hogar_monoparental",
     "Hogares y Jefatura"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hogares-monoparentales.png",
-  "thumb": "thumbs/censo-hogares-monoparentales.png",
-  "datos": null
+  "thumb": "thumbs/censo-hogares-monoparentales.webp",
+  "datos": null,
+  "clave": "pct_hogar_monoparental",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_hogar_monoparental",
+  "grupo": "Hogares y Jefatura",
+  "universo": "sobre los hogares",
+  "unidad": "%",
+  "escala": {
+    "lo": 8.284,
+    "piv": 17.18598334690596,
+    "piv_real": 17.18598334690596,
+    "hi": 22.0,
+    "piv_tipo": "país 2024"
+  }
 }

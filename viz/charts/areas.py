@@ -112,7 +112,7 @@ def grafico_areas(df, series, etiquetas=None, titulo="", subtitulo="", fuente=""
     if rotulos is None:
         ps.etiquetas_fin_linea(ax, fin, expandir=0.22)
     else:
-        f_rot = ps.fp(ps.BODY, ps.SIZES["fin_linea"] * 0.88 * sc, weight="bold")
+        f_rot = ps.fp(ps.BOLD, ps.SIZES["fin_linea"] * 0.88 * sc)
         for r in rotulos:
             ax.text(r["x"], r["y"], r["texto"], fontproperties=f_rot,
                     color=ps.col(r.get("color", "tinta")), ha=r.get("ha", "center"),

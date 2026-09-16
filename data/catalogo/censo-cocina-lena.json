@@ -10,10 +10,25 @@
     "pct_combustible_solido",
     "Energía y Cocina"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-cocina-lena.png",
-  "thumb": "thumbs/censo-cocina-lena.png",
-  "datos": null
+  "thumb": "thumbs/censo-cocina-lena.webp",
+  "datos": null,
+  "clave": "pct_combustible_solido",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_combustible_solido",
+  "grupo": "Energía y Cocina",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 2.21,
+    "piv": 18.059465007005244,
+    "piv_real": 18.059465007005244,
+    "hi": 90.0,
+    "piv_tipo": "país 2024"
+  }
 }

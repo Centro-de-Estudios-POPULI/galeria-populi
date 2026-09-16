@@ -24,7 +24,7 @@ MESES = ["Ene", "Feb", "Mar", "Abr", "May", "Jun",
 
 # Negrita REAL: hay que cargar el archivo Bold; weight="bold" sobre un fname
 # Regular no sintetiza negrita en matplotlib.
-BOLD = "Public Sans Bold" if "Public Sans Bold" in ps._REGISTERED else ps.BODY
+BOLD = ps.BOLD
 
 
 # ── Color semántico de los eventos ──────────────────────────────────────────

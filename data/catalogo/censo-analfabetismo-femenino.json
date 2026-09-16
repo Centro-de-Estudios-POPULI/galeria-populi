@@ -10,10 +10,25 @@
     "pct_analfabetismo_mujeres",
     "Educación"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-analfabetismo-femenino.png",
-  "thumb": "thumbs/censo-analfabetismo-femenino.png",
-  "datos": null
+  "thumb": "thumbs/censo-analfabetismo-femenino.webp",
+  "datos": null,
+  "clave": "pct_analfabetismo_mujeres",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_analfabetismo_mujeres",
+  "grupo": "Educación",
+  "universo": "sobre las mujeres de 15 años o más",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.9,
+    "piv": 6.318747493076696,
+    "piv_real": 6.318747493076696,
+    "hi": 32.29,
+    "piv_tipo": "país 2024"
+  }
 }

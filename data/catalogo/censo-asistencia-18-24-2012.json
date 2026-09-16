@@ -1,0 +1,34 @@
+{
+  "slug": "censo-asistencia-18-24-2012",
+  "titulo": "Bolivia: Asistencia 18-24 años (censo 2012)",
+  "subtitulo": "Jóvenes que siguen estudiando después de la edad escolar obligatoria — sobre la población de 18 a 24 años, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "tasa_asistencia_18_24",
+    "Educación"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-asistencia-18-24-2012.png",
+  "thumb": "thumbs/censo-asistencia-18-24-2012.webp",
+  "datos": null,
+  "clave": "tasa_asistencia_18_24",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tasa_asistencia_18_24&a=2012",
+  "grupo": "Educación",
+  "universo": "sobre la población de 18 a 24 años",
+  "unidad": "%",
+  "escala": {
+    "lo": 16.07,
+    "piv": 54.41236260751303,
+    "piv_real": 54.41236260751303,
+    "hi": 62.96,
+    "piv_tipo": "país 2024"
+  }
+}

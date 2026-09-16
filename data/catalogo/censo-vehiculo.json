@@ -10,10 +10,25 @@
     "pct_auto",
     "Equipamiento del Hogar"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-vehiculo.png",
-  "thumb": "thumbs/censo-vehiculo.png",
-  "datos": null
+  "thumb": "thumbs/censo-vehiculo.webp",
+  "datos": null,
+  "clave": "pct_auto",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_auto",
+  "grupo": "Equipamiento del Hogar",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 2.8,
+    "piv": 29.128068049576825,
+    "piv_real": 29.128068049576825,
+    "hi": 38.53,
+    "piv_tipo": "país 2024"
+  }
 }

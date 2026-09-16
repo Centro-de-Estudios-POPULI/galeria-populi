@@ -10,10 +10,25 @@
     "pct_basura_quema",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-quema-la-basura.png",
-  "thumb": "thumbs/censo-quema-la-basura.png",
-  "datos": null
+  "thumb": "thumbs/censo-quema-la-basura.webp",
+  "datos": null,
+  "clave": "pct_basura_quema",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_basura_quema",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 7.31,
+    "piv": 27.596082331068914,
+    "piv_real": 27.596082331068914,
+    "hi": 85.97,
+    "piv_tipo": "país 2024"
+  }
 }

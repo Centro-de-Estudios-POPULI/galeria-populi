@@ -1,0 +1,34 @@
+{
+  "slug": "censo-sector-secundario-2012",
+  "titulo": "Bolivia: Sector secundario (censo 2012)",
+  "subtitulo": "Personas ocupadas en manufactura y construcción: lo que se transforma o se levanta — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_sector_secundario",
+    "Empleo"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-sector-secundario-2012.png",
+  "thumb": "thumbs/censo-sector-secundario-2012.webp",
+  "datos": null,
+  "clave": "pct_sector_secundario",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_sector_secundario&a=2012",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 3.5,
+    "piv": 15.358554400851416,
+    "piv_real": 15.358554400851416,
+    "hi": 24.0,
+    "piv_tipo": "país 2024"
+  }
+}

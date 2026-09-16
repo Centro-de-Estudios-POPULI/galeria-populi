@@ -41,55 +41,52 @@ ROOT = Path(__file__).resolve().parent.parent      # galeria-populi/
 FONTS_DIR = ROOT / "assets" / "fonts"
 
 # --------------------------------------------------------------------------- #
-# Paleta — tokens reales del sitio (global.css). Fuente de la verdad.
+# Paleta — COPIA de Proyectos/populi-marca/paleta.py (viz/paleta.py).
+# ★ Acá no se escribe ningún hexadecimal: todo se lee de la copia, y
+#   `verificar.py` aborta si la copia difiere de la fuente. (2026-09-16)
 # --------------------------------------------------------------------------- #
+import paleta as _pal
+
 COLORS = {
-    # Identidad — paleta oficial POPULI (2026-08-11).
-    # Fuente única: Proyectos/populi-marca/paleta.py
-    "rojo":        "#C71E1D",   # --color-populi  (serie principal / marca)
-    "rojo_oscuro": "#8B1A1A",   # --color-populi-dark (el oxblood, para campos grandes)
-    "rojo_claro":  "#E8706B",   # --color-populi-light (SOLO texto sobre fondo oscuro)
-    "rojo_profundo": "#6B0300", # --color-populi-deep
-    "oro":         "#EE9B00",   # --color-populi-gold (acento; sobre claro usar oro_tinta)
-    "oro_tinta":   "#A86E00",   # --color-populi-gold-ink (texto sobre fondo claro)
-    # Tonos cálidos
-    "crema":       "#F5EFE0",   # --color-cream
-    "cafe":        "#5C3D1E",   # --color-brown  (texto/ejes secundarios)
-    "cafe_oscuro": "#3D2B1F",   # --color-brown-dark (cuerpo de texto)
+    # Identidad
+    "rojo":        _pal.BRAND,          # serie principal / marca
+    "rojo_oscuro": _pal.BRAND_DEEP,     # oxblood, para campos grandes
+    "rojo_claro":  _pal.BRAND_LIGHT,    # SOLO texto sobre fondo oscuro
+    "rojo_profundo": _pal.BRAND_DEEPEST,
+    "oro":         _pal.GOLD,           # acento; sobre claro usar oro_tinta
+    "oro_tinta":   _pal.GOLD_INK,       # texto sobre fondo claro
+    # Neutros de superficie
+    "fondo":       _pal.BG,             # fondo de figura (papel)
+    "crema":       _pal.BG,             # texto claro sobre fondo oscuro
+    "gris_claro":  _pal.NO_DATA,        # «sin dato» en los mapas — el mismo de los atlas
+    "borde":       _pal.GRID,           # grilla
+    # Tinta y texto (los de la marca, no los cafés de la primera versión)
+    "tinta":       _pal.INK,            # títulos / línea de cero
+    "cafe":        _pal.MUTED,          # subtítulo, eje inferior, marcas
+    "cafe_oscuro": _pal.INK,            # cuerpo de texto
+    "gris":        _pal.MUTED_LIGHT,    # pie de fuente, notas
+    "pizarra":     _pal.MUTED,          # texto terciario / puntos estimados
+    "pizarra_cl":  _pal.MUTED_LIGHT,
     # Sobrios / contraste
-    "azul":        "#0D1B2A",   # --color-navy  (2ª serie)
-    "azul_claro":  "#1A2940",   # --color-navy-light
-    "pizarra":     "#475569",   # --color-slate (texto terciario)
-    "pizarra_cl":  "#64748B",   # --color-slate-light
-    # Neutros
-    "fondo":       "#FAF8F3",   # --color-warm-white  (fondo de figura)
-    "gris_claro":  "#F1EDE5",   # --color-light-gray
-    "borde":       "#E2DDD3",   # --color-border (grilla)
-    # Texto
-    "tinta":       "#2B2420",   # títulos / línea de cero
-    "gris":        "#8C8378",   # notas de fuente, texto terciario cálido
-    # Series cuantitativas — rampa oficial. Antes eran los de fábrica de Tailwind.
-    "serie_azul":    "#005F73",   # petróleo — estructura/ejes, NO sirve de serie
-    "serie_teal":    "#0A9396",   # turquesa — el par validado con el rojo
-    "serie_ambar":   "#EE9B00",   # ámbar — ⚠️ 2,12:1, exige etiqueta visible
-    "serie_rosa":    "#9B2226",   # granate — ⚠️ NUNCA adyacente al rojo de marca
-    "serie_esmeralda": "#94D2BD", # menta
-    "serie_tierra":  "#DF5D25",   # rojo anaranjado
-    "serie_arena":   "#E9D8A6",   # arena
+    "azul":        _pal.INK,            # navy (2ª serie de estructura)
+    "azul_claro":  _pal.RAMP[1],        # petróleo
+    # Series cuantitativas — rampa oficial
+    "serie_azul":    _pal.RAMP[1],      # petróleo — estructura/ejes, NO sirve de serie
+    "serie_teal":    _pal.RAMP[2],      # turquesa — el par validado con el rojo
+    "serie_ambar":   _pal.GOLD,         # ámbar — ⚠️ 2,12:1, exige etiqueta visible
+    "serie_rosa":    _pal.RAMP[9],      # granate — ⚠️ NUNCA adyacente al rojo de marca
+    "serie_esmeralda": _pal.RAMP[3],    # menta
+    "serie_tierra":  _pal.RAMP[7],      # rojo anaranjado
+    "serie_arena":   _pal.RAMP[4],      # arena
 }
 
 # Secuencia categórica por defecto = CATEGORICAL_12 de la paleta oficial,
 # ordenada para que las PRIMERAS series sean las más separadas entre sí.
 # Regla: rojo (1ª) y granate (7ª) nunca deben quedar adyacentes en una leyenda.
-PALETTE = [
-    COLORS["rojo"], COLORS["serie_teal"], COLORS["oro"], COLORS["serie_azul"],
-    COLORS["serie_tierra"], COLORS["serie_esmeralda"], COLORS["serie_rosa"],
-    COLORS["serie_arena"], COLORS["rojo_oscuro"], COLORS["rojo_claro"],
-    COLORS["oro_tinta"], "#E57D22",
-]
+PALETTE = list(_pal.CATEGORICAL_12)
 
 # Ordinal de 4 pasos (cuartiles): frío → cálido = mejor → peor.
-ORDINAL_4 = ["#0A9396", "#94D2BD", "#EE9B00", "#C71E1D"]
+ORDINAL_4 = list(_pal.ORDINAL_4)
 
 
 def col(nombre: str) -> str:
@@ -123,21 +120,23 @@ def contraste_texto(hex_color: str) -> str:
 # cálidos análogos, un teal/azul-petróleo complementario y un slate apagado
 # (no "icy") — todos conviven bien con el rojo del wordmark/firma.
 PALETAS = {
-    # Escalas continuas construidas SOBRE la rampa oficial de 10 tonos, no
-    # aproximadas a ojo. Todas arrancan en un tono claro distinto del papel
-    # (#FAF8F3) para que el valor bajo no se confunda con el fondo.
+    # Escalas continuas construidas SOBRE la rampa oficial, no aproximadas a
+    # ojo. Las secuenciales arrancan en un TINTE de papel declarado en la paleta
+    # (más claro que la rampa, distinto del fondo) para que el valor bajo no se
+    # confunda con el papel.
     #
     # secuencial cálida — recorre la mitad cálida de la rampa. La más versátil.
-    "calido":     ["#E9D8A6", "#EE9B00", "#E57D22", "#DF5D25", "#C71E1D", "#9B2226"],
+    "calido":     [_pal.RAMP[4], _pal.RAMP[5], _pal.RAMP[6], _pal.RAMP[7], _pal.RAMP[8], _pal.RAMP[9]],
     # secuencial roja monocroma — sobria, editorial
-    "rojo":       ["#F8E5E3", "#E8706B", "#C71E1D", "#9B2226", "#6B0300"],
+    "rojo":       [_pal.TINT_ROJO, _pal.BRAND_LIGHT, _pal.BRAND, _pal.RAMP[9], _pal.BRAND_DEEPEST],
     # secuencial fría — la mitad fría de la rampa. Complemento del rojo.
-    "azul":       ["#D9EAE6", "#94D2BD", "#0A9396", "#005F73", "#001219"],
-    # alias histórico: "verde" apuntaba a un teal. Mismo recorrido que "azul".
-    "verde":      ["#E3EDEA", "#94D2BD", "#0A9396", "#005F73", "#16504A"],
+    "azul":       [_pal.TINT_TURQUESA] + list(_pal.SEQUENTIAL_COOL),
+    # alias histórico: "verde" apuntaba a un teal. Es la MISMA fría (antes
+    # tenía dos extremos propios que no existían en ninguna paleta).
+    "verde":      [_pal.TINT_TURQUESA] + list(_pal.SEQUENTIAL_COOL),
     # divergente frío ↔ arena ↔ cálido — para variables con signo (TwoSlopeNorm).
     # El punto medio es la arena de la rampa, no un gris: mantiene la temperatura.
-    "divergente": ["#005F73", "#0A9396", "#94D2BD", "#E9D8A6", "#EE9B00", "#C71E1D"],
+    "divergente": list(_pal.DIVERGING),
 }
 
 
@@ -160,16 +159,26 @@ def colormap(nombre: str = "calido"):
 #
 # La rampa es divergente de 9 tonos y va de petróleo profundo a granate. NO es la
 # secuencial de PALETAS: acá el color no dice "cuánto" sino "de qué lado del
-# centro", que es una pregunta distinta.
-DIV_ATLAS = ["#00323d", "#005f73", "#0a9396", "#94d2bd", "#e9d8a6",
-             "#eda13e", "#df5d25", "#c71e1d", "#8f1f22"]
+# centro", que es una pregunta distinta. Desde el 2026-09-16 vive DECLARADA en
+# la paleta oficial (`DIVERGING_MAPA`); acá sólo se lee.
+DIV_ATLAS = [c.lower() for c in _pal.DIVERGING_MAPA]
 
 
 def escala_atlas(valores, pesos=None, direccion=0, con_signo=False,
-                 dominio=None, conteo=False):
+                 dominio=None, conteo=False, pivote=None, piv_tipo=None):
     """Escala divergente de ancla real, idéntica a la de los atlas web.
 
     valores    : serie de valores municipales (los NaN se ignoran)
+    pivote     : ★ el ancla YA CALCULADA por quien llama, con su nombre en
+                 `piv_tipo` («país 2024», «promedio nacional», «mediana»).
+                 Es la forma correcta desde el 2026-09-16: cada atlas tiene su
+                 propia regla para el centro (el socioeconómico pondera por el
+                 DENOMINADOR de cada indicador y rearma las brechas de sus
+                 componentes; el fiscal usa la mediana en los per cápita) y
+                 replicar cada regla acá adentro es cómo las láminas se
+                 desviaron de la web en 80 de 208 pivotes. El generador
+                 calcula el pivote con la MISMA regla que el atlas y lo pasa.
+                 Cuando viene, `pesos` y `conteo` se ignoran.
     pesos      : población por municipio. Si viene, el pivote es el PROMEDIO
                  NACIONAL PONDERADO —una magnitud real, la del país—; si no,
                  cae en la mediana, que es lo único disponible cuando no hay
@@ -228,11 +237,15 @@ def escala_atlas(valores, pesos=None, direccion=0, con_signo=False,
     piv_real = None
     if con_signo:
         m = max(abs(lo), abs(hi)) or 1.0
-        lo, piv, hi, piv_tipo = -m, 0.0, m, "cero"
+        lo, piv, hi = -m, 0.0, m
+        piv_tipo = piv_tipo or "cero"
         piv_real = 0.0
     else:
+        _tipo_pedido = piv_tipo
         piv, piv_tipo = None, "mediana"
-        if conteo:
+        if pivote is not None and _np.isfinite(float(pivote)):
+            piv, piv_tipo = float(pivote), (_tipo_pedido or "país")
+        elif conteo:
             piv, piv_tipo = float(_np.median(vv)), "mediana"
         elif pesos is not None:
             w = _np.asarray(pesos, dtype=float)
@@ -256,9 +269,13 @@ def escala_atlas(valores, pesos=None, direccion=0, con_signo=False,
     tonos = DIV_ATLAS[::-1] if direccion == 1 else DIV_ATLAS
     cmap = LinearSegmentedColormap.from_list("populi_atlas", tonos)
     norm = TwoSlopeNorm(vmin=lo, vcenter=piv, vmax=hi)
+    # Con dominio DECLARADO los extremos de la barra son p02/p98 de la unión de
+    # censos, no el mínimo y el máximo de esta lámina: se rotulan ≤ y ≥ siempre,
+    # igual que la leyenda de la web, y no sólo cuando esta serie los desborda.
+    declarado = dominio is not None and len(dominio) == 2 and dominio[1] > dominio[0]
     info = {"lo": lo, "piv": piv, "piv_real": piv_real, "hi": hi, "piv_tipo": piv_tipo,
             "min": float(vv.min()), "max": float(vv.max()),
-            "recorte": bool(vv.min() < lo or vv.max() > hi)}
+            "recorte": bool(declarado or con_signo or vv.min() < lo or vv.max() > hi)}
     return cmap, norm, info
 
 
@@ -273,24 +290,18 @@ _FONT_FILES = {
     # Inter.ttf es VARIABLE (wght 100-900) y matplotlib no navega ejes ni sintetiza
     # negritas: weight="bold" sobre el regular no hacia nada. Instancia estatica
     # wght=700 generada con fontTools.varLib.instancer.
+    # ★ REGLA: la negrita se pide POR FAMILIA («Inter Bold»), nunca con
+    #   weight="bold", que matplotlib ignora al resolver por archivo.
     "Inter Bold": "Inter-Bold.ttf",
-    "Archivo": "Archivo.ttf",
-    "Source Serif 4": "SourceSerif4.ttf",
-    "IBM Plex Mono": "IBMPlexMono-Regular.ttf",
-    "IBM Plex Mono SemiBold": "IBMPlexMono-SemiBold.ttf",
-    # titular de redes — serif (display)
-    "Fraunces": "Fraunces-Display.ttf",            # display serif (peso Black, opsz 144)
-    "Spectral ExtraBold": "Spectral-ExtraBold.ttf",  # serif elegante
-    "Zilla Slab": "ZillaSlab-Bold.ttf",            # slab serif sturdy
-    # sans humanistas (tipo Whitney/FMI) — regular para texto, Bold para titular
-    "Public Sans": "PublicSans-Regular.ttf",
-    "Public Sans Bold": "PublicSans-Bold.ttf",
-    "Source Sans 3": "SourceSans3-Regular.ttf",
-    "Source Sans 3 Bold": "SourceSans3-Bold.ttf",
-    "Mulish Bold": "Mulish-Bold.ttf",
+    # titular del Banco — slab que sostiene el peso en miniatura (ver TITLE_REDES)
+    "Zilla Slab": "ZillaSlab-Bold.ttf",
     # cifras — estándar POPULI desde 2026-08-10
     "JetBrains Mono": "JetBrainsMono-Regular.ttf",
     "JetBrains Mono SemiBold": "JetBrainsMono-SemiBold.ttf",
+    # (2026-09-16) Se retiraron del registro las 13 familias del estándar
+    # derogado y de los bancos de prueba tipográficos (Public Sans, Source Sans,
+    # Fraunces, Spectral, Mulish, Archivo, Source Serif, IBM Plex Mono). Las TTF
+    # siguen en assets/fonts por si hay que reproducir una lámina vieja.
 }
 
 _REGISTERED = set()
@@ -315,6 +326,9 @@ TITLE_SANS = "Inter" if "Inter" in _REGISTERED else "DejaVu Sans"
 # assets/fonts por si hace falta reproducir una lámina vieja.
 BODY = "Inter" if "Inter" in _REGISTERED else "DejaVu Sans"
 MONO = "JetBrains Mono" if "JetBrains Mono" in _REGISTERED else BODY
+# Negrita REAL de cuerpo y de cifras: por FAMILIA, no por peso (ver _FONT_FILES).
+BOLD = "Inter Bold" if "Inter Bold" in _REGISTERED else BODY
+MONO_BOLD = "JetBrains Mono SemiBold" if "JetBrains Mono SemiBold" in _REGISTERED else MONO
 
 
 def fp(familia, size_px=None, weight="normal"):
@@ -519,7 +533,7 @@ def etiquetas_fin_linea(ax, etiquetas, expandir=0.16):
     for x, y, texto, color in etiquetas:
         ax.annotate(texto, (x, y), xytext=(10 * sc, 0), textcoords="offset points",
                     va="center", ha="left", color=col(color), zorder=6,
-                    fontproperties=fp(BODY, SIZES["fin_linea"] * sc, weight="bold"))
+                    fontproperties=fp(BOLD, SIZES["fin_linea"] * sc))
 
 
 # --------------------------------------------------------------------------- #
@@ -601,9 +615,10 @@ def componer(fig, ax, titulo="", subtitulo="", fuente="", nota="",
 
     # ---- cabecera ----
     # El titular se renderiza apuntando al ARCHIVO de fuente (FontProperties por
-    # ruta), evitando problemas de resolución por nombre de familia.
+    # ruta). El peso lo pone el ARCHIVO (ZillaSlab-Bold.ttf): un weight="bold"
+    # acá no hacía nada, matplotlib lo ignora cuando resuelve por ruta.
     fp_tit = font_manager.FontProperties(fname=str(FONTS_DIR / fam_file),
-                                         size=_px2pt(s_tit), weight="bold")
+                                         size=_px2pt(s_tit))
     cur = (top if top is not None else TOP) * sc
     for ln in _wrap_px(titulo, s_tit, title_max_w, fam_file):
         fig.text(M / W, fy(cur), ln, fontproperties=fp_tit,
@@ -726,15 +741,35 @@ def guardar(fig, archivo, formato="red_vertical", svg=False, thumb=True):
     img = Image.open(archivo).convert("RGB")
     _quantizar(img).save(archivo, optimize=True)
     if thumb:
-        thumbs = ROOT / "public" / "thumbs"
-        thumbs.mkdir(parents=True, exist_ok=True)
-        side = min(img.size)
-        th = (img.crop(((img.width - side) // 2, 0, (img.width + side) // 2, side))
-                 .resize((600, 600), Image.LANCZOS))
-        _quantizar(th).save(thumbs / archivo.name, "PNG", optimize=True)
+        miniatura(img, ROOT / "public" / "thumbs" / (archivo.stem + ".webp"))
     kb = archivo.stat().st_size // 1024
     print(f"OK   {archivo.name}  ({formato}, {kb} KB)")
     return archivo
+
+
+THUMB_PX = 600
+
+
+def miniatura(img, destino, lado=THUMB_PX):
+    """Miniatura CUADRADA de la lámina para la grilla del Banco.
+
+    ★ LETTERBOX, NO RECORTE (2026-09-16). El recorte cuadrado desde arriba
+      descartaba los 540 px inferiores de las 245 láminas verticales —el pie
+      con la fuente y la marca— y 554 px por lado de las 222 panorámicas,
+      donde va la leyenda: la miniatura no era una vista fiel de la lámina.
+      Ahora la lámina ENTERA se inscribe en el cuadrado, sobre el papel.
+    ★ WebP y no PNG: 474 miniaturas de 66 KB eran 32 MB para recorrer el Banco.
+      A calidad 82 una lámina cabe en ~25 KB y no se nota en 260 px."""
+    destino = Path(destino)
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    img = img.convert("RGB")
+    esc = lado / max(img.size)
+    red = img.resize((max(1, round(img.width * esc)), max(1, round(img.height * esc))),
+                     Image.LANCZOS)
+    th = Image.new("RGB", (lado, lado), _rgb(COLORS["fondo"]))
+    th.paste(red, ((lado - red.width) // 2, (lado - red.height) // 2))
+    th.save(destino, "WEBP", quality=82, method=6)
+    return destino
 
 
 def _quantizar(img, colores=256):

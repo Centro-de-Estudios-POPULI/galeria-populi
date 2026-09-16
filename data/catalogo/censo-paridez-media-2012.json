@@ -1,0 +1,34 @@
+{
+  "slug": "censo-paridez-media-2012",
+  "titulo": "Bolivia: Paridez media (censo 2012)",
+  "subtitulo": "Cuántos hijos ha tenido, en promedio, una mujer de quince a cuarenta y nueve años — sobre las mujeres de 15 a 49 años que declararon hijos, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "paridez_media",
+    "Salud"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-paridez-media-2012.png",
+  "thumb": "thumbs/censo-paridez-media-2012.webp",
+  "datos": null,
+  "clave": "paridez_media",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=paridez_media&a=2012",
+  "grupo": "Salud",
+  "universo": "sobre las mujeres de 15 a 49 años que declararon hijos",
+  "unidad": "hijos",
+  "escala": {
+    "lo": 1.5197,
+    "piv": 1.7998954919143915,
+    "piv_real": 1.7998954919143915,
+    "hi": 3.8863,
+    "piv_tipo": "país 2024"
+  }
+}

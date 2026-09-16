@@ -10,10 +10,25 @@
     "pct_piso_tierra",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-piso-tierra.png",
-  "thumb": "thumbs/censo-piso-tierra.png",
-  "datos": null
+  "thumb": "thumbs/censo-piso-tierra.webp",
+  "datos": null,
+  "clave": "pct_piso_tierra",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_piso_tierra",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.31,
+    "piv": 22.097314162194497,
+    "piv_real": 22.097314162194497,
+    "hi": 90.46,
+    "piv_tipo": "país 2024"
+  }
 }

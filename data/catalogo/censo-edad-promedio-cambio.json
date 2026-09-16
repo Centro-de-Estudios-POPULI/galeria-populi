@@ -1,0 +1,34 @@
+{
+  "slug": "censo-edad-promedio-cambio",
+  "titulo": "Bolivia: Edad promedio, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en años — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "edad_promedio",
+    "Demografía"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-edad-promedio-cambio.png",
+  "thumb": "thumbs/censo-edad-promedio-cambio.webp",
+  "datos": null,
+  "clave": "edad_promedio",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=edad_promedio&a=cambio",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "años",
+  "escala": {
+    "lo": -5.4356,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 5.4356,
+    "piv_tipo": "sin cambio"
+  }
+}

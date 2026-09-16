@@ -1,0 +1,34 @@
+{
+  "slug": "censo-pared-revoque-2012",
+  "titulo": "Bolivia: Paredes con revoque (censo 2012)",
+  "subtitulo": "Viviendas cuyas paredes interiores están revocadas; el revoque es lo que sella la pared contra la humedad y los vectores — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_revoque",
+    "Vivienda y Materiales"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-pared-revoque-2012.png",
+  "thumb": "thumbs/censo-pared-revoque-2012.webp",
+  "datos": null,
+  "clave": "pct_revoque",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_revoque&a=2012",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 9.34,
+    "piv": 76.08346148464933,
+    "piv_real": 76.08346148464933,
+    "hi": 91.56,
+    "piv_tipo": "país 2024"
+  }
+}

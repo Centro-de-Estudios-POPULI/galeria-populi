@@ -10,10 +10,25 @@
     "pct_hijos_fallecidos",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hijos-fallecidos.png",
-  "thumb": "thumbs/censo-hijos-fallecidos.png",
-  "datos": null
+  "thumb": "thumbs/censo-hijos-fallecidos.webp",
+  "datos": null,
+  "clave": "pct_hijos_fallecidos",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_hijos_fallecidos",
+  "grupo": "Salud",
+  "universo": "sobre los hijos nacidos vivos declarados",
+  "unidad": "%",
+  "escala": {
+    "lo": 7.47,
+    "piv": 10.08470390896745,
+    "piv_real": 10.08470390896745,
+    "hi": 29.22,
+    "piv_tipo": "país 2024"
+  }
 }

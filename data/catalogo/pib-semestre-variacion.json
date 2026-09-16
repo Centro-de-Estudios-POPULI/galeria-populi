@@ -20,6 +20,6 @@
   "tipo": "small_multiples",
   "formato": "informe_mosaico",
   "imagen": "graficas/pib-semestre-variacion.png",
-  "thumb": "thumbs/pib-semestre-variacion.png",
+  "thumb": "thumbs/pib-semestre-variacion.webp",
   "datos": "datos/pib-semestre-variacion.csv"
 }

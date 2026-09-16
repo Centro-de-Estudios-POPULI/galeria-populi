@@ -10,10 +10,25 @@
     "pct_0_14",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-poblacion-0-14.png",
-  "thumb": "thumbs/censo-poblacion-0-14.png",
-  "datos": null
+  "thumb": "thumbs/censo-poblacion-0-14.webp",
+  "datos": null,
+  "clave": "pct_0_14",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_0_14",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 21.47,
+    "piv": 26.962696367981483,
+    "piv_real": 26.962696367981483,
+    "hi": 40.66,
+    "piv_tipo": "país 2024"
+  }
 }

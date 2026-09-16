@@ -1,0 +1,34 @@
+{
+  "slug": "censo-pobreza-nbi-2012",
+  "titulo": "Bolivia: Población pobre (NBI) (censo 2012)",
+  "subtitulo": "Población con al menos una necesidad básica insatisfecha, según la medición oficial del INE — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_nbi_pobre",
+    "Pobreza (NBI)"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-pobreza-nbi-2012.png",
+  "thumb": "thumbs/censo-pobreza-nbi-2012.webp",
+  "datos": null,
+  "clave": "pct_nbi_pobre",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_pobre&a=2012",
+  "grupo": "Pobreza (NBI)",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 16.07,
+    "piv": 29.836346356720817,
+    "piv_real": 29.836346356720817,
+    "hi": 95.0,
+    "piv_tipo": "país 2024"
+  }
+}

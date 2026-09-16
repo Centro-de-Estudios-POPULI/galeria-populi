@@ -10,10 +10,25 @@
     "pob_hombres",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hombres.png",
-  "thumb": "thumbs/censo-hombres.png",
-  "datos": null
+  "thumb": "thumbs/censo-hombres.webp",
+  "datos": null,
+  "clave": "pob_hombres",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pob_hombres",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "hab",
+  "escala": {
+    "lo": 613.3,
+    "piv": 8967.196,
+    "piv_real": 6312.0,
+    "hi": 105037.0,
+    "piv_tipo": "mediana"
+  }
 }

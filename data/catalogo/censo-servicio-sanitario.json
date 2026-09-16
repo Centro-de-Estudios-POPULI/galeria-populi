@@ -10,10 +10,25 @@
     "pct_servicio_sanitario",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-servicio-sanitario.png",
-  "thumb": "thumbs/censo-servicio-sanitario.png",
-  "datos": null
+  "thumb": "thumbs/censo-servicio-sanitario.webp",
+  "datos": null,
+  "clave": "pct_servicio_sanitario",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_servicio_sanitario",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 6.07,
+    "piv": 79.73639467937706,
+    "piv_real": 79.73639467937706,
+    "hi": 95.73,
+    "piv_tipo": "país 2024"
+  }
 }

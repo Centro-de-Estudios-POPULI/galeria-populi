@@ -1,0 +1,34 @@
+{
+  "slug": "censo-energia-de-la-red-publica-2012",
+  "titulo": "Bolivia: Energía de la red pública (censo 2012)",
+  "subtitulo": "Viviendas conectadas al servicio público de electricidad — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_elec_red",
+    "Energía y Cocina"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-energia-de-la-red-publica-2012.png",
+  "thumb": "thumbs/censo-energia-de-la-red-publica-2012.webp",
+  "datos": null,
+  "clave": "pct_elec_red",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_elec_red&a=2012",
+  "grupo": "Energía y Cocina",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 16.53,
+    "piv": 86.4021373669147,
+    "piv_real": 86.4021373669147,
+    "hi": 96.73,
+    "piv_tipo": "país 2024"
+  }
+}

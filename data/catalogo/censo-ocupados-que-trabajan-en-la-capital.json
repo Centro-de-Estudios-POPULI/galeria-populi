@@ -10,10 +10,25 @@
     "dependencia_capital",
     "Flujos Metropolitanos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-ocupados-que-trabajan-en-la-capital.png",
-  "thumb": "thumbs/censo-ocupados-que-trabajan-en-la-capital.png",
-  "datos": null
+  "thumb": "thumbs/censo-ocupados-que-trabajan-en-la-capital.webp",
+  "datos": null,
+  "clave": "dependencia_capital",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=dependencia_capital",
+  "grupo": "Flujos Metropolitanos",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 3.372093512420826,
+    "piv_real": 3.372093512420826,
+    "hi": 18.316,
+    "piv_tipo": "país 2024"
+  }
 }

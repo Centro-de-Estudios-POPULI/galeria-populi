@@ -10,10 +10,25 @@
     "pct_sus",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-afiliados-al-sus.png",
-  "thumb": "thumbs/censo-afiliados-al-sus.png",
-  "datos": null
+  "thumb": "thumbs/censo-afiliados-al-sus.webp",
+  "datos": null,
+  "clave": "pct_sus",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_sus",
+  "grupo": "Salud",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 52.536,
+    "piv": 63.848921147926895,
+    "piv_real": 63.848921147926895,
+    "hi": 88.216,
+    "piv_tipo": "país 2024"
+  }
 }

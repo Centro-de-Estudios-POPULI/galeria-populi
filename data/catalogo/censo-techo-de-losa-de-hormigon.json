@@ -10,10 +10,25 @@
     "pct_techo_losa",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-techo-de-losa-de-hormigon.png",
-  "thumb": "thumbs/censo-techo-de-losa-de-hormigon.png",
-  "datos": null
+  "thumb": "thumbs/censo-techo-de-losa-de-hormigon.webp",
+  "datos": null,
+  "clave": "pct_techo_losa",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_techo_losa",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 10.677593549816752,
+    "piv_real": 10.677593549816752,
+    "hi": 19.49,
+    "piv_tipo": "país 2024"
+  }
 }

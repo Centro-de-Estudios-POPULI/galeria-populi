@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-cp-ic",
   "titulo": "Bolivia: Coparticipación sobre el ingreso corriente",
-  "subtitulo": "Coparticipación / Ing. Corriente (%) — por municipio · gestión 2025",
+  "subtitulo": "Coparticipación Tributaria como porcentaje del Ingreso Corriente. Mide la dependencia del fisco nacional dentro de la base fiscal sostenible (sin capital ni deuda) — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Sostenibilidad de Ing. Corrientes",
     "cp_ic"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-cp-ic.png",
-  "thumb": "thumbs/fiscal-cp-ic.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-cp-ic.webp",
+  "datos": null,
+  "clave": "cp_ic",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=cp_ic&g=2025",
+  "grupo": "Sostenibilidad de Ing. Corrientes",
+  "unidad": "%",
+  "indicador": "Coparticipación / Ing. Corriente",
+  "escala": {
+    "lo": 32.572,
+    "piv": 59.68546449820513,
+    "piv_real": 59.68546449820513,
+    "hi": 89.2964,
+    "piv_tipo": "promedio nacional"
+  }
 }

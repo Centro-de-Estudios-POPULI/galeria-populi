@@ -10,10 +10,25 @@
     "indice_envejecimiento",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-indice-de-envejecimiento.png",
-  "thumb": "thumbs/censo-indice-de-envejecimiento.png",
-  "datos": null
+  "thumb": "thumbs/censo-indice-de-envejecimiento.webp",
+  "datos": null,
+  "clave": "indice_envejecimiento",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=indice_envejecimiento",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "índice",
+  "escala": {
+    "lo": 6.6851,
+    "piv": 28.77700476836007,
+    "piv_real": 28.77700476836007,
+    "hi": 76.6867,
+    "piv_tipo": "país 2024"
+  }
 }

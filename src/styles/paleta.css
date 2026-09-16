@@ -1,0 +1,77 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   POPULI — paleta de colores oficial. FUENTE ÚNICA DE VERDAD (espejo de paleta.py)
+
+   Origen: documento «Paleta de colores», validado el 2026-08-08.
+   NO editar los valores en los repos que la usan: se copia este archivo tal cual.
+
+   Cómo usarlo en un embed:
+     <link rel="stylesheet" href="paleta.css">   (o pegar el bloque :root)
+     y después color: var(--po-brand), fill: var(--po-serie-1), etc.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Identidad ─────────────────────────────────────────────────────────── */
+  --po-brand:        #C71E1D;  /* ancla de marca · datos · botones · enlaces   */
+  --po-brand-deep:   #8B1A1A;  /* oxblood · heros, campos grandes, hover       */
+  --po-brand-light:  #E8706B;  /* SOLO texto sobre fondo oscuro                */
+  --po-gold:         #EE9B00;  /* acento sobre fondo oscuro                    */
+  --po-gold-ink:     #A86E00;  /* el mismo oro para texto sobre fondo claro    */
+
+  /* ── Superficies y tinta (tema claro) ──────────────────────────────────── */
+  --po-bg:           #FAF8F3;
+  --po-card:         #FFFFFF;
+  --po-grid:         #E2DDD3;
+  --po-ink:          #001219;
+  --po-muted:        #5C6B70;
+  --po-border:       #E2DDD3;
+
+  /* ── Series de datos: las 4 validadas ──────────────────────────────────── */
+  /* Pasan contraste en claro Y oscuro con los mismos valores.
+     ⚠️ serie-1 y serie-4 NUNCA adyacentes (ΔE 9,1: se confunden).            */
+  --po-serie-1:      #C71E1D;
+  --po-serie-2:      #0A9396;
+  --po-serie-3:      #EE9B00;   /* ⚠️ 2,12:1 → etiqueta visible o tabla       */
+  --po-serie-4:      #9B2226;
+
+  /* ── Categórica extendida: 4 familias × 3 pasos ────────────────────────── */
+  /* Para muchas series (sectores del PIB, países). 9 de 12 son de la rampa.  */
+  --po-rojo-claro:   #E8706B;  --po-rojo:      #C71E1D;  --po-rojo-oscuro:     #8B1A1A;
+  --po-turq-claro:   #94D2BD;  --po-turq:      #0A9396;  --po-turq-oscuro:     #005F73;
+  --po-ambar-claro:  #E9D8A6;  --po-ambar:     #EE9B00;  --po-ambar-oscuro:    #A86E00;
+  --po-tierra-claro: #E57D22;  --po-tierra:    #DF5D25;  --po-tierra-oscuro:   #9B2226;
+
+  /* ── Semánticos: estado, NO identidad ──────────────────────────────────── */
+  /* ⚠️ EXCEPCIÓN: en el monitor del dólar rojo = VENTA y turquesa = COMPRA.
+        Ahí el color es información. No migrar por regla general.             */
+  --po-positive:     #0A9396;  /* alza · superávit                            */
+  --po-negative:     #C71E1D;  /* baja · déficit                              */
+  --po-neutral:      #8A9699;
+  --po-highlight-muted: #B9BEC0;  /* el "resto" en el patrón destacado+gris   */
+
+  /* ── Rampa oficial de los mapas municipales (2026-09-16) ────────────────── */
+  /* Nueve pasos, divergente; la misma en los dos atlas y en el Banco.        */
+  --po-mapa-0: #00323D; --po-mapa-1: #005F73; --po-mapa-2: #0A9396;
+  --po-mapa-3: #94D2BD; --po-mapa-4: #E9D8A6; --po-mapa-5: #EDA13E;
+  --po-mapa-6: #DF5D25; --po-mapa-7: #C71E1D; --po-mapa-8: #8F1F22;
+  --po-sin-dato: #DFE5EA;
+
+  /* ── Tipografía (cerrada 2026-08-10) ───────────────────────────────────── */
+  --po-font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --po-font-body:    "Inter", system-ui, -apple-system, sans-serif;
+  --po-font-mono:    "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+}
+
+/* ── Tema oscuro ─────────────────────────────────────────────────────────────
+   Las series NO cambian de valor: por eso se eligieron estas cuatro.
+   Solo se mueven superficies, tinta y el rojo de texto.                       */
+[data-theme="dark"], .dark {
+  --po-bg:        #0B0E13;
+  --po-card:      #141414;
+  --po-grid:      #2A3A50;
+  --po-ink:       #E2E8F0;
+  --po-muted:     #8A9699;
+  --po-border:    #2A3A50;
+  --po-brand:     #E8706B;   /* sobre negro, el ladrillo pierde legibilidad   */
+  --po-neutral:   #6E7A7D;
+  --po-highlight-muted: #4A5457;
+}

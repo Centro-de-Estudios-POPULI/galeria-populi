@@ -1,0 +1,34 @@
+{
+  "slug": "censo-ocupados-en-transporte-2012",
+  "titulo": "Bolivia: Ocupados en transporte (censo 2012)",
+  "subtitulo": "Personas ocupadas en transporte y almacenamiento — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_transporte",
+    "Empleo"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-ocupados-en-transporte-2012.png",
+  "thumb": "thumbs/censo-ocupados-en-transporte-2012.webp",
+  "datos": null,
+  "clave": "pct_transporte",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_transporte&a=2012",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.8,
+    "piv": 5.863082774202226,
+    "piv_real": 5.863082774202226,
+    "hi": 10.08,
+    "piv_tipo": "país 2024"
+  }
+}

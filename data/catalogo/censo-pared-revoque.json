@@ -10,10 +10,25 @@
     "pct_revoque",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-pared-revoque.png",
-  "thumb": "thumbs/censo-pared-revoque.png",
-  "datos": null
+  "thumb": "thumbs/censo-pared-revoque.webp",
+  "datos": null,
+  "clave": "pct_revoque",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_revoque",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 9.34,
+    "piv": 76.08346148464933,
+    "piv_real": 76.08346148464933,
+    "hi": 91.56,
+    "piv_tipo": "país 2024"
+  }
 }

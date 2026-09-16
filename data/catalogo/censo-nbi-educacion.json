@@ -10,10 +10,25 @@
     "pct_nbi_educacion",
     "Componentes NBI"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-educacion.png",
-  "thumb": "thumbs/censo-nbi-educacion.png",
-  "datos": null
+  "thumb": "thumbs/censo-nbi-educacion.webp",
+  "datos": null,
+  "clave": "pct_nbi_educacion",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_educacion",
+  "grupo": "Componentes NBI",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 20.07,
+    "piv": 31.015372495140035,
+    "piv_real": 31.015372495140035,
+    "hi": 84.26,
+    "piv_tipo": "país 2024"
+  }
 }

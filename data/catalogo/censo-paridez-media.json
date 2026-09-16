@@ -10,10 +10,25 @@
     "paridez_media",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-paridez-media.png",
-  "thumb": "thumbs/censo-paridez-media.png",
-  "datos": null
+  "thumb": "thumbs/censo-paridez-media.webp",
+  "datos": null,
+  "clave": "paridez_media",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=paridez_media",
+  "grupo": "Salud",
+  "universo": "sobre las mujeres de 15 a 49 años que declararon hijos",
+  "unidad": "hijos",
+  "escala": {
+    "lo": 1.5197,
+    "piv": 1.7998954919143915,
+    "piv_real": 1.7998954919143915,
+    "hi": 3.8863,
+    "piv_tipo": "país 2024"
+  }
 }

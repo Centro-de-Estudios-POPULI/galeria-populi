@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-cp-it",
   "titulo": "Bolivia: Dependencia de la Coparticipación Tributaria",
-  "subtitulo": "Coparticipación / Ing. Total (%) — por municipio · gestión 2025",
+  "subtitulo": "Porcentaje del ingreso total que proviene de la Coparticipación Tributaria del TGN. Indica cuánto depende el municipio del fisco nacional — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Estructura de Ingresos",
     "cp_it"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-cp-it.png",
-  "thumb": "thumbs/fiscal-cp-it.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-cp-it.webp",
+  "datos": null,
+  "clave": "cp_it",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=cp_it&g=2025",
+  "grupo": "Estructura de Ingresos",
+  "unidad": "%",
+  "indicador": "Coparticipación / Ing. Total",
+  "escala": {
+    "lo": 23.454,
+    "piv": 49.52511063295021,
+    "piv_real": 49.52511063295021,
+    "hi": 80.33279999999998,
+    "piv_tipo": "promedio nacional"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "censo-asalariados-cambio",
+  "titulo": "Bolivia: Asalariados, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pct_asalariados",
+    "Empleo"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-asalariados-cambio.png",
+  "thumb": "thumbs/censo-asalariados-cambio.webp",
+  "datos": null,
+  "clave": "pct_asalariados",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_asalariados&a=cambio",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "pp",
+  "escala": {
+    "lo": -13.76,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 13.76,
+    "piv_tipo": "sin cambio"
+  }
+}

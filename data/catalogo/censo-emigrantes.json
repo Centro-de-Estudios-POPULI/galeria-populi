@@ -10,10 +10,25 @@
     "emigrantes_x1000",
     "Emigración internacional"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-emigrantes.png",
-  "thumb": "thumbs/censo-emigrantes.png",
-  "datos": null
+  "thumb": "thumbs/censo-emigrantes.webp",
+  "datos": null,
+  "clave": "emigrantes_x1000",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=emigrantes_x1000",
+  "grupo": "Emigración internacional",
+  "universo": "sobre la población",
+  "unidad": "‰",
+  "escala": {
+    "lo": 4.0486,
+    "piv": 28.951741923003958,
+    "piv_real": 28.951741923003958,
+    "hi": 106.5412,
+    "piv_tipo": "país 2024"
+  }
 }

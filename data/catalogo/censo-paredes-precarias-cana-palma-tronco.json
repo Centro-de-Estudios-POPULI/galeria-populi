@@ -10,10 +10,25 @@
     "pct_pared_precaria",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-paredes-precarias-cana-palma-tronco.png",
-  "thumb": "thumbs/censo-paredes-precarias-cana-palma-tronco.png",
-  "datos": null
+  "thumb": "thumbs/censo-paredes-precarias-cana-palma-tronco.webp",
+  "datos": null,
+  "clave": "pct_pared_precaria",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_pared_precaria",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 0.976,
+    "piv_real": 0.4625346502521863,
+    "hi": 12.2,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -10,10 +10,25 @@
     "pct_sector_primario",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-sector-primario.png",
-  "thumb": "thumbs/censo-sector-primario.png",
-  "datos": null
+  "thumb": "thumbs/censo-sector-primario.webp",
+  "datos": null,
+  "clave": "pct_sector_primario",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_sector_primario",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 6.37,
+    "piv": 28.64924092614554,
+    "piv_real": 28.64924092614554,
+    "hi": 83.76,
+    "piv_tipo": "país 2024"
+  }
 }

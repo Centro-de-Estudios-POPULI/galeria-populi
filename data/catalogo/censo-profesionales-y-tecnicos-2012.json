@@ -1,0 +1,34 @@
+{
+  "slug": "censo-profesionales-y-tecnicos-2012",
+  "titulo": "Bolivia: Profesionales y técnicos (censo 2012)",
+  "subtitulo": "Personas ocupadas en puestos directivos, profesionales o técnicos — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_ocu_profesionales",
+    "Empleo"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-profesionales-y-tecnicos-2012.png",
+  "thumb": "thumbs/censo-profesionales-y-tecnicos-2012.webp",
+  "datos": null,
+  "clave": "pct_ocu_profesionales",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_ocu_profesionales&a=2012",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 2.0,
+    "piv": 16.413407254409226,
+    "piv_real": 16.413407254409226,
+    "hi": 23.62,
+    "piv_tipo": "país 2024"
+  }
+}

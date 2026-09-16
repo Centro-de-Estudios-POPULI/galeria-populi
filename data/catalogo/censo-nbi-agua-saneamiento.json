@@ -10,10 +10,25 @@
     "pct_nbi_agua_sanea",
     "Componentes NBI"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-agua-saneamiento.png",
-  "thumb": "thumbs/censo-nbi-agua-saneamiento.png",
-  "datos": null
+  "thumb": "thumbs/censo-nbi-agua-saneamiento.webp",
+  "datos": null,
+  "clave": "pct_nbi_agua_sanea",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_agua_sanea",
+  "grupo": "Componentes NBI",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 14.49,
+    "piv": 28.808749711853014,
+    "piv_real": 28.808749711853014,
+    "hi": 97.36,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "censo-migrantes-recientes-cambio",
+  "titulo": "Bolivia: Migrantes recientes (desde 2019), cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pct_migrante_reciente",
+    "Migración interna"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-migrantes-recientes-cambio.png",
+  "thumb": "thumbs/censo-migrantes-recientes-cambio.webp",
+  "datos": null,
+  "clave": "pct_migrante_reciente",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_migrante_reciente&a=cambio",
+  "grupo": "Migración interna",
+  "universo": "sobre la población",
+  "unidad": "pp",
+  "escala": {
+    "lo": -15.948,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 15.948,
+    "piv_tipo": "sin cambio"
+  }
+}

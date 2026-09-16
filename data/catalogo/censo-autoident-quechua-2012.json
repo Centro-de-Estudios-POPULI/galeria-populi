@@ -1,0 +1,34 @@
+{
+  "slug": "censo-autoident-quechua-2012",
+  "titulo": "Bolivia: Autoidentificación quechua (censo 2012)",
+  "subtitulo": "Personas que se autoidentifican como quechuas — sobre la población de 15 años o más, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_quechua",
+    "Pueblos e Idiomas"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-autoident-quechua-2012.png",
+  "thumb": "thumbs/censo-autoident-quechua-2012.webp",
+  "datos": null,
+  "clave": "pct_quechua",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_quechua&a=2012",
+  "grupo": "Pueblos e Idiomas",
+  "universo": "sobre la población de 15 años o más",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.1,
+    "piv": 16.19719334766138,
+    "piv_real": 16.19719334766138,
+    "hi": 91.43,
+    "piv_tipo": "país 2024"
+  }
+}

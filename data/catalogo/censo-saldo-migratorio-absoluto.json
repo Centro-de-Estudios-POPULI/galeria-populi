@@ -10,10 +10,25 @@
     "saldo_migratorio",
     "Migración interna"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-saldo-migratorio-absoluto.png",
-  "thumb": "thumbs/censo-saldo-migratorio-absoluto.png",
-  "datos": null
+  "thumb": "thumbs/censo-saldo-migratorio-absoluto.webp",
+  "datos": null,
+  "clave": "saldo_migratorio",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=saldo_migratorio",
+  "grupo": "Migración interna",
+  "universo": "sobre la población",
+  "unidad": "hab",
+  "escala": {
+    "lo": -4820.8,
+    "piv": 147.0,
+    "piv_real": 147.0,
+    "hi": 5074.16,
+    "piv_tipo": "mediana"
+  }
 }

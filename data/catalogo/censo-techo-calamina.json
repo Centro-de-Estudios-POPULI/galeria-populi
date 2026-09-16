@@ -10,10 +10,25 @@
     "pct_techo_calamina",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-techo-calamina.png",
-  "thumb": "thumbs/censo-techo-calamina.png",
-  "datos": null
+  "thumb": "thumbs/censo-techo-calamina.webp",
+  "datos": null,
+  "clave": "pct_techo_calamina",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_techo_calamina",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 7.4,
+    "piv": 58.532433629503,
+    "piv_real": 58.532433629503,
+    "hi": 95.13,
+    "piv_tipo": "país 2024"
+  }
 }

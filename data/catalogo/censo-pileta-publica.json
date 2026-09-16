@@ -10,10 +10,25 @@
     "pct_agua_pileta",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-pileta-publica.png",
-  "thumb": "thumbs/censo-pileta-publica.png",
-  "datos": null
+  "thumb": "thumbs/censo-pileta-publica.webp",
+  "datos": null,
+  "clave": "pct_agua_pileta",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_agua_pileta",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.0,
+    "piv": 7.7548505937697625,
+    "piv_real": 7.7548505937697625,
+    "hi": 34.95,
+    "piv_tipo": "país 2024"
+  }
 }

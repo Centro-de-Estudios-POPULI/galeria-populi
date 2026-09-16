@@ -10,10 +10,25 @@
     "pct_radio",
     "Equipamiento del Hogar"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-radio.png",
-  "thumb": "thumbs/censo-radio.png",
-  "datos": null
+  "thumb": "thumbs/censo-radio.webp",
+  "datos": null,
+  "clave": "pct_radio",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_radio",
+  "grupo": "Equipamiento del Hogar",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 33.92,
+    "piv": 63.812318449236145,
+    "piv_real": 63.812318449236145,
+    "hi": 85.92,
+    "piv_tipo": "país 2024"
+  }
 }

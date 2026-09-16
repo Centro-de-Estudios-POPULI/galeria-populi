@@ -90,7 +90,7 @@ def grafico_barras_apiladas(df, series, etiquetas=None, colores=None,
             t = ax.annotate(referencia_label, (x[0], referencia), xytext=(2 * sc, 5 * sc),
                             textcoords="offset points", va="bottom", ha="left",
                             color=ps.COLORS["cafe"], zorder=8,
-                            fontproperties=ps.fp(ps.BODY, ps.SIZES["dato"] * 0.9 * sc, weight="bold"))
+                            fontproperties=ps.fp(ps.BOLD, ps.SIZES["dato"] * 0.9 * sc))
             t.set_path_effects(halo)
 
     # línea de total (p. ej. base monetaria, en modo nivel)
@@ -109,7 +109,7 @@ def grafico_barras_apiladas(df, series, etiquetas=None, colores=None,
         for b in bordes:
             ax.plot([b, b], [ydata_lo, ydata_hi], color=ps.COLORS["cafe"],
                     linewidth=0.9 * sc, linestyle=(0, (5, 4)), alpha=0.34, zorder=2)
-        f_an = ps.fp(ps.BODY, ps.SIZES["dato"] * 0.92 * sc, weight="bold")
+        f_an = ps.fp(ps.BOLD, ps.SIZES["dato"] * 0.92 * sc)
         for f in fases:
             xm = f.get("lx", (f["x0"] + f["x1"]) / 2)
             ym = y0 + (y1 - y0) * f.get("ly", 0.965)
@@ -120,7 +120,7 @@ def grafico_barras_apiladas(df, series, etiquetas=None, colores=None,
 
     # rótulos libres dentro del gráfico (coords de datos)
     if rotulos:
-        f_rot = ps.fp(ps.BODY, ps.SIZES["fin_linea"] * 0.9 * sc, weight="bold")
+        f_rot = ps.fp(ps.BOLD, ps.SIZES["fin_linea"] * 0.9 * sc)
         for r in rotulos:
             ax.text(r["x"], r["y"], r["texto"], fontproperties=f_rot,
                     color=ps.col(r.get("color", "tinta")), ha=r.get("ha", "center"),

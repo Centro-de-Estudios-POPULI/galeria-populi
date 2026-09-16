@@ -10,10 +10,25 @@
     "pct_madres_adolescentes",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-madres-adolescentes.png",
-  "thumb": "thumbs/censo-madres-adolescentes.png",
-  "datos": null
+  "thumb": "thumbs/censo-madres-adolescentes.webp",
+  "datos": null,
+  "clave": "pct_madres_adolescentes",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_madres_adolescentes",
+  "grupo": "Salud",
+  "universo": "sobre las mujeres de 15 a 19 años",
+  "unidad": "%",
+  "escala": {
+    "lo": 3.54,
+    "piv": 7.37685452695829,
+    "piv_real": 7.37685452695829,
+    "hi": 31.06,
+    "piv_tipo": "país 2024"
+  }
 }

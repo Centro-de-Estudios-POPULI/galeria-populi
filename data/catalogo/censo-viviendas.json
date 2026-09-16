@@ -10,10 +10,25 @@
     "viviendas",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-viviendas.png",
-  "thumb": "thumbs/censo-viviendas.png",
-  "datos": null
+  "thumb": "thumbs/censo-viviendas.webp",
+  "datos": null,
+  "clave": "viviendas",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=viviendas",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "viv",
+  "escala": {
+    "lo": 347.5,
+    "piv": 5756.436,
+    "piv_real": 4116.0,
+    "hi": 67959.2,
+    "piv_tipo": "mediana"
+  }
 }

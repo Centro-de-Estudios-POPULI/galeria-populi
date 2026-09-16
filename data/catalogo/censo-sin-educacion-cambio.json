@@ -1,0 +1,34 @@
+{
+  "slug": "censo-sin-educacion-cambio",
+  "titulo": "Bolivia: Sin nivel educativo (19+), cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población de 19 años o más, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pct_sin_educacion",
+    "Educación"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-sin-educacion-cambio.png",
+  "thumb": "thumbs/censo-sin-educacion-cambio.webp",
+  "datos": null,
+  "clave": "pct_sin_educacion",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_sin_educacion&a=cambio",
+  "grupo": "Educación",
+  "universo": "sobre la población de 19 años o más",
+  "unidad": "pp",
+  "escala": {
+    "lo": -12.948,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 12.948,
+    "piv_tipo": "sin cambio"
+  }
+}

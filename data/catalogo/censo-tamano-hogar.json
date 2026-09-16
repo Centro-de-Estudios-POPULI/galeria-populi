@@ -10,10 +10,25 @@
     "tam_hogar",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-tamano-hogar.png",
-  "thumb": "thumbs/censo-tamano-hogar.png",
-  "datos": null
+  "thumb": "thumbs/censo-tamano-hogar.webp",
+  "datos": null,
+  "clave": "tam_hogar",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tam_hogar",
+  "grupo": "Demografía",
+  "universo": "sobre los hogares",
+  "unidad": "pers",
+  "escala": {
+    "lo": 2.2121,
+    "piv": 3.0726295689694902,
+    "piv_real": 3.0726295689694902,
+    "hi": 4.9796,
+    "piv_tipo": "país 2024"
+  }
 }

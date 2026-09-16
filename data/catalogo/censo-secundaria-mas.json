@@ -10,10 +10,25 @@
     "pct_secundaria_mas",
     "Educación"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-secundaria-mas.png",
-  "thumb": "thumbs/censo-secundaria-mas.png",
-  "datos": null
+  "thumb": "thumbs/censo-secundaria-mas.webp",
+  "datos": null,
+  "clave": "pct_secundaria_mas",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_secundaria_mas",
+  "grupo": "Educación",
+  "universo": "sobre la población de 19 años o más",
+  "unidad": "%",
+  "escala": {
+    "lo": 21.69,
+    "piv": 75.03565955700746,
+    "piv_real": 75.03565955700746,
+    "hi": 83.06,
+    "piv_tipo": "país 2024"
+  }
 }

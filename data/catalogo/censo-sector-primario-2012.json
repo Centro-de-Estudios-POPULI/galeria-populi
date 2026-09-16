@@ -1,0 +1,34 @@
+{
+  "slug": "censo-sector-primario-2012",
+  "titulo": "Bolivia: Sector primario (agri.+miner.) (censo 2012)",
+  "subtitulo": "Personas ocupadas en agricultura, ganadería o minería: lo que se extrae de la tierra — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_sector_primario",
+    "Empleo"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-sector-primario-2012.png",
+  "thumb": "thumbs/censo-sector-primario-2012.webp",
+  "datos": null,
+  "clave": "pct_sector_primario",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_sector_primario&a=2012",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 6.37,
+    "piv": 28.64924092614554,
+    "piv_real": 28.64924092614554,
+    "hi": 83.76,
+    "piv_tipo": "país 2024"
+  }
+}

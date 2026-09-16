@@ -10,10 +10,25 @@
     "pct_chiquitano",
     "Pueblos e Idiomas"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-autoidentificacion-chiquitano.png",
-  "thumb": "thumbs/censo-autoidentificacion-chiquitano.png",
-  "datos": null
+  "thumb": "thumbs/censo-autoidentificacion-chiquitano.webp",
+  "datos": null,
+  "clave": "pct_chiquitano",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_chiquitano",
+  "grupo": "Pueblos e Idiomas",
+  "universo": "sobre la población de 15 años o más",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 2.9072000000000005,
+    "piv_real": 0.8381966965141582,
+    "hi": 36.34,
+    "piv_tipo": "país 2024"
+  }
 }

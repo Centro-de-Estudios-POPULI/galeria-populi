@@ -10,10 +10,25 @@
     "pct_agua_rio",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-rio-acequia-o-vertiente-no-protegida.png",
-  "thumb": "thumbs/censo-rio-acequia-o-vertiente-no-protegida.png",
-  "datos": null
+  "thumb": "thumbs/censo-rio-acequia-o-vertiente-no-protegida.webp",
+  "datos": null,
+  "clave": "pct_agua_rio",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_agua_rio",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 4.173821505081396,
+    "piv_real": 4.173821505081396,
+    "hi": 31.472,
+    "piv_tipo": "país 2024"
+  }
 }

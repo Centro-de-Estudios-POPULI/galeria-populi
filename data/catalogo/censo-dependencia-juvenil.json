@@ -10,10 +10,25 @@
     "dep_juvenil",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-dependencia-juvenil.png",
-  "thumb": "thumbs/censo-dependencia-juvenil.png",
-  "datos": null
+  "thumb": "thumbs/censo-dependencia-juvenil.webp",
+  "datos": null,
+  "clave": "dep_juvenil",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=dep_juvenil",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 32.4953,
+    "piv": 41.37464240950968,
+    "piv_real": 41.37464240950968,
+    "hi": 75.5992,
+    "piv_tipo": "país 2024"
+  }
 }

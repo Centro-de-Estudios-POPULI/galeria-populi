@@ -10,10 +10,25 @@
     "pct_caja_salud",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-cajas-salud.png",
-  "thumb": "thumbs/censo-cajas-salud.png",
-  "datos": null
+  "thumb": "thumbs/censo-cajas-salud.webp",
+  "datos": null,
+  "clave": "pct_caja_salud",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_caja_salud",
+  "grupo": "Salud",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 3.77,
+    "piv": 19.214668545127548,
+    "piv_real": 19.214668545127548,
+    "hi": 33.12,
+    "piv_tipo": "país 2024"
+  }
 }

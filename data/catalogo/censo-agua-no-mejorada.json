@@ -10,10 +10,25 @@
     "pct_agua_no_mejorada",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-agua-no-mejorada.png",
-  "thumb": "thumbs/censo-agua-no-mejorada.png",
-  "datos": null
+  "thumb": "thumbs/censo-agua-no-mejorada.webp",
+  "datos": null,
+  "clave": "pct_agua_no_mejorada",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_agua_no_mejorada",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.884,
+    "piv": 10.21947511818686,
+    "piv_real": 10.21947511818686,
+    "hi": 54.916,
+    "piv_tipo": "país 2024"
+  }
 }

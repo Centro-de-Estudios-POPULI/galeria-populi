@@ -1,0 +1,34 @@
+{
+  "slug": "censo-nacidos-extranjero-2012",
+  "titulo": "Bolivia: Nacidos en el extranjero (censo 2012)",
+  "subtitulo": "Personas que viven acá y nacieron en otro país — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_nacido_extranjero",
+    "Migración interna"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nacidos-extranjero-2012.png",
+  "thumb": "thumbs/censo-nacidos-extranjero-2012.webp",
+  "datos": null,
+  "clave": "pct_nacido_extranjero",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nacido_extranjero&a=2012",
+  "grupo": "Migración interna",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 1.5509953047806662,
+    "piv_real": 1.5509953047806662,
+    "hi": 5.83,
+    "piv_tipo": "país 2024"
+  }
+}

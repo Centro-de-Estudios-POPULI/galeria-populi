@@ -10,10 +10,25 @@
     "pct_cedula_identidad",
     "Ciudadanía y Registro"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-cedula-identidad.png",
-  "thumb": "thumbs/censo-cedula-identidad.png",
-  "datos": null
+  "thumb": "thumbs/censo-cedula-identidad.webp",
+  "datos": null,
+  "clave": "pct_cedula_identidad",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_cedula_identidad",
+  "grupo": "Ciudadanía y Registro",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 62.6,
+    "piv": 96.548,
+    "piv_real": 98.63568207698167,
+    "hi": 99.5,
+    "piv_tipo": "país 2024"
+  }
 }

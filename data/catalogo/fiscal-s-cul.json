@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-s-cul",
   "titulo": "Bolivia: Gasto en cultura y deporte",
-  "subtitulo": "Cultura / G. Sectorial (%) — por municipio · gestión 2025",
+  "subtitulo": "Gasto en Cultura, Deportes y Recreación (COFOG 7): infraestructura cultural, eventos y deporte — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Gasto por Sectores",
     "s_cul"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-cul.png",
-  "thumb": "thumbs/fiscal-s-cul.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-s-cul.webp",
+  "datos": null,
+  "clave": "s_cul",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=s_cul&g=2025",
+  "grupo": "Gasto por Sectores",
+  "unidad": "%",
+  "indicador": "Cultura / G. Sectorial",
+  "escala": {
+    "lo": 0.1784,
+    "piv": 2.81337777632453,
+    "piv_real": 2.81337777632453,
+    "hi": 12.421199999999997,
+    "piv_tipo": "promedio nacional"
+  }
 }

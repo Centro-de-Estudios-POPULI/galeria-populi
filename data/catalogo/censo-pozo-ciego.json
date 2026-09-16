@@ -10,10 +10,25 @@
     "pct_pozo_ciego",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-pozo-ciego.png",
-  "thumb": "thumbs/censo-pozo-ciego.png",
-  "datos": null
+  "thumb": "thumbs/censo-pozo-ciego.webp",
+  "datos": null,
+  "clave": "pct_pozo_ciego",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_pozo_ciego",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.94,
+    "piv": 21.241862913460817,
+    "piv_real": 21.241862913460817,
+    "hi": 73.43,
+    "piv_tipo": "país 2024"
+  }
 }

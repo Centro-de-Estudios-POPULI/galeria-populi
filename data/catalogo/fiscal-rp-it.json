@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-rp-it",
   "titulo": "Bolivia: Autonomía fiscal: recursos propios",
-  "subtitulo": "Recursos Propios / Ing. Total (%) — por municipio · gestión 2025",
+  "subtitulo": "Ingresos propios (tasas, impuestos municipales, venta de bienes y servicios) como porcentaje del ingreso total. Mide la autonomía fiscal local — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Estructura de Ingresos",
     "rp_it"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-rp-it.png",
-  "thumb": "thumbs/fiscal-rp-it.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-rp-it.webp",
+  "datos": null,
+  "clave": "rp_it",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=rp_it&g=2025",
+  "grupo": "Estructura de Ingresos",
+  "unidad": "%",
+  "indicador": "Recursos Propios / Ing. Total",
+  "escala": {
+    "lo": 0.3668,
+    "piv": 26.054378084086384,
+    "piv_real": 26.054378084086384,
+    "hi": 44.290799999999756,
+    "piv_tipo": "promedio nacional"
+  }
 }

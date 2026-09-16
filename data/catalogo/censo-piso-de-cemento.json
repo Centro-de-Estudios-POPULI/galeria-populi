@@ -10,10 +10,25 @@
     "pct_piso_cemento",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-piso-de-cemento.png",
-  "thumb": "thumbs/censo-piso-de-cemento.png",
-  "datos": null
+  "thumb": "thumbs/censo-piso-de-cemento.webp",
+  "datos": null,
+  "clave": "pct_piso_cemento",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_piso_cemento",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 4.08,
+    "piv": 36.482043683947204,
+    "piv_real": 36.482043683947204,
+    "hi": 64.46,
+    "piv_tipo": "país 2024"
+  }
 }

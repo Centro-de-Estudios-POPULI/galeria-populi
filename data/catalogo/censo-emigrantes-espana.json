@@ -10,10 +10,25 @@
     "pct_emi_espana",
     "Emigración internacional"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-emigrantes-espana.png",
-  "thumb": "thumbs/censo-emigrantes-espana.png",
-  "datos": null
+  "thumb": "thumbs/censo-emigrantes-espana.webp",
+  "datos": null,
+  "clave": "pct_emi_espana",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_emi_espana",
+  "grupo": "Emigración internacional",
+  "universo": "sobre las personas que emigraron al exterior",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 10.064969442055393,
+    "piv_real": 10.064969442055393,
+    "hi": 53.64,
+    "piv_tipo": "país 2024"
+  }
 }

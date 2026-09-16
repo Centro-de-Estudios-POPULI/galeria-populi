@@ -10,10 +10,25 @@
     "pct_hogar_extendido",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hogares-extendidos.png",
-  "thumb": "thumbs/censo-hogares-extendidos.png",
-  "datos": null
+  "thumb": "thumbs/censo-hogares-extendidos.webp",
+  "datos": null,
+  "clave": "pct_hogar_extendido",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_hogar_extendido",
+  "grupo": "Demografía",
+  "universo": "sobre los hogares",
+  "unidad": "%",
+  "escala": {
+    "lo": 13.052,
+    "piv": 23.055887624592582,
+    "piv_real": 23.055887624592582,
+    "hi": 38.648,
+    "piv_tipo": "país 2024"
+  }
 }

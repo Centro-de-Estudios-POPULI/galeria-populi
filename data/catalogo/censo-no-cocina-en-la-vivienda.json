@@ -10,10 +10,25 @@
     "pct_no_cocina",
     "Energía y Cocina"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-no-cocina-en-la-vivienda.png",
-  "thumb": "thumbs/censo-no-cocina-en-la-vivienda.png",
-  "datos": null
+  "thumb": "thumbs/censo-no-cocina-en-la-vivienda.webp",
+  "datos": null,
+  "clave": "pct_no_cocina",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_no_cocina",
+  "grupo": "Energía y Cocina",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.1,
+    "piv": 1.5940254065514603,
+    "piv_real": 1.5940254065514603,
+    "hi": 3.9,
+    "piv_tipo": "país 2024"
+  }
 }

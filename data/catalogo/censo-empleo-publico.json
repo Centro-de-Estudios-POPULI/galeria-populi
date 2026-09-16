@@ -10,10 +10,25 @@
     "pct_admin_publica",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-empleo-publico.png",
-  "thumb": "thumbs/censo-empleo-publico.png",
-  "datos": null
+  "thumb": "thumbs/censo-empleo-publico.webp",
+  "datos": null,
+  "clave": "pct_admin_publica",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_admin_publica",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.2,
+    "piv": 2.2434067955674153,
+    "piv_real": 2.2434067955674153,
+    "hi": 4.89,
+    "piv_tipo": "país 2024"
+  }
 }

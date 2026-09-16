@@ -10,10 +10,25 @@
     "pct_agua_mejorada",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-acceso-a-fuente-mejorada.png",
-  "thumb": "thumbs/censo-acceso-a-fuente-mejorada.png",
-  "datos": null
+  "thumb": "thumbs/censo-acceso-a-fuente-mejorada.webp",
+  "datos": null,
+  "clave": "pct_agua_mejorada",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_agua_mejorada",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 45.084,
+    "piv": 89.78052488181314,
+    "piv_real": 89.78052488181314,
+    "hi": 99.116,
+    "piv_tipo": "país 2024"
+  }
 }

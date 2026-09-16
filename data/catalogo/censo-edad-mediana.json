@@ -10,10 +10,25 @@
     "edad_mediana",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-mediana.png",
-  "thumb": "thumbs/censo-edad-mediana.png",
-  "datos": null
+  "thumb": "thumbs/censo-edad-mediana.webp",
+  "datos": null,
+  "clave": "edad_mediana",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=edad_mediana",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "años",
+  "escala": {
+    "lo": 19.0,
+    "piv": 27.0,
+    "piv_real": 27.0,
+    "hi": 36.6,
+    "piv_tipo": "mediana"
+  }
 }

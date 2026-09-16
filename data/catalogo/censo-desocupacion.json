@@ -10,10 +10,25 @@
     "tasa_desocupacion",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-desocupacion.png",
-  "thumb": "thumbs/censo-desocupacion.png",
-  "datos": null
+  "thumb": "thumbs/censo-desocupacion.webp",
+  "datos": null,
+  "clave": "tasa_desocupacion",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tasa_desocupacion",
+  "grupo": "Empleo",
+  "universo": "sobre la población económicamente activa",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.2,
+    "piv": 2.7876822337575624,
+    "piv_real": 2.7876822337575624,
+    "hi": 4.23,
+    "piv_tipo": "país 2024"
+  }
 }

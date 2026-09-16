@@ -1,0 +1,34 @@
+{
+  "slug": "censo-tamano-hogar-cambio",
+  "titulo": "Bolivia: Personas por hogar, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en pers — sobre los hogares, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "tam_hogar",
+    "Demografía"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-tamano-hogar-cambio.png",
+  "thumb": "thumbs/censo-tamano-hogar-cambio.webp",
+  "datos": null,
+  "clave": "tam_hogar",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tam_hogar&a=cambio",
+  "grupo": "Demografía",
+  "universo": "sobre los hogares",
+  "unidad": "pers",
+  "escala": {
+    "lo": -1.3529,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 1.3529,
+    "piv_tipo": "sin cambio"
+  }
+}

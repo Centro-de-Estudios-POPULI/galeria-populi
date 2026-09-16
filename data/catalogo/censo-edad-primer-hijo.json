@@ -10,10 +10,25 @@
     "edad_1er_hijo",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-primer-hijo.png",
-  "thumb": "thumbs/censo-edad-primer-hijo.png",
-  "datos": null
+  "thumb": "thumbs/censo-edad-primer-hijo.webp",
+  "datos": null,
+  "clave": "edad_1er_hijo",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=edad_1er_hijo",
+  "grupo": "Salud",
+  "universo": "sobre las mujeres que declararon la edad a su primer hijo",
+  "unidad": "años",
+  "escala": {
+    "lo": 18.2724,
+    "piv": 21.522464830111,
+    "piv_real": 21.522464830111,
+    "hi": 22.652,
+    "piv_tipo": "país 2024"
+  }
 }

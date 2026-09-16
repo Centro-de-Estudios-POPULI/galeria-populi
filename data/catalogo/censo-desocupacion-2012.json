@@ -1,0 +1,34 @@
+{
+  "slug": "censo-desocupacion-2012",
+  "titulo": "Bolivia: Tasa de desocupación (censo 2012)",
+  "subtitulo": "De quienes están en el mercado laboral —trabajando o buscando—, cuántos buscan trabajo y no lo encuentran — sobre la población económicamente activa, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "tasa_desocupacion",
+    "Empleo"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-desocupacion-2012.png",
+  "thumb": "thumbs/censo-desocupacion-2012.webp",
+  "datos": null,
+  "clave": "tasa_desocupacion",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tasa_desocupacion&a=2012",
+  "grupo": "Empleo",
+  "universo": "sobre la población económicamente activa",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.2,
+    "piv": 2.7876822337575624,
+    "piv_real": 2.7876822337575624,
+    "hi": 4.23,
+    "piv_tipo": "país 2024"
+  }
+}

@@ -10,10 +10,25 @@
     "pct_alojamiento",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-ocupados-en-alojamiento-y-comida.png",
-  "thumb": "thumbs/censo-ocupados-en-alojamiento-y-comida.png",
-  "datos": null
+  "thumb": "thumbs/censo-ocupados-en-alojamiento-y-comida.webp",
+  "datos": null,
+  "clave": "pct_alojamiento",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_alojamiento",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.4,
+    "piv": 5.790975595630793,
+    "piv_real": 5.790975595630793,
+    "hi": 7.7,
+    "piv_tipo": "país 2024"
+  }
 }

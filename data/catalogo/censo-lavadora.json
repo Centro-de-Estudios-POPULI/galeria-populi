@@ -10,10 +10,25 @@
     "pct_lavadora",
     "Equipamiento del Hogar"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-lavadora.png",
-  "thumb": "thumbs/censo-lavadora.png",
-  "datos": null
+  "thumb": "thumbs/censo-lavadora.webp",
+  "datos": null,
+  "clave": "pct_lavadora",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_lavadora",
+  "grupo": "Equipamiento del Hogar",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.3,
+    "piv": 25.68245174628994,
+    "piv_real": 25.68245174628994,
+    "hi": 43.132,
+    "piv_tipo": "país 2024"
+  }
 }

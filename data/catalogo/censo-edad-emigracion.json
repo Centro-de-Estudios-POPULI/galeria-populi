@@ -10,10 +10,25 @@
     "edad_prom_emigracion",
     "Emigración internacional"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-emigracion.png",
-  "thumb": "thumbs/censo-edad-emigracion.png",
-  "datos": null
+  "thumb": "thumbs/censo-edad-emigracion.webp",
+  "datos": null,
+  "clave": "edad_prom_emigracion",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=edad_prom_emigracion",
+  "grupo": "Emigración internacional",
+  "universo": "sobre las personas que emigraron al exterior",
+  "unidad": "años",
+  "escala": {
+    "lo": 20.6622,
+    "piv": 26.789691651952456,
+    "piv_real": 26.789691651952456,
+    "hi": 28.7988,
+    "piv_tipo": "país 2024"
+  }
 }

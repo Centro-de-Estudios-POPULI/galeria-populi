@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-gc-gt",
   "titulo": "Bolivia: Peso del gasto corriente",
-  "subtitulo": "Gasto Corriente / Gasto Total (%) — por municipio · gestión 2025",
+  "subtitulo": "Gasto corriente (remuneraciones, bienes y servicios, transferencias) como porcentaje del gasto total. Valores altos dejan menor margen para inversión — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Estructura del Gasto",
     "gc_gt"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-gc-gt.png",
-  "thumb": "thumbs/fiscal-gc-gt.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-gc-gt.webp",
+  "datos": null,
+  "clave": "gc_gt",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=gc_gt&g=2025",
+  "grupo": "Estructura del Gasto",
+  "unidad": "%",
+  "indicador": "Gasto Corriente / Gasto Total",
+  "escala": {
+    "lo": 41.0428,
+    "piv": 68.87125729021211,
+    "piv_real": 68.87125729021211,
+    "hi": 92.76079999999997,
+    "piv_tipo": "promedio nacional"
+  }
 }

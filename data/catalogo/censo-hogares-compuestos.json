@@ -10,10 +10,25 @@
     "pct_hogar_compuesto",
     "Hogares y Jefatura"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hogares-compuestos.png",
-  "thumb": "thumbs/censo-hogares-compuestos.png",
-  "datos": null
+  "thumb": "thumbs/censo-hogares-compuestos.webp",
+  "datos": null,
+  "clave": "pct_hogar_compuesto",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_hogar_compuesto",
+  "grupo": "Hogares y Jefatura",
+  "universo": "sobre los hogares",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.5,
+    "piv": 2.4889097944068945,
+    "piv_real": 2.4889097944068945,
+    "hi": 10.1,
+    "piv_tipo": "país 2024"
+  }
 }

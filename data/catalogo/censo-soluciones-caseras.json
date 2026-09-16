@@ -10,10 +10,25 @@
     "pct_remedios_caseros",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-soluciones-caseras.png",
-  "thumb": "thumbs/censo-soluciones-caseras.png",
-  "datos": null
+  "thumb": "thumbs/censo-soluciones-caseras.webp",
+  "datos": null,
+  "clave": "pct_remedios_caseros",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_remedios_caseros",
+  "grupo": "Salud",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 28.82,
+    "piv": 63.813404789811216,
+    "piv_real": 63.813404789811216,
+    "hi": 79.79,
+    "piv_tipo": "país 2024"
+  }
 }

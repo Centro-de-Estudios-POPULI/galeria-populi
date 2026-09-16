@@ -1,0 +1,34 @@
+{
+  "slug": "censo-hogares-emigrante-2012",
+  "titulo": "Bolivia: Hogares con emigrante (censo 2012)",
+  "subtitulo": "Hogares que declararon que alguien que vivía con ellos hoy está en otro país — sobre los hogares, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_con_emigrante",
+    "Emigración internacional"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-hogares-emigrante-2012.png",
+  "thumb": "thumbs/censo-hogares-emigrante-2012.webp",
+  "datos": null,
+  "clave": "pct_con_emigrante",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_con_emigrante&a=2012",
+  "grupo": "Emigración internacional",
+  "universo": "sobre los hogares",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.71,
+    "piv": 8.374530695190652,
+    "piv_real": 8.374530695190652,
+    "hi": 23.72,
+    "piv_tipo": "país 2024"
+  }
+}

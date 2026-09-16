@@ -1,0 +1,34 @@
+{
+  "slug": "censo-nacimientos-inscritos-menores-de-5-2012",
+  "titulo": "Bolivia: Nacimientos inscritos (menores de 5) (censo 2012)",
+  "subtitulo": "Niñas y niños menores de cinco años ya inscritos; es el indicador que anticipa la indocumentación futura — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_registro_menores5",
+    "Pueblos e Idiomas"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nacimientos-inscritos-menores-de-5-2012.png",
+  "thumb": "thumbs/censo-nacimientos-inscritos-menores-de-5-2012.webp",
+  "datos": null,
+  "clave": "pct_registro_menores5",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_registro_menores5&a=2012",
+  "grupo": "Pueblos e Idiomas",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 75.06,
+    "piv": 95.9810333166422,
+    "piv_real": 95.9810333166422,
+    "hi": 98.43,
+    "piv_tipo": "país 2024"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-s-eco",
   "titulo": "Bolivia: Gasto en sectores económicos",
-  "subtitulo": "Economía / G. Sectorial (%) — por municipio · gestión 2025",
+  "subtitulo": "Gasto en sectores económicos (COFOG 3): agricultura, transporte, energía, industria y comercio — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Gasto por Sectores",
     "s_eco"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-eco.png",
-  "thumb": "thumbs/fiscal-s-eco.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-s-eco.webp",
+  "datos": null,
+  "clave": "s_eco",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=s_eco&g=2025",
+  "grupo": "Gasto por Sectores",
+  "unidad": "%",
+  "indicador": "Economía / G. Sectorial",
+  "escala": {
+    "lo": 4.012,
+    "piv": 15.830294796546285,
+    "piv_real": 15.830294796546285,
+    "hi": 42.883199999999974,
+    "piv_tipo": "promedio nacional"
+  }
 }

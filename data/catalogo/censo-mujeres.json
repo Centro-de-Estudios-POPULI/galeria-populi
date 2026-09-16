@@ -10,10 +10,25 @@
     "pob_mujeres",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-mujeres.png",
-  "thumb": "thumbs/censo-mujeres.png",
-  "datos": null
+  "thumb": "thumbs/censo-mujeres.webp",
+  "datos": null,
+  "clave": "pob_mujeres",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pob_mujeres",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "hab",
+  "escala": {
+    "lo": 581.3,
+    "piv": 9596.715999999999,
+    "piv_real": 5957.0,
+    "hi": 113274.0,
+    "piv_tipo": "mediana"
+  }
 }

@@ -10,10 +10,25 @@
     "pct_am_solo",
     "Hogares y Jefatura"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-adultos-mayores-viviendo-solos.png",
-  "thumb": "thumbs/censo-adultos-mayores-viviendo-solos.png",
-  "datos": null
+  "thumb": "thumbs/censo-adultos-mayores-viviendo-solos.webp",
+  "datos": null,
+  "clave": "pct_am_solo",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_am_solo",
+  "grupo": "Hogares y Jefatura",
+  "universo": "sobre los hogares",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.07,
+    "piv": 5.341279321135876,
+    "piv_real": 5.341279321135876,
+    "hi": 15.6,
+    "piv_tipo": "país 2024"
+  }
 }

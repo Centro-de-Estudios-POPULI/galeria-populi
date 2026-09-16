@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-idh-it",
   "titulo": "Bolivia: Dependencia del IDH (renta hidrocarburífera)",
-  "subtitulo": "IDH / Ing. Total (%) — por municipio · gestión 2025",
+  "subtitulo": "Peso del IDH (Impuesto Directo a los Hidrocarburos) en el ingreso total. Refleja la dependencia de la renta hidrocarburífera — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Estructura de Ingresos",
     "idh_it"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-idh-it.png",
-  "thumb": "thumbs/fiscal-idh-it.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-idh-it.webp",
+  "datos": null,
+  "clave": "idh_it",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=idh_it&g=2025",
+  "grupo": "Estructura de Ingresos",
+  "unidad": "%",
+  "indicador": "IDH / Ing. Total",
+  "escala": {
+    "lo": 2.7068,
+    "piv": 6.561246613771748,
+    "piv_real": 6.561246613771748,
+    "hi": 38.41959999999995,
+    "piv_tipo": "promedio nacional"
+  }
 }

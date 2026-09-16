@@ -1,0 +1,34 @@
+{
+  "slug": "censo-computadora-2012",
+  "titulo": "Bolivia: Con computadora (censo 2012)",
+  "subtitulo": "Hogares con computadora, laptop o tableta — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_computadora",
+    "Tecnología y Conectividad"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-computadora-2012.png",
+  "thumb": "thumbs/censo-computadora-2012.webp",
+  "datos": null,
+  "clave": "pct_computadora",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_computadora&a=2012",
+  "grupo": "Tecnología y Conectividad",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.9,
+    "piv": 33.27069664219911,
+    "piv_real": 33.27069664219911,
+    "hi": 42.2,
+    "piv_tipo": "país 2024"
+  }
+}

@@ -10,10 +10,25 @@
     "pct_viv_prestada",
     "Tenencia"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-vivienda-prestada-o-cedida.png",
-  "thumb": "thumbs/censo-vivienda-prestada-o-cedida.png",
-  "datos": null
+  "thumb": "thumbs/censo-vivienda-prestada-o-cedida.webp",
+  "datos": null,
+  "clave": "pct_viv_prestada",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_viv_prestada",
+  "grupo": "Tenencia",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.8,
+    "piv": 7.449743508795265,
+    "piv_real": 7.449743508795265,
+    "hi": 11.78,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -10,10 +10,25 @@
     "pct_trab_familiar",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-trabajo-familiar.png",
-  "thumb": "thumbs/censo-trabajo-familiar.png",
-  "datos": null
+  "thumb": "thumbs/censo-trabajo-familiar.webp",
+  "datos": null,
+  "clave": "pct_trab_familiar",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_trab_familiar",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.6,
+    "piv": 7.936574452066407,
+    "piv_real": 7.936574452066407,
+    "hi": 21.45,
+    "piv_tipo": "país 2024"
+  }
 }

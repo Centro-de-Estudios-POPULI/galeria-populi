@@ -10,10 +10,25 @@
     "pct_emi_argentina",
     "Emigración internacional"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-emigrantes-argentina.png",
-  "thumb": "thumbs/censo-emigrantes-argentina.png",
-  "datos": null
+  "thumb": "thumbs/censo-emigrantes-argentina.webp",
+  "datos": null,
+  "clave": "pct_emi_argentina",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_emi_argentina",
+  "grupo": "Emigración internacional",
+  "universo": "sobre las personas que emigraron al exterior",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.54,
+    "piv": 24.92801241160077,
+    "piv_real": 24.92801241160077,
+    "hi": 89.27,
+    "piv_tipo": "país 2024"
+  }
 }

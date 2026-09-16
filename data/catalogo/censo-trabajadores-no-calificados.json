@@ -10,10 +10,25 @@
     "pct_ocu_no_calificado",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-trabajadores-no-calificados.png",
-  "thumb": "thumbs/censo-trabajadores-no-calificados.png",
-  "datos": null
+  "thumb": "thumbs/censo-trabajadores-no-calificados.webp",
+  "datos": null,
+  "clave": "pct_ocu_no_calificado",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_ocu_no_calificado",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.07,
+    "piv": 5.18872261363166,
+    "piv_real": 5.18872261363166,
+    "hi": 11.4,
+    "piv_tipo": "país 2024"
+  }
 }

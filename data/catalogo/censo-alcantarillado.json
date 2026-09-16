@@ -10,10 +10,25 @@
     "pct_alcantarillado",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-alcantarillado.png",
-  "thumb": "thumbs/censo-alcantarillado.png",
-  "datos": null
+  "thumb": "thumbs/censo-alcantarillado.webp",
+  "datos": null,
+  "clave": "pct_alcantarillado",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_alcantarillado",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 47.85856932299513,
+    "piv_real": 47.85856932299513,
+    "hi": 70.82,
+    "piv_tipo": "país 2024"
+  }
 }

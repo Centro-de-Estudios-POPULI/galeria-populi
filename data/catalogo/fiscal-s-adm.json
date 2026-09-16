@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-s-adm",
   "titulo": "Bolivia: Gasto en administración general",
-  "subtitulo": "Administración / G. Sectorial (%) — por municipio · gestión 2025",
+  "subtitulo": "Gasto en Administración General (COFOG 1) como porcentaje del gasto sectorial total. Refleja la carga burocrática del municipio — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Gasto por Sectores",
     "s_adm"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-adm.png",
-  "thumb": "thumbs/fiscal-s-adm.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-s-adm.webp",
+  "datos": null,
+  "clave": "s_adm",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=s_adm&g=2025",
+  "grupo": "Gasto por Sectores",
+  "unidad": "%",
+  "indicador": "Administración / G. Sectorial",
+  "escala": {
+    "lo": 10.059199999999999,
+    "piv": 21.761981038426228,
+    "piv_real": 21.761981038426228,
+    "hi": 34.3512,
+    "piv_tipo": "promedio nacional"
+  }
 }

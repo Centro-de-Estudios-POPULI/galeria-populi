@@ -10,10 +10,25 @@
     "pct_autoident_indigena",
     "Pueblos e Idiomas"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-autoident-indigena.png",
-  "thumb": "thumbs/censo-autoident-indigena.png",
-  "datos": null
+  "thumb": "thumbs/censo-autoident-indigena.webp",
+  "datos": null,
+  "clave": "pct_autoident_indigena",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_autoident_indigena",
+  "grupo": "Pueblos e Idiomas",
+  "universo": "sobre la población de 15 años o más",
+  "unidad": "%",
+  "escala": {
+    "lo": 9.67,
+    "piv": 41.69706060560703,
+    "piv_real": 41.69706060560703,
+    "hi": 93.3,
+    "piv_tipo": "país 2024"
+  }
 }

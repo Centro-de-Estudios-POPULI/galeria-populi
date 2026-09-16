@@ -10,10 +10,25 @@
     "pct_cocina_exclusiva",
     "Energía y Cocina"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-cocina-exclusiva.png",
-  "thumb": "thumbs/censo-cocina-exclusiva.png",
-  "datos": null
+  "thumb": "thumbs/censo-cocina-exclusiva.webp",
+  "datos": null,
+  "clave": "pct_cocina_exclusiva",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_cocina_exclusiva",
+  "grupo": "Energía y Cocina",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 48.71,
+    "piv": 79.61949385588419,
+    "piv_real": 79.61949385588419,
+    "hi": 87.43,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "censo-cedula-identidad-cambio",
+  "titulo": "Bolivia: Con cédula de identidad, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pct_cedula_identidad",
+    "Ciudadanía y Registro"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-cedula-identidad-cambio.png",
+  "thumb": "thumbs/censo-cedula-identidad-cambio.webp",
+  "datos": null,
+  "clave": "pct_cedula_identidad",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_cedula_identidad&a=cambio",
+  "grupo": "Ciudadanía y Registro",
+  "universo": "sobre la población",
+  "unidad": "pp",
+  "escala": {
+    "lo": -38.132,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 38.132,
+    "piv_tipo": "sin cambio"
+  }
+}

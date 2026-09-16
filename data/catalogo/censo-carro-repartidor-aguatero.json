@@ -10,10 +10,25 @@
     "pct_agua_carro",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-carro-repartidor-aguatero.png",
-  "thumb": "thumbs/censo-carro-repartidor-aguatero.png",
-  "datos": null
+  "thumb": "thumbs/censo-carro-repartidor-aguatero.webp",
+  "datos": null,
+  "clave": "pct_agua_carro",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_agua_carro",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 2.377921280146236,
+    "piv_real": 2.377921280146236,
+    "hi": 6.82,
+    "piv_tipo": "país 2024"
+  }
 }

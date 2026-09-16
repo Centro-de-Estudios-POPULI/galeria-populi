@@ -20,6 +20,6 @@
   "tipo": "small_multiples",
   "formato": "informe_mosaico",
   "imagen": "graficas/pib-semestre-indice-2019.png",
-  "thumb": "thumbs/pib-semestre-indice-2019.png",
+  "thumb": "thumbs/pib-semestre-indice-2019.webp",
   "datos": "datos/pib-semestre-indice-2019.csv"
 }

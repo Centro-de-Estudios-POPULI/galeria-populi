@@ -1,0 +1,34 @@
+{
+  "slug": "censo-nbi-educacion-cambio",
+  "titulo": "Bolivia: NBI: Educación, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pct_nbi_educacion",
+    "Componentes NBI"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nbi-educacion-cambio.png",
+  "thumb": "thumbs/censo-nbi-educacion-cambio.webp",
+  "datos": null,
+  "clave": "pct_nbi_educacion",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_educacion&a=cambio",
+  "grupo": "Componentes NBI",
+  "universo": "sobre la población",
+  "unidad": "pp",
+  "escala": {
+    "lo": -23.076,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 23.076,
+    "piv_tipo": "sin cambio"
+  }
+}

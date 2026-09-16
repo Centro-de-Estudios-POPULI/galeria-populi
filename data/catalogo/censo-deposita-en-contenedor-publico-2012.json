@@ -1,0 +1,34 @@
+{
+  "slug": "censo-deposita-en-contenedor-publico-2012",
+  "titulo": "Bolivia: Deposita en contenedor público (censo 2012)",
+  "subtitulo": "Viviendas que dejan la basura en un contenedor o basurero público — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_basura_contenedor",
+    "Servicios Básicos"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-deposita-en-contenedor-publico-2012.png",
+  "thumb": "thumbs/censo-deposita-en-contenedor-publico-2012.webp",
+  "datos": null,
+  "clave": "pct_basura_contenedor",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_basura_contenedor&a=2012",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.1,
+    "piv": 18.592741529332784,
+    "piv_real": 18.592741529332784,
+    "hi": 28.0,
+    "piv_tipo": "país 2024"
+  }
+}

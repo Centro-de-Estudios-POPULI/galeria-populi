@@ -10,10 +10,25 @@
     "pct_emi_chile",
     "Emigración internacional"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-emigrantes-chile.png",
-  "thumb": "thumbs/censo-emigrantes-chile.png",
-  "datos": null
+  "thumb": "thumbs/censo-emigrantes-chile.webp",
+  "datos": null,
+  "clave": "pct_emi_chile",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_emi_chile",
+  "grupo": "Emigración internacional",
+  "universo": "sobre las personas que emigraron al exterior",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 33.244647421189065,
+    "piv_real": 33.244647421189065,
+    "hi": 82.67,
+    "piv_tipo": "país 2024"
+  }
 }

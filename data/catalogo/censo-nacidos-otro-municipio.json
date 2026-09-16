@@ -10,10 +10,25 @@
     "pct_nacido_otro_municipio",
     "Migración interna"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nacidos-otro-municipio.png",
-  "thumb": "thumbs/censo-nacidos-otro-municipio.png",
-  "datos": null
+  "thumb": "thumbs/censo-nacidos-otro-municipio.webp",
+  "datos": null,
+  "clave": "pct_nacido_otro_municipio",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nacido_otro_municipio",
+  "grupo": "Migración interna",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.1,
+    "piv": 36.07984559780996,
+    "piv_real": 36.07984559780996,
+    "hi": 69.93,
+    "piv_tipo": "país 2024"
+  }
 }

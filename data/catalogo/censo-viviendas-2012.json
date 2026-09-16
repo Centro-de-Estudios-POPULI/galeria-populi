@@ -1,0 +1,34 @@
+{
+  "slug": "censo-viviendas-2012",
+  "titulo": "Bolivia: Viviendas (censo 2012)",
+  "subtitulo": "Cuántas viviendas particulares ocupadas hay en el municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "viviendas",
+    "Vivienda y Materiales"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-viviendas-2012.png",
+  "thumb": "thumbs/censo-viviendas-2012.webp",
+  "datos": null,
+  "clave": "viviendas",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=viviendas&a=2012",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "viv",
+  "escala": {
+    "lo": 347.5,
+    "piv": 5756.436,
+    "piv_real": 3185.0,
+    "hi": 67959.2,
+    "piv_tipo": "mediana"
+  }
+}

@@ -10,10 +10,25 @@
     "pct_elec_red",
     "Energía y Cocina"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-energia-de-la-red-publica.png",
-  "thumb": "thumbs/censo-energia-de-la-red-publica.png",
-  "datos": null
+  "thumb": "thumbs/censo-energia-de-la-red-publica.webp",
+  "datos": null,
+  "clave": "pct_elec_red",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_elec_red",
+  "grupo": "Energía y Cocina",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 16.53,
+    "piv": 86.4021373669147,
+    "piv_real": 86.4021373669147,
+    "hi": 96.73,
+    "piv_tipo": "país 2024"
+  }
 }

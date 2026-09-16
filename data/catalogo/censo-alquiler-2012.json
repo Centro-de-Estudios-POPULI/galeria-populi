@@ -1,0 +1,34 @@
+{
+  "slug": "censo-alquiler-2012",
+  "titulo": "Bolivia: Vivienda en alquiler (censo 2012)",
+  "subtitulo": "Hogares que pagan alquiler. Sube donde la población es más nueva: el que acaba de llegar todavía no compró — sobre las viviendas particulares ocupadas, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_alquiler",
+    "Tenencia"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-alquiler-2012.png",
+  "thumb": "thumbs/censo-alquiler-2012.webp",
+  "datos": null,
+  "clave": "pct_alquiler",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_alquiler&a=2012",
+  "grupo": "Tenencia",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.37,
+    "piv": 13.986948269329428,
+    "piv_real": 13.986948269329428,
+    "hi": 23.53,
+    "piv_tipo": "país 2024"
+  }
+}

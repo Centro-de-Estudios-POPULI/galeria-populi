@@ -10,10 +10,25 @@
     "pct_internet_fijo",
     "Tecnología y Conectividad"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-internet-fijo.png",
-  "thumb": "thumbs/censo-internet-fijo.png",
-  "datos": null
+  "thumb": "thumbs/censo-internet-fijo.webp",
+  "datos": null,
+  "clave": "pct_internet_fijo",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_internet_fijo",
+  "grupo": "Tecnología y Conectividad",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.4,
+    "piv": 36.88601430964005,
+    "piv_real": 36.88601430964005,
+    "hi": 58.176,
+    "piv_tipo": "país 2024"
+  }
 }

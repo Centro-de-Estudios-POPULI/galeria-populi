@@ -10,10 +10,25 @@
     "pct_sin_seguro",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-sin-afiliacion-a-salud.png",
-  "thumb": "thumbs/censo-sin-afiliacion-a-salud.png",
-  "datos": null
+  "thumb": "thumbs/censo-sin-afiliacion-a-salud.webp",
+  "datos": null,
+  "clave": "pct_sin_seguro",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_sin_seguro",
+  "grupo": "Salud",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 6.4,
+    "piv": 20.9365114647438,
+    "piv_real": 20.9365114647438,
+    "hi": 39.212,
+    "piv_tipo": "país 2024"
+  }
 }

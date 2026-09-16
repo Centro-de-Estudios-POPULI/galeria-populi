@@ -10,10 +10,25 @@
     "pct_transporte",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-ocupados-en-transporte.png",
-  "thumb": "thumbs/censo-ocupados-en-transporte.png",
-  "datos": null
+  "thumb": "thumbs/censo-ocupados-en-transporte.webp",
+  "datos": null,
+  "clave": "pct_transporte",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_transporte",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.8,
+    "piv": 5.863082774202226,
+    "piv_real": 5.863082774202226,
+    "hi": 10.08,
+    "piv_tipo": "país 2024"
+  }
 }

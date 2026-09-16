@@ -1,0 +1,34 @@
+{
+  "slug": "censo-indice-de-juventud-cambio",
+  "titulo": "Bolivia: Índice de juventud, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en índice — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "indice_juventud",
+    "Demografía"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-indice-de-juventud-cambio.png",
+  "thumb": "thumbs/censo-indice-de-juventud-cambio.webp",
+  "datos": null,
+  "clave": "indice_juventud",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=indice_juventud&a=cambio",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "índice",
+  "escala": {
+    "lo": -730.1942,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 730.1942,
+    "piv_tipo": "sin cambio"
+  }
+}

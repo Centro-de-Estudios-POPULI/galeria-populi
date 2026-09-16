@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-f1-it",
   "titulo": "Bolivia: Deuda financiera sobre el ingreso total",
-  "subtitulo": "Deuda Financiera (F.1) / Ing. Total (%) — por municipio · gestión 2025",
+  "subtitulo": "Amortización de deuda financiera (F.1) como porcentaje del ingreso total. Indica la carga del servicio de deuda bancaria sobre el total de recursos — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Resultado Fiscal",
     "f1_it"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-f1-it.png",
-  "thumb": "thumbs/fiscal-f1-it.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-f1-it.webp",
+  "datos": null,
+  "clave": "f1_it",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=f1_it&g=2025",
+  "grupo": "Resultado Fiscal",
+  "unidad": "%",
+  "indicador": "Deuda Financiera (F.1) / Ing. Total",
+  "escala": {
+    "lo": 0.0,
+    "piv": 4.177140472370525,
+    "piv_real": 4.177140472370525,
+    "hi": 9.243199999999968,
+    "piv_tipo": "promedio nacional"
+  }
 }

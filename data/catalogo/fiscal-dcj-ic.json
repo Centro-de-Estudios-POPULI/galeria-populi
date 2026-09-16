@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-dcj-ic",
   "titulo": "Bolivia: Déficit de caja",
-  "subtitulo": "Déficit de Caja / Ing. Corriente (%) — por municipio · gestión 2025",
+  "subtitulo": "Resultado Pre-Financiamiento menos amortización de deuda financiera (F.1) y deuda flotante (F.2), expresado como porcentaje del Ingreso Corriente. Mide la presión fiscal efectiva — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Resultado Fiscal",
     "dcj_ic"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-dcj-ic.png",
-  "thumb": "thumbs/fiscal-dcj-ic.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-dcj-ic.webp",
+  "datos": null,
+  "clave": "dcj_ic",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=dcj_ic&g=2025",
+  "grupo": "Resultado Fiscal",
+  "unidad": "%",
+  "indicador": "Déficit de Caja / Ing. Corriente",
+  "escala": {
+    "lo": -41.961200000000005,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 41.961200000000005,
+    "piv_tipo": "cero"
+  }
 }

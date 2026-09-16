@@ -10,10 +10,25 @@
     "pct_analfabetismo",
     "Educación"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-analfabetismo.png",
-  "thumb": "thumbs/censo-analfabetismo.png",
-  "datos": null
+  "thumb": "thumbs/censo-analfabetismo.webp",
+  "datos": null,
+  "clave": "pct_analfabetismo",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_analfabetismo",
+  "grupo": "Educación",
+  "universo": "sobre la población de 15 años o más",
+  "unidad": "%",
+  "escala": {
+    "lo": 1.27,
+    "piv": 4.130584693501212,
+    "piv_real": 4.130584693501212,
+    "hi": 23.7,
+    "piv_tipo": "país 2024"
+  }
 }

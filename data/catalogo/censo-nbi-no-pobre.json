@@ -10,10 +10,25 @@
     "pct_nbi_no_pobre",
     "Pobreza (NBI)"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-no-pobre.png",
-  "thumb": "thumbs/censo-nbi-no-pobre.png",
-  "datos": null
+  "thumb": "thumbs/censo-nbi-no-pobre.webp",
+  "datos": null,
+  "clave": "pct_nbi_no_pobre",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_no_pobre",
+  "grupo": "Pobreza (NBI)",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.0,
+    "piv": 70.1636536432791,
+    "piv_real": 70.1636536432791,
+    "hi": 83.93,
+    "piv_tipo": "país 2024"
+  }
 }

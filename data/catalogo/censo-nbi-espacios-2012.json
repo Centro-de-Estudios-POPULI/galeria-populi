@@ -1,0 +1,34 @@
+{
+  "slug": "censo-nbi-espacios-2012",
+  "titulo": "Bolivia: NBI: Espacios de vivienda (censo 2012)",
+  "subtitulo": "Población cuya vivienda no alcanza el mínimo de espacio: hacinamiento o falta de cuarto para cocinar — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_nbi_espacios",
+    "Componentes NBI"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-nbi-espacios-2012.png",
+  "thumb": "thumbs/censo-nbi-espacios-2012.webp",
+  "datos": null,
+  "clave": "pct_nbi_espacios",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_espacios&a=2012",
+  "grupo": "Componentes NBI",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 45.2,
+    "piv": 64.19290782159408,
+    "piv_real": 64.19290782159408,
+    "hi": 88.83,
+    "piv_tipo": "país 2024"
+  }
+}

@@ -10,10 +10,25 @@
     "pct_quechua",
     "Pueblos e Idiomas"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-autoident-quechua.png",
-  "thumb": "thumbs/censo-autoident-quechua.png",
-  "datos": null
+  "thumb": "thumbs/censo-autoident-quechua.webp",
+  "datos": null,
+  "clave": "pct_quechua",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_quechua",
+  "grupo": "Pueblos e Idiomas",
+  "universo": "sobre la población de 15 años o más",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.1,
+    "piv": 16.19719334766138,
+    "piv_real": 16.19719334766138,
+    "hi": 91.43,
+    "piv_tipo": "país 2024"
+  }
 }

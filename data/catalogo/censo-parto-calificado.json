@@ -10,10 +10,25 @@
     "pct_parto_calificado",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-parto-calificado.png",
-  "thumb": "thumbs/censo-parto-calificado.png",
-  "datos": null
+  "thumb": "thumbs/censo-parto-calificado.webp",
+  "datos": null,
+  "clave": "pct_parto_calificado",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_parto_calificado",
+  "grupo": "Salud",
+  "universo": "sobre las mujeres con un parto en los últimos cinco años",
+  "unidad": "%",
+  "escala": {
+    "lo": 57.364,
+    "piv": 92.22093897641969,
+    "piv_real": 92.22093897641969,
+    "hi": 98.6,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -10,10 +10,25 @@
     "pct_registro_menores5",
     "Pueblos e Idiomas"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nacimientos-inscritos-menores-de-5.png",
-  "thumb": "thumbs/censo-nacimientos-inscritos-menores-de-5.png",
-  "datos": null
+  "thumb": "thumbs/censo-nacimientos-inscritos-menores-de-5.webp",
+  "datos": null,
+  "clave": "pct_registro_menores5",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_registro_menores5",
+  "grupo": "Pueblos e Idiomas",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 75.06,
+    "piv": 95.9810333166422,
+    "piv_real": 95.9810333166422,
+    "hi": 98.43,
+    "piv_tipo": "país 2024"
+  }
 }

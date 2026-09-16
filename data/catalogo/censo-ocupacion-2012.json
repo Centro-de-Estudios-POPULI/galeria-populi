@@ -1,0 +1,34 @@
+{
+  "slug": "censo-ocupacion-2012",
+  "titulo": "Bolivia: Tasa de ocupación (censo 2012)",
+  "subtitulo": "Qué proporción de la población en edad de trabajar tiene efectivamente una ocupación — sobre la población en edad de trabajar (15 años o más), por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "tasa_ocupacion",
+    "Empleo"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-ocupacion-2012.png",
+  "thumb": "thumbs/censo-ocupacion-2012.webp",
+  "datos": null,
+  "clave": "tasa_ocupacion",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tasa_ocupacion&a=2012",
+  "grupo": "Empleo",
+  "universo": "sobre la población en edad de trabajar (15 años o más)",
+  "unidad": "%",
+  "escala": {
+    "lo": 57.48,
+    "piv": 70.17112442912577,
+    "piv_real": 70.17112442912577,
+    "hi": 84.96,
+    "piv_tipo": "país 2024"
+  }
+}

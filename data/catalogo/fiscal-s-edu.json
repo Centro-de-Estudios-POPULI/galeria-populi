@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-s-edu",
   "titulo": "Bolivia: Gasto en educación",
-  "subtitulo": "Educación / G. Sectorial (%) — por municipio · gestión 2025",
+  "subtitulo": "Gasto en Educación (COFOG 8) como porcentaje del gasto sectorial. Incluye infraestructura y equipamiento de unidades educativas — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Gasto por Sectores",
     "s_edu"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-edu.png",
-  "thumb": "thumbs/fiscal-s-edu.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-s-edu.webp",
+  "datos": null,
+  "clave": "s_edu",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=s_edu&g=2025",
+  "grupo": "Gasto por Sectores",
+  "unidad": "%",
+  "indicador": "Educación / G. Sectorial",
+  "escala": {
+    "lo": 4.666,
+    "piv": 13.163262991328663,
+    "piv_real": 13.163262991328663,
+    "hi": 35.34919999999994,
+    "piv_tipo": "promedio nacional"
+  }
 }

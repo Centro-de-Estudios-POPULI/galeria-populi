@@ -1,0 +1,34 @@
+{
+  "slug": "censo-madres-adolescentes-cambio",
+  "titulo": "Bolivia: Madres adolescentes (15-19), cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre las mujeres de 15 a 19 años, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pct_madres_adolescentes",
+    "Salud"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-madres-adolescentes-cambio.png",
+  "thumb": "thumbs/censo-madres-adolescentes-cambio.webp",
+  "datos": null,
+  "clave": "pct_madres_adolescentes",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_madres_adolescentes&a=cambio",
+  "grupo": "Salud",
+  "universo": "sobre las mujeres de 15 a 19 años",
+  "unidad": "pp",
+  "escala": {
+    "lo": -13.232,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 13.232,
+    "piv_tipo": "sin cambio"
+  }
+}

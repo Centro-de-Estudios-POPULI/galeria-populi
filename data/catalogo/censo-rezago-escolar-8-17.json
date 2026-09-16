@@ -10,10 +10,25 @@
     "pct_rezago_escolar",
     "Educación"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-rezago-escolar-8-17.png",
-  "thumb": "thumbs/censo-rezago-escolar-8-17.png",
-  "datos": null
+  "thumb": "thumbs/censo-rezago-escolar-8-17.webp",
+  "datos": null,
+  "clave": "pct_rezago_escolar",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_rezago_escolar",
+  "grupo": "Educación",
+  "universo": "sobre la población de 8 a 17 años que asiste a la escuela",
+  "unidad": "%",
+  "escala": {
+    "lo": 2.6,
+    "piv": 5.828940678789248,
+    "piv_real": 5.828940678789248,
+    "hi": 21.03,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "censo-madres-adolescentes-2012",
+  "titulo": "Bolivia: Madres adolescentes (15-19) (censo 2012)",
+  "subtitulo": "Adolescentes de quince a diecinueve años que ya tuvieron al menos un hijo — sobre las mujeres de 15 a 19 años, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_madres_adolescentes",
+    "Salud"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-madres-adolescentes-2012.png",
+  "thumb": "thumbs/censo-madres-adolescentes-2012.webp",
+  "datos": null,
+  "clave": "pct_madres_adolescentes",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_madres_adolescentes&a=2012",
+  "grupo": "Salud",
+  "universo": "sobre las mujeres de 15 a 19 años",
+  "unidad": "%",
+  "escala": {
+    "lo": 3.54,
+    "piv": 7.37685452695829,
+    "piv_real": 7.37685452695829,
+    "hi": 31.06,
+    "piv_tipo": "país 2024"
+  }
+}

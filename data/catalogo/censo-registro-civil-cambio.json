@@ -1,0 +1,34 @@
+{
+  "slug": "censo-registro-civil-cambio",
+  "titulo": "Bolivia: Inscritos en registro civil, cambio 2012–2024",
+  "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "cambio 2012-2024",
+    "municipios",
+    "pct_registro_civil",
+    "Ciudadanía y Registro"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-registro-civil-cambio.png",
+  "thumb": "thumbs/censo-registro-civil-cambio.webp",
+  "datos": null,
+  "clave": "pct_registro_civil",
+  "atlas": "censo",
+  "modo": "cambio",
+  "anio": "2012-2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_registro_civil&a=cambio",
+  "grupo": "Ciudadanía y Registro",
+  "universo": "sobre la población",
+  "unidad": "pp",
+  "escala": {
+    "lo": -5.4,
+    "piv": 0.0,
+    "piv_real": 0.0,
+    "hi": 5.4,
+    "piv_tipo": "sin cambio"
+  }
+}

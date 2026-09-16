@@ -10,10 +10,25 @@
     "pct_15_29",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-jovenes-15-29.png",
-  "thumb": "thumbs/censo-jovenes-15-29.png",
-  "datos": null
+  "thumb": "thumbs/censo-jovenes-15-29.webp",
+  "datos": null,
+  "clave": "pct_15_29",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_15_29",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 18.9,
+    "piv": 26.698252457715064,
+    "piv_real": 26.698252457715064,
+    "hi": 32.33,
+    "piv_tipo": "país 2024"
+  }
 }

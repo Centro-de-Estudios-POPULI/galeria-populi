@@ -10,10 +10,25 @@
     "pct_residia_otro_mun",
     "Migración interna"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-residia-en-otro-municipio.png",
-  "thumb": "thumbs/censo-residia-en-otro-municipio.png",
-  "datos": null
+  "thumb": "thumbs/censo-residia-en-otro-municipio.webp",
+  "datos": null,
+  "clave": "pct_residia_otro_mun",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_residia_otro_mun",
+  "grupo": "Migración interna",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.8,
+    "piv": 3.262645604205267,
+    "piv_real": 3.262645604205267,
+    "hi": 11.33,
+    "piv_tipo": "país 2024"
+  }
 }

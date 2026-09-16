@@ -10,10 +10,25 @@
     "pct_gas_garrafa",
     "Energía y Cocina"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-gas-garrafa.png",
-  "thumb": "thumbs/censo-gas-garrafa.png",
-  "datos": null
+  "thumb": "thumbs/censo-gas-garrafa.webp",
+  "datos": null,
+  "clave": "pct_gas_garrafa",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_gas_garrafa",
+  "grupo": "Energía y Cocina",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 9.0,
+    "piv": 54.72603190486217,
+    "piv_real": 54.72603190486217,
+    "hi": 88.3,
+    "piv_tipo": "país 2024"
+  }
 }

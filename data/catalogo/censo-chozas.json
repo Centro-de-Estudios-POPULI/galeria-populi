@@ -10,10 +10,25 @@
     "pct_choza",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-chozas.png",
-  "thumb": "thumbs/censo-chozas.png",
-  "datos": null
+  "thumb": "thumbs/censo-chozas.webp",
+  "datos": null,
+  "clave": "pct_choza",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_choza",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.2,
+    "piv": 2.603686800630625,
+    "piv_real": 2.603686800630625,
+    "hi": 20.308,
+    "piv_tipo": "país 2024"
+  }
 }

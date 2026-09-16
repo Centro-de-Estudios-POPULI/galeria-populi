@@ -10,10 +10,25 @@
     "pct_menor20",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-menores-de-20-anos.png",
-  "thumb": "thumbs/censo-menores-de-20-anos.png",
-  "datos": null
+  "thumb": "thumbs/censo-menores-de-20-anos.webp",
+  "datos": null,
+  "clave": "pct_menor20",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_menor20",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 28.33,
+    "piv": 35.856437466460534,
+    "piv_real": 35.856437466460534,
+    "hi": 51.59,
+    "piv_tipo": "país 2024"
+  }
 }

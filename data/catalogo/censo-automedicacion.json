@@ -10,10 +10,25 @@
     "pct_automedicacion",
     "Salud"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-automedicacion.png",
-  "thumb": "thumbs/censo-automedicacion.png",
-  "datos": null
+  "thumb": "thumbs/censo-automedicacion.webp",
+  "datos": null,
+  "clave": "pct_automedicacion",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_automedicacion",
+  "grupo": "Salud",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 15.08,
+    "piv": 49.09807071205042,
+    "piv_real": 49.09807071205042,
+    "hi": 63.92,
+    "piv_tipo": "país 2024"
+  }
 }

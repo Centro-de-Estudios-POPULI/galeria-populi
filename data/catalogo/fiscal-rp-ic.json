@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-rp-ic",
   "titulo": "Bolivia: Recursos propios sobre el ingreso corriente",
-  "subtitulo": "Recursos Propios / Ing. Corriente (%) — por municipio · gestión 2025",
+  "subtitulo": "Ingresos propios como porcentaje del Ingreso Corriente. Mide la autonomía fiscal real: cuánto del ingreso sostenible proviene de fuentes propias del municipio — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Sostenibilidad de Ing. Corrientes",
     "rp_ic"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-rp-ic.png",
-  "thumb": "thumbs/fiscal-rp-ic.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-rp-ic.webp",
+  "datos": null,
+  "clave": "rp_ic",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=rp_ic&g=2025",
+  "grupo": "Sostenibilidad de Ing. Corrientes",
+  "unidad": "%",
+  "indicador": "Recursos Propios / Ing. Corriente",
+  "escala": {
+    "lo": 0.542,
+    "piv": 31.125111612152935,
+    "piv_real": 31.125111612152935,
+    "hi": 55.41839999999998,
+    "piv_tipo": "promedio nacional"
+  }
 }

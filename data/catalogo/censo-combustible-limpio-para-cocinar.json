@@ -10,10 +10,25 @@
     "pct_combustible_limpio",
     "Energía y Cocina"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-combustible-limpio-para-cocinar.png",
-  "thumb": "thumbs/censo-combustible-limpio-para-cocinar.png",
-  "datos": null
+  "thumb": "thumbs/censo-combustible-limpio-para-cocinar.webp",
+  "datos": null,
+  "clave": "pct_combustible_limpio",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_combustible_limpio",
+  "grupo": "Energía y Cocina",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 9.54,
+    "piv": 80.26800412615678,
+    "piv_real": 80.26800412615678,
+    "hi": 95.86,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "censo-educacion-publica-2012",
+  "titulo": "Bolivia: Estudia en sistema público (censo 2012)",
+  "subtitulo": "De quienes asisten a un establecimiento educativo, cuántos van a uno público o de convenio y no a uno privado — sobre quienes asisten a un establecimiento educativo, de 4 a 17 años, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_educacion_publica",
+    "Educación"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-educacion-publica-2012.png",
+  "thumb": "thumbs/censo-educacion-publica-2012.webp",
+  "datos": null,
+  "clave": "pct_educacion_publica",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_educacion_publica&a=2012",
+  "grupo": "Educación",
+  "universo": "sobre quienes asisten a un establecimiento educativo, de 4 a 17 años",
+  "unidad": "%",
+  "escala": {
+    "lo": 62.77,
+    "piv": 85.70169073297184,
+    "piv_real": 85.70169073297184,
+    "hi": 99.2,
+    "piv_tipo": "país 2024"
+  }
+}

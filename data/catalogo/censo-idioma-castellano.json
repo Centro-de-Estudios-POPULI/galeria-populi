@@ -10,10 +10,25 @@
     "pct_idioma_materno_castellano",
     "Pueblos e Idiomas"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-idioma-castellano.png",
-  "thumb": "thumbs/censo-idioma-castellano.png",
-  "datos": null
+  "thumb": "thumbs/censo-idioma-castellano.webp",
+  "datos": null,
+  "clave": "pct_idioma_materno_castellano",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_idioma_materno_castellano",
+  "grupo": "Pueblos e Idiomas",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.45,
+    "piv": 76.76413085182512,
+    "piv_real": 76.76413085182512,
+    "hi": 97.33,
+    "piv_tipo": "país 2024"
+  }
 }

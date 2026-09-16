@@ -10,10 +10,25 @@
     "pct_departamento",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-departamentos.png",
-  "thumb": "thumbs/censo-departamentos.png",
-  "datos": null
+  "thumb": "thumbs/censo-departamentos.webp",
+  "datos": null,
+  "clave": "pct_departamento",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_departamento",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 5.8788,
+    "piv_real": 6.119591628581863,
+    "hi": 6.39,
+    "piv_tipo": "país 2024"
+  }
 }

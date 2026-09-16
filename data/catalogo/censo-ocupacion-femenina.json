@@ -10,10 +10,25 @@
     "tasa_ocupacion_fem",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-ocupacion-femenina.png",
-  "thumb": "thumbs/censo-ocupacion-femenina.png",
-  "datos": null
+  "thumb": "thumbs/censo-ocupacion-femenina.webp",
+  "datos": null,
+  "clave": "tasa_ocupacion_fem",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tasa_ocupacion_fem",
+  "grupo": "Empleo",
+  "universo": "sobre las mujeres en edad de trabajar (15 años o más)",
+  "unidad": "%",
+  "escala": {
+    "lo": 37.14,
+    "piv": 62.57350147997659,
+    "piv_real": 62.57350147997659,
+    "hi": 81.23,
+    "piv_tipo": "país 2024"
+  }
 }

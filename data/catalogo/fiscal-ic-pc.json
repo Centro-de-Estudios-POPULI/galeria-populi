@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-ic-pc",
   "titulo": "Bolivia: Ingreso corriente por habitante",
-  "subtitulo": "Ingreso Corriente per cápita (Bs/hab) — por municipio · gestión 2025",
+  "subtitulo": "Ingreso Corriente (Subtotal A) por habitante. Mide los recursos fiscales recurrentes y sostenibles disponibles por persona, excluyendo capital y deuda — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Per Cápita",
     "ic_pc"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-ic-pc.png",
-  "thumb": "thumbs/fiscal-ic-pc.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-ic-pc.webp",
+  "datos": null,
+  "clave": "ic_pc",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=ic_pc&g=2025",
+  "grupo": "Per Cápita",
+  "unidad": "Bs/hab",
+  "indicador": "Ingreso Corriente per cápita",
+  "escala": {
+    "lo": 941.84,
+    "piv": 1174.0,
+    "piv_real": 1174.0,
+    "hi": 2550.5599999999986,
+    "piv_tipo": "mediana"
+  }
 }

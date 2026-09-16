@@ -10,10 +10,25 @@
     "pct_motor_propio",
     "Energía y Cocina"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-motor-propio-o-generador.png",
-  "thumb": "thumbs/censo-motor-propio-o-generador.png",
-  "datos": null
+  "thumb": "thumbs/censo-motor-propio-o-generador.webp",
+  "datos": null,
+  "clave": "pct_motor_propio",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_motor_propio",
+  "grupo": "Energía y Cocina",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.0,
+    "piv": 1.3903999999999999,
+    "piv_real": 0.7887630387743395,
+    "hi": 17.38,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -10,10 +10,25 @@
     "pct_hogar_nuclear",
     "Hogares y Jefatura"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hogares-nucleares.png",
-  "thumb": "thumbs/censo-hogares-nucleares.png",
-  "datos": null
+  "thumb": "thumbs/censo-hogares-nucleares.webp",
+  "datos": null,
+  "clave": "pct_hogar_nuclear",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_hogar_nuclear",
+  "grupo": "Hogares y Jefatura",
+  "universo": "sobre los hogares",
+  "unidad": "%",
+  "escala": {
+    "lo": 13.404,
+    "piv": 31.14655040095637,
+    "piv_real": 31.14655040095637,
+    "hi": 45.444,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "censo-asistencia-escolar-2012",
+  "titulo": "Bolivia: Asistencia escolar (6–17) (censo 2012)",
+  "subtitulo": "Niñas, niños y adolescentes en edad escolar que efectivamente están estudiando — sobre la población de 6 a 17 años, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_asistencia_escolar",
+    "Educación"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-asistencia-escolar-2012.png",
+  "thumb": "thumbs/censo-asistencia-escolar-2012.webp",
+  "datos": null,
+  "clave": "pct_asistencia_escolar",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_asistencia_escolar&a=2012",
+  "grupo": "Educación",
+  "universo": "sobre la población de 6 a 17 años",
+  "unidad": "%",
+  "escala": {
+    "lo": 74.74,
+    "piv": 94.28766540968132,
+    "piv_real": 94.28766540968132,
+    "hi": 97.3,
+    "piv_tipo": "país 2024"
+  }
+}

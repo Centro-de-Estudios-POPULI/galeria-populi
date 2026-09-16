@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-rc-it",
   "titulo": "Bolivia: Peso de los recursos de capital",
-  "subtitulo": "Recursos de Capital / Ing. Total (%) — por municipio · gestión 2025",
+  "subtitulo": "Regalías y transferencias de capital como porcentaje del ingreso total — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Estructura de Ingresos",
     "rc_it"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-rc-it.png",
-  "thumb": "thumbs/fiscal-rc-it.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-rc-it.webp",
+  "datos": null,
+  "clave": "rc_it",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=rc_it&g=2025",
+  "grupo": "Estructura de Ingresos",
+  "unidad": "%",
+  "indicador": "Recursos de Capital / Ing. Total",
+  "escala": {
+    "lo": 0.0,
+    "piv": 7.302200712035176,
+    "piv_real": 7.302200712035176,
+    "hi": 47.783199999999994,
+    "piv_tipo": "promedio nacional"
+  }
 }

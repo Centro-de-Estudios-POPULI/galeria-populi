@@ -10,10 +10,25 @@
     "pct_ocu_profesionales",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-profesionales-y-tecnicos.png",
-  "thumb": "thumbs/censo-profesionales-y-tecnicos.png",
-  "datos": null
+  "thumb": "thumbs/censo-profesionales-y-tecnicos.webp",
+  "datos": null,
+  "clave": "pct_ocu_profesionales",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_ocu_profesionales",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 2.0,
+    "piv": 16.413407254409226,
+    "piv_real": 16.413407254409226,
+    "hi": 23.62,
+    "piv_tipo": "país 2024"
+  }
 }

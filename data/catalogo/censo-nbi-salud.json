@@ -10,10 +10,25 @@
     "pct_nbi_salud",
     "Componentes NBI"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-salud.png",
-  "thumb": "thumbs/censo-nbi-salud.png",
-  "datos": null
+  "thumb": "thumbs/censo-nbi-salud.webp",
+  "datos": null,
+  "clave": "pct_nbi_salud",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_salud",
+  "grupo": "Componentes NBI",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.97,
+    "piv": 16.12376443671484,
+    "piv_real": 16.12376443671484,
+    "hi": 55.53,
+    "piv_tipo": "país 2024"
+  }
 }

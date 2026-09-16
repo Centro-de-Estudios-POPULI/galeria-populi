@@ -10,10 +10,25 @@
     "pct_camara_septica",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-camara-septica.png",
-  "thumb": "thumbs/censo-camara-septica.png",
-  "datos": null
+  "thumb": "thumbs/censo-camara-septica.webp",
+  "datos": null,
+  "clave": "pct_camara_septica",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_camara_septica",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.3,
+    "piv": 8.091332062628616,
+    "piv_real": 8.091332062628616,
+    "hi": 30.56,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -10,10 +10,25 @@
     "pct_65_mas",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-poblacion-65-mas.png",
-  "thumb": "thumbs/censo-poblacion-65-mas.png",
-  "datos": null
+  "thumb": "thumbs/censo-poblacion-65-mas.webp",
+  "datos": null,
+  "clave": "pct_65_mas",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_65_mas",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 2.4,
+    "piv": 7.397519747111676,
+    "piv_real": 7.397519747111676,
+    "hi": 17.0,
+    "piv_tipo": "país 2024"
+  }
 }

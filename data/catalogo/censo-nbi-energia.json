@@ -10,10 +10,25 @@
     "pct_nbi_energia",
     "Componentes NBI"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-energia.png",
-  "thumb": "thumbs/censo-nbi-energia.png",
-  "datos": null
+  "thumb": "thumbs/censo-nbi-energia.webp",
+  "datos": null,
+  "clave": "pct_nbi_energia",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_nbi_energia",
+  "grupo": "Componentes NBI",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 3.51,
+    "piv": 17.882544963777903,
+    "piv_real": 17.882544963777903,
+    "hi": 93.53,
+    "piv_tipo": "país 2024"
+  }
 }

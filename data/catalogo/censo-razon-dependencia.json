@@ -10,10 +10,25 @@
     "razon_dependencia",
     "Demografía"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-razon-dependencia.png",
-  "thumb": "thumbs/censo-razon-dependencia.png",
-  "datos": null
+  "thumb": "thumbs/censo-razon-dependencia.webp",
+  "datos": null,
+  "clave": "razon_dependencia",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=razon_dependencia",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 46.237,
+    "piv": 52.733864940164956,
+    "piv_real": 52.733864940164956,
+    "hi": 88.4942,
+    "piv_tipo": "país 2024"
+  }
 }

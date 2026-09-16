@@ -10,10 +10,25 @@
     "pct_basura_entierra",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-entierra-la-basura.png",
-  "thumb": "thumbs/censo-entierra-la-basura.png",
-  "datos": null
+  "thumb": "thumbs/censo-entierra-la-basura.webp",
+  "datos": null,
+  "clave": "pct_basura_entierra",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_basura_entierra",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.57,
+    "piv": 3.4421552656930947,
+    "piv_real": 3.4421552656930947,
+    "hi": 25.23,
+    "piv_tipo": "país 2024"
+  }
 }

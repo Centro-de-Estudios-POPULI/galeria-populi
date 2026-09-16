@@ -10,10 +10,25 @@
     "tasa_ocupacion",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-ocupacion.png",
-  "thumb": "thumbs/censo-ocupacion.png",
-  "datos": null
+  "thumb": "thumbs/censo-ocupacion.webp",
+  "datos": null,
+  "clave": "tasa_ocupacion",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tasa_ocupacion",
+  "grupo": "Empleo",
+  "universo": "sobre la población en edad de trabajar (15 años o más)",
+  "unidad": "%",
+  "escala": {
+    "lo": 57.48,
+    "piv": 70.17112442912577,
+    "piv_real": 70.17112442912577,
+    "hi": 84.96,
+    "piv_tipo": "país 2024"
+  }
 }

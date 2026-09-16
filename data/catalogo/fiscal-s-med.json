@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-s-med",
   "titulo": "Bolivia: Gasto en medio ambiente",
-  "subtitulo": "Medio Ambiente / G. Sectorial (%) — por municipio · gestión 2025",
+  "subtitulo": "Gasto en Medio Ambiente (COFOG 4): saneamiento, parques, gestión de residuos y protección ambiental — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,10 +11,25 @@
     "Gasto por Sectores",
     "s_med"
   ],
-  "fecha": "2026-06-09",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-med.png",
-  "thumb": "thumbs/fiscal-s-med.png",
-  "datos": null
+  "thumb": "thumbs/fiscal-s-med.webp",
+  "datos": null,
+  "clave": "s_med",
+  "atlas": "fiscal",
+  "modo": "2025",
+  "anio": "2025",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/mapa.html#i=s_med&g=2025",
+  "grupo": "Gasto por Sectores",
+  "unidad": "%",
+  "indicador": "Medio Ambiente / G. Sectorial",
+  "escala": {
+    "lo": 0.0,
+    "piv": 7.869043023263197,
+    "piv_real": 7.869043023263197,
+    "hi": 12.66879999999998,
+    "piv_tipo": "promedio nacional"
+  }
 }

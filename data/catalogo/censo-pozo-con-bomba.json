@@ -10,10 +10,25 @@
     "pct_agua_pozo_bomba",
     "Servicios Básicos"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-pozo-con-bomba.png",
-  "thumb": "thumbs/censo-pozo-con-bomba.png",
-  "datos": null
+  "thumb": "thumbs/censo-pozo-con-bomba.webp",
+  "datos": null,
+  "clave": "pct_agua_pozo_bomba",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_agua_pozo_bomba",
+  "grupo": "Servicios Básicos",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.1,
+    "piv": 4.554856609702043,
+    "piv_real": 4.554856609702043,
+    "hi": 29.27,
+    "piv_tipo": "país 2024"
+  }
 }

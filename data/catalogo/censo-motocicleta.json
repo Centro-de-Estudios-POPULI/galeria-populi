@@ -10,10 +10,25 @@
     "pct_moto",
     "Equipamiento del Hogar"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-motocicleta.png",
-  "thumb": "thumbs/censo-motocicleta.png",
-  "datos": null
+  "thumb": "thumbs/censo-motocicleta.webp",
+  "datos": null,
+  "clave": "pct_moto",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_moto",
+  "grupo": "Equipamiento del Hogar",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.87,
+    "piv": 21.620887178916853,
+    "piv_real": 21.620887178916853,
+    "hi": 70.0,
+    "piv_tipo": "país 2024"
+  }
 }

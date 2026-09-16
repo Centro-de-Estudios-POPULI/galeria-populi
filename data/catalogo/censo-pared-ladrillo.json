@@ -10,10 +10,25 @@
     "pct_pared_ladrillo",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-pared-ladrillo.png",
-  "thumb": "thumbs/censo-pared-ladrillo.png",
-  "datos": null
+  "thumb": "thumbs/censo-pared-ladrillo.webp",
+  "datos": null,
+  "clave": "pct_pared_ladrillo",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_pared_ladrillo",
+  "grupo": "Vivienda y Materiales",
+  "universo": "sobre las viviendas particulares ocupadas",
+  "unidad": "%",
+  "escala": {
+    "lo": 2.5,
+    "piv": 67.92591509091098,
+    "piv_real": 67.92591509091098,
+    "hi": 90.3,
+    "piv_tipo": "país 2024"
+  }
 }

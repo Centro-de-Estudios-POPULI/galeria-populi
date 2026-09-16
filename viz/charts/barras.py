@@ -57,7 +57,7 @@ def grafico_barras(x, valores, titulo="", subtitulo="", fuente="", nota="",
         ax.annotate(ps.es_num(valores[i], _dec(etiqueta_fmt)) + y_sufijo,
                     (i, valores[i]), xytext=(0, 5 * sc), textcoords="offset points",
                     ha="center", va="bottom", color=ps.COLORS["cafe_oscuro"],
-                    fontproperties=ps.fp(ps.MONO, ps.SIZES["dato"] * sc, weight="bold"))
+                    fontproperties=ps.fp(ps.MONO_BOLD, ps.SIZES["dato"] * sc))
     ps.aplicar_estilo_ejes(ax)
     ax.yaxis.set_major_formatter(ps.formateador_es(y_decimales, y_sufijo))
     # marcas X: enteros terminados en 0/5 si son años, o todas si son pocas
@@ -100,7 +100,7 @@ def grafico_barras_ranking(etiquetas, valores, titulo="", subtitulo="", fuente="
                     (v, i), xytext=((6 if v >= 0 else -6) * sc, 0),
                     textcoords="offset points", va="center",
                     ha="left" if v >= 0 else "right", color=ps.COLORS["cafe_oscuro"],
-                    fontproperties=ps.fp(ps.MONO, ps.SIZES["dato"] * sc, weight="bold"))
+                    fontproperties=ps.fp(ps.MONO_BOLD, ps.SIZES["dato"] * sc))
     ax.set_yticks(range(n))
     ax.set_yticklabels([_wrap(_titlecase_es(l)) for l in etiquetas],
                        color=ps.COLORS["tinta"],

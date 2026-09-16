@@ -10,10 +10,25 @@
     "pct_hogar_fallecido",
     "Mortalidad"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hogares-fallecido.png",
-  "thumb": "thumbs/censo-hogares-fallecido.png",
-  "datos": null
+  "thumb": "thumbs/censo-hogares-fallecido.webp",
+  "datos": null,
+  "clave": "pct_hogar_fallecido",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_hogar_fallecido",
+  "grupo": "Mortalidad",
+  "universo": "sobre los hogares",
+  "unidad": "%",
+  "escala": {
+    "lo": 2.7,
+    "piv": 9.536880065766837,
+    "piv_real": 9.536880065766837,
+    "hi": 15.46,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -10,10 +10,25 @@
     "pct_agricultura",
     "Empleo"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-ocupados-en-agricultura.png",
-  "thumb": "thumbs/censo-ocupados-en-agricultura.png",
-  "datos": null
+  "thumb": "thumbs/censo-ocupados-en-agricultura.webp",
+  "datos": null,
+  "clave": "pct_agricultura",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_agricultura",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.98,
+    "piv": 27.323774260830774,
+    "piv_real": 27.323774260830774,
+    "hi": 81.73,
+    "piv_tipo": "país 2024"
+  }
 }

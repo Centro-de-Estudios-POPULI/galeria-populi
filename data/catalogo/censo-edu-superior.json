@@ -10,10 +10,25 @@
     "pct_edu_superior",
     "Educación"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edu-superior.png",
-  "thumb": "thumbs/censo-edu-superior.png",
-  "datos": null
+  "thumb": "thumbs/censo-edu-superior.webp",
+  "datos": null,
+  "clave": "pct_edu_superior",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_edu_superior",
+  "grupo": "Educación",
+  "universo": "sobre la población de 19 años o más",
+  "unidad": "%",
+  "escala": {
+    "lo": 3.77,
+    "piv": 33.380046711132984,
+    "piv_real": 33.380046711132984,
+    "hi": 41.53,
+    "piv_tipo": "país 2024"
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "slug": "censo-razon-dependencia-2012",
+  "titulo": "Bolivia: Razón de dependencia (censo 2012)",
+  "subtitulo": "Cuántas personas en edades dependientes —menores de quince y de sesenta y cinco o más— hay por cada cien en edad activa — sobre la población, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "razon_dependencia",
+    "Demografía"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-razon-dependencia-2012.png",
+  "thumb": "thumbs/censo-razon-dependencia-2012.webp",
+  "datos": null,
+  "clave": "razon_dependencia",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=razon_dependencia&a=2012",
+  "grupo": "Demografía",
+  "universo": "sobre la población",
+  "unidad": "%",
+  "escala": {
+    "lo": 46.237,
+    "piv": 52.733864940164956,
+    "piv_real": 52.733864940164956,
+    "hi": 88.4942,
+    "piv_tipo": "país 2024"
+  }
+}

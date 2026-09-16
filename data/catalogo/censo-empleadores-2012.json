@@ -1,0 +1,34 @@
+{
+  "slug": "censo-empleadores-2012",
+  "titulo": "Bolivia: Empleadores (censo 2012)",
+  "subtitulo": "Personas ocupadas que emplean a otras — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_empleadores",
+    "Empleo"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-empleadores-2012.png",
+  "thumb": "thumbs/censo-empleadores-2012.webp",
+  "datos": null,
+  "clave": "pct_empleadores",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_empleadores&a=2012",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 0.4,
+    "piv": 1.736684316323135,
+    "piv_real": 1.736684316323135,
+    "hi": 4.83,
+    "piv_tipo": "país 2024"
+  }
+}

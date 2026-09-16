@@ -10,10 +10,25 @@
     "pct_educacion_publica",
     "Educación"
   ],
-  "fecha": "2026-08-27",
+  "fecha": "2026-09-16",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-educacion-publica.png",
-  "thumb": "thumbs/censo-educacion-publica.png",
-  "datos": null
+  "thumb": "thumbs/censo-educacion-publica.webp",
+  "datos": null,
+  "clave": "pct_educacion_publica",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_educacion_publica",
+  "grupo": "Educación",
+  "universo": "sobre quienes asisten a un establecimiento educativo, de 4 a 17 años",
+  "unidad": "%",
+  "escala": {
+    "lo": 62.77,
+    "piv": 85.70169073297184,
+    "piv_real": 85.70169073297184,
+    "hi": 99.2,
+    "piv_tipo": "país 2024"
+  }
 }

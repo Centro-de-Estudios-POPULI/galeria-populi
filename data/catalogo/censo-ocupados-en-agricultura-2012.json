@@ -1,0 +1,34 @@
+{
+  "slug": "censo-ocupados-en-agricultura-2012",
+  "titulo": "Bolivia: Ocupados en agricultura (censo 2012)",
+  "subtitulo": "Personas ocupadas en agricultura — sobre la población ocupada, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2012",
+    "municipios",
+    "pct_agricultura",
+    "Empleo"
+  ],
+  "fecha": "2026-09-16",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-ocupados-en-agricultura-2012.png",
+  "thumb": "thumbs/censo-ocupados-en-agricultura-2012.webp",
+  "datos": null,
+  "clave": "pct_agricultura",
+  "atlas": "censo",
+  "modo": "2012",
+  "anio": "2012",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=pct_agricultura&a=2012",
+  "grupo": "Empleo",
+  "universo": "sobre la población ocupada",
+  "unidad": "%",
+  "escala": {
+    "lo": 5.98,
+    "piv": 27.323774260830774,
+    "piv_real": 27.323774260830774,
+    "hi": 81.73,
+    "piv_tipo": "país 2024"
+  }
+}
