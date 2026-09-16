@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-medicos.png",
   "thumb": "thumbs/mundo-medicos.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Los médicos incluyen médicos generalistas y especialistas."
 }

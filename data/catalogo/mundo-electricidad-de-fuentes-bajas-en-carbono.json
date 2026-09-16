@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-electricidad-de-fuentes-bajas-en-carbono.png",
   "thumb": "thumbs/mundo-electricidad-de-fuentes-bajas-en-carbono.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Proporción de la electricidad generada con fuentes renovables y nuclear, que emiten mucho menos gases de efecto invernadero que los fósiles."
 }

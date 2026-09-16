@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-anos-promedio-de-escolaridad.png",
   "thumb": "thumbs/mundo-anos-promedio-de-escolaridad.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Promedio de años de educación formal de la población de 15 a 64 años."
 }

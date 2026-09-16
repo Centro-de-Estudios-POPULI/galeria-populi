@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-de-0-a-14-anos.png",
   "thumb": "thumbs/mundo-poblacion-de-0-a-14-anos.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Población entre 0 y 14 años como porcentaje de la población total."
 }

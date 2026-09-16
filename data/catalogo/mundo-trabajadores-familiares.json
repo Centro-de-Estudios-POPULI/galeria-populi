@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-trabajadores-familiares.png",
   "thumb": "thumbs/mundo-trabajadores-familiares.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Los trabajadores que aportan al hogar son aquellos que mantienen \"trabajos por cuenta propia\" como trabajadores independientes en un establecimiento orientado al mercado y atendido por un pariente que vive en el mismo hogar."
 }

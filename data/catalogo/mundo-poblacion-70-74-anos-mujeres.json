@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-70-74-anos-mujeres.png",
   "thumb": "thumbs/mundo-poblacion-70-74-anos-mujeres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Female population between the ages 70 to 74 as a percentage of the total female population."
 }

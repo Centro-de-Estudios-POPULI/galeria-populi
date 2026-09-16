@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-inmunizacion-dpt.png",
   "thumb": "thumbs/mundo-inmunizacion-dpt.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La inmunización de niños mide el porcentaje de niños de entre 12 y 23 meses de edad que recibieron vacunas antes de los 12 meses o en cualquier momento antes de la encuesta."
 }

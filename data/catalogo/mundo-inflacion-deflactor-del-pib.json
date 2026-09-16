@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-inflacion-deflactor-del-pib.png",
   "thumb": "thumbs/mundo-inflacion-deflactor-del-pib.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La inflación medida por la tasa de crecimiento anual del deflactor implícito del PIB muestra la tasa de cambio de precios en la economía en su conjunto."
 }

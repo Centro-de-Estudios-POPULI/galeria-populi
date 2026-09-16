@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-urbana.png",
   "thumb": "thumbs/mundo-poblacion-urbana.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La población urbana se refiere a las personas que viven en áreas urbanas según lo definen las oficinas nacionales de estadística."
 }

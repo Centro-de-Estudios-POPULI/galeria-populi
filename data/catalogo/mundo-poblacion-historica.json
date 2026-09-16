@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-historica.png",
   "thumb": "thumbs/mundo-poblacion-historica.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Población total con cobertura histórica de largo plazo estimada por el Maddison Project."
 }

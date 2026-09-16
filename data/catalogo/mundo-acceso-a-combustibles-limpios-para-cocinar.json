@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-acceso-a-combustibles-limpios-para-cocinar.png",
   "thumb": "thumbs/mundo-acceso-a-combustibles-limpios-para-cocinar.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Access to clean fuels and technologies for cooking is the proportion of total population primarily using clean cooking fuels and technologies for cooking."
 }

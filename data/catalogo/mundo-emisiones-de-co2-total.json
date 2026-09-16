@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-emisiones-de-co2-total.png",
   "thumb": "thumbs/mundo-emisiones-de-co2-total.webp",
-  "datos": null
+  "datos": null,
+  "nota": ""
 }

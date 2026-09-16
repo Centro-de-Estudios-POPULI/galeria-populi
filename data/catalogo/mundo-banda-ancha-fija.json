@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-banda-ancha-fija.png",
   "thumb": "thumbs/mundo-banda-ancha-fija.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Fixed broadband subscriptions refers to fixed subscriptions to high-speed access to the public Internet (a TCP/IP connection), at downstream speeds equal to, or greater than, 256 kbit/s."
 }

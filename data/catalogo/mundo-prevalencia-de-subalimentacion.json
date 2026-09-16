@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-prevalencia-de-subalimentacion.png",
   "thumb": "thumbs/mundo-prevalencia-de-subalimentacion.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La población ubicada por debajo del nivel mínimo de consumo alimenticio de energía (indicador también conocido como prevalencia de desnutrición) muestra el porcentaje de la población cuya ingesta de alimentos no alcanza para satisfacer sus."
 }

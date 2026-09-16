@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-pobreza-linea-nacional.png",
   "thumb": "thumbs/mundo-pobreza-linea-nacional.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El índice nacional de recuento de la pobreza es el porcentaje de la población que vive por debajo del umbral nacional de pobreza."
 }

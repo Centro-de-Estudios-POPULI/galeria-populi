@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-0-4-anos-mujeres.png",
   "thumb": "thumbs/mundo-poblacion-0-4-anos-mujeres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Female population between the ages 0 to 4 as a percentage of the total female population."
 }

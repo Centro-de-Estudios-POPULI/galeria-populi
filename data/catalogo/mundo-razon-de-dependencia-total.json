@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-razon-de-dependencia-total.png",
   "thumb": "thumbs/mundo-razon-de-dependencia-total.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de inactividad por edad es la relación entre las personas dependientes, menores de 15 o mayores de 64 años, y la población en edad de trabajar, entre 15 y 64 años."
 }

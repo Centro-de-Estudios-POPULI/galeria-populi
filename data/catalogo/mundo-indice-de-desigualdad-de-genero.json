@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-indice-de-desigualdad-de-genero.png",
   "thumb": "thumbs/mundo-indice-de-desigualdad-de-genero.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Desigualdad entre mujeres y hombres en salud reproductiva, empoderamiento y mercado laboral, de 0 (igualdad) a 1 (máxima desigualdad)."
 }

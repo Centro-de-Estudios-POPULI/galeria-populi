@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-recursos-de-agua-dulce-per-capita.png",
   "thumb": "thumbs/mundo-recursos-de-agua-dulce-per-capita.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Los flujos de recursos de agua dulce internos renovables se refieren a los recursos renovables internos del país (caudales de ríos internos y agua freática originada por lluvias)."
 }

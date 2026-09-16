@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-asalariados.png",
   "thumb": "thumbs/mundo-asalariados.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Trabajadores asalariados (empleados) son aquellos trabajadores que mantienen el tipo de empleo definido como \"trabajos remunerados\"."
 }

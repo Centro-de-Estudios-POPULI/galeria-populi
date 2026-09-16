@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-participacion-del-trabajo-en-el-ingreso.png",
   "thumb": "thumbs/mundo-participacion-del-trabajo-en-el-ingreso.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Porción del ingreso nacional que remunera al trabajo (salarios y autoempleo), frente al capital."
 }

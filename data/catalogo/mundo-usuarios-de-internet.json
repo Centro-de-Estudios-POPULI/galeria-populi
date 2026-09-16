@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-usuarios-de-internet.png",
   "thumb": "thumbs/mundo-usuarios-de-internet.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Los usuarios de Internet son personas que han utilizado Internet (desde cualquier lugar) en los últimos 3 meses."
 }

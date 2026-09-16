@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-deuda-del-gobierno-central.png",
   "thumb": "thumbs/mundo-deuda-del-gobierno-central.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La deuda es el conjunto total de obligaciones contractuales directas del gobierno a plazo fijo con otros pendientes en una fecha particular."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-crecimiento-del-pib-per-capita.png",
   "thumb": "thumbs/mundo-crecimiento-del-pib-per-capita.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Tasa de crecimiento porcentual anual del PIB per cápita basada en moneda local constante."
 }

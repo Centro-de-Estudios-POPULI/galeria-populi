@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-inb-per-capita-metodo-atlas.png",
   "thumb": "thumbs/mundo-inb-per-capita-metodo-atlas.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El INB per cápita (anteriormente PNB per cápita) es el ingreso nacional bruto, convertido a dólares estadounidenses utilizando el método Atlas del Banco Mundial, dividido por la población de mitad de año."
 }

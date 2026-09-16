@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-uso-de-energia-per-capita.png",
   "thumb": "thumbs/mundo-uso-de-energia-per-capita.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El uso de energía se refiere al consumo de energía primaria antes de la transformación en otros combustibles finales, lo que equivale a la producción nacional más las importaciones y las variaciones de existencias."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-inversion-extranjera-directa-entradas.png",
   "thumb": "thumbs/mundo-inversion-extranjera-directa-entradas.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La inversión extranjera directa son las entradas netas de inversión para adquirir una participación gerencial duradera (10 por ciento o más de las acciones con derecho a voto) en una empresa que opera en una economía distinta a la del."
 }

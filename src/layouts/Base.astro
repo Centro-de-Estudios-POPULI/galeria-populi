@@ -1,16 +1,17 @@
 ---
 // Cascarón común: cabecera con tokens de marca, tema claro/oscuro sin parpadeo,
 // barra superior y pie. Las páginas ponen su título, descripción y su imagen OG.
+// `interior` = página sin el cielo (ficha de una gráfica, 404): la barra va en papel.
 import "../styles/paleta.css";
 import "../styles/banco.css";
 import { SITE, u } from "../lib/banco";
-const { titulo, descripcion, og, canonical } = Astro.props as {
-  titulo: string; descripcion: string; og?: string; canonical?: string;
+const { titulo, descripcion, og, canonical, interior } = Astro.props as {
+  titulo: string; descripcion: string; og?: string; canonical?: string; interior?: boolean;
 };
 const base = import.meta.env.BASE_URL;
 const ogAbs = og ? (og.startsWith("http") ? og : SITE + og.replace(/^\//, "")) : SITE + "og.png";
 const canon = canonical || SITE;
-const FONTS = "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap";
+const FONTS = "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap";
 ---
 <!doctype html>
 <html lang="es">
@@ -46,7 +47,7 @@ const FONTS = "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wg
   <link href={FONTS} rel="stylesheet" />
   <slot name="head" />
 </head>
-<body>
+<body class={interior ? "pg-int" : ""}>
   <header class="top">
     <div class="wrap">
       <a class="wordmark" href={u(base, "/")} aria-label="Banco de Gráficos POPULI"><span class="wm-p">P</span><span class="wm-rest">opuli</span></a>

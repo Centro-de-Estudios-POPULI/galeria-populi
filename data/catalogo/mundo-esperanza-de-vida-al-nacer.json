@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-esperanza-de-vida-al-nacer.png",
   "thumb": "thumbs/mundo-esperanza-de-vida-al-nacer.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La esperanza de vida al nacer indica el número de años que viviría un recién nacido si los patrones de mortalidad prevalecientes en el momento de su nacimiento se mantuvieran iguales durante toda su vida."
 }

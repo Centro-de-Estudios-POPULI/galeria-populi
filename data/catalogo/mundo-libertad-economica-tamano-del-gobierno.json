@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-libertad-economica-tamano-del-gobierno.png",
   "thumb": "thumbs/mundo-libertad-economica-tamano-del-gobierno.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Área 1 del EFW: peso del gasto público, los impuestos y las empresas estatales."
 }

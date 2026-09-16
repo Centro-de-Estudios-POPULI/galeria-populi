@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-10-14-anos-hombres.png",
   "thumb": "thumbs/mundo-poblacion-10-14-anos-hombres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Male population between the ages 10 to 14 as a percentage of the total male population."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-jovenes-que-ni-estudian-ni-trabajan.png",
   "thumb": "thumbs/mundo-jovenes-que-ni-estudian-ni-trabajan.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Share of youth not in education, employment or training (NEET) is the proportion of young people who are not in education, employment, or training to the population of the corresponding age group: youth (ages 15 to 24)."
 }

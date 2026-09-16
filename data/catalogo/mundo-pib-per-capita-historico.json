@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-pib-per-capita-historico.png",
   "thumb": "thumbs/mundo-pib-per-capita-historico.webp",
-  "datos": null
+  "datos": null,
+  "nota": "PIB per cápita real en dólares internacionales de 2011, empalmado por el Maddison Project para permitir comparaciones de niveles de ingreso en el muy largo plazo (desde 1820, y antes para algunos países)."
 }

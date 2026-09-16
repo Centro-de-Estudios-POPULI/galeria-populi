@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-comercio-de-mercancias.png",
   "thumb": "thumbs/mundo-comercio-de-mercancias.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El comercio de mercaderías como proporción del PIB es la suma de las exportaciones e importaciones de mercaderías dividida por el valor del PIB, todo en dólares de los Estados Unidos, a precios corrientes."
 }

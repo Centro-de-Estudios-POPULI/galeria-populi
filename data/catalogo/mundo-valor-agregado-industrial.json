@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-valor-agregado-industrial.png",
   "thumb": "thumbs/mundo-valor-agregado-industrial.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El término “industria” corresponde a las divisiones 10 a 45 de la CIIU e incluye a las industrias manufactureras (divisiones 15 a 37 de la CIIU)."
 }

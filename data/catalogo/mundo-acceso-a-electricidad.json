@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-acceso-a-electricidad.png",
   "thumb": "thumbs/mundo-acceso-a-electricidad.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El acceso a la electricidad es el porcentaje de la población con acceso a la electricidad."
 }

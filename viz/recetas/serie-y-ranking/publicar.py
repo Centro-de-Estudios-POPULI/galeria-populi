@@ -33,13 +33,9 @@ shutil.copyfile(SRC, GRAFICAS / f"{SLUG}.png")
 # 2. Miniatura 600×600. En una figura ANCHA de dos paneles el recorte central
 #    partiría ambos paneles → encajar la figura completa (letterbox) sobre el
 #    crema de marca, para que el preview se reconozca.
-img = Image.open(SRC).convert("RGB")
-th = img.copy()
-th.thumbnail((600, 600), Image.LANCZOS)
-canvas = Image.new("RGB", (600, 600), ps.COLORS["fondo"])
-canvas.paste(th, ((600 - th.width) // 2, (600 - th.height) // 2))
-canvas.quantize(colors=256, method=Image.MEDIANCUT, dither=Image.Dither.NONE).save(
-    THUMBS / f"{SLUG}.png", "PNG", optimize=True)
+# miniatura: la MISMA función que el resto del Banco (letterbox WebP, 600 px)
+with Image.open(SRC) as _im:
+    ps.miniatura(_im, THUMBS / f"{SLUG}.webp")
 
 # 3. Ficha (misma estructura que publicar(); política del Banco: solo imagen)
 ficha = {
@@ -56,7 +52,7 @@ ficha = {
     "tipo": "serie_y_ranking",
     "formato": "informe_panorama",
     "imagen": f"graficas/{SLUG}.png",
-    "thumb": f"thumbs/{SLUG}.png",
+    "thumb": f"thumbs/{SLUG}.webp",
     "datos": None,
 }
 (CATALOGO / f"{SLUG}.json").write_text(

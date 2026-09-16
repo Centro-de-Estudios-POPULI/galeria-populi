@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-migracion-neta.png",
   "thumb": "thumbs/mundo-migracion-neta.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La migración neta es el total neto de migrantes durante el período, es decir, el número de inmigrantes menos el número de emigrantes, incluidos tanto ciudadanos como no ciudadanos."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-empleo-vulnerable.png",
   "thumb": "thumbs/mundo-empleo-vulnerable.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El empleo vulnerable se refiere a los trabajadores familiares no remunerados y a los trabajadores autónomos como porcentaje del empleo total."
 }

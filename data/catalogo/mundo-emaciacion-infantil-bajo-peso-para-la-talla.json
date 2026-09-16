@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-emaciacion-infantil-bajo-peso-para-la-talla.png",
   "thumb": "thumbs/mundo-emaciacion-infantil-bajo-peso-para-la-talla.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Prevalence of wasting is the proportion of children under age 5 whose weight for height is more than two standard deviations below the median for the international reference population ages 0-59."
 }

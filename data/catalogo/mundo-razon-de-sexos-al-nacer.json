@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-razon-de-sexos-al-nacer.png",
   "thumb": "thumbs/mundo-razon-de-sexos-al-nacer.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La proporción de sexos al nacer se refiere a los nacimientos de hombres por nacimientos de mujeres."
 }

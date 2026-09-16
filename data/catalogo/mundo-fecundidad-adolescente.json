@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-fecundidad-adolescente.png",
   "thumb": "thumbs/mundo-fecundidad-adolescente.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de fertilidad en adolescentes es la cantidad de nacimientos por cada 1000 mujeres de entre 15 y 19 años de edad."
 }

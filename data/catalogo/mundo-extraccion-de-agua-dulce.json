@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-extraccion-de-agua-dulce.png",
   "thumb": "thumbs/mundo-extraccion-de-agua-dulce.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La extracción anual de agua dulce se refiere al total de extracción de agua, sin contar las pérdidas por evaporación de las cuencas de almacenamiento."
 }

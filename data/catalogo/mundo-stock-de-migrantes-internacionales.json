@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-stock-de-migrantes-internacionales.png",
   "thumb": "thumbs/mundo-stock-de-migrantes-internacionales.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Los volúmenes internacionales de migrantes son la cantidad de personas nacidas en un país en el que no viven."
 }

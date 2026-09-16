@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-personal-de-las-fuerzas-armadas.png",
   "thumb": "thumbs/mundo-personal-de-las-fuerzas-armadas.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El personal de las fuerzas armadas es el personal militar en actividad, incluidas las fuerzas paramilitares en los casos en que el entrenamiento, la organización."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-total.png",
   "thumb": "thumbs/mundo-poblacion-total.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La población total se basa en la definición de facto de población, que cuenta a todos los residentes independientemente de su estatus legal o ciudadanía."
 }

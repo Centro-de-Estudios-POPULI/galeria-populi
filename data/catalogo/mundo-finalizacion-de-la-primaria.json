@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-finalizacion-de-la-primaria.png",
   "thumb": "thumbs/mundo-finalizacion-de-la-primaria.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Tasa de finalización de la educación primaria, total."
 }

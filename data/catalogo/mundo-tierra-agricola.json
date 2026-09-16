@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-tierra-agricola.png",
   "thumb": "thumbs/mundo-tierra-agricola.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Se denomina tierra agrícola a la porción del área de tierra cultivable, afectada a cultivo permanente y a pradera permanente."
 }

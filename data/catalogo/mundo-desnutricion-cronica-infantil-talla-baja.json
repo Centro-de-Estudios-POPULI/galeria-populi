@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-desnutricion-cronica-infantil-talla-baja.png",
   "thumb": "thumbs/mundo-desnutricion-cronica-infantil-talla-baja.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La prevalencia de la desnutrición en la niñez representa el porcentaje de niños menores de cinco años de edad con un peso para la edad correspondiente (crecimiento insuficiente) más de dos desviaciones estándar por debajo de la mediana de."
 }

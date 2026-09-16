@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-pib-per-capita-ppa.png",
   "thumb": "thumbs/mundo-pib-per-capita-ppa.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Este indicador proporciona valores per cápita del producto interno bruto (PIB) expresado en dólares internacionales corrientes convertidos mediante el factor de conversión de paridad de poder adquisitivo (PPA)."
 }

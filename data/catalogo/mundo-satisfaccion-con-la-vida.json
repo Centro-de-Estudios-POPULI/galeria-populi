@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-satisfaccion-con-la-vida.png",
   "thumb": "thumbs/mundo-satisfaccion-con-la-vida.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Promedio de la 'escalera de Cantril': los encuestados ubican su vida actual de 0 (peor vida posible) a 10 (mejor posible)."
 }

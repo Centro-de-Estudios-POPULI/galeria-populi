@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-mortalidad-infantil.png",
   "thumb": "thumbs/mundo-mortalidad-infantil.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de mortalidad infantil es el número de niños que mueren antes de cumplir un año de edad, por cada 1.000 nacidos vivos en un año determinado."
 }

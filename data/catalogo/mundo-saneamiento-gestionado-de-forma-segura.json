@@ -3,7 +3,7 @@
   "titulo": "Mundo: Saneamiento gestionado de forma segura, por países",
   "subtitulo": "% de la población · último dato disponible",
   "categoria": "mundo",
-  "fuente": "Fuente: Programa Conjunto OMS/UNICEF de Monitoreo del Abastecimiento de Agua. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "fuente": "Fuente: Banco Mundial — Indicadores del Desarrollo Mundial (WDI) y Worldwide Governance Indicators (WGI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "mundo",
     "Desarrollo humano y bienestar",
@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-saneamiento-gestionado-de-forma-segura.png",
   "thumb": "thumbs/mundo-saneamiento-gestionado-de-forma-segura.webp",
-  "datos": null
+  "datos": null,
+  "nota": ""
 }

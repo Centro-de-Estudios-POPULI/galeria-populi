@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-mortalidad-de-menores-de-5-anos.png",
   "thumb": "thumbs/mundo-mortalidad-de-menores-de-5-anos.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Menores de cinco años la tasa de mortalidad es la probabilidad por cada 1.000 que un recién nacido muera antes de cumplir cinco años de edad, si está sujeto a las tasas de mortalidad específicas por edad del año especificado."
 }

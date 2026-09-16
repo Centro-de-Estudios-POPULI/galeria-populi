@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-matricula-en-primaria.png",
   "thumb": "thumbs/mundo-matricula-en-primaria.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Tasa bruta de matrícula, educación primaria, total."
 }

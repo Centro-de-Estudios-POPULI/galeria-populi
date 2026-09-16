@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-valor-agregado-manufacturero.png",
   "thumb": "thumbs/mundo-valor-agregado-manufacturero.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El término industrias manufactureras se refiere a las industrias pertenecientes a las divisiones 15 a 37 de la CIIU."
 }

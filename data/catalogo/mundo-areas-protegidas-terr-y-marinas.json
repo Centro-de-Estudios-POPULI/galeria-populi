@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-areas-protegidas-terr-y-marinas.png",
   "thumb": "thumbs/mundo-areas-protegidas-terr-y-marinas.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Las áreas protegidas terrestres son zonas total o parcialmente protegidas de por lo menos 1.000 hectáreas designadas por autoridades nacionales como reservas científicas con acceso público limitado, parques nacionales."
 }

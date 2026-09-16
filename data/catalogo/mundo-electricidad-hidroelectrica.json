@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-electricidad-hidroelectrica.png",
   "thumb": "thumbs/mundo-electricidad-hidroelectrica.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Se denominan fuentes de electricidad a los insumos que se utilizan para generar electricidad."
 }

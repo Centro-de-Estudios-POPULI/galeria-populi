@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-30-34-anos-mujeres.png",
   "thumb": "thumbs/mundo-poblacion-30-34-anos-mujeres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Female population between the ages 30 to 34 as a percentage of the total female population."
 }

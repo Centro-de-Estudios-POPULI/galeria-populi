@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-crecimiento-poblacional.png",
   "thumb": "thumbs/mundo-crecimiento-poblacional.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de crecimiento poblacional anual para el año t es la tasa exponencial de crecimiento de la población a mitad de año desde el año t-1 hasta t, expresada como porcentaje."
 }

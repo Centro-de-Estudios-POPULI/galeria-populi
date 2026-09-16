@@ -80,14 +80,9 @@ for L in LAMINAS:
     # 2. Miniatura 600x600. El recorte central de ps.guardar partiria la
     #    cuadricula por la mitad: va la lamina completa en letterbox sobre el
     #    crema de marca, que es como se reconoce en la vitrina.
-    img = Image.open(src).convert("RGB")
-    th = img.copy()
-    th.thumbnail((600, 600), Image.LANCZOS)
-    lienzo = Image.new("RGB", (600, 600), ps.COLORS["fondo"])
-    lienzo.paste(th, ((600 - th.width) // 2, (600 - th.height) // 2))
-    lienzo.quantize(colors=256, method=Image.MEDIANCUT,
-                    dither=Image.Dither.NONE).save(
-        THUMBS / f"{L['slug']}.png", "PNG", optimize=True)
+    # miniatura: la MISMA función que el resto del Banco (letterbox WebP, 600 px)
+    with Image.open(src) as _im:
+        ps.miniatura(_im, THUMBS / f"{L['slug']}.webp")
 
     # 3. Datos descargables
     años, serie, dec = bloques[L["bloque"]]
@@ -105,7 +100,7 @@ for L in LAMINAS:
         "tipo": "small_multiples",
         "formato": "informe_mosaico",
         "imagen": f"graficas/{L['slug']}.png",
-        "thumb": f"thumbs/{L['slug']}.png",
+        "thumb": f"thumbs/{L['slug']}.webp",
         "datos": f"datos/{L['slug']}.csv",
     }
     (CATALOGO / f"{L['slug']}.json").write_text(

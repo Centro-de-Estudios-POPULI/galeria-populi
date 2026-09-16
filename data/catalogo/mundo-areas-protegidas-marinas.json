@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-areas-protegidas-marinas.png",
   "thumb": "thumbs/mundo-areas-protegidas-marinas.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Las áreas marinas protegidas son zonas de terreno intermareal o submareal, junto con sus aguas suprayacentes y su flora, fauna y características históricas y culturales conexas."
 }

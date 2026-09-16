@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-empleo-en-industria.png",
   "thumb": "thumbs/mundo-empleo-en-industria.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job."
 }

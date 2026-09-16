@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-fuerza-laboral-total.png",
   "thumb": "thumbs/mundo-fuerza-laboral-total.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La fuerza laboral está compuesta por personas de 15 años o más que suministran mano de obra para la producción de bienes y servicios durante un período específico."
 }

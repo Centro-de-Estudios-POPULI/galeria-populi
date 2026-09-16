@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-crecimiento-del-pib.png",
   "thumb": "thumbs/mundo-crecimiento-del-pib.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Tasa de crecimiento porcentual anual del PIB a precios de mercado en moneda local constante."
 }

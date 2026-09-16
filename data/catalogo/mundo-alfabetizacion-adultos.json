@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-alfabetizacion-adultos.png",
   "thumb": "thumbs/mundo-alfabetizacion-adultos.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de alfabetización de adultos es el porcentaje de personas de 15 años o más que pueden leer y escribir y comprender una declaración breve y sencilla sobre su vida cotidiana."
 }

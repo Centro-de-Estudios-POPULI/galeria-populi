@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-desempleo-con-educacion-basica.png",
   "thumb": "thumbs/mundo-desempleo-con-educacion-basica.webp",
-  "datos": null
+  "datos": null,
+  "nota": "The percentage of the labor force with a basic level of education who are unemployed."
 }

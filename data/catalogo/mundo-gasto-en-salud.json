@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-gasto-en-salud.png",
   "thumb": "thumbs/mundo-gasto-en-salud.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Nivel de gasto corriente en salud expresado como porcentaje del PIB."
 }

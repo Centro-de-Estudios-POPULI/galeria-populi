@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-alumnos-por-docente-primaria.png",
   "thumb": "thumbs/mundo-alumnos-por-docente-primaria.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Proporción de alumnos por docente, educación primaria."
 }

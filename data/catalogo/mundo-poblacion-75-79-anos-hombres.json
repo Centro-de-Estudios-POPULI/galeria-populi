@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-75-79-anos-hombres.png",
   "thumb": "thumbs/mundo-poblacion-75-79-anos-hombres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Male population between the ages 75 to 79 as a percentage of the total male population."
 }

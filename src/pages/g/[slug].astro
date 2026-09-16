@@ -3,7 +3,7 @@
 // Trae su imagen para las tarjetas de redes (og:image), la ficha completa y
 // las otras versiones del mismo indicador (2024 · 2012 · cambio).
 import Base from "../../layouts/Base.astro";
-import { categorias, graficas, u, modoLabel, grupoDe, versionesDe, tagsVisibles, SITE } from "../../lib/banco";
+import { categorias, graficas, u, modoLabel, grupoDe, versionesDe, tagsVisibles, fichaTecnica, SITE } from "../../lib/banco";
 
 export function getStaticPaths() {
   return graficas.map((g) => ({ params: { slug: g.slug }, props: { g } }));
@@ -21,7 +21,7 @@ const url = `${SITE}g/${g.slug}/`;
 const descripcion = (g.subtitulo || g.titulo).replace(/\s+/g, " ").slice(0, 300);
 const etiquetaModo = (v: typeof g) => (v.atlas === "censo" ? (v.modo === "cambio" ? "Cambio 2012–2024" : v.modo) : v.modo);
 ---
-<Base titulo={`${g.titulo} · Banco de Gráficos POPULI`} descripcion={descripcion} og={g.imagen} canonical={url}>
+<Base titulo={`${g.titulo} · Banco de Gráficos POPULI`} descripcion={descripcion} og={g.imagen} canonical={url} interior={true}>
   <main class="wrap pg">
     <nav class="miga" aria-label="Ruta">
       <a href={u(base, "/")}>Banco de Gráficos</a><span>›</span>
@@ -73,9 +73,10 @@ const etiquetaModo = (v: typeof g) => (v.atlas === "censo" ? (v.modo === "cambio
         <h2>Más de {grupo || c.label}</h2>
         <div class="grid">
           {relacionadas.map((r) => (
-            <article class="card">
-              <a class="thumb" href={u(base, `g/${r.slug}/`)}><img src={u(base, r.thumb)} alt="" loading="lazy" decoding="async" width="600" height="600" /></a>
-              <div class="meta"><h3><a href={u(base, `g/${r.slug}/`)}>{r.titulo}</a></h3><p class="sub">{modoLabel(r)}</p></div>
+            <article class="card" style={`--c:${c.color}`}>
+              <a class="lienzo" href={u(base, `g/${r.slug}/`)}><img src={u(base, r.thumb)} alt="" loading="lazy" decoding="async" width="600" height="600" /></a>
+              <div class="cuerpo"><span class="cat">{c.label}</span><h3><a href={u(base, `g/${r.slug}/`)}>{r.titulo.replace(/^(Bolivia|Mundo):\s*/, "")}</a></h3><p class="donde">{[modoLabel(r), grupoDe(r)].filter(Boolean).join(" · ")}</p></div>
+              <div class="pie-t"><span class="ficha-t">{fichaTecnica(r)}</span><div class="acciones"><a class="vivo" href={u(base, `g/${r.slug}/`)}>Ver la ficha</a><a class="baja" href={u(base, r.imagen)} download={`${r.slug}.png`}>Descargar ↓</a></div></div>
             </article>
           ))}
         </div>

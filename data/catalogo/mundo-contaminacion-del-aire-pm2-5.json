@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-contaminacion-del-aire-pm2-5.png",
   "thumb": "thumbs/mundo-contaminacion-del-aire-pm2-5.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Population-weighted exposure to ambient PM2.5 pollution is defined as the average level of exposure of a nation's population to concentrations of suspended particles measuring less than 2.5 microns in aerodynamic diameter."
 }

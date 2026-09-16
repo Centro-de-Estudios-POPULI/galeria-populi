@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-25-29-anos-mujeres.png",
   "thumb": "thumbs/mundo-poblacion-25-29-anos-mujeres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Female population between the ages 25 to 29 as a percentage of the total female population."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-pib-per-capita.png",
   "thumb": "thumbs/mundo-pib-per-capita.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El PIB per cápita es el producto interno bruto dividido por la población a mitad de año."
 }

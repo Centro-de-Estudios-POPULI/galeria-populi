@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-suscripciones-de-telefonia-movil.png",
   "thumb": "thumbs/mundo-suscripciones-de-telefonia-movil.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service that provide access to the PSTN using cellular technology."
 }

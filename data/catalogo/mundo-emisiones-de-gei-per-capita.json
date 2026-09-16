@@ -3,7 +3,7 @@
   "titulo": "Mundo: Emisiones de GEI per cápita, por países",
   "subtitulo": "Toneladas CO2e por persona · último dato disponible",
   "categoria": "mundo",
-  "fuente": "Fuente: Base de Datos Comunitaria de GEI EDGAR. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "fuente": "Fuente: Banco Mundial — Indicadores del Desarrollo Mundial (WDI) y Worldwide Governance Indicators (WGI). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "mundo",
     "Medio ambiente y clima",
@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-emisiones-de-gei-per-capita.png",
   "thumb": "thumbs/mundo-emisiones-de-gei-per-capita.webp",
-  "datos": null
+  "datos": null,
+  "nota": ""
 }

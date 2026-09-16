@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-superficie-forestal.png",
   "thumb": "thumbs/mundo-superficie-forestal.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La superficie forestal se refiere a las tierras con agrupaciones de árboles naturales o plantados de por lo menos 5 metros in situ, sean estas para usos productivos o no."
 }

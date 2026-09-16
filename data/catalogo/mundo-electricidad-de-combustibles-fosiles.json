@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-electricidad-de-combustibles-fosiles.png",
   "thumb": "thumbs/mundo-electricidad-de-combustibles-fosiles.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Se denominan fuentes de electricidad a los insumos que se utilizan para generar electricidad."
 }

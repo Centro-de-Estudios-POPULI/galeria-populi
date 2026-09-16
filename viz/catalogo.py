@@ -159,6 +159,7 @@ def publicar(meta: dict, df=None, **chart_kwargs):
 def build_manifest():
     """Consolida las fichas en src/manifest.json (para Astro) y publica el
     índice de láminas municipales que leen los atlas."""
+    from PIL import Image
     fichas = [json.loads(p.read_text(encoding="utf-8"))
               for p in sorted(CATALOGO.glob("*.json"))]
     fichas.sort(key=lambda e: (e.get("fecha", ""), e.get("titulo", "")), reverse=True)
@@ -170,6 +171,12 @@ def build_manifest():
              or not (ROOT / "public" / f["thumb"]).exists()]
     if rotas:
         raise SystemExit(f"⛔ {len(rotas)} fichas sin PNG o sin miniatura: {rotas[:8]}")
+    # la ficha técnica de la tarjeta (píxeles y peso) se mide del archivo, no se declara
+    for f in fichas:
+        png = ROOT / "public" / f["imagen"]
+        with Image.open(png) as im:
+            f["ancho"], f["alto"] = im.size
+        f["kb"] = png.stat().st_size // 1024
 
     usadas = {f.get("categoria") for f in fichas}
     cats = {k: {"label": v["label"], "color": ps.col(v["color"])}

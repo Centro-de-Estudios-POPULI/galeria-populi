@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-formacion-bruta-de-capital.png",
   "thumb": "thumbs/mundo-formacion-bruta-de-capital.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La formación bruta de capital (anteriormente, inversión interna bruta) comprende los desembolsos en concepto de adiciones a los activos fijos de la economía más las variaciones netas en el nivel de los inventarios."
 }

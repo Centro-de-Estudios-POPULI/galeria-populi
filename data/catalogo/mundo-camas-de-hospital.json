@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-camas-de-hospital.png",
   "thumb": "thumbs/mundo-camas-de-hospital.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Las camas hospitalarias se refiere a la cantidad de camas disponibles para internaciones en hospitales públicos, privados, generales y especializados, y centros de rehabilitación."
 }

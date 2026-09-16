@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-empleadores.png",
   "thumb": "thumbs/mundo-empleadores.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Empleadores se refiere a aquellos trabajadores que, por cuenta propia o con unos pocos asociados, mantienen el tipo de trabajo que se define como “empleo por cuenta propia”."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-gasto-militar.png",
   "thumb": "thumbs/mundo-gasto-militar.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Los datos sobre gastos militares del SIPRI se derivan de la definición de la OTAN, que incluye todos los gastos corrientes y de capital en las fuerzas armadas, incluidas las fuerzas de mantenimiento de la paz."
 }

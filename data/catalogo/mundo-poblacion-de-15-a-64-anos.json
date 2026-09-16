@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-de-15-a-64-anos.png",
   "thumb": "thumbs/mundo-poblacion-de-15-a-64-anos.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La población entre 15 y 64 años es el porcentaje de la población total en el grupo etario de 15 a 64 años."
 }

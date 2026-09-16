@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-mortalidad-neonatal.png",
   "thumb": "thumbs/mundo-mortalidad-neonatal.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de mortalidad neonatal es el número de recién nacidos que mueren antes de alcanzar los 28 días de edad, por cada 1.000 nacidos vivos en un año determinado."
 }

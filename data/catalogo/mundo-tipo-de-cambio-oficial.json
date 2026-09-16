@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-tipo-de-cambio-oficial.png",
   "thumb": "thumbs/mundo-tipo-de-cambio-oficial.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El tipo de cambio oficial se refiere al tipo de cambio determinado por las autoridades nacionales o al tipo determinado en el mercado cambiario legalmente autorizado."
 }

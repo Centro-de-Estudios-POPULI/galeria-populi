@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-prevalencia-de-vih-15-49.png",
   "thumb": "thumbs/mundo-prevalencia-de-vih-15-49.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La prevalencia del VIH se refiere al porcentaje de personas de entre 15 y 49 años edad infectado con VIH."
 }

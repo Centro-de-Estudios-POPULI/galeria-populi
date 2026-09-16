@@ -1,7 +1,7 @@
 {
   "slug": "monetario-determinantes-base",
   "titulo": "Bolivia: ¿De dónde nace el dinero que emite el BCB?",
-  "subtitulo": "Determinantes de la base monetaria, como % de la base · datos a junio 2026",
+  "subtitulo": "Determinantes de la base monetaria, como % de la base · datos a julio 2026",
   "categoria": "monetario",
   "fuente": "Fuente: Banco Central de Bolivia (BCB), Base Monetaria, Determinantes y Componentes. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -17,5 +17,6 @@
   "formato": "red_cuadrada",
   "imagen": "graficas/monetario-determinantes-base.png",
   "thumb": "thumbs/monetario-determinantes-base.webp",
-  "datos": null
+  "datos": null,
+  "nota": "OMA = operaciones de mercado abierto (se restan, retiran liquidez). Otras cuentas (neto) = patrimonio del BCB, deuda externa de largo plazo y partidas netas. Los componentes suman el 100% de la base."
 }

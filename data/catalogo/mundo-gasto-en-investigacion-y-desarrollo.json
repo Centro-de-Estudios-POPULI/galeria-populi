@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-gasto-en-investigacion-y-desarrollo.png",
   "thumb": "thumbs/mundo-gasto-en-investigacion-y-desarrollo.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Los gastos en investigación y desarrollo son gastos corrientes y de capital (público y privado) en trabajo creativo realizado sistemáticamente para incrementar los conocimientos, incluso los conocimientos sobre la humanidad."
 }

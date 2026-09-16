@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-desempleo-juvenil-15-24.png",
   "thumb": "thumbs/mundo-desempleo-juvenil-15-24.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El desempleo entre los jóvenes es la proporción de la población activa de entre 15 y 24 años que no tiene trabajo pero que busca trabajo y está disponible para realizarlo."
 }

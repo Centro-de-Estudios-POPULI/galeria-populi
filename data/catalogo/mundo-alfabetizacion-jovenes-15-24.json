@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-alfabetizacion-jovenes-15-24.png",
   "thumb": "thumbs/mundo-alfabetizacion-jovenes-15-24.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Tasa de alfabetización juvenil (15-24) (%), total."
 }

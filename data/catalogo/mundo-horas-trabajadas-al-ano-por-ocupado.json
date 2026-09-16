@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-horas-trabajadas-al-ano-por-ocupado.png",
   "thumb": "thumbs/mundo-horas-trabajadas-al-ano-por-ocupado.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Promedio anual de horas trabajadas por persona ocupada."
 }

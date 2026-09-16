@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-mortalidad-por-enfermedades-no-transmisibles-30-70-a.png",
   "thumb": "thumbs/mundo-mortalidad-por-enfermedades-no-transmisibles-30-70-a.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Mortality from CVD, cancer, diabetes or CRD is the percent of 30-year-old-people who would die before their 70th birthday from any of cardiovascular disease, cancer, diabetes, or chronic respiratory disease."
 }

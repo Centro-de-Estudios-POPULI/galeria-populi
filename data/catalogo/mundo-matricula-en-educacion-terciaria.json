@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-matricula-en-educacion-terciaria.png",
   "thumb": "thumbs/mundo-matricula-en-educacion-terciaria.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Tasa bruta de matrícula, educación superior (niveles 5 y 6 de la CINE), total."
 }

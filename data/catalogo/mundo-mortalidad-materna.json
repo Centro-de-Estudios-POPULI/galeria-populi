@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-mortalidad-materna.png",
   "thumb": "thumbs/mundo-mortalidad-materna.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de mortalidad materna es la cantidad de mujeres que mueren durante el embarazo y el parto por cada 100.000 nacidos vivos."
 }

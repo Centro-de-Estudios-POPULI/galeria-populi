@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-pobreza-us-8-30-dia-ppa-2021.png",
   "thumb": "thumbs/mundo-pobreza-us-8-30-dia-ppa-2021.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El índice de pobreza de 8,30 dólares al día es el porcentaje de la población que vive con menos de 8,30 dólares al día a precios internacionales de 2021."
 }

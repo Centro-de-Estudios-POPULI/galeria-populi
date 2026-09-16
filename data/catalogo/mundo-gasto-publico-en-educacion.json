@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-gasto-publico-en-educacion.png",
   "thumb": "thumbs/mundo-gasto-publico-en-educacion.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El gasto del gobierno general en educación (corriente, capital y transferencias) se expresa como porcentaje del PIB."
 }

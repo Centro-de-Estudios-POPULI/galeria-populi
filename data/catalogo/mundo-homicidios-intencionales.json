@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-homicidios-intencionales.png",
   "thumb": "thumbs/mundo-homicidios-intencionales.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Los homicidios intencionales son estimaciones de homicidios ilegales infligidos intencionalmente como resultado de disputas domésticas, violencia interpersonal, conflictos violentos por los recursos de la tierra."
 }

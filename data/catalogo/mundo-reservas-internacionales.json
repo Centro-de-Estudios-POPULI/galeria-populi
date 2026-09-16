@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-reservas-internacionales.png",
   "thumb": "thumbs/mundo-reservas-internacionales.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El total de reservas comprenden las tenencias de oro monetario, derechos especiales de giro, reservas de los miembros del FMI que mantiene el FMI y tenencias de divisas bajo el control de autoridades monetarias."
 }

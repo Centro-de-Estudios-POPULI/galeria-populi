@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-35-39-anos-hombres.png",
   "thumb": "thumbs/mundo-poblacion-35-39-anos-hombres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Male population between the ages 35 to 39 as a percentage of the total male population."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-expuesta-a-pm2-5-sobre-oms.png",
   "thumb": "thumbs/mundo-poblacion-expuesta-a-pm2-5-sobre-oms.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Percent of population exposed to ambient concentrations of PM2.5 that exceed the WHO guideline value is defined as the portion of a country’s population living in places where mean annual concentrations of PM2.5 are greater than 10."
 }

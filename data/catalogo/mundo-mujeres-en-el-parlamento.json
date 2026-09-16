@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-mujeres-en-el-parlamento.png",
   "thumb": "thumbs/mundo-mujeres-en-el-parlamento.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Las mujeres miembros de los parlamentos son la cantidad de mujeres que ocupan escaños en una cámara baja o en una cámara única."
 }

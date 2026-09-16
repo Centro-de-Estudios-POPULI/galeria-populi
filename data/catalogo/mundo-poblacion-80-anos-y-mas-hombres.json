@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-80-anos-y-mas-hombres.png",
   "thumb": "thumbs/mundo-poblacion-80-anos-y-mas-hombres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Male population between the ages 80 and above as a percentage of the total male population."
 }

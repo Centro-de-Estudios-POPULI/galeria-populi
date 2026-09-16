@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-20-24-anos-hombres.png",
   "thumb": "thumbs/mundo-poblacion-20-24-anos-hombres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Male population between the ages 20 to 24 as a percentage of the total male population."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-indice-de-capital-humano-pwt.png",
   "thumb": "thumbs/mundo-indice-de-capital-humano-pwt.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Índice de capital humano por persona, basado en años de escolaridad (Barro-Lee) y los retornos a la educación (ecuación de Mincer)."
 }

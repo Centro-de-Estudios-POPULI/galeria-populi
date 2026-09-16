@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-participacion-laboral-mujer-hombre.png",
   "thumb": "thumbs/mundo-participacion-laboral-mujer-hombre.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de población activa es la proporción de la población de 15 años de edad o más económicamente activa: todas las personas que aportan trabajo para la producción de bienes y servicios durante un período específico."
 }

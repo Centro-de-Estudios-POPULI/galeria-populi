@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-25-29-anos-hombres.png",
   "thumb": "thumbs/mundo-poblacion-25-29-anos-hombres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Male population between the ages 25 to 29 as a percentage of the total male population."
 }

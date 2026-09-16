@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-libertad-de-prensa.png",
   "thumb": "thumbs/mundo-libertad-de-prensa.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Índice de RSF sobre el entorno para el periodismo."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-exportaciones-de-alta-tecnologia.png",
   "thumb": "thumbs/mundo-exportaciones-de-alta-tecnologia.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Las exportaciones de productos de alta tecnología son productos altamente intensivos en investigación y desarrollo, como son los productos de las industrias aeroespacial, informática, farmacéutica."
 }

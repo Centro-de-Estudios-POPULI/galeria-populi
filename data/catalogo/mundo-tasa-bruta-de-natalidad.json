@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-tasa-bruta-de-natalidad.png",
   "thumb": "thumbs/mundo-tasa-bruta-de-natalidad.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa bruta de natalidad indica el número de nacidos vivos que se producen durante el año, por cada 1.000 habitantes estimado a mitad de año."
 }

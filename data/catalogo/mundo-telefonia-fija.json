@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-telefonia-fija.png",
   "thumb": "thumbs/mundo-telefonia-fija.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Fixed telephone subscriptions refers to the sum of active number of analogue fixed telephone lines, voice-over-IP (VoIP) subscriptions, fixed wireless local loop (WLL) subscriptions."
 }

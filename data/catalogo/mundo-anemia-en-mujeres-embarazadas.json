@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-anemia-en-mujeres-embarazadas.png",
   "thumb": "thumbs/mundo-anemia-en-mujeres-embarazadas.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Prevalence of anemia, pregnant women, is the percentage of pregnant women whose hemoglobin level is less than 110 grams per liter at sea level."
 }

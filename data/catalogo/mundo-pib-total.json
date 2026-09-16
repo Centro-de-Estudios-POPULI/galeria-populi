@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-pib-total.png",
   "thumb": "thumbs/mundo-pib-total.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El PIB a precios de comprador es la suma del valor agregado bruto de todos los productores residentes en la economía más los impuestos sobre los productos y menos los subsidios no incluidos en el valor de los productos."
 }

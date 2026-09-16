@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-incidencia-de-tuberculosis.png",
   "thumb": "thumbs/mundo-incidencia-de-tuberculosis.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La incidencia de tuberculosis representa la cantidad estimada de nuevos casos de tuberculosis pulmonar, de frotis positivo y extrapulmonar."
 }

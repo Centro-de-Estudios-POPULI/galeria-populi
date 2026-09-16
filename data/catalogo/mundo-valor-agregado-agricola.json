@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-valor-agregado-agricola.png",
   "thumb": "thumbs/mundo-valor-agregado-agricola.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La agricultura, la silvicultura y la pesca corresponden a las divisiones 1 a 3 de la CIIU e incluyen la silvicultura, la caza y la pesca, así como el cultivo y la producción ganadera."
 }

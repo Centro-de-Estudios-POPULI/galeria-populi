@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-credito-al-sector-privado.png",
   "thumb": "thumbs/mundo-credito-al-sector-privado.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Domestic credit to private sector by banks refers to financial resources provided to the private sector by other depository corporations (deposit taking corporations except central banks), such as through loans."
 }

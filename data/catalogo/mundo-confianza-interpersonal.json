@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-confianza-interpersonal.png",
   "thumb": "thumbs/mundo-confianza-interpersonal.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Porcentaje que está de acuerdo con que 'se puede confiar en la mayoría de las personas'."
 }

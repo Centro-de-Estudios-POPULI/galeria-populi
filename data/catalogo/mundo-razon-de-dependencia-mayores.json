@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-razon-de-dependencia-mayores.png",
   "thumb": "thumbs/mundo-razon-de-dependencia-mayores.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de inactividad por edad (mayores) es la relación entre las personas dependientes de la tercera edad, mayores de 64, y la población en edad de trabajar, entre 15 y 64 años."
 }

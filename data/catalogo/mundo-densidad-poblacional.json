@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-densidad-poblacional.png",
   "thumb": "thumbs/mundo-densidad-poblacional.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La densidad de población es la población a mitad de año dividida por la superficie terrestre en kilómetros cuadrados."
 }

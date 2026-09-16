@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-energia-renovable.png",
   "thumb": "thumbs/mundo-energia-renovable.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Renewable energy consumption is the share of renewables energy in total final energy consumption."
 }

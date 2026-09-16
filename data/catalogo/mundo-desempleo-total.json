@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-desempleo-total.png",
   "thumb": "thumbs/mundo-desempleo-total.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El desempleo se refiere a la proporción de la fuerza laboral que está sin trabajo pero disponible y buscándolo."
 }

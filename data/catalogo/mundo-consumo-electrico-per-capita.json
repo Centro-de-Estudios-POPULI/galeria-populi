@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-consumo-electrico-per-capita.png",
   "thumb": "thumbs/mundo-consumo-electrico-per-capita.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El consumo de energía eléctrica mide la producción de las centrales eléctricas y de las plantas de cogeneración menos las pérdidas ocurridas en la transmisión."
 }

@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-ahorro-bruto.png",
   "thumb": "thumbs/mundo-ahorro-bruto.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El ahorro bruto se calcula como el ingreso nacional bruto menos el consumo total más las transferencias netas."
 }

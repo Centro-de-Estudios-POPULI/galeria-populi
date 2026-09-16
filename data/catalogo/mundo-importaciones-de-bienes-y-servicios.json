@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-importaciones-de-bienes-y-servicios.png",
   "thumb": "thumbs/mundo-importaciones-de-bienes-y-servicios.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Las importaciones de bienes y servicios representan el valor de todos los bienes y otros servicios de mercado recibidos del resto del mundo."
 }

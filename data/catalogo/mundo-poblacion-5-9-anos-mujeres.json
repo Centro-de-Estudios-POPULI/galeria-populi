@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-5-9-anos-mujeres.png",
   "thumb": "thumbs/mundo-poblacion-5-9-anos-mujeres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Female population between the ages 5 to 9 as a percentage of the total female population."
 }

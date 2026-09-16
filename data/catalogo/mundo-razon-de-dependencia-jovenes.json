@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-razon-de-dependencia-jovenes.png",
   "thumb": "thumbs/mundo-razon-de-dependencia-jovenes.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de inactividad por edad (menores) es la relación entre las personas dependientes más jóvenes, menores de 15, y la población en edad de trabajar, entre 15 y 64."
 }

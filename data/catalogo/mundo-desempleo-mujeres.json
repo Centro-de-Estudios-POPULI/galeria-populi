@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-desempleo-mujeres.png",
   "thumb": "thumbs/mundo-desempleo-mujeres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "El desempleo es la proporción de la población activa que no tiene trabajo pero que busca trabajo y está disponible para realizarlo."
 }

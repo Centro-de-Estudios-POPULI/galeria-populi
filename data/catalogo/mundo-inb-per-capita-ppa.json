@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-inb-per-capita-ppa.png",
   "thumb": "thumbs/mundo-inb-per-capita-ppa.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Este indicador proporciona valores per cápita del ingreso nacional bruto (INB, anteriormente PNB) expresado en dólares internacionales corrientes convertidos mediante el factor de conversión de paridad de poder adquisitivo (PPA)."
 }

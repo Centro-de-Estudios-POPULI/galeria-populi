@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-registro-de-nacimientos.png",
   "thumb": "thumbs/mundo-registro-de-nacimientos.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La totalidad de inscripciones de nacimientos es el porcentaje de niños menores de 5 años cuyos nacimientos se registraron al momento del estudio."
 }

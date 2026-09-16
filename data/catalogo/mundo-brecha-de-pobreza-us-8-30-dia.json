@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-brecha-de-pobreza-us-8-30-dia.png",
   "thumb": "thumbs/mundo-brecha-de-pobreza-us-8-30-dia.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La brecha de pobreza de $8,30 por día (PPA de 2021) es el déficit medio en ingresos o consumo desde la línea de pobreza de $8,30 por día (contando a los no pobres como con déficit cero), expresada como porcentaje de la línea de pobreza."
 }

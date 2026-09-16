@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-tierra-cultivable.png",
   "thumb": "thumbs/mundo-tierra-cultivable.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tierra cultivable incluye aquellos terrenos definidos por la FAO como afectados a cultivos temporales (las zonas de doble cosecha se cuentan una sola vez), los prados temporales para segar o para pasto."
 }

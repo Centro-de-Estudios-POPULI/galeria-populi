@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-30-34-anos-hombres.png",
   "thumb": "thumbs/mundo-poblacion-30-34-anos-hombres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Male population between the ages 30 to 34 as a percentage of the total male population."
 }

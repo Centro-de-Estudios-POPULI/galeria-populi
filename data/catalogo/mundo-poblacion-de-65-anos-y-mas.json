@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-de-65-anos-y-mas.png",
   "thumb": "thumbs/mundo-poblacion-de-65-anos-y-mas.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Población mayor de 65 años como porcentaje de la población total."
 }

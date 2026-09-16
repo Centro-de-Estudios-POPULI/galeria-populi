@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-20-24-anos-mujeres.png",
   "thumb": "thumbs/mundo-poblacion-20-24-anos-mujeres.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Female population between the ages 20 to 24 as a percentage of the total female population."
 }

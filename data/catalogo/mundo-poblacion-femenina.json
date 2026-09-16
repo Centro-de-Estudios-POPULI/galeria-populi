@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-femenina.png",
   "thumb": "thumbs/mundo-poblacion-femenina.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La población femenina es el porcentaje de la población que es femenina."
 }

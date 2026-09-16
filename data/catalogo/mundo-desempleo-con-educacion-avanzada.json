@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-desempleo-con-educacion-avanzada.png",
   "thumb": "thumbs/mundo-desempleo-con-educacion-avanzada.webp",
-  "datos": null
+  "datos": null,
+  "nota": "The percentage of the labor force with an advanced level of education who are unemployed."
 }

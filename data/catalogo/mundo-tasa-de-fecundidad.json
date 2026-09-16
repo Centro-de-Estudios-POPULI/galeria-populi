@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-tasa-de-fecundidad.png",
   "thumb": "thumbs/mundo-tasa-de-fecundidad.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La tasa de fertilidad total representa el número de hijos que tendría una mujer si viviera hasta el final de sus años fértiles y tuviera hijos de acuerdo con las tasas de fertilidad específicas por edad del año especificado."
 }

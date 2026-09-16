@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-poblacion-rural.png",
   "thumb": "thumbs/mundo-poblacion-rural.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Población rural se refiere a las personas que viven en zonas rurales según la definición de la oficina nacional de estadísticas."
 }

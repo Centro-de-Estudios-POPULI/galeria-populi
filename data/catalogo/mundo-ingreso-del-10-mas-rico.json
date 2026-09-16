@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-ingreso-del-10-mas-rico.png",
   "thumb": "thumbs/mundo-ingreso-del-10-mas-rico.webp",
-  "datos": null
+  "datos": null,
+  "nota": "La participación porcentual en el ingreso o en el consumo es la participación que se devenga a subgrupos de población representados en deciles o quintiles."
 }

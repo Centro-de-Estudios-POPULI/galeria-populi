@@ -1,44 +1,74 @@
 ---
 import Base from "../layouts/Base.astro";
-import { categorias, graficas, meta, u, norm, modoLabel, grupoDe, SITE } from "../lib/banco";
+import { categorias, graficas, meta, u, modoLabel, grupoDe, temasPorCategoria, cortesPorCategoria, fichaTecnica, SITE } from "../lib/banco";
 const base = import.meta.env.BASE_URL;
 const cats = Object.entries(categorias);
 const nMapas = graficas.filter((g) => g.tipo === "mapa").length;
 const nMundo = graficas.filter((g) => g.tipo === "mapa_mundial").length;
 const nCat = Object.fromEntries(cats.map(([k]) => [k, graficas.filter((g) => g.categoria === k).length]));
+const TEMAS = temasPorCategoria();
+const CORTES = cortesPorCategoria();
 const desc = "Gráficas e indicadores de Bolivia con fuente verificada: mapas municipales del Censo y del Atlas Fiscal, mapas del mundo y series económicas, en alta resolución y listos para compartir.";
+// la lámina destacada rota entre unas pocas elegidas; si alguna no existe, se salta
+const DESTACADAS = ["censo-poblacion-urbana", "censo-poblacion-total-cambio", "fiscal-ic-pc", "mundo-pib-per-capita-ppa", "pib-semestre-variacion", "censo-acceso-a-fuente-mejorada"]
+  .map((s) => graficas.find((g) => g.slug === s)).filter(Boolean).slice(0, 5) as typeof graficas;
+const destacadas = DESTACADAS.length ? DESTACADAS : graficas.slice(0, 5);
+const icoDown = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v12M6 10l6 6 6-6M4 20h16"/></svg>`;
+const icoMap = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14"/></svg>`;
+const icoEye = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>`;
 ---
 <Base titulo="Banco de Gráficos · Centro de Estudios POPULI" descripcion={desc} canonical={SITE}>
   <section class="hero">
-    <div class="wrap">
-      <span class="kicker">Gráficos abiertos · Bolivia</span>
-      <h1>Banco de <em>Gráficos</em></h1>
-      <p class="lead">Gráficas e indicadores de Bolivia con fuente verificada. Buscá, mirá y descargá la imagen
-        <strong>en alta resolución, lista para compartir</strong>. Cada mapa municipal enlaza al atlas interactivo del que sale.</p>
-      <div class="stats" aria-label="Contenido del Banco">
-        <span><b>{graficas.length}</b>gráficas</span>
-        <span><b>{nMapas}</b>mapas de los {meta.municipios} municipios</span>
-        <span><b>{nMundo}</b>mapas del mundo</span>
+    <canvas id="cielo" aria-hidden="true"></canvas>
+    <div class="wrap hero-in">
+      <div>
+        <span class="kicker">Gráficos abiertos · Bolivia</span>
+        <h1>Banco de <em>Gráficos</em></h1>
+        <p class="lead">Gráficas e indicadores de Bolivia con fuente verificada. Buscá, mirá y descargá la imagen
+          <strong>en alta resolución, lista para compartir</strong>. Cada mapa municipal enlaza al atlas interactivo del que sale.</p>
+        <div class="stats" aria-label="Contenido del Banco">
+          <span><b>{graficas.length}</b><small>gráficas</small></span>
+          <span><b>{nMapas}</b><small>mapas de {meta.municipios} municipios</small></span>
+          <span><b>{nMundo}</b><small>mapas del mundo</small></span>
+        </div>
       </div>
+      <figure class="destacada" id="destacada">
+        <div class="marco">
+          {destacadas.map((g, i) => <img src={u(base, g.thumb)} alt="" class={i === 0 ? "on" : ""} loading={i === 0 ? "eager" : "lazy"} decoding="async" width="600" height="600" data-slug={g.slug} data-titulo={g.titulo} data-sub={[modoLabel(g), grupoDe(g)].filter(Boolean).join(" · ")} />)}
+        </div>
+        <figcaption><span style="min-width:0"><b id="dest-t">{destacadas[0]?.titulo}</b><span id="dest-s">{[modoLabel(destacadas[0]), grupoDe(destacadas[0])].filter(Boolean).join(" · ")}</span></span><a id="dest-a" href={u(base, `g/${destacadas[0]?.slug}/`)}>Ver la ficha →</a></figcaption>
+        <div class="puntos" aria-hidden="true">{destacadas.map((_, i) => <i class={i === 0 ? "on" : ""}></i>)}</div>
+      </figure>
     </div>
   </section>
 
   <div class="controls">
     <div class="wrap">
-      <div class="ctl-row">
-        <label class="sr" for="busca">Buscar gráficas</label>
-        <input id="busca" type="search" placeholder="Buscar por tema, indicador, fuente o etiqueta…" autocomplete="off" spellcheck="false" />
-        <label class="sr" for="orden">Ordenar</label>
-        <select id="orden">
-          <option value="recientes">Más recientes</option>
-          <option value="titulo">Título A–Z</option>
-        </select>
-      </div>
-      <div class="chips" id="chips" role="group" aria-label="Categoría">
-        <button class="chip" type="button" data-cat="*" aria-pressed="true">Todas<span class="n">{graficas.length}</span></button>
-        {cats.map(([k, c]) => (
-          <button class="chip" type="button" data-cat={k} style={`--c:${c.color}`} aria-pressed="false">{c.label}<span class="n">{nCat[k]}</span></button>
-        ))}
+      <div class="fila">
+        <div class="pestanas" role="tablist" aria-label="Categoría" id="pestanas">
+          <button type="button" role="tab" data-cat="*" aria-selected="true">Todas <span class="n">{graficas.length}</span></button>
+          {cats.map(([k, c]) => (
+            <button type="button" role="tab" data-cat={k} aria-selected="false" style={`--c:${c.color}`}>{c.label} <span class="n">{nCat[k]}</span></button>
+          ))}
+        </div>
+        <label class="busca">
+          <span class="sr">Buscar gráficas</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="busca" type="search" placeholder="Buscar por indicador, tema o fuente…" autocomplete="off" spellcheck="false" />
+        </label>
+        <div class="menu" id="m-tema">
+          <button type="button" class="disparador" aria-haspopup="listbox" aria-expanded="false"><span class="etq">Tema</span><span class="val">Todos</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+          <div class="panel" role="listbox" hidden></div>
+        </div>
+        <div class="menu" id="m-corte">
+          <button type="button" class="disparador" aria-haspopup="listbox" aria-expanded="false"><span class="etq">Corte</span><span class="val">Todos</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+          <div class="panel" role="listbox" hidden></div>
+        </div>
+        <div class="menu" id="m-orden">
+          <button type="button" class="disparador" aria-haspopup="listbox" aria-expanded="false" style="min-width:170px"><span class="etq">Orden</span><span class="val">Recientes</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+          <div class="panel" role="listbox" hidden></div>
+        </div>
+        <span class="conteo" id="conteo" aria-live="polite"></span>
       </div>
       <div id="aviso" class="aviso" hidden role="status">
         <span id="aviso-tx"></span>
@@ -53,29 +83,34 @@ const desc = "Gráficas e indicadores de Bolivia con fuente verificada: mapas mu
         const c = categorias[g.categoria] ?? { label: g.categoria, color: "" };
         const grupo = grupoDe(g);
         const modo = modoLabel(g);
-        const sub = [modo, grupo].filter(Boolean).join(" · ") || g.subtitulo;
+        const donde = [modo, grupo].filter(Boolean).join(" · ") || g.subtitulo;
         return (
-          <article class="card" data-slug={g.slug} data-cat={g.categoria} data-fecha={g.fecha} data-grupo={[modo, grupo].filter(Boolean).join(" ")}
-                   data-titulo={g.titulo} data-tags={(g.tags ?? []).join("|")}
+          <article class="card" style={`--c:${c.color}`} data-slug={g.slug} data-cat={g.categoria} data-fecha={g.fecha}
+                   data-tema={grupo} data-corte={modo} data-titulo={g.titulo} data-tags={(g.tags ?? []).join("|")}
                    data-sub={g.subtitulo ?? ""} data-fuente={g.fuente ?? ""} data-enlace={g.enlace ?? ""}
                    data-img={u(base, g.imagen)} data-datos={g.datos ? u(base, g.datos) : ""} data-catl={c.label} data-catc={c.color}>
-            <a class="thumb" href={u(base, `g/${g.slug}/`)} data-visor aria-label={`Ver ${g.titulo}`}>
+            <a class="lienzo" href={u(base, `g/${g.slug}/`)} data-visor aria-label={`Ver ${g.titulo}`}>
               <img src={u(base, g.thumb)} alt="" loading="lazy" decoding="async" width="600" height="600" />
             </a>
-            <div class="meta">
-              <span class="cat" style={`--c:${c.color}`}>{c.label}</span>
-              <h3><a href={u(base, `g/${g.slug}/`)} data-visor>{g.titulo}</a></h3>
-              <p class="sub">{sub}</p>
-              <div class="acts">
-                <a class="btn" href={u(base, g.imagen)} download={`${g.slug}.png`}>↓ Descargar</a>
-                <a class="btn sec" href={u(base, `g/${g.slug}/`)}>Ficha</a>
+            <div class="cuerpo">
+              <span class="cat">{c.label}</span>
+              <h3><a href={u(base, `g/${g.slug}/`)} data-visor>{g.titulo.replace(/^(Bolivia|Mundo):\s*/, "")}</a></h3>
+              <p class="donde">{donde}</p>
+            </div>
+            <div class="pie-t">
+              <span class="ficha-t">{fichaTecnica(g)}</span>
+              <div class="acciones">
+                {g.enlace
+                  ? <a class="vivo" href={g.enlace} set:html={icoMap + "<span>Ver en el atlas</span>"} />
+                  : <a class="vivo" href={u(base, `g/${g.slug}/`)} set:html={icoEye + "<span>Ver la ficha</span>"} />}
+                <a class="baja" href={u(base, g.imagen)} download={`${g.slug}.png`} set:html={"<span>Descargar</span>" + icoDown} />
               </div>
             </div>
           </article>
         );
       })}
     </div>
-    <p id="vacio" class="vacio" hidden>No hay gráficas que coincidan con esa búsqueda.</p>
+    <p id="vacio" class="vacio" hidden><b>Nada por acá</b>No hay gráficas que coincidan con esa búsqueda.</p>
     <div id="mas" class="mas" hidden><button type="button" id="mas-btn">Mostrar más</button></div>
   </main>
 
@@ -105,29 +140,72 @@ const desc = "Gráficas e indicadores de Bolivia con fuente verificada: mapas mu
     </div>
   </dialog>
 
-  <script define:vars={{ base, SITE }}>
+  <script define:vars={{ base, SITE, TEMAS, CORTES }}>
     const norm = (t) => (t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
     const $ = (s) => document.querySelector(s);
-    const grid = $('#grid'), busca = $('#busca'), orden = $('#orden'), vacio = $('#vacio');
+    const grid = $('#grid'), busca = $('#busca'), vacio = $('#vacio'), conteo = $('#conteo');
     const mas = $('#mas'), masBtn = $('#mas-btn'), aviso = $('#aviso'), avisoTx = $('#aviso-tx');
-    const chips = [...document.querySelectorAll('.chip')];
+    const tabs = [...document.querySelectorAll('#pestanas button')];
     const cards = [...grid.querySelectorAll('.card')];
     const LOTE = 72;
     // el índice de búsqueda se arma acá y no viaja en el HTML: son 800 tarjetas
-    cards.forEach((c) => { const d = c.dataset; d.heno = norm([d.titulo, d.sub, d.fuente, d.grupo, d.catl, d.slug, (d.tags || '').replace(/\|/g, ' ')].join(' ')); });
-    const st = { q: '', cat: '*', tag: '', orden: 'recientes', g: '', limite: LOTE };
+    cards.forEach((c) => { const d = c.dataset; d.heno = norm([d.titulo, d.sub, d.fuente, d.tema, d.corte, d.catl, d.slug, (d.tags || '').replace(/\|/g, ' ')].join(' ')); });
+    const st = { q: '', cat: '*', tema: '', corte: '', tag: '', orden: 'recientes', g: '', limite: LOTE };
+    const ORDENES = [['recientes', 'Recientes'], ['titulo', 'Título A–Z']];
 
-    // ---- estado en la URL: ?q= ?cat= ?tag= ?orden= ?g= ----
+    // ---- el menú propio (un <select> del sistema no se puede vestir) ----
+    function menu(id, onPick) {
+      const root = document.getElementById(id), btn = root.querySelector('.disparador'), panel = root.querySelector('.panel'), val = btn.querySelector('.val');
+      const cerrar = () => { panel.hidden = true; btn.setAttribute('aria-expanded', 'false'); };
+      const abrir = () => { document.querySelectorAll('.menu .panel').forEach((p) => { if (p !== panel) p.hidden = true; });
+        document.querySelectorAll('.menu .disparador').forEach((b) => { if (b !== btn) b.setAttribute('aria-expanded', 'false'); });
+        panel.hidden = false; btn.setAttribute('aria-expanded', 'true'); const cur = panel.querySelector('[aria-current="true"]'); (cur || panel.querySelector('button'))?.focus(); };
+      btn.addEventListener('click', (e) => { e.stopPropagation(); panel.hidden ? abrir() : cerrar(); });
+      panel.addEventListener('keydown', (e) => {
+        const bs = [...panel.querySelectorAll('button')], i = bs.indexOf(document.activeElement);
+        if (e.key === 'ArrowDown') { e.preventDefault(); (bs[i + 1] || bs[0]).focus(); }
+        if (e.key === 'ArrowUp') { e.preventDefault(); (bs[i - 1] || bs[bs.length - 1]).focus(); }
+        if (e.key === 'Escape') { cerrar(); btn.focus(); }
+      });
+      document.addEventListener('click', (e) => { if (!root.contains(e.target)) cerrar(); });
+      return {
+        set(lista, actual) {   // lista: [{v, label, n}]
+          panel.innerHTML = lista.map((it) => `<button type="button" role="option" data-v="${it.v}" aria-current="${it.v === actual}"><span>${it.label}</span>${it.n != null ? `<b>${it.n}</b>` : ''}</button>`).join('');
+          panel.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => { cerrar(); onPick(b.dataset.v); btn.focus(); }));
+          const sel = lista.find((it) => it.v === actual);
+          val.textContent = sel ? sel.label : (lista[0]?.label || '');
+          btn.disabled = lista.length <= 1;
+        },
+      };
+    }
+    const mTema = menu('m-tema', (v) => { st.tema = v; st.limite = LOTE; aplicar(); });
+    const mCorte = menu('m-corte', (v) => { st.corte = v; st.limite = LOTE; aplicar(); });
+    const mOrden = menu('m-orden', (v) => { st.orden = v; aplicar(); });
+
+    function opciones() {
+      // los temas y cortes que existen en la categoría elegida (o en todas)
+      const sum = (obj) => { const acc = new Map(); Object.entries(obj).forEach(([cat, arr]) => { if (st.cat !== '*' && cat !== st.cat) return; arr.forEach((x) => { const k = x.tema ?? x.corte; acc.set(k, (acc.get(k) || 0) + x.n); }); }); return acc; };
+      const temas = [...sum(TEMAS)].sort((a, b) => a[0].localeCompare(b[0], 'es'));
+      if (st.tema && !temas.some(([t]) => t === st.tema)) st.tema = '';
+      mTema.set([{ v: '', label: 'Todos los temas', n: temas.reduce((a, [, n]) => a + n, 0) }, ...temas.map(([t, n]) => ({ v: t, label: t, n }))], st.tema);
+      const ORD = ['Censo 2024', 'Censo 2012', 'Cambio 2012–2024'];
+      const cortes = [...sum(CORTES)].sort((a, b) => ((ORD.indexOf(a[0]) + 99) % 99) - ((ORD.indexOf(b[0]) + 99) % 99) || a[0].localeCompare(b[0], 'es'));
+      if (st.corte && !cortes.some(([c]) => c === st.corte)) st.corte = '';
+      mCorte.set([{ v: '', label: 'Todos los cortes', n: cortes.reduce((a, [, n]) => a + n, 0) }, ...cortes.map(([c, n]) => ({ v: c, label: c, n }))], st.corte);
+      mOrden.set(ORDENES.map(([v, label]) => ({ v, label })), st.orden);
+    }
+
+    // ---- estado en la URL: ?q= ?cat= ?tema= ?corte= ?tag= ?orden= ?g= ----
     function leerURL() {
       const p = new URLSearchParams(location.search);
-      st.q = p.get('q') || ''; st.cat = p.get('cat') || '*'; st.tag = p.get('tag') || '';
-      st.orden = p.get('orden') === 'titulo' ? 'titulo' : 'recientes'; st.g = p.get('g') || '';
-      if (!chips.some((c) => c.dataset.cat === st.cat)) st.cat = '*';
+      st.q = p.get('q') || ''; st.cat = p.get('cat') || '*'; st.tema = p.get('tema') || ''; st.corte = p.get('corte') || '';
+      st.tag = p.get('tag') || ''; st.orden = p.get('orden') === 'titulo' ? 'titulo' : 'recientes'; st.g = p.get('g') || '';
+      if (!tabs.some((c) => c.dataset.cat === st.cat)) st.cat = '*';
     }
     function escribirURL() {
       const p = new URLSearchParams();
-      if (st.q) p.set('q', st.q); if (st.cat !== '*') p.set('cat', st.cat); if (st.tag) p.set('tag', st.tag);
-      if (st.orden !== 'recientes') p.set('orden', st.orden); if (st.g) p.set('g', st.g);
+      if (st.q) p.set('q', st.q); if (st.cat !== '*') p.set('cat', st.cat); if (st.tema) p.set('tema', st.tema); if (st.corte) p.set('corte', st.corte);
+      if (st.tag) p.set('tag', st.tag); if (st.orden !== 'recientes') p.set('orden', st.orden); if (st.g) p.set('g', st.g);
       const qs = p.toString();
       history.replaceState(null, '', location.pathname + (qs ? '?' + qs : ''));
     }
@@ -135,12 +213,15 @@ const desc = "Gráficas e indicadores de Bolivia con fuente verificada: mapas mu
     // ---- filtro + orden + lote ----
     let visibles = [];
     function aplicar() {
+      opciones();
       const q = norm(st.q).trim(), terms = q ? q.split(/\s+/) : [];
-      const tag = st.tag;
       visibles = cards.filter((c) => {
-        if (st.cat !== '*' && c.dataset.cat !== st.cat) return false;
-        if (tag && !(c.dataset.tags || '').split('|').includes(tag)) return false;
-        if (terms.length) { const h = c.dataset.heno || ''; if (!terms.every((t) => h.includes(t))) return false; }
+        const d = c.dataset;
+        if (st.cat !== '*' && d.cat !== st.cat) return false;
+        if (st.tema && d.tema !== st.tema) return false;
+        if (st.corte && d.corte !== st.corte) return false;
+        if (st.tag && !(d.tags || '').split('|').includes(st.tag)) return false;
+        if (terms.length && !terms.every((t) => (d.heno || '').includes(t))) return false;
         return true;
       });
       if (st.orden === 'titulo') visibles.sort((a, b) => a.dataset.titulo.localeCompare(b.dataset.titulo, 'es'));
@@ -151,21 +232,20 @@ const desc = "Gráficas e indicadores de Bolivia con fuente verificada: mapas mu
       const resto = Math.max(0, visibles.length - st.limite);
       mas.hidden = resto === 0;
       masBtn.textContent = `Mostrar más (${resto} restantes)`;
-      chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.cat === st.cat)));
-      // aviso cuando se llega filtrado desde afuera (o por etiqueta, que no tiene chip)
+      tabs.forEach((c) => c.setAttribute('aria-selected', String(c.dataset.cat === st.cat)));
+      conteo.textContent = `${visibles.length} gráfica${visibles.length === 1 ? '' : 's'}`;
+      // aviso sólo cuando el filtro llegó por la URL (etiqueta o búsqueda desde otra página)
       const partes = [];
       if (st.tag) partes.push(`etiqueta <b>${st.tag}</b>`);
-      if (st.q) partes.push(`búsqueda <b>${st.q}</b>`);
-      if (st.cat !== '*') { const ch = chips.find((c) => c.dataset.cat === st.cat); if (ch) partes.push(`categoría <b>${ch.firstChild.textContent}</b>`); }
+      if (st.q && document.activeElement !== busca) partes.push(`búsqueda <b>${st.q}</b>`);
       aviso.hidden = partes.length === 0;
       avisoTx.innerHTML = partes.length ? `Mostrando <b>${visibles.length}</b> de ${cards.length} gráficas · ${partes.join(' · ')}` : '';
       escribirURL();
     }
     busca.addEventListener('input', () => { st.q = busca.value; st.limite = LOTE; aplicar(); });
-    orden.addEventListener('change', () => { st.orden = orden.value; aplicar(); });
-    chips.forEach((ch) => ch.addEventListener('click', () => { st.cat = ch.dataset.cat; st.limite = LOTE; aplicar(); }));
+    tabs.forEach((ch) => ch.addEventListener('click', () => { st.cat = ch.dataset.cat; st.tema = ''; st.corte = ''; st.limite = LOTE; aplicar(); }));
     masBtn.addEventListener('click', () => { st.limite += LOTE; aplicar(); });
-    $('#aviso-x').addEventListener('click', () => { st.q = ''; st.cat = '*'; st.tag = ''; st.limite = LOTE; busca.value = ''; aplicar(); busca.focus(); });
+    $('#aviso-x').addEventListener('click', () => { st.q = ''; st.cat = '*'; st.tema = ''; st.corte = ''; st.tag = ''; st.limite = LOTE; busca.value = ''; aplicar(); busca.focus(); });
 
     // ---- visor: <dialog> nativo (foco, Esc y fondo resueltos por el navegador) ----
     const dlg = $('#visor'), vImg = $('#visor-img'), vT = $('#visor-t'), vSub = $('#visor-sub'), vF = $('#visor-fuente');
@@ -175,7 +255,7 @@ const desc = "Gráficas e indicadores de Bolivia con fuente verificada: mapas mu
     function mostrar(card) {
       actual = card; const d = card.dataset;
       vImg.src = d.img; vImg.alt = d.titulo;
-      vT.textContent = d.titulo; vSub.textContent = d.sub; vF.textContent = d.fuente.replace(/^Fuente:\s*/, '');
+      vT.textContent = d.titulo; vSub.textContent = d.sub; vF.textContent = (d.fuente || '').replace(/^Fuente:\s*/, '');
       vCat.textContent = d.catl; vCat.style.setProperty('--c', d.catc);
       vDl.href = d.img; vDl.download = d.slug + '.png';
       vAt.hidden = !d.enlace; vAt.href = d.enlace || '';
@@ -184,8 +264,8 @@ const desc = "Gráficas e indicadores de Bolivia con fuente verificada: mapas mu
       vTags.innerHTML = (d.tags || '').split('|').filter(Boolean).slice(0, 6)
         .map((t) => `<a class="tag" href="?tag=${encodeURIComponent(t)}">${t}</a>`).join('');
       vTags.querySelectorAll('a').forEach((a) => a.addEventListener('click', (e) => {
-        e.preventDefault(); dlg.close(); st.tag = a.textContent; st.q = ''; st.cat = '*'; st.limite = LOTE; busca.value = ''; aplicar();
-        window.scrollTo({ top: grid.offsetTop - 140, behavior: 'smooth' });
+        e.preventDefault(); dlg.close(); st.tag = a.textContent; st.q = ''; st.cat = '*'; st.tema = ''; st.corte = ''; st.limite = LOTE; busca.value = ''; aplicar();
+        window.scrollTo({ top: grid.offsetTop - 160, behavior: 'smooth' });
       }));
       const i = visibles.indexOf(card);
       vPrev.disabled = i <= 0; vNext.disabled = i < 0 || i >= visibles.length - 1;
@@ -210,10 +290,68 @@ const desc = "Gráficas e indicadores de Bolivia con fuente verificada: mapas mu
     }));
     document.addEventListener('keydown', (e) => { if (e.key === '/' && document.activeElement !== busca && !dlg.open) { e.preventDefault(); busca.focus(); } });
 
+    // ---- la lámina destacada rota ----
+    (function () {
+      const fig = document.getElementById('destacada'); if (!fig) return;
+      const imgs = [...fig.querySelectorAll('.marco img')], pts = [...fig.querySelectorAll('.puntos i')];
+      const t = document.getElementById('dest-t'), s = document.getElementById('dest-s'), a = document.getElementById('dest-a');
+      if (imgs.length < 2 || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      let i = 0;
+      setInterval(() => {
+        i = (i + 1) % imgs.length;
+        imgs.forEach((im, j) => im.classList.toggle('on', j === i)); pts.forEach((p, j) => p.classList.toggle('on', j === i));
+        t.textContent = imgs[i].dataset.titulo; s.textContent = imgs[i].dataset.sub; a.href = base.replace(/\/$/, '') + '/g/' + imgs[i].dataset.slug + '/';
+      }, 6000);
+    })();
+
     // ---- arranque ----
     leerURL();
-    busca.value = st.q; orden.value = st.orden;
+    busca.value = st.q;
     aplicar();
     if (st.g) { const c = cards.find((x) => x.dataset.slug === st.g); if (c) mostrar(c); else { st.g = ''; escribirURL(); } }
+  </script>
+
+  <!-- El cielo de la cabecera: la red de puntos de los portales POPULI, en los
+       colores de la marca. Se detiene cuando la cabecera sale de la pantalla y
+       cuando la pestaña no está visible; no corre si el lector pidió menos movimiento. -->
+  <script is:inline>
+    (function () {
+      const canvas = document.getElementById('cielo'); if (!canvas) return;
+      const host = canvas.parentElement, ctx = canvas.getContext('2d');
+      const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const RGB = '255,255,255', ORO = '238,155,0', CONNECT = 140, MR = 170;
+      let w = 0, h = 0, parts = [], raf = 0, activo = true, visible = true; const mouse = { x: -9999, y: -9999 };
+      function resize() { const dpr = Math.min(window.devicePixelRatio || 1, 2); w = host.offsetWidth; h = host.offsetHeight;
+        canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr); ctx.setTransform(dpr, 0, 0, dpr, 0, 0); }
+      function make() { const n = w < 768 ? 30 : 64; parts = [];
+        for (let i = 0; i < n; i++) { const b = Math.random() * 0.35 + 0.12;
+          parts.push({ x: Math.random() * w, y: Math.random() * h, vx: (Math.random() - .5) * .4, vy: (Math.random() - .5) * .4, r: Math.random() * 1.8 + .8, base: b, alpha: b, oro: Math.random() < .2 }); } }
+      function quieto() { ctx.clearRect(0, 0, w, h); for (const p of parts) { ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fillStyle = 'rgba(' + (p.oro ? ORO : RGB) + ',' + p.base + ')'; ctx.fill(); } }
+      function frame() {
+        ctx.clearRect(0, 0, w, h);
+        for (let i = 0; i < parts.length; i++) {
+          const p = parts[i], dx = mouse.x - p.x, dy = mouse.y - p.y, dist = Math.hypot(dx, dy);
+          if (dist < MR) { const f = ((MR - dist) / MR) * 0.008; p.vx += dx * f; p.vy += dy * f; p.alpha = p.base + (1 - dist / MR) * 0.4; }
+          else { p.alpha += (p.base - p.alpha) * 0.02; }
+          p.vx *= 0.99; p.vy *= 0.99; p.x += p.vx; p.y += p.vy;
+          if (p.x < 0) p.x = w; if (p.x > w) p.x = 0; if (p.y < 0) p.y = h; if (p.y > h) p.y = 0;
+          ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fillStyle = 'rgba(' + (p.oro ? ORO : RGB) + ',' + p.alpha + ')'; ctx.fill();
+          for (let j = i + 1; j < parts.length; j++) {
+            const q = parts[j], d = Math.hypot(p.x - q.x, p.y - q.y);
+            if (d < CONNECT) { let la = (1 - d / CONNECT) * 0.13; const mx = (p.x + q.x) / 2, my = (p.y + q.y) / 2, md = Math.hypot(mouse.x - mx, mouse.y - my);
+              if (md < MR) la += (1 - md / MR) * 0.13; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.strokeStyle = 'rgba(' + RGB + ',' + la + ')'; ctx.lineWidth = 0.6; ctx.stroke(); }
+          }
+        }
+        raf = (activo && visible) ? requestAnimationFrame(frame) : 0;
+      }
+      function arrancar() { if (!raf && activo && visible && !reduce) raf = requestAnimationFrame(frame); }
+      resize(); make();
+      if (reduce) { quieto(); } else { arrancar(); }
+      host.addEventListener('mousemove', (e) => { const r = canvas.getBoundingClientRect(); mouse.x = e.clientX - r.left; mouse.y = e.clientY - r.top; });
+      host.addEventListener('mouseleave', () => { mouse.x = -9999; mouse.y = -9999; });
+      new IntersectionObserver((en) => { activo = en[0].isIntersecting; arrancar(); }, { threshold: 0 }).observe(host);
+      document.addEventListener('visibilitychange', () => { visible = !document.hidden; arrancar(); });
+      let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { resize(); make(); if (reduce) quieto(); }, 120); });
+    })();
   </script>
 </Base>

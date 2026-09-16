@@ -14,5 +14,6 @@
   "formato": "mundo",
   "imagen": "graficas/mundo-solicitudes-de-patentes-residentes.png",
   "thumb": "thumbs/mundo-solicitudes-de-patentes-residentes.webp",
-  "datos": null
+  "datos": null,
+  "nota": "Solicitudes de patente son las solicitudes de patente presentadas en todo el mundo a través del procedimiento del Tratado de Cooperación en materia de Patentes o en una oficina nacional de patentes por los derechos exclusivos sobre un."
 }
