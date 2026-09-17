@@ -21,6 +21,13 @@ El push es forzado porque la rama se recrea desde cero (un commit sin padre).
 Si el entorno bloquea el push forzado, correrlo a mano:
 
     git push --force origin laminas
+
+⚠️ EL PUSH A `laminas` NO DISPARA LA ACTION (comprobado 2026-09-17): GitHub lee el
+workflow desde la rama empujada, y la huérfana no tiene `.github/`. El `push:
+branches: [laminas]` del deploy.yml es letra muerta. Por eso, después del push,
+este script dispara el workflow a mano (`gh workflow run deploy.yml --ref main`).
+Si `gh` no está, hay que dispararlo desde la pestaña Actions o hacer un push a main
+DESPUÉS de publicar las láminas; si no, el sitio se construye con las imágenes viejas.
 """
 import os
 import subprocess
@@ -34,6 +41,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parent.parent
 RAMA = "laminas"
+WORKFLOW = "deploy.yml"
 CARPETAS = ["public/graficas", "public/thumbs"]
 SIN_PUSH = "--sin-push" in sys.argv
 
@@ -77,6 +85,15 @@ def main():
         sys.exit("⛔ el push forzado falló (¿bloqueado por el entorno?). Correrlo a mano:\n"
                  f"    git push --force origin {RAMA}\n{r.stderr.strip()}")
     print(f"empujada: origin/{RAMA} = {commit[:7]}")
+
+    # La Action no se entera del push a la huérfana: se dispara a mano.
+    r = subprocess.run(["gh", "workflow", "run", WORKFLOW, "--ref", "main"], cwd=ROOT,
+                       text=True, capture_output=True, encoding="utf-8")
+    if r.returncode:
+        print("⚠️ no pude disparar la Action con gh; hacelo desde la pestaña Actions o con un push "
+              f"a main, si no el sitio queda con las láminas viejas.\n{r.stderr.strip()}")
+    else:
+        print(f"Action disparada ({WORKFLOW}, ref main): el sitio se construye con estas láminas.")
 
 
 if __name__ == "__main__":

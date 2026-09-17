@@ -1,8 +1,9 @@
 name: Construir y publicar galería
 
-# Se dispara al hacer push a `main` (código, fichas, manifiesto) o a `laminas`
-# (las imágenes), manualmente, o cuando un repo fuente envía un
-# repository_dispatch tras aportar una nueva gráfica.
+# Se dispara al hacer push a `main` (código, fichas, manifiesto), manualmente
+# (workflow_dispatch: lo lanza scripts/publicar_laminas.py después de empujar
+# las imágenes, porque un push a la huérfana `laminas` NO dispara nada: no lleva
+# este archivo), o cuando un repo fuente envía un repository_dispatch.
 on:
   push:
     branches: [main, laminas]

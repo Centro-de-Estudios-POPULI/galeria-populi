@@ -78,8 +78,12 @@ python viz/examples/<generador>.py --solo=<clave>   # genera PNG + WebP + ficha
 python viz/verificar.py                              # contrato
 git add -A && git commit                             # fichas + manifiesto (main)
 git push origin main
-python scripts/publicar_laminas.py                   # rama laminas (push forzado)
+python scripts/publicar_laminas.py                   # rama laminas (push forzado) + dispara la Action
 ```
+
+Un push a `laminas` no dispara la Action (la huérfana no lleva `.github/`), así que
+`publicar_laminas.py` la lanza con `gh workflow run` al terminar. Sin `gh`, lanzarla
+desde la pestaña Actions; si no, el sitio queda con las imágenes anteriores.
 
 Por qué: cada regeneración completa de los 606 mapas sumaba ~170 MB a `.git`.
 Con la rama de un commit el repo pesa lo que pesa la última versión, siempre.
