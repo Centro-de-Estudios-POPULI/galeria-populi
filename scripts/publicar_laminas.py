@@ -29,6 +29,9 @@ import tempfile
 from datetime import date
 from pathlib import Path
 
+# la consola de Windows es cp1252 y se atraganta con las flechas
+sys.stdout.reconfigure(encoding="utf-8")
+
 ROOT = Path(__file__).resolve().parent.parent
 RAMA = "laminas"
 CARPETAS = ["public/graficas", "public/thumbs"]
