@@ -4,3 +4,7 @@ dist/
 __pycache__/
 *.pyc
 .DS_Store
+# Las imágenes del Banco NO van en la historia de main: viven en la rama
+# huérfana `laminas` (scripts/publicar_laminas.py). En local siguen acá.
+public/graficas/
+public/thumbs/

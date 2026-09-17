@@ -1,10 +1,11 @@
 name: Construir y publicar galería
 
-# Se dispara al hacer push, manualmente, o cuando un repo fuente envía
-# un repository_dispatch tras aportar una nueva gráfica.
+# Se dispara al hacer push a `main` (código, fichas, manifiesto) o a `laminas`
+# (las imágenes), manualmente, o cuando un repo fuente envía un
+# repository_dispatch tras aportar una nueva gráfica.
 on:
   push:
-    branches: [main]
+    branches: [main, laminas]
   workflow_dispatch:
   repository_dispatch:
     types: [nueva-grafica]
@@ -22,15 +23,31 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # `main`: el sitio Astro, las fichas (data/catalogo) y src/manifest.json.
       - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      # `laminas`: las imágenes (public/graficas + public/thumbs), en una rama
+      # huérfana de UN solo commit que recrea scripts/publicar_laminas.py. No
+      # viven en la historia de `main` para que el repo no engorde con cada
+      # regeneración (2026-09-17).
+      - uses: actions/checkout@v4
+        with:
+          ref: laminas
+          path: _laminas
+
+      - run: |
+          cp -r _laminas/public/. public/
+          echo "láminas: $(ls public/graficas | wc -l) PNG · $(ls public/thumbs | wc -l) WebP"
 
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: npm
 
-      # Las gráficas (public/graficas, public/datos, src/manifest.json) se generan
-      # localmente con viz/ y se commitean. El CI solo construye la galería Astro.
+      # Las gráficas se generan localmente con viz/ (PNG a `laminas`, fichas y
+      # manifiesto a `main`). El CI solo construye la galería Astro.
       - run: npm ci
       - run: npm run build
 

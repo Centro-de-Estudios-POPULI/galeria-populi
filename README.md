@@ -67,8 +67,22 @@ npm run dev        # http://localhost:4321/galeria-populi/
 npm run build      # dist/
 ```
 
-Publicar = `git push` a `main`: la Action construye el sitio Astro y lo sube a
-Pages (las gráficas se generan en local y van commiteadas).
+Publicar = dos ramas. `main` lleva el código, las fichas (`data/catalogo`) y
+`src/manifest.json`; las IMÁGENES (`public/graficas`, `public/thumbs`) viven en
+la rama huérfana `laminas`, de un solo commit, que recrea
+`scripts/publicar_laminas.py`. La Action hace checkout de las dos, copia las
+imágenes a `public/` y construye el sitio Astro.
+
+```
+python viz/examples/<generador>.py --solo=<clave>   # genera PNG + WebP + ficha
+python viz/verificar.py                              # contrato
+git add -A && git commit                             # fichas + manifiesto (main)
+git push origin main
+python scripts/publicar_laminas.py                   # rama laminas (push forzado)
+```
+
+Por qué: cada regeneración completa de los 606 mapas sumaba ~170 MB a `.git`.
+Con la rama de un commit el repo pesa lo que pesa la última versión, siempre.
 
 ## Reglas que no se negocian
 
