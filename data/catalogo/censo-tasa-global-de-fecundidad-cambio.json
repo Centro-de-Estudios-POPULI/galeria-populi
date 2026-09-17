@@ -16,6 +16,7 @@
   "imagen": "graficas/censo-tasa-global-de-fecundidad-cambio.png",
   "thumb": "thumbs/censo-tasa-global-de-fecundidad-cambio.webp",
   "datos": null,
+  "nota": "No es la paridez media, que cuenta los hijos ya nacidos: la TGF resume las tasas por edad de un solo año en los hijos que tendría una mujer si se mantuvieran toda su vida. Cálculo directo del censo, calibrado a la población municipal del INE y suavizado hacia el departamento donde hay pocos nacimientos.",
   "clave": "tgf",
   "atlas": "censo",
   "modo": "cambio",

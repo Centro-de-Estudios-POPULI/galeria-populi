@@ -279,6 +279,9 @@ for grupo, ind in IND:
             meta={"slug": slug, "tipo": "mapa",
                   "titulo": titulo, "subtitulo": sub,
                   "fuente": FUENTE[modo] + ELAB, "categoria": "censo",
+                  # nota metodológica declarada en el catálogo (la TGF no es la
+                  # paridez media): va al pie de la lámina, no en el subtítulo
+                  "nota": ind.get("nota") or "",
                   "tags": [tag_modo, "municipios", col, grupo],
                   "fecha": FECHA, "formato": "red_vertical",
                   # ── vínculo declarado con el Atlas ──

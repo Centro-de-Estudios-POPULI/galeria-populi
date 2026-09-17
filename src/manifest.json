@@ -45,6 +45,7 @@
       "imagen": "graficas/censo-tasa-global-de-fecundidad-cambio.png",
       "thumb": "thumbs/censo-tasa-global-de-fecundidad-cambio.webp",
       "datos": null,
+      "nota": "No es la paridez media, que cuenta los hijos ya nacidos: la TGF resume las tasas por edad de un solo año en los hijos que tendría una mujer si se mantuvieran toda su vida. Cálculo directo del censo, calibrado a la población municipal del INE y suavizado hacia el departamento donde hay pocos nacimientos.",
       "clave": "tgf",
       "atlas": "censo",
       "modo": "cambio",
@@ -62,12 +63,12 @@
       },
       "ancho": 2160,
       "alto": 2700,
-      "kb": 234
+      "kb": 231
     },
     {
       "slug": "censo-tasa-global-de-fecundidad-2012",
       "titulo": "Bolivia: Tasa global de fecundidad (censo 2012)",
-      "subtitulo": "Hijos por mujer que resultan de las tasas de fecundidad por edad del año previo al censo, en mujeres de 15 a 49; método directo del censo (el del INE para 2024), con el denominador calibrado a la población municipal del INE y suavizado hacia el departamento donde hay pocos nacimientos — sobre las mujeres de 15 a 49 años, por municipio",
+      "subtitulo": "Hijos por mujer que tendría a lo largo de su vida con las tasas de fecundidad por edad del año previo al censo — sobre las mujeres de 15 a 49 años, por municipio",
       "categoria": "censo",
       "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
       "tags": [
@@ -82,6 +83,7 @@
       "imagen": "graficas/censo-tasa-global-de-fecundidad-2012.png",
       "thumb": "thumbs/censo-tasa-global-de-fecundidad-2012.webp",
       "datos": null,
+      "nota": "No es la paridez media, que cuenta los hijos ya nacidos: la TGF resume las tasas por edad de un solo año en los hijos que tendría una mujer si se mantuvieran toda su vida. Cálculo directo del censo, calibrado a la población municipal del INE y suavizado hacia el departamento donde hay pocos nacimientos.",
       "clave": "tgf",
       "atlas": "censo",
       "modo": "2012",
@@ -101,12 +103,12 @@
       },
       "ancho": 2160,
       "alto": 2700,
-      "kb": 223
+      "kb": 227
     },
     {
       "slug": "censo-tasa-global-de-fecundidad",
       "titulo": "Bolivia: Tasa global de fecundidad",
-      "subtitulo": "Hijos por mujer que resultan de las tasas de fecundidad por edad del año previo al censo, en mujeres de 15 a 49; método directo del censo (el del INE para 2024), con el denominador calibrado a la población municipal del INE y suavizado hacia el departamento donde hay pocos nacimientos — sobre las mujeres de 15 a 49 años, por municipio",
+      "subtitulo": "Hijos por mujer que tendría a lo largo de su vida con las tasas de fecundidad por edad del año previo al censo — sobre las mujeres de 15 a 49 años, por municipio",
       "categoria": "censo",
       "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
       "tags": [
@@ -121,6 +123,7 @@
       "imagen": "graficas/censo-tasa-global-de-fecundidad.png",
       "thumb": "thumbs/censo-tasa-global-de-fecundidad.webp",
       "datos": null,
+      "nota": "No es la paridez media, que cuenta los hijos ya nacidos: la TGF resume las tasas por edad de un solo año en los hijos que tendría una mujer si se mantuvieran toda su vida. Cálculo directo del censo, calibrado a la población municipal del INE y suavizado hacia el departamento donde hay pocos nacimientos.",
       "clave": "tgf",
       "atlas": "censo",
       "modo": "2024",
@@ -140,7 +143,7 @@
       },
       "ancho": 2160,
       "alto": 2700,
-      "kb": 229
+      "kb": 228
     },
     {
       "slug": "censo-indice-masculinidad-cambio",
