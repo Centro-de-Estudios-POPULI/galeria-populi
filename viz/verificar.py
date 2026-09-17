@@ -204,6 +204,17 @@ if not RAPIDO and (ATL / "data.json").exists():
         else:
             esperado = ponderado(ind["key"], ind)
         real = f["escala"].get("piv_real")
+        # pivote DECLARADO en el catálogo (TGF → reemplazo 2,1): el ancla es ese
+        # número y el país tiene que viajar como segunda referencia (`ref2`)
+        if ind.get("piv") is not None:
+            r2 = f["escala"].get("ref2")
+            if real is None or abs(real - float(ind["piv"])) > 1e-9:
+                n_dif.append((f["slug"], f"{real} vs pivote declarado {ind['piv']}"))
+            elif esperado is not None and (r2 is None or abs(r2 - esperado) > 1e-6):
+                n_dif.append((f["slug"], f"ref2 {r2} vs país {esperado}"))
+            else:
+                n_ok += 1
+            continue
         if esperado is None:
             if f["escala"].get("piv_tipo") != "mediana":
                 n_dif.append((f["slug"], "debía ser mediana"))

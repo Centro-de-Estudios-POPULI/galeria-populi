@@ -165,7 +165,8 @@ DIV_ATLAS = [c.lower() for c in _pal.DIVERGING_MAPA]
 
 
 def escala_atlas(valores, pesos=None, direccion=0, con_signo=False,
-                 dominio=None, conteo=False, pivote=None, piv_tipo=None):
+                 dominio=None, conteo=False, pivote=None, piv_tipo=None,
+                 ref2=None, ref2_tipo=None):
     """Escala divergente de ancla real, idéntica a la de los atlas web.
 
     valores    : serie de valores municipales (los NaN se ignoran)
@@ -207,6 +208,11 @@ def escala_atlas(valores, pesos=None, direccion=0, con_signo=False,
     con_signo  : variables que cruzan el cero (resultado fiscal). Ahí el pivote
                  con sentido es el CERO, no un promedio, y el dominio se hace
                  simétrico para que el rojo y el petróleo pesen igual.
+    ref2       : ★ SEGUNDA REFERENCIA (2026-09-17). Cuando el catálogo declara
+                 un pivote con sentido propio (la TGF se centra en el nivel de
+                 reemplazo, 2,1 hijos), el país no deja de importar: viaja acá
+                 con su nombre en `ref2_tipo` («país 2024») y la leyenda lo
+                 marca y lo nombra, igual que la web. No mueve la rampa.
 
     Devuelve (cmap, norm, info) con info = dict(lo, piv, hi, piv_tipo, min, max,
     recorte) — `lo`/`hi` son p02/p98, así que la leyenda debe rotularlos con
@@ -276,6 +282,8 @@ def escala_atlas(valores, pesos=None, direccion=0, con_signo=False,
     info = {"lo": lo, "piv": piv, "piv_real": piv_real, "hi": hi, "piv_tipo": piv_tipo,
             "min": float(vv.min()), "max": float(vv.max()),
             "recorte": bool(declarado or con_signo or vv.min() < lo or vv.max() > hi)}
+    if ref2 is not None and _np.isfinite(float(ref2)):
+        info["ref2"], info["ref2_tipo"] = float(ref2), (ref2_tipo or "país")
     return cmap, norm, info
 
 

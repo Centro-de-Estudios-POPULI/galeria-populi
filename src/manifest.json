@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generado": "2026-09-16",
-    "n": 832,
+    "generado": "2026-09-17",
+    "n": 835,
     "municipios": 343
   },
   "categorias": {
@@ -27,6 +27,121 @@
     }
   },
   "graficas": [
+    {
+      "slug": "censo-tasa-global-de-fecundidad-cambio",
+      "titulo": "Bolivia: Tasa global de fecundidad, cambio 2012–2024",
+      "subtitulo": "Diferencia entre los censos de 2012 y 2024, en hijos — sobre las mujeres de 15 a 49 años, por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "cambio 2012-2024",
+        "municipios",
+        "tgf",
+        "Salud"
+      ],
+      "fecha": "2026-09-17",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-tasa-global-de-fecundidad-cambio.png",
+      "thumb": "thumbs/censo-tasa-global-de-fecundidad-cambio.webp",
+      "datos": null,
+      "clave": "tgf",
+      "atlas": "censo",
+      "modo": "cambio",
+      "anio": "2012-2024",
+      "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tgf&a=cambio",
+      "grupo": "Salud",
+      "universo": "sobre las mujeres de 15 a 49 años",
+      "unidad": "hijos",
+      "escala": {
+        "lo": -2.6283,
+        "piv": 0.0,
+        "piv_real": 0.0,
+        "hi": 2.6283,
+        "piv_tipo": "sin cambio"
+      },
+      "ancho": 2160,
+      "alto": 2700,
+      "kb": 234
+    },
+    {
+      "slug": "censo-tasa-global-de-fecundidad-2012",
+      "titulo": "Bolivia: Tasa global de fecundidad (censo 2012)",
+      "subtitulo": "Hijos por mujer que resultan de las tasas de fecundidad por edad del año previo al censo, en mujeres de 15 a 49; método directo del censo (el del INE para 2024), con el denominador calibrado a la población municipal del INE y suavizado hacia el departamento donde hay pocos nacimientos — sobre las mujeres de 15 a 49 años, por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2012",
+        "municipios",
+        "tgf",
+        "Salud"
+      ],
+      "fecha": "2026-09-17",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-tasa-global-de-fecundidad-2012.png",
+      "thumb": "thumbs/censo-tasa-global-de-fecundidad-2012.webp",
+      "datos": null,
+      "clave": "tgf",
+      "atlas": "censo",
+      "modo": "2012",
+      "anio": "2012",
+      "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tgf&a=2012",
+      "grupo": "Salud",
+      "universo": "sobre las mujeres de 15 a 49 años",
+      "unidad": "hijos",
+      "escala": {
+        "lo": 1.3232,
+        "piv": 2.1,
+        "piv_real": 2.1,
+        "hi": 4.8793,
+        "piv_tipo": "reemplazo",
+        "ref2": 1.6754302038321836,
+        "ref2_tipo": "país 2024"
+      },
+      "ancho": 2160,
+      "alto": 2700,
+      "kb": 223
+    },
+    {
+      "slug": "censo-tasa-global-de-fecundidad",
+      "titulo": "Bolivia: Tasa global de fecundidad",
+      "subtitulo": "Hijos por mujer que resultan de las tasas de fecundidad por edad del año previo al censo, en mujeres de 15 a 49; método directo del censo (el del INE para 2024), con el denominador calibrado a la población municipal del INE y suavizado hacia el departamento donde hay pocos nacimientos — sobre las mujeres de 15 a 49 años, por municipio",
+      "categoria": "censo",
+      "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "censo 2024",
+        "municipios",
+        "tgf",
+        "Salud"
+      ],
+      "fecha": "2026-09-17",
+      "tipo": "mapa",
+      "formato": "red_vertical",
+      "imagen": "graficas/censo-tasa-global-de-fecundidad.png",
+      "thumb": "thumbs/censo-tasa-global-de-fecundidad.webp",
+      "datos": null,
+      "clave": "tgf",
+      "atlas": "censo",
+      "modo": "2024",
+      "anio": "2024",
+      "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tgf",
+      "grupo": "Salud",
+      "universo": "sobre las mujeres de 15 a 49 años",
+      "unidad": "hijos",
+      "escala": {
+        "lo": 1.3232,
+        "piv": 2.1,
+        "piv_real": 2.1,
+        "hi": 4.8793,
+        "piv_tipo": "reemplazo",
+        "ref2": 1.6754302038321836,
+        "ref2_tipo": "país 2024"
+      },
+      "ancho": 2160,
+      "alto": 2700,
+      "kb": 229
+    },
     {
       "slug": "censo-indice-masculinidad-cambio",
       "titulo": "Bolivia: Índice de masculinidad, cambio 2012–2024",

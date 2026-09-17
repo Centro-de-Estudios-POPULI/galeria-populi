@@ -174,6 +174,29 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
         # para que la rampa no se degenere, y el número es el REAL
         if _recortado:
             lineas.append(f"*marca en {num(info['piv'])}")
+        # ── SEGUNDA REFERENCIA ──────────────────────────────────────────────
+        # Si el pivote es un umbral declarado (reemplazo 2,1 en la TGF), el
+        # país sigue en la leyenda como marca fina en la barra y un renglón
+        # («país 2024 1,7 hijos»), como en la web. Se dibuja sólo si cae
+        # dentro de la barra y no se pisa con el pivote.
+        _r2 = info.get("ref2")
+        if _r2 is not None and lo_lbl < _r2 < hi_lbl and abs(_r2 - info["piv"]) > (hi_lbl - lo_lbl) * .04:
+            frac = float(norm(_r2))                    # 0 = abajo, 1 = arriba, 0,5 = pivote
+            bar.axhline((1 - frac) * 255, color=ps.COLORS["fondo"], lw=1.6 * sc, zorder=4)
+            bar.axhline((1 - frac) * 255, color=ps.COLORS["gris"], lw=0.7 * sc, zorder=5)
+            r2_tipo = info.get("ref2_tipo", "país")
+            # Con aire respecto de los extremos y del pivote, se rotula EN SU
+            # FILA (caption a la izquierda, cifra a la derecha, en gris) y no
+            # se roba un renglón que se estira sobre el mapa. Si no cabe, va a
+            # los renglones de abajo.
+            if 0.09 < frac < 0.91 and abs(frac - 0.5) > 0.09:
+                y_r2 = bar_top - bar_h * (1 - frac)
+                fig.text((bar_x - 5 * sc) / W, y_r2 / H, r2_tipo, fontproperties=f_cap,
+                         color=ps.COLORS["gris"], va="center", ha="right")
+                fig.text(right / W, y_r2 / H, num(_r2), fontproperties=f_num,
+                         color=ps.COLORS["gris"], va="center", ha="right")
+            else:
+                lineas.append(f"{r2_tipo} {num(_r2)}")
         if lineas:
             f_ex = ps.fp(ps.MONO, ps.SIZES["leyenda"] * sc * 0.78)
             # En renglones y no en una línea corrida: se estiraba más allá del

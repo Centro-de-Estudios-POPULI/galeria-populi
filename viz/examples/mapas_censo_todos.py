@@ -63,7 +63,7 @@ ATLAS = (VIZ.parent.parent / "Observatorio de Presupuesto Fiscal Departamental"
          / "_github_atlas_fiscal")
 ATLAS_URL = "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html"
 CAT_ATLAS = ATLAS / "catalogo.json"
-FECHA = "2026-09-16"
+FECHA = "2026-09-17"
 AUTOR = "Carlos Aranda"
 FUENTE = {
     "2024": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024.",
@@ -223,13 +223,22 @@ for grupo, ind in IND:
             escala = ps.escala_atlas(gdf["_v"], direccion=ind.get("dir", 0),
                                      con_signo=True, dominio=dom, piv_tipo="sin cambio")
         else:
-            piv, tipo = None, None
+            piv, tipo, ref2, ref2_tipo = None, None, None, None
             if not es_conteo(ind):
                 piv = pais_de(ind, "2024")            # el país de 2024 en los DOS censos
                 tipo = "país 2024"
+            # ★ PIVOTE DECLARADO (2026-09-17): si el catálogo trae `piv` (la TGF
+            #   se centra en el nivel de reemplazo, 2,1), la rampa se centra ahí en
+            #   los dos censos —el cambio sigue en cero— y el país pasa a ser una
+            #   SEGUNDA referencia que la leyenda sigue mostrando. = `escala()` del HTML.
+            if ind.get("piv") is not None:
+                if tipo != "mediana" and piv is not None:
+                    ref2, ref2_tipo = piv, tipo
+                piv, tipo = float(ind["piv"]), ind.get("pivl") or "referencia"
             escala = ps.escala_atlas(gdf["_v"], direccion=ind.get("dir", 0),
                                      dominio=ind.get("dom"), conteo=es_conteo(ind),
-                                     pivote=piv, piv_tipo=tipo)
+                                     pivote=piv, piv_tipo=tipo,
+                                     ref2=ref2, ref2_tipo=ref2_tipo)
         cmap, norm, info = escala
         fmt, suf, miles = formato_de(ind, modo)
 
@@ -277,7 +286,8 @@ for grupo, ind in IND:
                   "anio": {"2024": "2024", "2012": "2012", "cambio": "2012-2024"}[modo],
                   "enlace": enlace, "grupo": grupo,
                   "universo": ind.get("universo"), "unidad": unidad_modo(ind, modo),
-                  "escala": {k: info[k] for k in ("lo", "piv", "piv_real", "hi", "piv_tipo")}},
+                  "escala": {k: info[k] for k in ("lo", "piv", "piv_real", "hi", "piv_tipo",
+                                                  "ref2", "ref2_tipo") if k in info}},
             df=(gdf[["sigep", "municipio", "dpto", "_v"]]
                 .rename(columns={"municipio": "nombre", "_v": col}).set_index("sigep")),
             gdf=gdf, value_col="_v", sufijo=suf, label_fmt=fmt, miles=miles,

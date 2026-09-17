@@ -1,0 +1,36 @@
+{
+  "slug": "censo-tasa-global-de-fecundidad",
+  "titulo": "Bolivia: Tasa global de fecundidad",
+  "subtitulo": "Hijos por mujer que resultan de las tasas de fecundidad por edad del año previo al censo, en mujeres de 15 a 49; método directo del censo (el del INE para 2024), con el denominador calibrado a la población municipal del INE y suavizado hacia el departamento donde hay pocos nacimientos — sobre las mujeres de 15 a 49 años, por municipio",
+  "categoria": "censo",
+  "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "censo 2024",
+    "municipios",
+    "tgf",
+    "Salud"
+  ],
+  "fecha": "2026-09-17",
+  "tipo": "mapa",
+  "formato": "red_vertical",
+  "imagen": "graficas/censo-tasa-global-de-fecundidad.png",
+  "thumb": "thumbs/censo-tasa-global-de-fecundidad.webp",
+  "datos": null,
+  "clave": "tgf",
+  "atlas": "censo",
+  "modo": "2024",
+  "anio": "2024",
+  "enlace": "https://centro-de-estudios-populi.github.io/Atlas-Fiscal-Municipal/Mapa_Censo_2024_Bolivia.html#i=tgf",
+  "grupo": "Salud",
+  "universo": "sobre las mujeres de 15 a 49 años",
+  "unidad": "hijos",
+  "escala": {
+    "lo": 1.3232,
+    "piv": 2.1,
+    "piv_real": 2.1,
+    "hi": 4.8793,
+    "piv_tipo": "reemplazo",
+    "ref2": 1.6754302038321836,
+    "ref2_tipo": "país 2024"
+  }
+}
