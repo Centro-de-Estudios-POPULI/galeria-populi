@@ -1,6 +1,6 @@
 {
   "slug": "censo-bano-de-uso-exclusivo-del-hogar-2012",
-  "titulo": "Bolivia: Baño de uso exclusivo del hogar (censo 2012)",
+  "titulo": "Bolivia: Baño de uso exclusivo del hogar",
   "subtitulo": "Viviendas cuyo baño usa sólo el hogar que vive ahí — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_sanitario_exclusivo",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-bano-de-uso-exclusivo-del-hogar-2012.png",
   "thumb": "thumbs/censo-bano-de-uso-exclusivo-del-hogar-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_sanitario_exclusivo",
   "atlas": "censo",
   "modo": "2012",

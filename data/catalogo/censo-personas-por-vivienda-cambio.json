@@ -1,6 +1,6 @@
 {
   "slug": "censo-personas-por-vivienda-cambio",
-  "titulo": "Bolivia: Personas por vivienda, cambio 2012–2024",
+  "titulo": "Bolivia: Personas por vivienda",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en pers — sobre los hogares, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pers_x_vivienda",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-personas-por-vivienda-cambio.png",
   "thumb": "thumbs/censo-personas-por-vivienda-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pers_x_vivienda",
   "atlas": "censo",
   "modo": "cambio",

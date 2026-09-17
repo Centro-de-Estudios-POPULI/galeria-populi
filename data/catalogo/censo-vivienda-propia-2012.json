@@ -1,6 +1,6 @@
 {
   "slug": "censo-vivienda-propia-2012",
-  "titulo": "Bolivia: Vivienda propia (censo 2012)",
+  "titulo": "Bolivia: Vivienda propia",
   "subtitulo": "Hogares que son dueños de la casa donde viven, la estén terminando de pagar o no — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_vivienda_propia",
     "Tenencia"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-vivienda-propia-2012.png",
   "thumb": "thumbs/censo-vivienda-propia-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_vivienda_propia",
   "atlas": "censo",
   "modo": "2012",

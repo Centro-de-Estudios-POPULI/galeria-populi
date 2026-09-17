@@ -1,6 +1,6 @@
 {
   "slug": "censo-dependencia-senil-2012",
-  "titulo": "Bolivia: Dependencia senil (censo 2012)",
+  "titulo": "Bolivia: Dependencia senil",
   "subtitulo": "Cuántas personas de sesenta y cinco o más hay por cada cien en edad activa — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "dep_senil",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-dependencia-senil-2012.png",
   "thumb": "thumbs/censo-dependencia-senil-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "dep_senil",
   "atlas": "censo",
   "modo": "2012",

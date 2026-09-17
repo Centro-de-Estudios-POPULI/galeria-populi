@@ -1,6 +1,6 @@
 {
   "slug": "censo-tamano-hogar-2012",
-  "titulo": "Bolivia: Personas por hogar (censo 2012)",
+  "titulo": "Bolivia: Personas por hogar",
   "subtitulo": "Cuántas personas viven, en promedio, en cada hogar — sobre los hogares, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "tam_hogar",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-tamano-hogar-2012.png",
   "thumb": "thumbs/censo-tamano-hogar-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "tam_hogar",
   "atlas": "censo",
   "modo": "2012",

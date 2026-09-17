@@ -1,6 +1,6 @@
 {
   "slug": "censo-basura-a-terreno-baldio-calle-o-rio-2012",
-  "titulo": "Bolivia: Basura a terreno baldío, calle o río (censo 2012)",
+  "titulo": "Bolivia: Basura a terreno baldío, calle o río",
   "subtitulo": "Viviendas que botan la basura a un terreno baldío, la calle o el río; es lo que termina en los cursos de agua — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_basura_informal",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-basura-a-terreno-baldio-calle-o-rio-2012.png",
   "thumb": "thumbs/censo-basura-a-terreno-baldio-calle-o-rio-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_basura_informal",
   "atlas": "censo",
   "modo": "2012",

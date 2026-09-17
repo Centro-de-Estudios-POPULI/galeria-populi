@@ -1,6 +1,6 @@
 {
   "slug": "censo-cuenta-propia-2012",
-  "titulo": "Bolivia: Trabajadores por cuenta propia (censo 2012)",
+  "titulo": "Bolivia: Trabajadores por cuenta propia",
   "subtitulo": "Personas ocupadas que trabajan por su cuenta, sin patrón ni empleados — sobre la población ocupada, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_cuenta_propia",
     "Empleo"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-cuenta-propia-2012.png",
   "thumb": "thumbs/censo-cuenta-propia-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_cuenta_propia",
   "atlas": "censo",
   "modo": "2012",

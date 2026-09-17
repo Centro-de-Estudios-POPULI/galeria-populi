@@ -1,6 +1,6 @@
 {
   "slug": "censo-nbi-agua-saneamiento-2012",
-  "titulo": "Bolivia: NBI: Agua y saneamiento (censo 2012)",
+  "titulo": "Bolivia: NBI: Agua y saneamiento",
   "subtitulo": "Población sin acceso adecuado a agua o a saneamiento — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_nbi_agua_sanea",
     "Componentes NBI"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-agua-saneamiento-2012.png",
   "thumb": "thumbs/censo-nbi-agua-saneamiento-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_nbi_agua_sanea",
   "atlas": "censo",
   "modo": "2012",

@@ -1,6 +1,6 @@
 {
   "slug": "censo-residia-en-otro-municipio-2012",
-  "titulo": "Bolivia: Residía en otro municipio (censo 2012)",
+  "titulo": "Bolivia: Residía en otro municipio",
   "subtitulo": "Personas cuya residencia habitual declarada está en otro municipio — sobre la población",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_residia_otro_mun",
     "Migración interna"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-residia-en-otro-municipio-2012.png",
   "thumb": "thumbs/censo-residia-en-otro-municipio-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_residia_otro_mun",
   "atlas": "censo",
   "modo": "2012",

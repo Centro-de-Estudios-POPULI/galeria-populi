@@ -1,6 +1,6 @@
 {
   "slug": "censo-hacinamiento-2012",
-  "titulo": "Bolivia: Viviendas con hacinamiento (censo 2012)",
+  "titulo": "Bolivia: Viviendas con hacinamiento",
   "subtitulo": "Viviendas donde duermen más de tres personas por dormitorio; es el umbral con el que se mide el hacinamiento crítico — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_hacinamiento",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hacinamiento-2012.png",
   "thumb": "thumbs/censo-hacinamiento-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_hacinamiento",
   "atlas": "censo",
   "modo": "2012",

@@ -1,6 +1,6 @@
 {
   "slug": "censo-trabajo-familiar-cambio",
-  "titulo": "Bolivia: Trabajo familiar sin pago, cambio 2012–2024",
+  "titulo": "Bolivia: Trabajo familiar sin pago",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población ocupada, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_trab_familiar",
     "Empleo"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-trabajo-familiar-cambio.png",
   "thumb": "thumbs/censo-trabajo-familiar-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_trab_familiar",
   "atlas": "censo",
   "modo": "cambio",

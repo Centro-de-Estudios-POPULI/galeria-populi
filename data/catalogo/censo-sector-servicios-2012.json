@@ -1,6 +1,6 @@
 {
   "slug": "censo-sector-servicios-2012",
-  "titulo": "Bolivia: Sector servicios (censo 2012)",
+  "titulo": "Bolivia: Sector servicios",
   "subtitulo": "Personas ocupadas en servicios, que es donde trabaja la mayoría en una economía urbana — sobre la población ocupada, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_sector_servicios",
     "Empleo"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-sector-servicios-2012.png",
   "thumb": "thumbs/censo-sector-servicios-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_sector_servicios",
   "atlas": "censo",
   "modo": "2012",

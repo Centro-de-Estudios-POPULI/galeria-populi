@@ -1,6 +1,6 @@
 {
   "slug": "censo-personas-por-vivienda-2012",
-  "titulo": "Bolivia: Personas por vivienda (censo 2012)",
+  "titulo": "Bolivia: Personas por vivienda",
   "subtitulo": "Cuántas personas viven, en promedio, en cada vivienda ocupada. Es la misma cuenta que «Personas por hogar»: el censo toma cada vivienda particular ocupada como un hogar — sobre los hogares, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pers_x_vivienda",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-personas-por-vivienda-2012.png",
   "thumb": "thumbs/censo-personas-por-vivienda-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pers_x_vivienda",
   "atlas": "censo",
   "modo": "2012",

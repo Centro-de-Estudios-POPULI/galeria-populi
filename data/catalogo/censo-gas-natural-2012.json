@@ -1,6 +1,6 @@
 {
   "slug": "censo-gas-natural-2012",
-  "titulo": "Bolivia: Con gas natural a domicilio (censo 2012)",
+  "titulo": "Bolivia: Con gas natural a domicilio",
   "subtitulo": "Viviendas con gas domiciliario por cañería, la forma más barata y segura de cocinar — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_gas_natural",
     "Energía y Cocina"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-gas-natural-2012.png",
   "thumb": "thumbs/censo-gas-natural-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_gas_natural",
   "atlas": "censo",
   "modo": "2012",

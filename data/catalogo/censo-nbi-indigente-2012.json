@@ -1,6 +1,6 @@
 {
   "slug": "censo-nbi-indigente-2012",
-  "titulo": "Bolivia: Indigencia (censo 2012)",
+  "titulo": "Bolivia: Indigencia",
   "subtitulo": "Población en indigencia, con carencias graves en varias dimensiones a la vez — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_nbi_indigente",
     "Pobreza (NBI)"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-indigente-2012.png",
   "thumb": "thumbs/censo-nbi-indigente-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_nbi_indigente",
   "atlas": "censo",
   "modo": "2012",

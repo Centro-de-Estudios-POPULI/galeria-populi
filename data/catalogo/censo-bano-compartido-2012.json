@@ -1,6 +1,6 @@
 {
   "slug": "censo-bano-compartido-2012",
-  "titulo": "Bolivia: Baño compartido (censo 2012)",
+  "titulo": "Bolivia: Baño compartido",
   "subtitulo": "Viviendas que comparten el baño con otros hogares — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_sanitario_compartido",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-bano-compartido-2012.png",
   "thumb": "thumbs/censo-bano-compartido-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_sanitario_compartido",
   "atlas": "censo",
   "modo": "2012",

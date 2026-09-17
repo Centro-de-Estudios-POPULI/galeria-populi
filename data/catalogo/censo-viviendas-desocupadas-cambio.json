@@ -1,6 +1,6 @@
 {
   "slug": "censo-viviendas-desocupadas-cambio",
-  "titulo": "Bolivia: Viviendas desocupadas, cambio 2012–2024",
+  "titulo": "Bolivia: Viviendas desocupadas",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre todas las viviendas particulares, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_vivienda_desocupada",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-viviendas-desocupadas-cambio.png",
   "thumb": "thumbs/censo-viviendas-desocupadas-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_vivienda_desocupada",
   "atlas": "censo",
   "modo": "cambio",

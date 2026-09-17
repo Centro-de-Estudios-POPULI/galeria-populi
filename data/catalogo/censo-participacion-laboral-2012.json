@@ -1,6 +1,6 @@
 {
   "slug": "censo-participacion-laboral-2012",
-  "titulo": "Bolivia: Tasa de participación laboral (censo 2012)",
+  "titulo": "Bolivia: Tasa de participación laboral",
   "subtitulo": "Qué proporción de la población en edad de trabajar está trabajando o buscando trabajo — sobre la población en edad de trabajar (15 años o más), por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "tasa_participacion",
     "Empleo"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-participacion-laboral-2012.png",
   "thumb": "thumbs/censo-participacion-laboral-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "tasa_participacion",
   "atlas": "censo",
   "modo": "2012",

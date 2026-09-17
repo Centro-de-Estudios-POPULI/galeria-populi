@@ -1,6 +1,6 @@
 {
   "slug": "censo-menores-de-20-anos-2012",
-  "titulo": "Bolivia: Menores de 20 años (censo 2012)",
+  "titulo": "Bolivia: Menores de 20 años",
   "subtitulo": "Población que aún no cumplió veinte años — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_menor20",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-menores-de-20-anos-2012.png",
   "thumb": "thumbs/censo-menores-de-20-anos-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_menor20",
   "atlas": "censo",
   "modo": "2012",

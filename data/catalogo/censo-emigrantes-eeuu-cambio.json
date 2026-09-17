@@ -1,6 +1,6 @@
 {
   "slug": "censo-emigrantes-eeuu-cambio",
-  "titulo": "Bolivia: Emigrantes en EE.UU., cambio 2012–2024",
+  "titulo": "Bolivia: Emigrantes en EE.UU.",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre las personas que emigraron al exterior, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_emi_eeuu",
     "Emigración internacional"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-emigrantes-eeuu-cambio.png",
   "thumb": "thumbs/censo-emigrantes-eeuu-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_emi_eeuu",
   "atlas": "censo",
   "modo": "cambio",

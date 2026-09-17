@@ -1,6 +1,6 @@
 {
   "slug": "censo-quema-la-basura-2012",
-  "titulo": "Bolivia: Quema la basura (censo 2012)",
+  "titulo": "Bolivia: Quema la basura",
   "subtitulo": "Viviendas que queman su basura — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_basura_quema",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-quema-la-basura-2012.png",
   "thumb": "thumbs/censo-quema-la-basura-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_basura_quema",
   "atlas": "censo",
   "modo": "2012",

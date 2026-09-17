@@ -1,6 +1,6 @@
 {
   "slug": "censo-agua-caneria-2012",
-  "titulo": "Bolivia: Agua por cañería (censo 2012)",
+  "titulo": "Bolivia: Agua por cañería",
   "subtitulo": "Viviendas cuya agua llega desde una red pública de cañerías — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_agua_caneria",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-agua-caneria-2012.png",
   "thumb": "thumbs/censo-agua-caneria-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_agua_caneria",
   "atlas": "censo",
   "modo": "2012",

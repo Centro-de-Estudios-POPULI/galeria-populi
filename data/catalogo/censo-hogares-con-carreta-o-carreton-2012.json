@@ -1,6 +1,6 @@
 {
   "slug": "censo-hogares-con-carreta-o-carreton-2012",
-  "titulo": "Bolivia: Hogares con carreta o carretón (censo 2012)",
+  "titulo": "Bolivia: Hogares con carreta o carretón",
   "subtitulo": "Hogares con carreta o carretón — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_carreta",
     "Tecnología y Conectividad"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hogares-con-carreta-o-carreton-2012.png",
   "thumb": "thumbs/censo-hogares-con-carreta-o-carreton-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_carreta",
   "atlas": "censo",
   "modo": "2012",

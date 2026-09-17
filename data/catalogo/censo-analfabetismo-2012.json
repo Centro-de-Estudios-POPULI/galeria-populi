@@ -1,6 +1,6 @@
 {
   "slug": "censo-analfabetismo-2012",
-  "titulo": "Bolivia: Analfabetismo (15+) (censo 2012)",
+  "titulo": "Bolivia: Analfabetismo (15+)",
   "subtitulo": "Personas de quince años o más que no saben leer ni escribir — sobre la población de 15 años o más, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_analfabetismo",
     "Educación"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-analfabetismo-2012.png",
   "thumb": "thumbs/censo-analfabetismo-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_analfabetismo",
   "atlas": "censo",
   "modo": "2012",

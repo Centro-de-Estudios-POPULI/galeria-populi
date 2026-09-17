@@ -1,6 +1,6 @@
 {
   "slug": "censo-edad-fallecimiento-2012",
-  "titulo": "Bolivia: Edad promedio de fallecimiento (censo 2012)",
+  "titulo": "Bolivia: Edad promedio de fallecimiento",
   "subtitulo": "A qué edad, en promedio, murieron las personas declaradas — sobre las personas fallecidas declaradas en el período, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "edad_prom_fallecimiento",
     "Mortalidad"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-fallecimiento-2012.png",
   "thumb": "thumbs/censo-edad-fallecimiento-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "edad_prom_fallecimiento",
   "atlas": "censo",
   "modo": "2012",

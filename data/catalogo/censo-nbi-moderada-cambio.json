@@ -1,6 +1,6 @@
 {
   "slug": "censo-nbi-moderada-cambio",
-  "titulo": "Bolivia: Pobreza moderada, cambio 2012–2024",
+  "titulo": "Bolivia: Pobreza moderada",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_nbi_moderada",
     "Pobreza (NBI)"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-moderada-cambio.png",
   "thumb": "thumbs/censo-nbi-moderada-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_nbi_moderada",
   "atlas": "censo",
   "modo": "cambio",

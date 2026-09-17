@@ -1,6 +1,6 @@
 {
   "slug": "censo-motor-propio-o-generador-2012",
-  "titulo": "Bolivia: Motor propio o generador (censo 2012)",
+  "titulo": "Bolivia: Motor propio o generador",
   "subtitulo": "Viviendas que generan su propia electricidad con motor — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_motor_propio",
     "Energía y Cocina"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-motor-propio-o-generador-2012.png",
   "thumb": "thumbs/censo-motor-propio-o-generador-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_motor_propio",
   "atlas": "censo",
   "modo": "2012",

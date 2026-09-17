@@ -1,6 +1,6 @@
 {
   "slug": "censo-trabajo-familiar-2012",
-  "titulo": "Bolivia: Trabajo familiar sin pago (censo 2012)",
+  "titulo": "Bolivia: Trabajo familiar sin pago",
   "subtitulo": "Personas que trabajan en el negocio o la parcela familiar sin recibir pago — sobre la población ocupada, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_trab_familiar",
     "Empleo"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-trabajo-familiar-2012.png",
   "thumb": "thumbs/censo-trabajo-familiar-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_trab_familiar",
   "atlas": "censo",
   "modo": "2012",

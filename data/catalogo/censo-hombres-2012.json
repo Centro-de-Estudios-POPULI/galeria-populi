@@ -1,6 +1,6 @@
 {
   "slug": "censo-hombres-2012",
-  "titulo": "Bolivia: Hombres (censo 2012)",
+  "titulo": "Bolivia: Hombres",
   "subtitulo": "Personas censadas que se declararon hombres, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pob_hombres",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hombres-2012.png",
   "thumb": "thumbs/censo-hombres-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pob_hombres",
   "atlas": "censo",
   "modo": "2012",

@@ -1,6 +1,6 @@
 {
   "slug": "censo-medicina-tradicional-2012",
-  "titulo": "Bolivia: Acude a medicina tradicional (censo 2012)",
+  "titulo": "Bolivia: Acude a medicina tradicional",
   "subtitulo": "Personas que acuden a medicina tradicional ancestral — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_salud_tradicional",
     "Salud"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-medicina-tradicional-2012.png",
   "thumb": "thumbs/censo-medicina-tradicional-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_salud_tradicional",
   "atlas": "censo",
   "modo": "2012",

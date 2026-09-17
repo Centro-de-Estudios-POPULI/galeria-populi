@@ -1,6 +1,6 @@
 {
   "slug": "censo-paridez-media-cambio",
-  "titulo": "Bolivia: Paridez media, cambio 2012–2024",
+  "titulo": "Bolivia: Paridez media",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en hijos — sobre las mujeres de 15 a 49 años que declararon hijos, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "paridez_media",
     "Salud"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-paridez-media-cambio.png",
   "thumb": "thumbs/censo-paridez-media-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "paridez_media",
   "atlas": "censo",
   "modo": "cambio",

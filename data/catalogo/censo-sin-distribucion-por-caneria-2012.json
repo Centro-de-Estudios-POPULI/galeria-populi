@@ -1,6 +1,6 @@
 {
   "slug": "censo-sin-distribucion-por-caneria-2012",
-  "titulo": "Bolivia: Sin distribución por cañería (censo 2012)",
+  "titulo": "Bolivia: Sin distribución por cañería",
   "subtitulo": "Viviendas donde el agua no llega por cañería: hay que ir a buscarla o esperar que la traigan — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_agua_sin_caneria",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-sin-distribucion-por-caneria-2012.png",
   "thumb": "thumbs/censo-sin-distribucion-por-caneria-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_agua_sin_caneria",
   "atlas": "censo",
   "modo": "2012",

@@ -1,6 +1,6 @@
 {
   "slug": "censo-departamentos-cambio",
-  "titulo": "Bolivia: Departamentos, cambio 2012–2024",
+  "titulo": "Bolivia: Departamentos",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_departamento",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-departamentos-cambio.png",
   "thumb": "thumbs/censo-departamentos-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_departamento",
   "atlas": "censo",
   "modo": "cambio",

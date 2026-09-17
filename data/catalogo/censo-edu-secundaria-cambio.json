@@ -1,6 +1,6 @@
 {
   "slug": "censo-edu-secundaria-cambio",
-  "titulo": "Bolivia: Secundaria (19+), cambio 2012–2024",
+  "titulo": "Bolivia: Secundaria (19+)",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población de 19 años o más, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_edu_secundaria",
     "Educación"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edu-secundaria-cambio.png",
   "thumb": "thumbs/censo-edu-secundaria-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_edu_secundaria",
   "atlas": "censo",
   "modo": "cambio",

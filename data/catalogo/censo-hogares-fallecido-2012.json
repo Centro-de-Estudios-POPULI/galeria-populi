@@ -1,6 +1,6 @@
 {
   "slug": "censo-hogares-fallecido-2012",
-  "titulo": "Bolivia: Hogares con fallecido (2019+) (censo 2012)",
+  "titulo": "Bolivia: Hogares con fallecido (2019+)",
   "subtitulo": "Hogares donde murió alguien desde 2019 — sobre los hogares, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_hogar_fallecido",
     "Mortalidad"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hogares-fallecido-2012.png",
   "thumb": "thumbs/censo-hogares-fallecido-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_hogar_fallecido",
   "atlas": "censo",
   "modo": "2012",

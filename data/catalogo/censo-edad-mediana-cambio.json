@@ -1,6 +1,6 @@
 {
   "slug": "censo-edad-mediana-cambio",
-  "titulo": "Bolivia: Edad mediana, cambio 2012–2024",
+  "titulo": "Bolivia: Edad mediana",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en años — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "edad_mediana",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-mediana-cambio.png",
   "thumb": "thumbs/censo-edad-mediana-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "edad_mediana",
   "atlas": "censo",
   "modo": "cambio",

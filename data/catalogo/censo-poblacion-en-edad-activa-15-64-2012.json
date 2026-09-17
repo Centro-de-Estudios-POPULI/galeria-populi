@@ -1,6 +1,6 @@
 {
   "slug": "censo-poblacion-en-edad-activa-15-64-2012",
-  "titulo": "Bolivia: Población en edad activa (15-64) (censo 2012)",
+  "titulo": "Bolivia: Población en edad activa (15-64)",
   "subtitulo": "Población de quince a sesenta y cuatro años, la franja en edades típicamente activas; es el grupo que sostiene económicamente a los otros dos — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_15_64",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-poblacion-en-edad-activa-15-64-2012.png",
   "thumb": "thumbs/censo-poblacion-en-edad-activa-15-64-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_15_64",
   "atlas": "censo",
   "modo": "2012",

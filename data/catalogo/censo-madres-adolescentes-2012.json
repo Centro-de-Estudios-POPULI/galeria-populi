@@ -1,6 +1,6 @@
 {
   "slug": "censo-madres-adolescentes-2012",
-  "titulo": "Bolivia: Madres adolescentes (15-19) (censo 2012)",
+  "titulo": "Bolivia: Madres adolescentes (15-19)",
   "subtitulo": "Adolescentes de quince a diecinueve años que ya tuvieron al menos un hijo — sobre las mujeres de 15 a 19 años, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_madres_adolescentes",
     "Salud"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-madres-adolescentes-2012.png",
   "thumb": "thumbs/censo-madres-adolescentes-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_madres_adolescentes",
   "atlas": "censo",
   "modo": "2012",

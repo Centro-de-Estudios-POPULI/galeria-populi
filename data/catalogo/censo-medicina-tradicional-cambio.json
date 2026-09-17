@@ -1,6 +1,6 @@
 {
   "slug": "censo-medicina-tradicional-cambio",
-  "titulo": "Bolivia: Acude a medicina tradicional, cambio 2012–2024",
+  "titulo": "Bolivia: Acude a medicina tradicional",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_salud_tradicional",
     "Salud"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-medicina-tradicional-cambio.png",
   "thumb": "thumbs/censo-medicina-tradicional-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_salud_tradicional",
   "atlas": "censo",
   "modo": "cambio",

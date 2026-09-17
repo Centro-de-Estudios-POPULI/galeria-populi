@@ -1,6 +1,6 @@
 {
   "slug": "censo-jovenes-15-29-cambio",
-  "titulo": "Bolivia: Jóvenes (15-29), cambio 2012–2024",
+  "titulo": "Bolivia: Jóvenes (15-29)",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_15_29",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-jovenes-15-29-cambio.png",
   "thumb": "thumbs/censo-jovenes-15-29-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_15_29",
   "atlas": "censo",
   "modo": "cambio",

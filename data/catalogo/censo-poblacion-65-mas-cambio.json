@@ -1,6 +1,6 @@
 {
   "slug": "censo-poblacion-65-mas-cambio",
-  "titulo": "Bolivia: Adultos mayores (65+), cambio 2012–2024",
+  "titulo": "Bolivia: Adultos mayores (65+)",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_65_mas",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-poblacion-65-mas-cambio.png",
   "thumb": "thumbs/censo-poblacion-65-mas-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_65_mas",
   "atlas": "censo",
   "modo": "cambio",

@@ -1,6 +1,6 @@
 {
   "slug": "censo-gas-garrafa-2012",
-  "titulo": "Bolivia: Cocina con gas en garrafa (censo 2012)",
+  "titulo": "Bolivia: Cocina con gas en garrafa",
   "subtitulo": "Viviendas que cocinan con garrafa, que obliga a comprarla y trasladarla — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_gas_garrafa",
     "Energía y Cocina"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-gas-garrafa-2012.png",
   "thumb": "thumbs/censo-gas-garrafa-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_gas_garrafa",
   "atlas": "censo",
   "modo": "2012",

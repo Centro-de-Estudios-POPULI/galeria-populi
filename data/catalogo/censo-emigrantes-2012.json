@@ -1,6 +1,6 @@
 {
   "slug": "censo-emigrantes-2012",
-  "titulo": "Bolivia: Emigrantes por 1.000 hab. (censo 2012)",
+  "titulo": "Bolivia: Emigrantes por 1.000 hab.",
   "subtitulo": "Cuántas personas emigradas al exterior hay por cada mil habitantes. Es memoria del hogar que se quedó: el que se fue completo no tiene quién lo declare — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "emigrantes_x1000",
     "Emigración internacional"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-emigrantes-2012.png",
   "thumb": "thumbs/censo-emigrantes-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "emigrantes_x1000",
   "atlas": "censo",
   "modo": "2012",

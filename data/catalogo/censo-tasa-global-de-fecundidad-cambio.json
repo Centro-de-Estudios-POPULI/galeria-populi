@@ -1,6 +1,6 @@
 {
   "slug": "censo-tasa-global-de-fecundidad-cambio",
-  "titulo": "Bolivia: Tasa global de fecundidad, cambio 2012–2024",
+  "titulo": "Bolivia: Tasa global de fecundidad",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en hijos — sobre las mujeres de 15 a 49 años, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -16,7 +16,7 @@
   "imagen": "graficas/censo-tasa-global-de-fecundidad-cambio.png",
   "thumb": "thumbs/censo-tasa-global-de-fecundidad-cambio.webp",
   "datos": null,
-  "nota": "La tasa global de fecundidad (TGF) es el número de hijos que tendría una mujer al final de su vida reproductiva (15 a 49 años) si a cada edad experimentara las tasas de fecundidad observadas el año previo al censo. No es la paridez media, que cuenta los hijos ya nacidos.",
+  "nota": "La tasa global de fecundidad (TGF) es el número de hijos que tendría una mujer al final de su vida reproductiva (15 a 49 años) si a cada edad experimentara las tasas de fecundidad observadas el año previo al censo.",
   "clave": "tgf",
   "atlas": "censo",
   "modo": "cambio",

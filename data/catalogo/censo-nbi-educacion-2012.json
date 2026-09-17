@@ -1,6 +1,6 @@
 {
   "slug": "censo-nbi-educacion-2012",
-  "titulo": "Bolivia: NBI: Educación (censo 2012)",
+  "titulo": "Bolivia: NBI: Educación",
   "subtitulo": "Población con rezago educativo según el mínimo que fija el método oficial — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_nbi_educacion",
     "Componentes NBI"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-educacion-2012.png",
   "thumb": "thumbs/censo-nbi-educacion-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_nbi_educacion",
   "atlas": "censo",
   "modo": "2012",

@@ -1,6 +1,6 @@
 {
   "slug": "censo-nbi-satisfechas-2012",
-  "titulo": "Bolivia: NB satisfechas (censo 2012)",
+  "titulo": "Bolivia: NB satisfechas",
   "subtitulo": "Población cuyas necesidades básicas están cubiertas con holgura, el estrato más alto de la escala oficial — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_nbi_satisfechas",
     "Pobreza (NBI)"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-satisfechas-2012.png",
   "thumb": "thumbs/censo-nbi-satisfechas-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_nbi_satisfechas",
   "atlas": "censo",
   "modo": "2012",

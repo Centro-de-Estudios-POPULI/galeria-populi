@@ -1,6 +1,6 @@
 {
   "slug": "censo-edu-superior-2012",
-  "titulo": "Bolivia: Educación superior (19+) (censo 2012)",
+  "titulo": "Bolivia: Educación superior (19+)",
   "subtitulo": "Personas de diecinueve años o más con estudios técnicos o universitarios. Es el indicador que más separa a unos municipios de otros — sobre la población de 19 años o más",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_edu_superior",
     "Educación"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edu-superior-2012.png",
   "thumb": "thumbs/censo-edu-superior-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_edu_superior",
   "atlas": "censo",
   "modo": "2012",

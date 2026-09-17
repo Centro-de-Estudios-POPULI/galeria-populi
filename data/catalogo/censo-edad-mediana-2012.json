@@ -1,6 +1,6 @@
 {
   "slug": "censo-edad-mediana-2012",
-  "titulo": "Bolivia: Edad mediana (censo 2012)",
+  "titulo": "Bolivia: Edad mediana",
   "subtitulo": "La edad que parte a la población en dos mitades iguales; sube cuando el municipio envejece — sobre la población",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "edad_mediana",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-mediana-2012.png",
   "thumb": "thumbs/censo-edad-mediana-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "edad_mediana",
   "atlas": "censo",
   "modo": "2012",

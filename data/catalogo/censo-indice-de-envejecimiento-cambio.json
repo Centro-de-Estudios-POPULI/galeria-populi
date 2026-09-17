@@ -1,6 +1,6 @@
 {
   "slug": "censo-indice-de-envejecimiento-cambio",
-  "titulo": "Bolivia: Índice de envejecimiento, cambio 2012–2024",
+  "titulo": "Bolivia: Índice de envejecimiento",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en índice — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "indice_envejecimiento",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-indice-de-envejecimiento-cambio.png",
   "thumb": "thumbs/censo-indice-de-envejecimiento-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "indice_envejecimiento",
   "atlas": "censo",
   "modo": "cambio",

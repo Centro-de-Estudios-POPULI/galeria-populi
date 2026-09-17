@@ -245,7 +245,9 @@ for grupo, ind in IND:
         # ── textos ──
         uni = ind.get("universo") if ind.get("agg") != "suma" else None
         if modo == "cambio":
-            titulo = f"Bolivia: {ind['label']}, cambio 2012–2024"
+            # el título NO dice «cambio 2012–2024»: lo dice el subtítulo («Diferencia
+            # entre los censos…») y la fuente nombra los dos censos. (Carlos, 2026-09-17)
+            titulo = f"Bolivia: {ind['label']}"
             if es_conteo(ind):
                 sub = "Variación porcentual entre los censos de 2012 y 2024"
             elif ind.get("unit") == "%":
@@ -256,7 +258,8 @@ for grupo, ind in IND:
                 sub += f" — {uni}"
             sub += ", por municipio"
         else:
-            titulo = f"Bolivia: {ind['label']}" + (" (censo 2012)" if modo == "2012" else "")
+            # sin «(censo 2012)»: el censo lo nombra la fuente al pie (Carlos, 2026-09-17)
+            titulo = f"Bolivia: {ind['label']}"
             # El subtítulo es la DEFINICIÓN del catálogo más su universo: es lo
             # que hace que la lámina se entienda sola cuando viaja sin la web.
             # El universo se omite en los CONTEOS (un conteo no se divide por

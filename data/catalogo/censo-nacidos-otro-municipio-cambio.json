@@ -1,6 +1,6 @@
 {
   "slug": "censo-nacidos-otro-municipio-cambio",
-  "titulo": "Bolivia: Nacidos en otro municipio, cambio 2012–2024",
+  "titulo": "Bolivia: Nacidos en otro municipio",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_nacido_otro_municipio",
     "Migración interna"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nacidos-otro-municipio-cambio.png",
   "thumb": "thumbs/censo-nacidos-otro-municipio-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_nacido_otro_municipio",
   "atlas": "censo",
   "modo": "cambio",

@@ -1,6 +1,6 @@
 {
   "slug": "censo-migrantes-recientes-2012",
-  "titulo": "Bolivia: Migrantes recientes (desde 2019) (censo 2012)",
+  "titulo": "Bolivia: Migrantes recientes (desde 2019)",
   "subtitulo": "Personas que hace cinco años vivían en otro municipio. A diferencia del lugar de nacimiento, esto sí tiene fecha — sobre la población",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_migrante_reciente",
     "Migración interna"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-migrantes-recientes-2012.png",
   "thumb": "thumbs/censo-migrantes-recientes-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_migrante_reciente",
   "atlas": "censo",
   "modo": "2012",

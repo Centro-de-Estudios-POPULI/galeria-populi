@@ -1,6 +1,6 @@
 {
   "slug": "censo-edad-emigracion-cambio",
-  "titulo": "Bolivia: Edad promedio al emigrar, cambio 2012–2024",
+  "titulo": "Bolivia: Edad promedio al emigrar",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en años — sobre las personas que emigraron al exterior, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "edad_prom_emigracion",
     "Emigración internacional"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-emigracion-cambio.png",
   "thumb": "thumbs/censo-edad-emigracion-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "edad_prom_emigracion",
   "atlas": "censo",
   "modo": "cambio",

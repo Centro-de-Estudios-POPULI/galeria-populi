@@ -1,6 +1,6 @@
 {
   "slug": "censo-departamentos-2012",
-  "titulo": "Bolivia: Departamentos (censo 2012)",
+  "titulo": "Bolivia: Departamentos",
   "subtitulo": "Viviendas que son departamentos; su peso indica cuánto creció el municipio en altura y no en extensión — sobre las viviendas particulares ocupadas",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_departamento",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-departamentos-2012.png",
   "thumb": "thumbs/censo-departamentos-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_departamento",
   "atlas": "censo",
   "modo": "2012",

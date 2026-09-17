@@ -1,6 +1,6 @@
 {
   "slug": "censo-agua-pozo-2012",
-  "titulo": "Bolivia: Agua de pozo (censo 2012)",
+  "titulo": "Bolivia: Agua de pozo",
   "subtitulo": "Viviendas que sacan su agua de un pozo, con bomba o sin ella — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_agua_pozo",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-agua-pozo-2012.png",
   "thumb": "thumbs/censo-agua-pozo-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_agua_pozo",
   "atlas": "censo",
   "modo": "2012",

@@ -1,6 +1,6 @@
 {
   "slug": "censo-anios-estudio-cambio",
-  "titulo": "Bolivia: Años de estudio promedio (19+), cambio 2012–2024",
+  "titulo": "Bolivia: Años de estudio promedio (19+)",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en años — sobre la población de 19 años o más, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "prom_anios_estudio",
     "Educación"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-anios-estudio-cambio.png",
   "thumb": "thumbs/censo-anios-estudio-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "prom_anios_estudio",
   "atlas": "censo",
   "modo": "cambio",

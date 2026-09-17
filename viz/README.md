@@ -52,6 +52,25 @@ Divergente de ancla real, idéntica a la de la web:
 - El pivote se recorta a ±8 % del rango para que la rampa no se degenere, y la
   leyenda rotula el REAL con asterisco cuando eso pasa.
 
+## El encuadre de la lámina de mapa (`charts/mapas.py`, 2026-09-17)
+
+- El mapa llena el ALTO de la caja que deja `componer()`, pegado al margen
+  izquierdo del título, con la proporción geográfica real (aspecto 1/cos φ).
+  Se lee la caja ORIGINAL: geopandas fija aspecto 1,0 y la activa ya venía
+  angostada, por eso los mapas nacían un 10 % más chicos y corridos del margen.
+- El termómetro va con las cifras al margen derecho (el mismo del título y del
+  wordmark); la barra a su izquierda y el rótulo del pivote («país 2024»,
+  «reemplazo») a la izquierda de la barra. Una segunda referencia (`ref2`) se
+  marca fina y se rotula en su fila.
+- Los renglones de extremos (mín/máx/marca) van al rincón inferior derecho de
+  la caja, que es Chaco paraguayo: debajo de la barra caían sobre la latitud
+  donde Santa Cruz llega al borde este y le quitaban alto al mapa.
+- El mapa sólo cede tamaño si la TIERRA se acerca a alguna pieza de la leyenda:
+  cada texto se prueba en su propia franja de latitudes contra la unión de los
+  municipios (`_union_de`, cacheada), con 16 px de aire. No hay columna fija.
+- Títulos: «Bolivia: indicador», sin «(censo 2012)» ni «cambio 2012–2024»: el
+  censo lo dice la fuente y el cambio, el subtítulo.
+
 ## Cómo crear una gráfica
 
 ```python

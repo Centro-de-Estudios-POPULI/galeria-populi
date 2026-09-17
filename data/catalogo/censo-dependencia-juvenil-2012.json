@@ -1,6 +1,6 @@
 {
   "slug": "censo-dependencia-juvenil-2012",
-  "titulo": "Bolivia: Dependencia juvenil (censo 2012)",
+  "titulo": "Bolivia: Dependencia juvenil",
   "subtitulo": "Cuántos menores de quince años hay por cada cien personas en edad activa — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "dep_juvenil",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-dependencia-juvenil-2012.png",
   "thumb": "thumbs/censo-dependencia-juvenil-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "dep_juvenil",
   "atlas": "censo",
   "modo": "2012",

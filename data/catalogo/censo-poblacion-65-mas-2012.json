@@ -1,6 +1,6 @@
 {
   "slug": "censo-poblacion-65-mas-2012",
-  "titulo": "Bolivia: Adultos mayores (65+) (censo 2012)",
+  "titulo": "Bolivia: Adultos mayores (65+)",
   "subtitulo": "Personas de sesenta y cinco años o más — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_65_mas",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-poblacion-65-mas-2012.png",
   "thumb": "thumbs/censo-poblacion-65-mas-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_65_mas",
   "atlas": "censo",
   "modo": "2012",

@@ -1,6 +1,6 @@
 {
   "slug": "censo-poblacion-urbana-cambio",
-  "titulo": "Bolivia: Urbanización, cambio 2012–2024",
+  "titulo": "Bolivia: Urbanización",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_urbano",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-poblacion-urbana-cambio.png",
   "thumb": "thumbs/censo-poblacion-urbana-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_urbano",
   "atlas": "censo",
   "modo": "cambio",

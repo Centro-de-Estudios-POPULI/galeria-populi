@@ -1,6 +1,6 @@
 {
   "slug": "censo-no-cocina-en-la-vivienda-2012",
-  "titulo": "Bolivia: No cocina en la vivienda (censo 2012)",
+  "titulo": "Bolivia: No cocina en la vivienda",
   "subtitulo": "Viviendas donde no se cocina — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_no_cocina",
     "Energía y Cocina"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-no-cocina-en-la-vivienda-2012.png",
   "thumb": "thumbs/censo-no-cocina-en-la-vivienda-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_no_cocina",
   "atlas": "censo",
   "modo": "2012",

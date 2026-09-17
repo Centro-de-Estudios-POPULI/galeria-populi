@@ -1,6 +1,6 @@
 {
   "slug": "censo-completo-primaria-19-2012",
-  "titulo": "Bolivia: Completó primaria (19+) (censo 2012)",
+  "titulo": "Bolivia: Completó primaria (19+)",
   "subtitulo": "Personas de diecinueve años o más que completaron los seis años de primaria — sobre la población de 19 años o más, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_primaria_completa",
     "Educación"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-completo-primaria-19-2012.png",
   "thumb": "thumbs/censo-completo-primaria-19-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_primaria_completa",
   "atlas": "censo",
   "modo": "2012",

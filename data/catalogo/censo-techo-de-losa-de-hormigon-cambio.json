@@ -1,6 +1,6 @@
 {
   "slug": "censo-techo-de-losa-de-hormigon-cambio",
-  "titulo": "Bolivia: Techo de losa de hormigón, cambio 2012–2024",
+  "titulo": "Bolivia: Techo de losa de hormigón",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_techo_losa",
     "Vivienda y Materiales"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-techo-de-losa-de-hormigon-cambio.png",
   "thumb": "thumbs/censo-techo-de-losa-de-hormigon-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_techo_losa",
   "atlas": "censo",
   "modo": "cambio",

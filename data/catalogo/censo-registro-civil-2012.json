@@ -1,6 +1,6 @@
 {
   "slug": "censo-registro-civil-2012",
-  "titulo": "Bolivia: Inscritos en registro civil (censo 2012)",
+  "titulo": "Bolivia: Inscritos en registro civil",
   "subtitulo": "Personas con su nacimiento inscrito en el registro civil boliviano — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_registro_civil",
     "Ciudadanía y Registro"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-registro-civil-2012.png",
   "thumb": "thumbs/censo-registro-civil-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_registro_civil",
   "atlas": "censo",
   "modo": "2012",

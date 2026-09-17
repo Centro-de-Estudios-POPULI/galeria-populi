@@ -1,6 +1,6 @@
 {
   "slug": "censo-poblacion-total-2012",
-  "titulo": "Bolivia: Población total (censo 2012)",
+  "titulo": "Bolivia: Población total",
   "subtitulo": "Todas las personas censadas que viven en el municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pob_total",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-poblacion-total-2012.png",
   "thumb": "thumbs/censo-poblacion-total-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pob_total",
   "atlas": "censo",
   "modo": "2012",

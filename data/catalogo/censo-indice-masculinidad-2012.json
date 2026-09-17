@@ -1,6 +1,6 @@
 {
   "slug": "censo-indice-masculinidad-2012",
-  "titulo": "Bolivia: Índice de masculinidad (censo 2012)",
+  "titulo": "Bolivia: Índice de masculinidad",
   "subtitulo": "Cuántos hombres hay por cada cien mujeres en toda la población. Por encima de cien indica predominio masculino, algo típico de zonas de trabajo agrícola o minero — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "indice_masculinidad",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-indice-masculinidad-2012.png",
   "thumb": "thumbs/censo-indice-masculinidad-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "indice_masculinidad",
   "atlas": "censo",
   "modo": "2012",

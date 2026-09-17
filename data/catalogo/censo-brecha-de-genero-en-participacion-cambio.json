@@ -1,6 +1,6 @@
 {
   "slug": "censo-brecha-de-genero-en-participacion-cambio",
-  "titulo": "Bolivia: Brecha de género en participación, cambio 2012–2024",
+  "titulo": "Bolivia: Brecha de género en participación",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en pp — sobre la población en edad de trabajar (15 años o más), por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "brecha_participacion",
     "Empleo"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-brecha-de-genero-en-participacion-cambio.png",
   "thumb": "thumbs/censo-brecha-de-genero-en-participacion-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "brecha_participacion",
   "atlas": "censo",
   "modo": "cambio",

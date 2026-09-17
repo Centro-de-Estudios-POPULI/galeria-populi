@@ -1,6 +1,6 @@
 {
   "slug": "censo-anios-estudio-2012",
-  "titulo": "Bolivia: Años de estudio promedio (19+) (censo 2012)",
+  "titulo": "Bolivia: Años de estudio promedio (19+)",
   "subtitulo": "Cuántos años de escuela acumula, en promedio, una persona de diecinueve años o más — sobre la población de 19 años o más, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "prom_anios_estudio",
     "Educación"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-anios-estudio-2012.png",
   "thumb": "thumbs/censo-anios-estudio-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "prom_anios_estudio",
   "atlas": "censo",
   "modo": "2012",

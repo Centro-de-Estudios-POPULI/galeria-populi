@@ -1,6 +1,6 @@
 {
   "slug": "censo-electricidad-2012",
-  "titulo": "Bolivia: Con electricidad (censo 2012)",
+  "titulo": "Bolivia: Con electricidad",
   "subtitulo": "Viviendas con energía eléctrica de cualquier fuente: red, generador o panel solar — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_electricidad",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-electricidad-2012.png",
   "thumb": "thumbs/censo-electricidad-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_electricidad",
   "atlas": "censo",
   "modo": "2012",

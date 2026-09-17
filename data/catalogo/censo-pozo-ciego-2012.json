@@ -1,6 +1,6 @@
 {
   "slug": "censo-pozo-ciego-2012",
-  "titulo": "Bolivia: Desagüe a pozo ciego o superficie (censo 2012)",
+  "titulo": "Bolivia: Desagüe a pozo ciego o superficie",
   "subtitulo": "Viviendas cuyo desagüe descarga en un pozo ciego, sin tratamiento — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_pozo_ciego",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-pozo-ciego-2012.png",
   "thumb": "thumbs/censo-pozo-ciego-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_pozo_ciego",
   "atlas": "censo",
   "modo": "2012",

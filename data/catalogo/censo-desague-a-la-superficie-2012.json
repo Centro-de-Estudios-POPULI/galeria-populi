@@ -1,6 +1,6 @@
 {
   "slug": "censo-desague-a-la-superficie-2012",
-  "titulo": "Bolivia: Desagüe a la superficie (censo 2012)",
+  "titulo": "Bolivia: Desagüe a la superficie",
   "subtitulo": "Viviendas que descargan el desagüe a la calle, una quebrada o un río; es la situación de mayor riesgo sanitario — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_desague_superficie",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-desague-a-la-superficie-2012.png",
   "thumb": "thumbs/censo-desague-a-la-superficie-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_desague_superficie",
   "atlas": "censo",
   "modo": "2012",

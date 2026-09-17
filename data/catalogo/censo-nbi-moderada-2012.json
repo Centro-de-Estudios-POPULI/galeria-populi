@@ -1,6 +1,6 @@
 {
   "slug": "censo-nbi-moderada-2012",
-  "titulo": "Bolivia: Pobreza moderada (censo 2012)",
+  "titulo": "Bolivia: Pobreza moderada",
   "subtitulo": "Población en pobreza moderada: le falta algo, pero no lo esencial de todo — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_nbi_moderada",
     "Pobreza (NBI)"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-nbi-moderada-2012.png",
   "thumb": "thumbs/censo-nbi-moderada-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_nbi_moderada",
   "atlas": "censo",
   "modo": "2012",

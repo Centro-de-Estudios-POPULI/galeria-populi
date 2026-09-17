@@ -1,6 +1,6 @@
 {
   "slug": "censo-edad-promedio-2012",
-  "titulo": "Bolivia: Edad promedio (censo 2012)",
+  "titulo": "Bolivia: Edad promedio",
   "subtitulo": "El promedio simple de las edades. A diferencia de la mediana, se estira cuando hay muchas personas mayores — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "edad_promedio",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-edad-promedio-2012.png",
   "thumb": "thumbs/censo-edad-promedio-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "edad_promedio",
   "atlas": "censo",
   "modo": "2012",

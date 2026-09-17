@@ -1,6 +1,6 @@
 {
   "slug": "censo-empleo-comercio-2012",
-  "titulo": "Bolivia: Ocupados en comercio (censo 2012)",
+  "titulo": "Bolivia: Ocupados en comercio",
   "subtitulo": "Personas ocupadas en comercio al por mayor o menor; es la segunda rama del país, después de la agricultura — sobre la población ocupada, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_comercio",
     "Empleo"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-empleo-comercio-2012.png",
   "thumb": "thumbs/censo-empleo-comercio-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_comercio",
   "atlas": "censo",
   "modo": "2012",

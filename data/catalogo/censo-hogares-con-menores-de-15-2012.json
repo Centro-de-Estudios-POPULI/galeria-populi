@@ -1,6 +1,6 @@
 {
   "slug": "censo-hogares-con-menores-de-15-2012",
-  "titulo": "Bolivia: Hogares con menores de 15 (censo 2012)",
+  "titulo": "Bolivia: Hogares con menores de 15",
   "subtitulo": "Hogares donde vive al menos una niña o un niño menor de quince años — sobre los hogares, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_hogar_con_menores",
     "Hogares y Jefatura"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-hogares-con-menores-de-15-2012.png",
   "thumb": "thumbs/censo-hogares-con-menores-de-15-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_hogar_con_menores",
   "atlas": "censo",
   "modo": "2012",

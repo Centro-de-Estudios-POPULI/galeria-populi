@@ -1,6 +1,6 @@
 {
   "slug": "censo-idioma-castellano-cambio",
-  "titulo": "Bolivia: Idioma materno castellano, cambio 2012–2024",
+  "titulo": "Bolivia: Idioma materno castellano",
   "subtitulo": "Diferencia entre los censos de 2012 y 2024, en puntos porcentuales — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censos de Población y Vivienda 2012 y 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_idioma_materno_castellano",
     "Pueblos e Idiomas"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-idioma-castellano-cambio.png",
   "thumb": "thumbs/censo-idioma-castellano-cambio.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_idioma_materno_castellano",
   "atlas": "censo",
   "modo": "cambio",

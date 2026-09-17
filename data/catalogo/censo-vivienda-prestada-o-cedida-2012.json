@@ -1,6 +1,6 @@
 {
   "slug": "censo-vivienda-prestada-o-cedida-2012",
-  "titulo": "Bolivia: Vivienda prestada o cedida (censo 2012)",
+  "titulo": "Bolivia: Vivienda prestada o cedida",
   "subtitulo": "Hogares que ocupan una vivienda prestada por parientes o cedida a cambio de un servicio — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_viv_prestada",
     "Tenencia"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-vivienda-prestada-o-cedida-2012.png",
   "thumb": "thumbs/censo-vivienda-prestada-o-cedida-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_viv_prestada",
   "atlas": "censo",
   "modo": "2012",

@@ -3,7 +3,7 @@ mapas.py — Mapas coropléticos (GeoPandas) con la identidad POPULI.
 
 Hereda el estilo de populi_style: título/subtítulo alineados y pie de marca. El
 mapa usa la proporción geográfica real (corrección por latitud), sin ejes, y se
-inscribe centrado en el área disponible. La escala de color va en un termómetro
+inscribe pegado al margen izquierdo, tan grande como deje el bloque de la leyenda. La escala de color va en un termómetro
 vertical a la derecha.
 
   grafico_mapa(gdf, value_col, titulo=…, escala=ps.escala_atlas(...), …)
@@ -90,25 +90,27 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
     ps.componer(fig, ax, titulo, subtitulo, fuente, nota, formato, titulo_familia,
                 mapa=True, acento_p=acento_p, acento_linea=acento_linea)
 
-    # ---- encuadre: el mapa llena la ALTURA y se alinea a la izquierda; la
-    # columna derecha (esquina NE de Bolivia, vacía) aloja la leyenda vertical ----
-    pos = ax.get_position()
+    # ---- encuadre (reescrito 2026-09-17, Carlos: «el termómetro más a la
+    # derecha y que el mapa respire») -------------------------------------
+    # ⛔ ANTES se leía `ax.get_position()` ACTIVA: geopandas fija aspecto 1,0 y
+    #    matplotlib ya había angostado la caja (936 → 852 px) antes de que este
+    #    código la midiera. Resultado: el mapa nacía angosto (739 px en vez de
+    #    ~820), corrido 43 px del margen del título, y las cifras del termómetro
+    #    quedaban a 965 px cuando el margen es 1008. Se lee la caja ORIGINAL que
+    #    dejó componer(), y el aspecto se fija acá (1/cos φ, el mismo con que se
+    #    calcula `target`), así lo dibujado es lo calculado.
+    # ★ El mapa crece hasta donde la TIERRA no toca el bloque de la leyenda: se
+    #   recorta la unión de los municipios a la franja de latitudes que ocupa la
+    #   leyenda y se exige aire entre su borde este y el rótulo más a la
+    #   izquierda. Es lo que hace la diferencia entre «≥8,0%» y «≥218.819 hab»:
+    #   la columna fija de 112 px ni alcanzaba para los conteos ni hacía falta
+    #   en los porcentajes.
+    pos = ax.get_position(original=True)
     bx0, by0 = pos.x0 * W, pos.y0 * H
     bw, bh = pos.width * W, pos.height * H
-    right = bx0 + bw                                       # margen derecho del encuadre
+    right = bx0 + bw                                       # = W − M: el margen del título y del wordmark
     target = (maxy - miny) / ((maxx - minx) * cosf)        # alto/ancho geográfico
-    leg_col = 112 * sc                                     # columna reservada a la leyenda
-    nh = bh
-    nw = nh / target
-    if nw > bw - leg_col:                                  # si no cabe a lo ancho
-        nw, nh = bw - leg_col, (bw - leg_col) * target
-    ax.set_position([bx0 / W, (by0 + (bh - nh) / 2) / H, nw / W, nh / H])
-    ax.set_xlim(minx, maxx)
-    ax.set_ylim(miny, maxy)
 
-    # ---- termómetro vertical arriba-derecha. Las CIFRAS se alinean exacto al
-    # margen derecho (borde respetado, igual que el wordmark) y la barra queda a
-    # su izquierda. ----
     dec = _dec(label_fmt)
 
     def num(v):
@@ -133,13 +135,105 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
     from PIL import Image as _I, ImageDraw as _D, ImageFont as _F
     _ff = _F.truetype(str(ps.FONTS_DIR / ps._FONT_FILES.get(ps.MONO, "JetBrainsMono-Regular.ttf")),
                       int(ps.SIZES["leyenda"] * sc))
+    _fc = _F.truetype(str(ps.FONTS_DIR / ps._FONT_FILES.get(ps.BOLD, "Inter.ttf")),
+                      int(ps.SIZES["leyenda"] * sc * 0.8))
     _med = _D.Draw(_I.new("RGB", (4, 4)))
     lab_w = max(_med.textlength(s, font=_ff) for s in (smin, smax, spiv) if s)
     f_num = ps.fp(ps.MONO, ps.SIZES["leyenda"] * sc)
     f_cap = ps.fp(ps.BOLD, ps.SIZES["leyenda"] * sc * 0.8)      # negrita REAL
-    bar_w, bar_h = 18 * sc, bh * 0.46
+    # 0,42 de la caja (antes 0,46): la barra termina ANTES de la latitud donde
+    # Santa Cruz se acerca al borde este del encuadre, y el mapa puede llenar
+    # la altura sin que la leyenda le dispute el ancho.
+    bar_w, bar_h = 18 * sc, bh * 0.42
     bar_x = right - lab_w - 12 * sc - bar_w
-    bar_top = by0 + bh - 26 * sc
+    bar_top = by0 + bh - 26 * sc                           # desde ABAJO (coordenadas de figura)
+
+    # Todo lo que la leyenda va a escribir se decide ACÁ, antes de encuadrar,
+    # porque el ancho del bloque y su piso son lo que limita al mapa.
+    captions, lineas, ref2_fila = [], [], None
+    if info:
+        captions.append(info["piv_tipo"] + ("*" if _recortado else ""))
+        if recorte:
+            lineas += [f"mín {num(info['min'])}", f"máx {num(info['max'])}"]
+        if _recortado:
+            lineas.append(f"*marca en {num(info['piv'])}")
+        # ── SEGUNDA REFERENCIA ──────────────────────────────────────────────
+        # Si el pivote es un umbral declarado (reemplazo 2,1 en la TGF), el
+        # país sigue en la leyenda como marca fina en la barra. Con aire respecto
+        # de los extremos y del pivote va EN SU FILA (caption a la izquierda,
+        # cifra a la derecha, en gris); si no cabe, a los renglones de abajo.
+        _r2 = info.get("ref2")
+        if _r2 is not None and lo_lbl < _r2 < hi_lbl and abs(_r2 - info["piv"]) > (hi_lbl - lo_lbl) * .04:
+            frac = float(norm(_r2))                        # 0 = abajo, 1 = arriba, 0,5 = pivote
+            r2_tipo = info.get("ref2_tipo", "país")
+            if 0.09 < frac < 0.91 and abs(frac - 0.5) > 0.09:
+                ref2_fila = (frac, r2_tipo)
+                captions.append(r2_tipo)
+            else:
+                ref2_fila = (frac, None)
+                lineas.append(f"{r2_tipo} {num(_r2)}")
+    # ── el bloque de la leyenda, pieza por pieza: cada texto ocupa SU fila y
+    #    sólo ahí tiene que despejar la tierra. Medir el bloque entero por su
+    #    rótulo más ancho (el caption del pivote) era exigirle al mapa que se
+    #    corriera de una franja de latitudes donde ese rótulo ni está.
+    _fx = _F.truetype(str(ps.FONTS_DIR / ps._FONT_FILES.get(ps.MONO, "JetBrainsMono-Regular.ttf")),
+                      int(ps.SIZES["leyenda"] * sc * 0.78))
+    h_txt = ps.SIZES["leyenda"] * sc
+    # ★ Los renglones de extremos (mín/máx/marca) van al RINCÓN INFERIOR DERECHO
+    #   de la caja, no debajo de la barra: debajo de la barra caen sobre la
+    #   latitud donde Santa Cruz llega al borde este, y con tres renglones anchos
+    #   («máx 1.610.982») el mapa de población perdía un cuarto de su alto. El
+    #   rincón SE del encuadre es Chaco paraguayo: no hay tierra boliviana ahí.
+    y_linea = lambda i: by0 + 10 * sc + (len(lineas) - 1 - i) * 20 * sc
+    piezas = [(right - lab_w, bar_top - h_txt / 2, bar_top + h_txt / 2),          # ≥ máx
+              (right - lab_w, bar_top - bar_h - h_txt / 2, bar_top - bar_h + h_txt / 2),  # ≤ mín
+              (bar_x, bar_top - bar_h, bar_top)]                                  # barra + cifras
+    if captions:
+        y_piv = bar_top - bar_h / 2
+        piezas.append((bar_x - 5 * sc - _med.textlength(captions[0], font=_fc),
+                       y_piv - h_txt / 2, y_piv + h_txt / 2))
+    if ref2_fila is not None and ref2_fila[1]:
+        y_r2 = bar_top - bar_h * (1 - ref2_fila[0])
+        piezas.append((bar_x - 5 * sc - _med.textlength(ref2_fila[1], font=_fc),
+                       y_r2 - h_txt / 2, y_r2 + h_txt / 2))
+    for i, ex in enumerate(lineas):
+        y_i = y_linea(i)
+        piezas.append((right - _med.textlength(ex, font=_fx), y_i - h_txt * .4, y_i + h_txt * .4))
+
+    # El mapa: llena la altura, pegado al margen izquierdo del título, y sólo
+    # cede tamaño si la tierra bajo alguna pieza de la leyenda se le acerca.
+    union = _union_de(gdf)
+    aire = 16 * sc
+    lat_de = lambda y, nh, m_top: maxy - (m_top - y) / nh * (maxy - miny)
+
+    def cabe(nh):
+        nw = nh / target
+        if nw > bw:
+            return False
+        m_top = by0 + (bh - nh) / 2 + nh                   # borde superior del mapa (desde abajo)
+        for x_izq, y_lo, y_hi in piezas:
+            lat_lo, lat_hi = max(lat_de(y_lo, nh, m_top), miny), min(lat_de(y_hi, nh, m_top), maxy)
+            if lat_hi <= lat_lo:
+                continue                                   # la pieza cae fuera del mapa
+            rec = _clip(union, minx, lat_lo, maxx, lat_hi)
+            if rec.is_empty:
+                continue
+            if bx0 + (rec.bounds[2] - minx) / (maxx - minx) * nw + aire > x_izq:
+                return False
+        return True
+
+    nh = bh
+    while nh > bh * 0.55 and not cabe(nh):
+        nh -= 2 * sc
+    nw = nh / target
+    ax.set_position([bx0 / W, (by0 + (bh - nh) / 2) / H, nw / W, nh / H])
+    ax.set_aspect(1 / cosf, adjustable="box", anchor="C")
+    ax.set_xlim(minx, maxx)
+    ax.set_ylim(miny, maxy)
+
+    # ---- termómetro vertical arriba-derecha. Las CIFRAS se alinean exacto al
+    # margen derecho (borde respetado, igual que el wordmark) y la barra queda a
+    # su izquierda. ----
     bar = fig.add_axes([bar_x / W, (bar_top - bar_h) / H, bar_w / W, bar_h / H])
     bar.imshow(np.linspace(1, 0, 256).reshape(-1, 1), aspect="auto", cmap=cmap)
     bar.axis("off")
@@ -158,57 +252,53 @@ def grafico_mapa(gdf, value_col, titulo="", subtitulo="", fuente="", nota="",
         bar.axhline(127.5, color=ps.COLORS["fondo"], lw=2.2 * sc, zorder=4)
         bar.axhline(127.5, color=ps.COLORS["tinta"], lw=0.9 * sc, zorder=5)
         y_piv = bar_top - bar_h / 2
-        fig.text((bar_x - 5 * sc) / W, y_piv / H,
-                 info["piv_tipo"] + ("*" if _recortado else ""),
+        fig.text((bar_x - 5 * sc) / W, y_piv / H, captions[0],
                  fontproperties=f_cap, color=ps.COLORS["gris"],
                  va="center", ha="right")
         fig.text(right / W, y_piv / H, spiv, fontproperties=f_num,
                  color=ps.COLORS["tinta"], va="center", ha="right")
-        # Los extremos REALES sólo se declaran cuando el recorte los escondió.
-        # En una lámina que viaja sola a redes, el municipio del extremo suele
-        # ser la noticia.
-        lineas = []
-        if recorte:
-            lineas += [f"mín {num(info['min'])}", f"máx {num(info['max'])}"]
-        # el asterisco del rótulo se explica: la marca está corrida hacia adentro
-        # para que la rampa no se degenere, y el número es el REAL
-        if _recortado:
-            lineas.append(f"*marca en {num(info['piv'])}")
-        # ── SEGUNDA REFERENCIA ──────────────────────────────────────────────
-        # Si el pivote es un umbral declarado (reemplazo 2,1 en la TGF), el
-        # país sigue en la leyenda como marca fina en la barra y un renglón
-        # («país 2024 1,7 hijos»), como en la web. Se dibuja sólo si cae
-        # dentro de la barra y no se pisa con el pivote.
-        _r2 = info.get("ref2")
-        if _r2 is not None and lo_lbl < _r2 < hi_lbl and abs(_r2 - info["piv"]) > (hi_lbl - lo_lbl) * .04:
-            frac = float(norm(_r2))                    # 0 = abajo, 1 = arriba, 0,5 = pivote
+        if ref2_fila is not None:
+            frac, r2_tipo = ref2_fila
             bar.axhline((1 - frac) * 255, color=ps.COLORS["fondo"], lw=1.6 * sc, zorder=4)
             bar.axhline((1 - frac) * 255, color=ps.COLORS["gris"], lw=0.7 * sc, zorder=5)
-            r2_tipo = info.get("ref2_tipo", "país")
-            # Con aire respecto de los extremos y del pivote, se rotula EN SU
-            # FILA (caption a la izquierda, cifra a la derecha, en gris) y no
-            # se roba un renglón que se estira sobre el mapa. Si no cabe, va a
-            # los renglones de abajo.
-            if 0.09 < frac < 0.91 and abs(frac - 0.5) > 0.09:
+            if r2_tipo:
                 y_r2 = bar_top - bar_h * (1 - frac)
                 fig.text((bar_x - 5 * sc) / W, y_r2 / H, r2_tipo, fontproperties=f_cap,
                          color=ps.COLORS["gris"], va="center", ha="right")
-                fig.text(right / W, y_r2 / H, num(_r2), fontproperties=f_num,
+                fig.text(right / W, y_r2 / H, num(info["ref2"]), fontproperties=f_num,
                          color=ps.COLORS["gris"], va="center", ha="right")
-            else:
-                lineas.append(f"{r2_tipo} {num(_r2)}")
+        # Los extremos REALES sólo se declaran cuando el recorte los escondió.
+        # En una lámina que viaja sola a redes, el municipio del extremo suele
+        # ser la noticia. En renglones, no en una línea corrida.
         if lineas:
             f_ex = ps.fp(ps.MONO, ps.SIZES["leyenda"] * sc * 0.78)
-            # En renglones y no en una línea corrida: se estiraba más allá del
-            # ancho de la barra y rompía la columna de la leyenda.
             for i, ex in enumerate(lineas):
-                fig.text(right / W, (bar_top - bar_h - (34 + i * 20) * sc) / H, ex,
+                fig.text(right / W, y_linea(i) / H, ex,
                          fontproperties=f_ex, color=ps.COLORS["gris"],
                          va="center", ha="right")
 
     if archivo:
         ps.guardar(fig, archivo, formato=formato)
     return fig, ax
+
+
+_UNION = {}
+
+
+def _union_de(gdf):
+    """Unión de todos los polígonos, cacheada por identidad de la capa: se usa
+    para medir hasta dónde llega la TIERRA bajo la leyenda, y calcularla por
+    lámina costaría medio segundo en cada una de las 600."""
+    k = (len(gdf), tuple(round(v, 6) for v in gdf.total_bounds))
+    if k not in _UNION:
+        g = gdf.geometry
+        _UNION[k] = g.union_all() if hasattr(g, "union_all") else g.unary_union
+    return _UNION[k]
+
+
+def _clip(geom, xmin, ymin, xmax, ymax):
+    from shapely import clip_by_rect
+    return clip_by_rect(geom, xmin, ymin, xmax, ymax)
 
 
 def _dec(fmt):

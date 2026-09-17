@@ -1,6 +1,6 @@
 {
   "slug": "censo-cocina-lena-2012",
-  "titulo": "Bolivia: Cocina con leña o guano (censo 2012)",
+  "titulo": "Bolivia: Cocina con leña o guano",
   "subtitulo": "Viviendas que cocinan con leña, guano o bosta. Es la principal fuente de humo dentro de la casa y afecta sobre todo a quien cocina — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_combustible_solido",
     "Energía y Cocina"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-cocina-lena-2012.png",
   "thumb": "thumbs/censo-cocina-lena-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_combustible_solido",
   "atlas": "censo",
   "modo": "2012",

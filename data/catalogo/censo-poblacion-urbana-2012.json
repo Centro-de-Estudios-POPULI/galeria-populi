@@ -1,6 +1,6 @@
 {
   "slug": "censo-poblacion-urbana-2012",
-  "titulo": "Bolivia: Urbanización (censo 2012)",
+  "titulo": "Bolivia: Urbanización",
   "subtitulo": "Viviendas que el censo ubicó en área urbana. Es la medida de cuánto del municipio es ciudad y cuánto es campo — sobre las viviendas particulares ocupadas",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_urbano",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-poblacion-urbana-2012.png",
   "thumb": "thumbs/censo-poblacion-urbana-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_urbano",
   "atlas": "censo",
   "modo": "2012",

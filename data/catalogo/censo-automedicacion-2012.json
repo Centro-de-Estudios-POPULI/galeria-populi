@@ -1,6 +1,6 @@
 {
   "slug": "censo-automedicacion-2012",
-  "titulo": "Bolivia: Se automedica (censo 2012)",
+  "titulo": "Bolivia: Se automedica",
   "subtitulo": "Personas que van a la farmacia sin receta o se automedican; suele crecer donde el servicio está lejos — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_automedicacion",
     "Salud"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-automedicacion-2012.png",
   "thumb": "thumbs/censo-automedicacion-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_automedicacion",
   "atlas": "censo",
   "modo": "2012",

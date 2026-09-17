@@ -1,6 +1,6 @@
 {
   "slug": "censo-indice-de-envejecimiento-2012",
-  "titulo": "Bolivia: Índice de envejecimiento (censo 2012)",
+  "titulo": "Bolivia: Índice de envejecimiento",
   "subtitulo": "Cuántas personas de sesenta y cinco años o más hay por cada cien menores de quince. Cruzar cien significa que ya hay más viejos que chicos — sobre la población, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "indice_envejecimiento",
     "Demografía"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-indice-de-envejecimiento-2012.png",
   "thumb": "thumbs/censo-indice-de-envejecimiento-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "indice_envejecimiento",
   "atlas": "censo",
   "modo": "2012",

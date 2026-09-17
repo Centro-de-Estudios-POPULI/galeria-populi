@@ -1,6 +1,6 @@
 {
   "slug": "censo-alcantarillado-2012",
-  "titulo": "Bolivia: Con alcantarillado (censo 2012)",
+  "titulo": "Bolivia: Con alcantarillado",
   "subtitulo": "Viviendas conectadas a la red de alcantarillado. Es lo que distingue a la ciudad servida de la que se expandió sin red — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_alcantarillado",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-alcantarillado-2012.png",
   "thumb": "thumbs/censo-alcantarillado-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_alcantarillado",
   "atlas": "censo",
   "modo": "2012",

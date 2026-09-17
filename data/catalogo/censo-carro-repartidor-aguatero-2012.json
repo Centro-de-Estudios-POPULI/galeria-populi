@@ -1,6 +1,6 @@
 {
   "slug": "censo-carro-repartidor-aguatero-2012",
-  "titulo": "Bolivia: Carro repartidor (aguatero) (censo 2012)",
+  "titulo": "Bolivia: Carro repartidor (aguatero)",
   "subtitulo": "Viviendas que le compran el agua a un carro repartidor. Suele ser la opción más cara por litro — sobre las viviendas particulares ocupadas, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_agua_carro",
     "Servicios Básicos"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-carro-repartidor-aguatero-2012.png",
   "thumb": "thumbs/censo-carro-repartidor-aguatero-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_agua_carro",
   "atlas": "censo",
   "modo": "2012",

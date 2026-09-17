@@ -1,6 +1,6 @@
 {
   "slug": "censo-rezago-escolar-8-17-2012",
-  "titulo": "Bolivia: Rezago escolar (8-17) (censo 2012)",
+  "titulo": "Bolivia: Rezago escolar (8-17)",
   "subtitulo": "De ocho a diecisiete años, quienes van dos o más cursos por debajo del que les corresponde por edad; mide el atraso acumulado, no el abandono — sobre la población de 8 a 17 años que asiste a la escuela, por municipio",
   "categoria": "censo",
   "fuente": "Fuente: INE Bolivia, Censo de Población y Vivienda 2012. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
@@ -10,12 +10,13 @@
     "pct_rezago_escolar",
     "Educación"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/censo-rezago-escolar-8-17-2012.png",
   "thumb": "thumbs/censo-rezago-escolar-8-17-2012.webp",
   "datos": null,
+  "nota": "",
   "clave": "pct_rezago_escolar",
   "atlas": "censo",
   "modo": "2012",
