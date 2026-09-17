@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-inv-pc",
   "titulo": "Bolivia: Inversión pública por habitante",
-  "subtitulo": "Inversión pública total (Gasto de Capital, partida E) por habitante. Mide el esfuerzo inversor por persona — gestión 2025, por municipio",
+  "subtitulo": "Inversión pública total (Gasto de Capital, partida E) por habitante (población proyectada por el INE). Mide el esfuerzo inversor por persona — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,7 +11,7 @@
     "Per Cápita",
     "inv_pc"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-inv-pc.png",
@@ -27,9 +27,9 @@
   "indicador": "Inversión per cápita",
   "escala": {
     "lo": 9.84,
-    "piv": 350.0,
-    "piv_real": 350.0,
-    "hi": 1383.799999999999,
+    "piv": 338.0,
+    "piv_real": 338.0,
+    "hi": 1356.1999999999994,
     "piv_tipo": "mediana"
   }
 }

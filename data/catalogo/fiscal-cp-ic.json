@@ -11,7 +11,7 @@
     "Sostenibilidad de Ing. Corrientes",
     "cp_ic"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-cp-ic.png",
@@ -27,8 +27,8 @@
   "indicador": "Coparticipación / Ing. Corriente",
   "escala": {
     "lo": 32.572,
-    "piv": 59.68546449820513,
-    "piv_real": 59.68546449820513,
+    "piv": 59.64088264637858,
+    "piv_real": 59.64088264637858,
     "hi": 89.2964,
     "piv_tipo": "promedio nacional"
   }

@@ -17,6 +17,11 @@ usan los mapas del Censo.
   MEDIANA en los per cápita y montos. Antes acá se ponderaba todo, y los cinco
   per cápita quedaban hasta un quinto del rango corridos respecto de la web.
 
+★ POBLACIÓN INE (2026-09-17): los cinco per cápita (Bs/hab) y el ponderador del
+  promedio nacional usan la población proyectada por el INE (Revisión 2025, mitad de
+  año), que llega ya dentro de `fiscal_data.json` (`pob`); ver `poblacion` en el
+  catálogo. Antes eran los conteos censales 2012/2024 interpolados (~4 % menos).
+
     python viz/examples/mapas_atlas_fiscal.py
     python viz/examples/mapas_atlas_fiscal.py --solo=cp_it
 """
@@ -47,7 +52,7 @@ if not GEO.exists():
 if not GEO.exists():
     sys.exit("⛔ no está el mapa maestro (bo-geo-maestro/geo/atlas_muni_343.topojson)")
 
-FECHA = "2026-09-16"
+FECHA = "2026-09-17"
 AUTOR = "Carlos Aranda"
 FUENTE = ("Fuente: Ministerio de Economía y Finanzas Públicas, ejecución "
           f"presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · {AUTOR}.")

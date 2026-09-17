@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-it-pc",
   "titulo": "Bolivia: Ingreso total por habitante",
-  "subtitulo": "Ingreso total (A+B+C) dividido entre la población estimada del año. Representa los recursos fiscales disponibles por habitante — gestión 2025, por municipio",
+  "subtitulo": "Ingreso total (A+B+C) dividido entre la población del año (proyección del INE, mitad de año). Representa los recursos fiscales disponibles por habitante — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,7 +11,7 @@
     "Per Cápita",
     "it_pc"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-it-pc.png",
@@ -26,10 +26,10 @@
   "unidad": "Bs/hab",
   "indicador": "Ingreso Total per cápita",
   "escala": {
-    "lo": 1033.28,
-    "piv": 1515.0,
-    "piv_real": 1515.0,
-    "hi": 3564.9199999999987,
+    "lo": 1005.68,
+    "piv": 1471.0,
+    "piv_real": 1471.0,
+    "hi": 3474.3999999999987,
     "piv_tipo": "mediana"
   }
 }

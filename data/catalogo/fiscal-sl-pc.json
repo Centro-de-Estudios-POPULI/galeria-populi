@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-sl-pc",
   "titulo": "Bolivia: Gasto en salud por habitante",
-  "subtitulo": "Gasto municipal en salud por habitante. Indicador de esfuerzo fiscal e inversión en atención de salud — gestión 2025, por municipio",
+  "subtitulo": "Gasto municipal en salud por habitante (población proyectada por el INE). Indicador de esfuerzo fiscal e inversión en atención de salud — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,7 +11,7 @@
     "Per Cápita",
     "sl_pc"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-sl-pc.png",
@@ -26,10 +26,10 @@
   "unidad": "Bs/hab",
   "indicador": "Salud per cápita",
   "escala": {
-    "lo": 131.68,
-    "piv": 268.0,
-    "piv_real": 268.0,
-    "hi": 630.1599999999968,
+    "lo": 127.0,
+    "piv": 256.0,
+    "piv_real": 256.0,
+    "hi": 611.9199999999972,
     "piv_tipo": "mediana"
   }
 }

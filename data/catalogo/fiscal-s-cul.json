@@ -11,7 +11,7 @@
     "Gasto por Sectores",
     "s_cul"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-cul.png",
@@ -27,8 +27,8 @@
   "indicador": "Cultura / G. Sectorial",
   "escala": {
     "lo": 0.1784,
-    "piv": 2.81337777632453,
-    "piv_real": 2.81337777632453,
+    "piv": 2.802254480439531,
+    "piv_real": 2.802254480439531,
     "hi": 12.421199999999997,
     "piv_tipo": "promedio nacional"
   }

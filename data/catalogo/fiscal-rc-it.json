@@ -11,7 +11,7 @@
     "Estructura de Ingresos",
     "rc_it"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-rc-it.png",
@@ -27,8 +27,8 @@
   "indicador": "Recursos de Capital / Ing. Total",
   "escala": {
     "lo": 0.0,
-    "piv": 7.302200712035176,
-    "piv_real": 7.302200712035176,
+    "piv": 7.262547194130229,
+    "piv_real": 7.262547194130229,
     "hi": 47.783199999999994,
     "piv_tipo": "promedio nacional"
   }

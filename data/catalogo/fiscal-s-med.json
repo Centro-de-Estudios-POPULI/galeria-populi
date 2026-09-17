@@ -11,7 +11,7 @@
     "Gasto por Sectores",
     "s_med"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-med.png",
@@ -27,8 +27,8 @@
   "indicador": "Medio Ambiente / G. Sectorial",
   "escala": {
     "lo": 0.0,
-    "piv": 7.869043023263197,
-    "piv_real": 7.869043023263197,
+    "piv": 7.874219476966516,
+    "piv_real": 7.874219476966516,
     "hi": 12.66879999999998,
     "piv_tipo": "promedio nacional"
   }

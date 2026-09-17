@@ -11,7 +11,7 @@
     "Sostenibilidad de Ing. Corrientes",
     "idh_ic"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-idh-ic.png",
@@ -27,8 +27,8 @@
   "indicador": "IDH / Ing. Corriente",
   "escala": {
     "lo": 3.512,
-    "piv": 7.816109787583449,
-    "piv_real": 7.816109787583449,
+    "piv": 7.840760511615583,
+    "piv_real": 7.840760511615583,
     "hi": 44.91159999999996,
     "piv_tipo": "promedio nacional"
   }

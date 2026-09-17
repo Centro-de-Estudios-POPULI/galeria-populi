@@ -11,7 +11,7 @@
     "Gasto por Sectores",
     "s_adm"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-adm.png",
@@ -27,8 +27,8 @@
   "indicador": "Administración / G. Sectorial",
   "escala": {
     "lo": 10.059199999999999,
-    "piv": 21.761981038426228,
-    "piv_real": 21.761981038426228,
+    "piv": 21.77149174960526,
+    "piv_real": 21.77149174960526,
     "hi": 34.3512,
     "piv_tipo": "promedio nacional"
   }

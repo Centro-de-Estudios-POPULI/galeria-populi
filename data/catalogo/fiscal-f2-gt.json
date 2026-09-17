@@ -11,7 +11,7 @@
     "Estructura del Gasto",
     "f2_gt"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-f2-gt.png",
@@ -27,8 +27,8 @@
   "indicador": "Amort. Flotante (F.2) / G. Total",
   "escala": {
     "lo": 0.0,
-    "piv": 5.156896281299376,
-    "piv_real": 5.156896281299376,
+    "piv": 5.17251996001227,
+    "piv_real": 5.17251996001227,
     "hi": 8.853599999999977,
     "piv_tipo": "promedio nacional"
   }

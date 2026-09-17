@@ -11,7 +11,7 @@
     "Estructura de Ingresos",
     "idh_it"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-idh-it.png",
@@ -27,8 +27,8 @@
   "indicador": "IDH / Ing. Total",
   "escala": {
     "lo": 2.7068,
-    "piv": 6.561246613771748,
-    "piv_real": 6.561246613771748,
+    "piv": 6.586880583466446,
+    "piv_real": 6.586880583466446,
     "hi": 38.41959999999995,
     "piv_tipo": "promedio nacional"
   }

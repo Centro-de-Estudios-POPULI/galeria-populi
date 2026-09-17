@@ -11,7 +11,7 @@
     "Estructura de Ingresos",
     "rp_it"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-rp-it.png",
@@ -27,8 +27,8 @@
   "indicador": "Recursos Propios / Ing. Total",
   "escala": {
     "lo": 0.3668,
-    "piv": 26.054378084086384,
-    "piv_real": 26.054378084086384,
+    "piv": 26.06879363105134,
+    "piv_real": 26.06879363105134,
     "hi": 44.290799999999756,
     "piv_tipo": "promedio nacional"
   }

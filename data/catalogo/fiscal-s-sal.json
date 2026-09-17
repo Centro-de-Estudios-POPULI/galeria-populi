@@ -11,7 +11,7 @@
     "Gasto por Sectores",
     "s_sal"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-sal.png",
@@ -27,8 +27,8 @@
   "indicador": "Salud / G. Sectorial",
   "escala": {
     "lo": 8.5248,
-    "piv": 21.205198031576415,
-    "piv_real": 21.205198031576415,
+    "piv": 21.273527287195318,
+    "piv_real": 21.273527287195318,
     "hi": 35.703999999999986,
     "piv_tipo": "promedio nacional"
   }

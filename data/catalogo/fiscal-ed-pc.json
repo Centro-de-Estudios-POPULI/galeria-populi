@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-ed-pc",
   "titulo": "Bolivia: Gasto en educación por habitante",
-  "subtitulo": "Gasto municipal en educación por habitante. Indicador de inversión educativa por ciudadano — gestión 2025, por municipio",
+  "subtitulo": "Gasto municipal en educación por habitante (población proyectada por el INE). Indicador de inversión educativa por ciudadano — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,7 +11,7 @@
     "Per Cápita",
     "ed_pc"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-ed-pc.png",
@@ -26,10 +26,10 @@
   "unidad": "Bs/hab",
   "indicador": "Educación per cápita",
   "escala": {
-    "lo": 65.36,
-    "piv": 203.0,
-    "piv_real": 203.0,
-    "hi": 723.5199999999993,
+    "lo": 62.879999999999995,
+    "piv": 195.0,
+    "piv_real": 195.0,
+    "hi": 705.5199999999993,
     "piv_tipo": "mediana"
   }
 }

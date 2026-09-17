@@ -11,7 +11,7 @@
     "Estructura de Ingresos",
     "cp_it"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-cp-it.png",
@@ -27,8 +27,8 @@
   "indicador": "Coparticipación / Ing. Total",
   "escala": {
     "lo": 23.454,
-    "piv": 49.52511063295021,
-    "piv_real": 49.52511063295021,
+    "piv": 49.505408642164156,
+    "piv_real": 49.505408642164156,
     "hi": 80.33279999999998,
     "piv_tipo": "promedio nacional"
   }

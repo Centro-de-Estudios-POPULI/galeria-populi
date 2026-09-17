@@ -11,7 +11,7 @@
     "Gasto por Sectores",
     "s_edu"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-edu.png",
@@ -27,8 +27,8 @@
   "indicador": "Educación / G. Sectorial",
   "escala": {
     "lo": 4.666,
-    "piv": 13.163262991328663,
-    "piv_real": 13.163262991328663,
+    "piv": 13.145467269658894,
+    "piv_real": 13.145467269658894,
     "hi": 35.34919999999994,
     "piv_tipo": "promedio nacional"
   }

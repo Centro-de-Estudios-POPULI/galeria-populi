@@ -11,7 +11,7 @@
     "Sostenibilidad de Ing. Corrientes",
     "rp_ic"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-rp-ic.png",
@@ -27,8 +27,8 @@
   "indicador": "Recursos Propios / Ing. Corriente",
   "escala": {
     "lo": 0.542,
-    "piv": 31.125111612152935,
-    "piv_real": 31.125111612152935,
+    "piv": 31.147088606589787,
+    "piv_real": 31.147088606589787,
     "hi": 55.41839999999998,
     "piv_tipo": "promedio nacional"
   }

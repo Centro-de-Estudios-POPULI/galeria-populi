@@ -11,7 +11,7 @@
     "Estructura del Gasto",
     "gc_gt"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-gc-gt.png",
@@ -27,8 +27,8 @@
   "indicador": "Gasto Corriente / Gasto Total",
   "escala": {
     "lo": 41.0428,
-    "piv": 68.87125729021211,
-    "piv_real": 68.87125729021211,
+    "piv": 68.94355010210077,
+    "piv_real": 68.94355010210077,
     "hi": 92.76079999999997,
     "piv_tipo": "promedio nacional"
   }

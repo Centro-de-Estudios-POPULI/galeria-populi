@@ -11,7 +11,7 @@
     "Resultado Fiscal",
     "f1_it"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-f1-it.png",
@@ -27,8 +27,8 @@
   "indicador": "Deuda Financiera (F.1) / Ing. Total",
   "escala": {
     "lo": 0.0,
-    "piv": 4.177140472370525,
-    "piv_real": 4.177140472370525,
+    "piv": 4.185573104239752,
+    "piv_real": 4.185573104239752,
     "hi": 9.243199999999968,
     "piv_tipo": "promedio nacional"
   }

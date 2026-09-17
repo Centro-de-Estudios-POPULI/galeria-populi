@@ -11,7 +11,7 @@
     "Estructura del Gasto",
     "ge_gt"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-ge-gt.png",
@@ -27,8 +27,8 @@
   "indicador": "Inversión / Gasto Total",
   "escala": {
     "lo": 0.8848,
-    "piv": 19.316857024488154,
-    "piv_real": 19.316857024488154,
+    "piv": 19.225912230945855,
+    "piv_real": 19.225912230945855,
     "hi": 52.264799999999966,
     "piv_tipo": "promedio nacional"
   }

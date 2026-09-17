@@ -1,7 +1,7 @@
 {
   "slug": "fiscal-ic-pc",
   "titulo": "Bolivia: Ingreso corriente por habitante",
-  "subtitulo": "Ingreso Corriente (Subtotal A) por habitante. Mide los recursos fiscales recurrentes y sostenibles disponibles por persona, excluyendo capital y deuda — gestión 2025, por municipio",
+  "subtitulo": "Ingreso Corriente (Subtotal A) por habitante (población proyectada por el INE). Mide los recursos fiscales recurrentes y sostenibles disponibles por persona, excluyendo capital y deuda — gestión 2025, por municipio",
   "categoria": "fiscal",
   "fuente": "Fuente: Ministerio de Economía y Finanzas Públicas, ejecución presupuestaria municipal (IGF). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
@@ -11,7 +11,7 @@
     "Per Cápita",
     "ic_pc"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-ic-pc.png",
@@ -26,10 +26,10 @@
   "unidad": "Bs/hab",
   "indicador": "Ingreso Corriente per cápita",
   "escala": {
-    "lo": 941.84,
-    "piv": 1174.0,
-    "piv_real": 1174.0,
-    "hi": 2550.5599999999986,
+    "lo": 921.36,
+    "piv": 1139.0,
+    "piv_real": 1139.0,
+    "hi": 2498.3999999999965,
     "piv_tipo": "mediana"
   }
 }

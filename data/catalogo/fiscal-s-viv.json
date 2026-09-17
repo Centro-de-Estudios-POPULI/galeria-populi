@@ -11,7 +11,7 @@
     "Gasto por Sectores",
     "s_viv"
   ],
-  "fecha": "2026-09-16",
+  "fecha": "2026-09-17",
   "tipo": "mapa",
   "formato": "red_vertical",
   "imagen": "graficas/fiscal-s-viv.png",
@@ -27,8 +27,8 @@
   "indicador": "Vivienda e Infraestr. / G. Sectorial",
   "escala": {
     "lo": 0.9988,
-    "piv": 11.460520000998335,
-    "piv_real": 11.460520000998335,
+    "piv": 11.430469343437256,
+    "piv_real": 11.430469343437256,
     "hi": 27.903199999999977,
     "piv_tipo": "promedio nacional"
   }
