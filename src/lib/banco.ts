@@ -6,6 +6,8 @@ export type Ficha = {
   tags?: string[]; fecha?: string; tipo: string; formato?: string; imagen: string; thumb: string;
   datos?: string | null; clave?: string; atlas?: string; modo?: string; anio?: string;
   enlace?: string; grupo?: string; universo?: string; unidad?: string;
+  /** texto del enlace a la versión interactiva; si falta, «Ver en el atlas» */
+  enlace_etiqueta?: string;
   ancho?: number; alto?: number; kb?: number;
 };
 export type Categoria = { label: string; color: string };
@@ -17,6 +19,10 @@ export const meta = (manifest as any).meta as { generado: string; n: number; mun
 
 /** une base + ruta con exactamente una barra */
 export const u = (base: string, p: string) => `${base.replace(/\/$/, "")}/${p.replace(/^\//, "")}`;
+
+/** ruta de un archivo de la ficha: las URL absolutas (p. ej. los CSV de un Asunto Público en
+ *  populi.org.bo) se dejan como están; las relativas se cuelgan de la base del Banco */
+export const archivo = (base: string, p: string) => (/^https?:\/\//.test(p) ? p : u(base, p));
 
 /** sin tildes ni mayúsculas: lo que se compara al buscar */
 export const norm = (t: string) => (t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();

@@ -1,0 +1,32 @@
+{
+  "slug": "ap-273-nbi",
+  "titulo": "Santa Cruz: población con necesidades básicas cubiertas por municipio, 2024",
+  "subtitulo": "En porcentaje de la población. Con borde oscuro, los seis municipios del núcleo metropolitano; a la derecha, el puesto de cada uno entre los 343 municipios del país",
+  "categoria": "censo",
+  "fuente": "Fuente: Elaboración propia con base en INE, Censo de Población y Vivienda 2024, a través del Atlas Socioeconómico Municipal de POPULI. Población no pobre por NBI: necesidades básicas satisfechas más umbral de pobreza (véase la nota 6). Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 273.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-273",
+    "Santa Cruz",
+    "necesidades básicas",
+    "NBI",
+    "municipios",
+    "Censo 2024"
+  ],
+  "fecha": "2026-09-24",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-273-nbi.png",
+  "thumb": "thumbs/ap-273-nbi.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-273/nbi-municipios.csv",
+  "grupo": "Asuntos Públicos N.º 273",
+  "enlace": "https://populi.org.bo/asuntos-publicos/la-economia-crucena-del-rezago-al-liderazgo-economico-2026/leer/#nbi",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 273",
+  "documento": {
+    "numero": "AP-273",
+    "titulo": "La economía cruceña: Del rezago al liderazgo económico nacional",
+    "url": "https://populi.org.bo/asuntos-publicos/la-economia-crucena-del-rezago-al-liderazgo-economico-2026/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/la-economia-crucena-del-rezago-al-liderazgo-economico-2026/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-273-la-economia-crucena-del-rezago-al-liderazgo-economico-2026.pdf"
+  }
+}

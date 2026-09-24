@@ -1,0 +1,32 @@
+{
+  "slug": "ap-273-pib-departamentos",
+  "titulo": "Bolivia: PIB según departamento, 1950–2024 (p)",
+  "subtitulo": "Arriba, en millones de bolivianos de 1990; abajo, crecimiento promedio anual del periodo que termina en cada año (%)",
+  "categoria": "actividad",
+  "fuente": "Fuente: Elaboración propia con base en Peres-Cajías (2020) e INE (base 1990) hasta 2017; desde 2017, extensión con el crecimiento real por departamento del INE, Cuentas Nacionales año de referencia 2017 (volúmenes encadenados). 2024: preliminar. Tasas promedio anuales compuestas. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 273.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-273",
+    "Bolivia",
+    "Santa Cruz",
+    "PIB departamental",
+    "crecimiento económico"
+  ],
+  "fecha": "2026-09-24",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-273-pib-departamentos.png",
+  "thumb": "thumbs/ap-273-pib-departamentos.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-273/pib-departamentos.csv",
+  "grupo": "Asuntos Públicos N.º 273",
+  "enlace": "https://populi.org.bo/asuntos-publicos/la-economia-crucena-del-rezago-al-liderazgo-economico-2026/leer/#pib-departamentos",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 273",
+  "documento": {
+    "numero": "AP-273",
+    "titulo": "La economía cruceña: Del rezago al liderazgo económico nacional",
+    "url": "https://populi.org.bo/asuntos-publicos/la-economia-crucena-del-rezago-al-liderazgo-economico-2026/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/la-economia-crucena-del-rezago-al-liderazgo-economico-2026/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-273-la-economia-crucena-del-rezago-al-liderazgo-economico-2026.pdf"
+  },
+  "nota": "Véase la nota 2 del Asunto Público N.º 273."
+}

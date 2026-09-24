@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import vitrina from "../vitrina.json";
-import { categorias, graficas, meta, u, modoLabel, grupoDe, temasPorCategoria, cortesPorCategoria, fichaTecnica, SITE } from "../lib/banco";
+import { categorias, graficas, meta, u, archivo, modoLabel, grupoDe, temasPorCategoria, cortesPorCategoria, fichaTecnica, SITE } from "../lib/banco";
 const base = import.meta.env.BASE_URL;
 const cats = Object.entries(categorias);
 const nMapas = graficas.filter((g) => g.tipo === "mapa").length;
@@ -92,8 +92,8 @@ const icoEye = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M
         return (
           <article class="card" style={`--c:${c.color}`} data-slug={g.slug} data-cat={g.categoria} data-fecha={g.fecha}
                    data-tema={grupo} data-corte={modo} data-titulo={g.titulo} data-tags={(g.tags ?? []).join("|")}
-                   data-sub={g.subtitulo ?? ""} data-fuente={g.fuente ?? ""} data-enlace={g.enlace ?? ""}
-                   data-img={u(base, g.imagen)} data-datos={g.datos ? u(base, g.datos) : ""} data-catl={c.label} data-catc={c.color}>
+                   data-sub={g.subtitulo ?? ""} data-fuente={g.fuente ?? ""} data-enlace={g.enlace ?? ""} data-enlace-etiqueta={g.enlace_etiqueta ?? ""}
+                   data-img={u(base, g.imagen)} data-datos={g.datos ? archivo(base, g.datos) : ""} data-catl={c.label} data-catc={c.color}>
             <a class="lienzo" href={u(base, `g/${g.slug}/`)} data-visor aria-label={`Ver ${g.titulo}`}>
               <img src={u(base, g.thumb)} alt="" loading="lazy" decoding="async" width="600" height="600" />
             </a>
@@ -106,7 +106,7 @@ const icoEye = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M
               <span class="ficha-t">{fichaTecnica(g)}</span>
               <div class="acciones">
                 {g.enlace
-                  ? <a class="vivo" href={g.enlace} set:html={icoMap + "<span>Ver en el atlas</span>"} />
+                  ? <a class="vivo" href={g.enlace} set:html={icoMap + `<span>${g.enlace_etiqueta ?? "Ver en el atlas"}</span>`} />
                   : <a class="vivo" href={u(base, `g/${g.slug}/`)} set:html={icoEye + "<span>Ver la ficha</span>"} />}
                 <a class="baja" href={u(base, g.imagen)} download={`${g.slug}.png`} set:html={"<span>Descargar</span>" + icoDown} />
               </div>
@@ -264,6 +264,7 @@ const icoEye = `<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M
       vCat.textContent = d.catl; vCat.style.setProperty('--c', d.catc);
       vDl.href = d.img; vDl.download = d.slug + '.png';
       vAt.hidden = !d.enlace; vAt.href = d.enlace || '';
+      vAt.textContent = (d.enlaceEtiqueta || 'Ver en el atlas interactivo') + ' ↗';
       vDa.hidden = !d.datos; vDa.href = d.datos || '';
       vPg.href = base.replace(/\/$/, '') + '/g/' + d.slug + '/';
       vTags.innerHTML = (d.tags || '').split('|').filter(Boolean).slice(0, 6)

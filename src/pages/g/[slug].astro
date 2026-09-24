@@ -3,7 +3,7 @@
 // Trae su imagen para las tarjetas de redes (og:image), la ficha completa y
 // las otras versiones del mismo indicador (2024 · 2012 · cambio).
 import Base from "../../layouts/Base.astro";
-import { categorias, graficas, u, modoLabel, grupoDe, versionesDe, tagsVisibles, fichaTecnica, SITE } from "../../lib/banco";
+import { categorias, graficas, u, archivo, modoLabel, grupoDe, versionesDe, tagsVisibles, fichaTecnica, SITE } from "../../lib/banco";
 
 export function getStaticPaths() {
   return graficas.map((g) => ({ params: { slug: g.slug }, props: { g } }));
@@ -37,8 +37,8 @@ const etiquetaModo = (v: typeof g) => (v.atlas === "censo" ? (v.modo === "cambio
       </figure>
       <aside class="ficha" aria-label="Ficha de la gráfica">
         <a class="btn" href={u(base, g.imagen)} download={`${g.slug}.png`}>↓ Descargar PNG en alta resolución</a>
-        {g.enlace && <a class="btn sec" href={g.enlace}>Ver en el atlas interactivo ↗</a>}
-        {g.datos && <a class="btn sec" href={u(base, g.datos)}>Datos (CSV)</a>}
+        {g.enlace && <a class="btn sec" href={g.enlace}>{g.enlace_etiqueta ?? "Ver en el atlas interactivo"} ↗</a>}
+        {g.datos && <a class="btn sec" href={archivo(base, g.datos)}>Datos (CSV)</a>}
         <button class="btn sec" type="button" id="copiar" data-url={url}>Copiar enlace</button>
         <span class="copiado" id="copiado" hidden>Enlace copiado</span>
         {versiones.length > 1 && (

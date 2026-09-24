@@ -101,7 +101,8 @@ def ficha_de(meta: dict, tipo: str, formato: str) -> dict:
         "formato": formato,
         "imagen": f"graficas/{slug}.png",
         "thumb": f"thumbs/{slug}.webp",
-        "datos": None,
+        # datos: los declarados (p. ej. el CSV de un Asunto Público en populi.org.bo); si no, ninguno
+        "datos": meta.get("datos"),
     }
     for k, v in meta.items():
         if k not in ficha and k not in ("tipo", "formato"):
