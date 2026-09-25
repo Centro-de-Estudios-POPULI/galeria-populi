@@ -139,9 +139,10 @@ BRAND_DEEPEST = "#6B0300"  # = --color-populi-deep del sitio (extremo de la roja
 # de #001219, ≈220, con croma ≤ 0,02). Lo cálido (papel #FAF8F3, grilla #E2DDD3) es
 # superficie y nunca dato. Decisión de Carlos 2026-09-25 (grises fríos). Contraste
 # sobre el papel: tinta 18,0 · pizarra 5,2 · gris 2,9 · tenue 1,5 · niebla 1,2.
-# ⚠️ La pizarra tiene la MISMA luminosidad que el rojo (0,52 / 0,53): con
-#    deuteranopía se separan por ΔE 12,8, bajo el piso de 15. Nunca es serie al lado
-#    del rojo: es texto, eje y umbral.
+# ⚠️ La pizarra tiene la MISMA luminosidad que el rojo (0,52 / 0,53): en blanco y
+#    negro (fotocopia, PDF impreso) son el mismo gris. Con daltonismo sí se separan
+#    (ΔE 12,8, sobre el objetivo de 8). Nunca es serie al lado del rojo: es texto,
+#    eje y umbral.
 NO_DATA_DARK = "#242C30"   # niebla en oscuro: 1,4:1 sobre #080808, distinta del tenue
 SITE_BG_DARK = "#080808"   # el fondo oscuro REAL de la página (Layout.astro). Un gráfico
                            # que se apoya sobre la página usa BG / SITE_BG_DARK.
