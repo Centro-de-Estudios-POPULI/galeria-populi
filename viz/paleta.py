@@ -161,21 +161,29 @@ FOCO = {"foco": BRAND, "foco_texto": BRAND, "referencia": INK,
 FOCO_DARK = {"foco": BRAND, "foco_texto": BRAND_LIGHT, "referencia": INK_DARK,
              "contexto": HIGHLIGHT_MUTED_DARK, "umbral": MUTED_DARK}
 
-# ─── Modo CATEGÓRICO en ORDEN DE RAMPA (2026-09-25) ──────────────────────────
-# Idea de Carlos: los segmentos siguen la rampa del rojo hacia el frío. Paso a paso
-# NO sirve (#DF5D25↔#E57D22 a ΔE 7,2 con visión normal); de a SALTOS sí. Validado con
-# validate_palette.js: 3 series, peor par pegado 17,7 (el orden rojo→turquesa→oro
-# daba 15,4 y el del AP-273, rojo→petróleo→oro, 12,4). Con 4 y 5, el petróleo y la
-# menta leen casi grises (croma 0,08 / 0,07): van con rótulo o tooltip.
-# En un APILADO: el protagonista ABAJO en rojo (es el único segmento apoyado en la
-# base), el resto por importancia hacia arriba, y «Otros» ARRIBA en gris tenue.
-# Más de 5 → se juntan en «Otros» o se usa CATEGORICAL_12.
+# ─── Modo CATEGÓRICO en ORDEN DE RAMPA (2026-09-25, afinado el mismo día) ─────
+# Regla de Carlos: de ABAJO hacia ARRIBA los segmentos recorren la rampa EN ORDEN, del
+# rojo hacia la tinta (#001219), y después del rojo vienen los CÁLIDOS y recién después
+# los fríos (le molestaba ver agua o verde claro pegado al rojo y el naranja arriba).
+# Límite medido: entre el rojo y el oro entra UN solo paso cálido, porque el rojo
+# anaranjado, el naranja y el oro están a ΔE 7 a 15 entre sí (se funden, más sin bordes).
+# Pares vecinos medidos (visión normal / daltonismo, pisos 15 / 8):
+#   rojo-oro 26,2/22,4 · oro-turquesa 28,1/17,7 · oro-menta 19,7/15,9 ·
+#   menta-turquesa 21,9/20,4 · turquesa-petróleo 15,9/15,7 · petróleo-tinta 28,4/27,8.
+# Hasta 6 series pasan todos; con 7 o más entra un par bajo el piso (rojo-rojo anaranjado
+# 11,5): conviene juntar en «Otros». El arena (#E9D8A6) casi desaparece sobre el papel
+# como relleno: sólo desde 7. Protagonista ABAJO en rojo; «Otros» ARRIBA, en gris tenue,
+# fuera de este recorrido. El primero de la lista va abajo.
 RAMPA_POR_N = {
     1: [BRAND],
     2: [BRAND, "#0A9396"],
     3: [BRAND, "#EE9B00", "#0A9396"],
     4: [BRAND, "#EE9B00", "#0A9396", "#005F73"],
-    5: [BRAND, "#EE9B00", "#94D2BD", "#0A9396", "#005F73"],
+    5: [BRAND, "#EE9B00", "#0A9396", "#005F73", "#001219"],
+    6: [BRAND, "#EE9B00", "#94D2BD", "#0A9396", "#005F73", "#001219"],
+    7: [BRAND, "#DF5D25", "#EE9B00", "#E9D8A6", "#0A9396", "#005F73", "#001219"],
+    8: [BRAND, "#DF5D25", "#EE9B00", "#E9D8A6", "#94D2BD", "#0A9396", "#005F73", "#001219"],
+    9: [BRAND, "#DF5D25", "#E57D22", "#EE9B00", "#E9D8A6", "#94D2BD", "#0A9396", "#005F73", "#001219"],
 }
 
 # ─── Tipografía (cerrada 2026-08-10) ─────────────────────────────────────────
