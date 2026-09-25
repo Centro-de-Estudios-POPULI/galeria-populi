@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generado": "2026-09-24",
+    "generado": "2026-09-25",
     "n": 842,
     "municipios": 343
   },
@@ -42,7 +42,7 @@
         "censos",
         "crecimiento poblacional"
       ],
-      "fecha": "2026-09-24",
+      "fecha": "2026-09-25",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-273-crecimiento-poblacion.png",
@@ -60,7 +60,7 @@
       },
       "ancho": 2000,
       "alto": 1504,
-      "kb": 142
+      "kb": 140
     },
     {
       "slug": "ap-273-nbi",
@@ -77,7 +77,7 @@
         "municipios",
         "Censo 2024"
       ],
-      "fecha": "2026-09-24",
+      "fecha": "2026-09-25",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-273-nbi.png",
@@ -111,7 +111,7 @@
         "población",
         "censos"
       ],
-      "fecha": "2026-09-24",
+      "fecha": "2026-09-25",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-273-poblacion.png",
@@ -145,7 +145,7 @@
         "PIB departamental",
         "crecimiento económico"
       ],
-      "fecha": "2026-09-24",
+      "fecha": "2026-09-25",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-273-crecimiento-reciente.png",
@@ -179,7 +179,7 @@
         "desarrollo humano",
         "IDH"
       ],
-      "fecha": "2026-09-24",
+      "fecha": "2026-09-25",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-273-idh.png",
@@ -197,7 +197,7 @@
       },
       "ancho": 2000,
       "alto": 1714,
-      "kb": 263
+      "kb": 260
     },
     {
       "slug": "ap-273-participacion",
@@ -214,7 +214,7 @@
         "participación",
         "largo plazo"
       ],
-      "fecha": "2026-09-24",
+      "fecha": "2026-09-25",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-273-participacion.png",
@@ -233,7 +233,7 @@
       "nota": "Véase la nota 2 del Asunto Público N.º 273.",
       "ancho": 2000,
       "alto": 1692,
-      "kb": 213
+      "kb": 212
     },
     {
       "slug": "ap-273-pib-departamentos",
@@ -249,7 +249,7 @@
         "PIB departamental",
         "crecimiento económico"
       ],
-      "fecha": "2026-09-24",
+      "fecha": "2026-09-25",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-273-pib-departamentos.png",
