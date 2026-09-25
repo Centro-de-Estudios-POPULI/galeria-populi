@@ -48,7 +48,11 @@
   --po-positive:     #0A9396;  /* alza · superávit                            */
   --po-negative:     #C71E1D;  /* baja · déficit                              */
   --po-neutral:      #8A9699;
-  --po-highlight-muted: #B9BEC0;  /* el "resto" en el patrón destacado+gris   */
+  --po-highlight-muted: #C9CDCE;  /* el "resto": gris TENUE (único de contexto) */
+  /* ── Escala de grises oficial (2026-09-25): la tinta diluida, fría ────── */
+  --po-tinta: #001219; --po-pizarra: #5C6B70; --po-gris: #8A9699;
+  --po-gris-tenue: #C9CDCE; --po-niebla: #DFE5EA;
+  --po-bg-sitio: #FAF8F3;   /* fondo de la página: el gráfico se apoya en ella */
 
   /* ── Rampa oficial de los mapas municipales (2026-09-16) ────────────────── */
   /* Nueve pasos, divergente; la misma en los dos atlas y en el Banco.        */
@@ -75,5 +79,8 @@
   --po-border:    #2A3A50;
   --po-brand:     #E8706B;   /* sobre negro, el ladrillo pierde legibilidad   */
   --po-neutral:   #6E7A7D;
-  --po-highlight-muted: #4A5457;
+  --po-highlight-muted: #3A4549;
+  --po-tinta: #E2E8F0; --po-pizarra: #8A9699; --po-gris: #6E7A7D;
+  --po-gris-tenue: #3A4549; --po-niebla: #242C30;
+  --po-bg-sitio: #080808;
 }

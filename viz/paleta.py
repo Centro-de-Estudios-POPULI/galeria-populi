@@ -96,8 +96,11 @@ POSITIVE = "#0A9396"   # alza · bueno · superávit
 NEGATIVE = "#C71E1D"   # baja · malo · déficit
 NEUTRAL = "#8A9699"
 NEUTRAL_DARK = "#6E7A7D"
-HIGHLIGHT_MUTED = "#B9BEC0"       # el «resto» en el patrón destacado+gris
-HIGHLIGHT_MUTED_DARK = "#4A5457"
+HIGHLIGHT_MUTED = "#C9CDCE"       # el «resto» en el patrón destacado+gris = gris TENUE
+HIGHLIGHT_MUTED_DARK = "#3A4549"
+# ↑ 2026-09-25, decisión de Carlos: UN solo gris de contexto. Antes era #B9BEC0 (oscuro
+#4A5457); el AP-273 ya usaba #C9CDCE y los dos estaban a ΔE 4,7: a la vista, el mismo
+# gris con dos nombres. Queda el del gráfico del IDH.
 
 # ⚠️ EXCEPCIÓN documentada: en el monitor del dólar, rojo = VENTA y turquesa =
 # COMPRA. Ahí el color es información, no identidad. No migrar por regla general.
@@ -131,6 +134,49 @@ TINT_ROJO = "#F8E5E3"    # = --color-populi-tint del sitio
 TINT_TURQUESA = "#D9EAE6"
 BRAND_DEEPEST = "#6B0300"  # = --color-populi-deep del sitio (extremo de la roja)
 
+# ─── Escala de grises oficial (2026-09-25) ───────────────────────────────────
+# «La tinta es fría y el papel es cálido»: los grises son la TINTA DILUIDA (el tono
+# de #001219, ≈220, con croma ≤ 0,02). Lo cálido (papel #FAF8F3, grilla #E2DDD3) es
+# superficie y nunca dato. Decisión de Carlos 2026-09-25 (grises fríos). Contraste
+# sobre el papel: tinta 18,0 · pizarra 5,2 · gris 2,9 · tenue 1,5 · niebla 1,2.
+# ⚠️ La pizarra tiene la MISMA luminosidad que el rojo (0,52 / 0,53): con
+#    deuteranopía se separan por ΔE 12,8, bajo el piso de 15. Nunca es serie al lado
+#    del rojo: es texto, eje y umbral.
+NO_DATA_DARK = "#242C30"   # niebla en oscuro: 1,4:1 sobre #080808, distinta del tenue
+SITE_BG_DARK = "#080808"   # el fondo oscuro REAL de la página (Layout.astro). Un gráfico
+                           # que se apoya sobre la página usa BG / SITE_BG_DARK.
+GRISES = {"tinta": INK, "pizarra": MUTED, "gris": NEUTRAL,
+          "tenue": HIGHLIGHT_MUTED, "niebla": NO_DATA}
+GRISES_DARK = {"tinta": INK_DARK, "pizarra": MUTED_DARK, "gris": NEUTRAL_DARK,
+               "tenue": HIGHLIGHT_MUTED_DARK, "niebla": NO_DATA_DARK}
+
+# ─── Modo FOCO: el estilo del gráfico del IDH (AP-273) ───────────────────────
+# Un protagonista contra un fondo. Un solo rojo por gráfico; si hay un segundo
+# protagonista va en tinta punteada (la referencia); con tres ya no es Foco.
+# En oscuro la LÍNEA roja queda en #C71E1D (3,3:1 alcanza para un trazo) y el TEXTO
+# rojo pasa a BRAND_LIGHT (6,4:1).
+FOCO = {"foco": BRAND, "foco_texto": BRAND, "referencia": INK,
+        "contexto": HIGHLIGHT_MUTED, "umbral": MUTED}
+FOCO_DARK = {"foco": BRAND, "foco_texto": BRAND_LIGHT, "referencia": INK_DARK,
+             "contexto": HIGHLIGHT_MUTED_DARK, "umbral": MUTED_DARK}
+
+# ─── Modo CATEGÓRICO en ORDEN DE RAMPA (2026-09-25) ──────────────────────────
+# Idea de Carlos: los segmentos siguen la rampa del rojo hacia el frío. Paso a paso
+# NO sirve (#DF5D25↔#E57D22 a ΔE 7,2 con visión normal); de a SALTOS sí. Validado con
+# validate_palette.js: 3 series, peor par pegado 17,7 (el orden rojo→turquesa→oro
+# daba 15,4 y el del AP-273, rojo→petróleo→oro, 12,4). Con 4 y 5, el petróleo y la
+# menta leen casi grises (croma 0,08 / 0,07): van con rótulo o tooltip.
+# En un APILADO: el protagonista ABAJO en rojo (es el único segmento apoyado en la
+# base), el resto por importancia hacia arriba, y «Otros» ARRIBA en gris tenue.
+# Más de 5 → se juntan en «Otros» o se usa CATEGORICAL_12.
+RAMPA_POR_N = {
+    1: [BRAND],
+    2: [BRAND, "#0A9396"],
+    3: [BRAND, "#EE9B00", "#0A9396"],
+    4: [BRAND, "#EE9B00", "#0A9396", "#005F73"],
+    5: [BRAND, "#EE9B00", "#94D2BD", "#0A9396", "#005F73"],
+}
+
 # ─── Tipografía (cerrada 2026-08-10) ─────────────────────────────────────────
 FONT_DISPLAY = "Playfair Display"   # titulares y títulos de gráfico
 FONT_BODY = "Inter"                 # texto, ejes, tooltips, etiquetas
@@ -162,3 +208,10 @@ def highlight(n: int, index: int, muted: str = HIGHLIGHT_MUTED) -> list:
     Es la respuesta correcta cuando hay muchas series y solo importa una
     (p. ej. Bolivia contra el resto del mundo)."""
     return [BRAND if i == index else muted for i in range(n)]
+
+
+def rampa(n: int) -> list:
+    """n colores categóricos en orden de rampa (rojo → frío), de a saltos."""
+    if n in RAMPA_POR_N:
+        return RAMPA_POR_N[n]
+    return categorical(n)

@@ -82,8 +82,8 @@
   "NEGATIVE": "#C71E1D",
   "NEUTRAL": "#8A9699",
   "NEUTRAL_DARK": "#6E7A7D",
-  "HIGHLIGHT_MUTED": "#B9BEC0",
-  "HIGHLIGHT_MUTED_DARK": "#4A5457",
+  "HIGHLIGHT_MUTED": "#C9CDCE",
+  "HIGHLIGHT_MUTED_DARK": "#3A4549",
   "SEQUENTIAL_WARM": [
     "#E9D8A6",
     "#EE9B00",
@@ -119,6 +119,63 @@
   "NO_DATA": "#DFE5EA",
   "TINT_ROJO": "#F8E5E3",
   "TINT_TURQUESA": "#D9EAE6",
+  "GRISES": {
+    "tinta": "#001219",
+    "pizarra": "#5C6B70",
+    "gris": "#8A9699",
+    "tenue": "#C9CDCE",
+    "niebla": "#DFE5EA"
+  },
+  "GRISES_DARK": {
+    "tinta": "#E2E8F0",
+    "pizarra": "#8A9699",
+    "gris": "#6E7A7D",
+    "tenue": "#3A4549",
+    "niebla": "#242C30"
+  },
+  "NO_DATA_DARK": "#242C30",
+  "SITE_BG_DARK": "#080808",
+  "FOCO": {
+    "foco": "#C71E1D",
+    "foco_texto": "#C71E1D",
+    "referencia": "#001219",
+    "contexto": "#C9CDCE",
+    "umbral": "#5C6B70"
+  },
+  "FOCO_DARK": {
+    "foco": "#C71E1D",
+    "foco_texto": "#E8706B",
+    "referencia": "#E2E8F0",
+    "contexto": "#3A4549",
+    "umbral": "#8A9699"
+  },
+  "RAMPA_POR_N": {
+    "1": [
+      "#C71E1D"
+    ],
+    "2": [
+      "#C71E1D",
+      "#0A9396"
+    ],
+    "3": [
+      "#C71E1D",
+      "#EE9B00",
+      "#0A9396"
+    ],
+    "4": [
+      "#C71E1D",
+      "#EE9B00",
+      "#0A9396",
+      "#005F73"
+    ],
+    "5": [
+      "#C71E1D",
+      "#EE9B00",
+      "#94D2BD",
+      "#0A9396",
+      "#005F73"
+    ]
+  },
   "FONT_DISPLAY": "Playfair Display",
   "FONT_BODY": "Inter",
   "FONT_MONO": "JetBrains Mono",
