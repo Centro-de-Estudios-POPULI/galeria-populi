@@ -1,0 +1,34 @@
+{
+  "slug": "blog-natalidad-componentes-2026",
+  "titulo": "Bolivia: componentes del cambio de la población",
+  "subtitulo": "Personas y tasa por cada mil habitantes, 2026",
+  "categoria": "censo",
+  "fuente": "Fuente: INE, Estimaciones y proyecciones de población, Revisión 2025, Anexo 1. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "Blog",
+    "Bolivia",
+    "demografía",
+    "fecundidad",
+    "natalidad",
+    "nacimientos",
+    "defunciones",
+    "emigración",
+    "crecimiento de la población",
+    "INE"
+  ],
+  "fecha": "2026-09-26",
+  "tipo": "cascada",
+  "formato": "informe_horizontal",
+  "imagen": "graficas/blog-natalidad-componentes-2026.png",
+  "thumb": "thumbs/blog-natalidad-componentes-2026.webp",
+  "datos": null,
+  "nota": "Proyección del INE para 2026. Los nacimientos netos de emigración equivalen a una fecundidad de 1,13.",
+  "grupo": "Blog · Declive de la natalidad",
+  "enlace": "https://populi.org.bo/blog/consecuencias-demograficas-del-declive-de-la-natalidad-en-bolivia/",
+  "enlace_etiqueta": "Ver en el blog",
+  "documento": {
+    "titulo": "Algunas consecuencias demográficas del declive de la natalidad en Bolivia",
+    "url": "https://populi.org.bo/blog/consecuencias-demograficas-del-declive-de-la-natalidad-en-bolivia/",
+    "fecha": "2026-09-22"
+  }
+}

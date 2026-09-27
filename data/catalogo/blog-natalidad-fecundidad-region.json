@@ -1,0 +1,33 @@
+{
+  "slug": "blog-natalidad-fecundidad-region",
+  "titulo": "Bolivia y la región: tasa global de fecundidad",
+  "subtitulo": "Hijos por mujer, 1992–2026",
+  "categoria": "censo",
+  "fuente": "Fuente: encuestas de demografía y salud (ENDSA/EDSA) e INE, Revisión 2025, para Bolivia; Banco Mundial para los demás países. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "Blog",
+    "Bolivia",
+    "demografía",
+    "fecundidad",
+    "natalidad",
+    "tasa global de fecundidad",
+    "América Latina",
+    "reemplazo",
+    "INE"
+  ],
+  "fecha": "2026-09-26",
+  "tipo": "lineas",
+  "formato": "informe_horizontal",
+  "imagen": "graficas/blog-natalidad-fecundidad-region.png",
+  "thumb": "thumbs/blog-natalidad-fecundidad-region.webp",
+  "datos": null,
+  "nota": "Las encuestas bolivianas van en el centro de su período de referencia, que son los tres años anteriores. Medidos con el registro civil de cada país, Chile está hoy en 0,99 y Colombia en 1,01: la serie internacional va con retraso.",
+  "grupo": "Blog · Declive de la natalidad",
+  "enlace": "https://populi.org.bo/blog/consecuencias-demograficas-del-declive-de-la-natalidad-en-bolivia/",
+  "enlace_etiqueta": "Ver en el blog",
+  "documento": {
+    "titulo": "Algunas consecuencias demográficas del declive de la natalidad en Bolivia",
+    "url": "https://populi.org.bo/blog/consecuencias-demograficas-del-declive-de-la-natalidad-en-bolivia/",
+    "fecha": "2026-09-22"
+  }
+}

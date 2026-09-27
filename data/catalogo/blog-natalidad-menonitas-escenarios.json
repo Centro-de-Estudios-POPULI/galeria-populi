@@ -1,0 +1,34 @@
+{
+  "slug": "blog-natalidad-menonitas-escenarios",
+  "titulo": "Bolivia: participación menonita en la población",
+  "subtitulo": "Porcentaje de la población del país en cuatro escenarios, 2026–2126",
+  "categoria": "censo",
+  "fuente": "Fuente: Proyección propia; parámetros medidos en el Censo 2024 y los de Fernández-Villaverde (2026). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "Blog",
+    "Bolivia",
+    "demografía",
+    "fecundidad",
+    "natalidad",
+    "menonitas",
+    "proyecciones",
+    "composición",
+    "Censo 2024",
+    "Fernández-Villaverde"
+  ],
+  "fecha": "2026-09-26",
+  "tipo": "lineas",
+  "formato": "informe_horizontal",
+  "imagen": "graficas/blog-natalidad-menonitas-escenarios.png",
+  "thumb": "thumbs/blog-natalidad-menonitas-escenarios.webp",
+  "datos": null,
+  "nota": "Medido en el censo: 93.100 menonitas en 2026, fecundidad de 5,9 y emigración de 9,6 por mil; el resto del país baja a 1,47 hasta 2032. Fernández-Villaverde: 150.000, fecundidad de 7,0 y sin emigración; el resto, 1,51. Subregistro alto: 150.000, fecundidad de 6,9 y emigración de 5,0 por mil. Sin rebote del resto: como el medido, pero el resto del país baja a 1,20 hasta 2045.",
+  "grupo": "Blog · Declive de la natalidad",
+  "enlace": "https://populi.org.bo/blog/consecuencias-demograficas-del-declive-de-la-natalidad-en-bolivia/",
+  "enlace_etiqueta": "Ver en el blog",
+  "documento": {
+    "titulo": "Algunas consecuencias demográficas del declive de la natalidad en Bolivia",
+    "url": "https://populi.org.bo/blog/consecuencias-demograficas-del-declive-de-la-natalidad-en-bolivia/",
+    "fecha": "2026-09-22"
+  }
+}

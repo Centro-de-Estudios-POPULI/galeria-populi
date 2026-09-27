@@ -1,0 +1,34 @@
+{
+  "slug": "blog-natalidad-menonitas-composicion",
+  "titulo": "Bolivia: peso menonita y fecundidad del país, 2026–2126",
+  "subtitulo": "Escenario con los parámetros medidos en el Censo 2024",
+  "categoria": "censo",
+  "fuente": "Fuente: Proyección propia con parámetros medidos en el Censo 2024. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "Blog",
+    "Bolivia",
+    "demografía",
+    "fecundidad",
+    "natalidad",
+    "menonitas",
+    "composición",
+    "tasa global de fecundidad",
+    "nacimientos",
+    "Censo 2024"
+  ],
+  "fecha": "2026-09-26",
+  "tipo": "lineas_paneles",
+  "formato": "informe_panorama",
+  "imagen": "graficas/blog-natalidad-menonitas-composicion.png",
+  "thumb": "thumbs/blog-natalidad-menonitas-composicion.webp",
+  "datos": null,
+  "nota": "Los menonitas mantienen una fecundidad de 5,9 y la del resto del país baja a 1,47 hasta 2032: la fecundidad del país sube por composición.",
+  "grupo": "Blog · Declive de la natalidad",
+  "enlace": "https://populi.org.bo/blog/consecuencias-demograficas-del-declive-de-la-natalidad-en-bolivia/",
+  "enlace_etiqueta": "Ver en el blog",
+  "documento": {
+    "titulo": "Algunas consecuencias demográficas del declive de la natalidad en Bolivia",
+    "url": "https://populi.org.bo/blog/consecuencias-demograficas-del-declive-de-la-natalidad-en-bolivia/",
+    "fecha": "2026-09-22"
+  }
+}
