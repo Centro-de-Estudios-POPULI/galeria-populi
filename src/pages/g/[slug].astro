@@ -59,6 +59,7 @@ const etiquetaModo = (v: typeof g) => (v.atlas === "censo" ? (v.modo === "cambio
           {g.unidad && (<><dt>Unidad</dt><dd>{g.unidad}</dd></>)}
           {g.fecha && (<><dt>Publicada</dt><dd class="mono">{g.fecha}</dd></>)}
           {g.fuente && (<><dt>Fuente</dt><dd>{g.fuente.replace(/^Fuente:\s*/, "")}</dd></>)}
+          {g.nota && (<><dt>Nota</dt><dd>{g.nota}</dd></>)}
         </dl>
         {tagsVisibles(g).length > 0 && (
           <div class="tags">
