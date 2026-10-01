@@ -1,9 +1,9 @@
 {
   "slug": "blog-riqueza250-ingreso-y-bienestar-mosaico",
-  "titulo": "Ingreso por persona y bienestar: diez indicadores",
+  "titulo": "Ingreso por persona y bienestar: nueve indicadores",
   "subtitulo": "Cada indicador frente al PIB per cápita de 2024 en dólares internacionales de 2021 (PPA, escala logarítmica)",
   "categoria": "mundo",
-  "fuente": "Fuente: Banco Mundial, Indicadores del Desarrollo Mundial; PNUD, Informe sobre Desarrollo Humano 2025; Penn World Table 11.0; World Happiness Report 2026; Global Carbon Budget 2025; Maddison Project Database 2023 (regiones). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "fuente": "Fuente: Banco Mundial, Indicadores del Desarrollo Mundial; PNUD, Informe sobre Desarrollo Humano 2025; Penn World Table 11.0; World Happiness Report 2026; Maddison Project Database 2023 (regiones). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
   "tags": [
     "Blog",
     "crecimiento económico",
@@ -16,7 +16,7 @@
   ],
   "fecha": "2026-09-30",
   "tipo": "small_multiples",
-  "formato": "informe_mosaico",
+  "formato": "informe_mosaico_cuadrado",
   "imagen": "graficas/blog-riqueza250-ingreso-y-bienestar-mosaico.png",
   "thumb": "thumbs/blog-riqueza250-ingreso-y-bienestar-mosaico.webp",
   "datos": null,

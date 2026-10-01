@@ -1,6 +1,6 @@
 """
 Láminas del Banco desde la entrada del blog «La riqueza de las naciones cumple 250 años» (Carlos
-Aranda, 2026-09-30), y la lámina grande con las diez regresiones para compartir en redes.
+Aranda, 2026-09-30), y la lámina grande con nueve de las diez regresiones (sin el CO₂) para compartir en redes.
 
     python viz/examples/blog_riqueza250.py                       # las 14 + manifiesto + contrato
     python viz/examples/blog_riqueza250.py --solo=hockey,mosaico
@@ -55,7 +55,8 @@ TIT = "Playfair Display Bold"          # el titular de los embeds del blog
 ps.set_tema("Inter", "Inter")          # cifras de los ejes en Inter, como en el blog
 P = ps._pal
 ROJO, TINTA, PIZARRA, TENUE, FONDO = P.BRAND, P.INK, P.MUTED, P.HIGHLIGHT_MUTED, ps.COLORS["fondo"]
-F_LIN, F_MOS = "informe_horizontal", "informe_mosaico"
+F_LIN, F_MOS = "informe_horizontal", "informe_mosaico_cuadrado"
+MOSAICO_SIN = {"co2"}   # Carlos (30/09): el mosaico va con nueve indicadores en 3 × 3, sin el CO₂
 
 
 # --------------------------------------------------------------------------- #
@@ -292,7 +293,7 @@ def males():
 
 
 # --------------------------------------------------------------------------- #
-# 4 a 13 · Burbujas: el ingreso y cada indicador · 14 · el mosaico de las diez
+# 4 a 13 · Burbujas: el ingreso y cada indicador · 14 · el mosaico de nueve (3 × 3, sin el CO₂)
 # --------------------------------------------------------------------------- #
 BUR = SPEC["nb-rn250-ingreso-y-bienestar"]
 G4 = pd.read_csv(ENTRADA / BUR["dataset"])
@@ -369,8 +370,10 @@ def tendencia(col):
     return (10 ** gx, np.array([a["f"](v) for v in gx]), banda[:, 0], banda[:, 1]), r, len(y)
 
 
-def dibujar_burbujas(ax, col, sc, max_d_px, rotulos=True, s_rot=None, lw_tend=1.0, anillo=1.0):
-    """Burbujas (área ∝ población), tendencia con su banda y Bolivia con anillo. Devuelve r y n."""
+def dibujar_burbujas(ax, col, sc, max_d_px, rotulos=True, s_rot=None, lw_tend=1.0, anillo=1.0, bolivia=None):
+    """Burbujas (área ∝ población), tendencia con su banda y Bolivia con anillo. Devuelve r y n.
+    `rotulos` nombra a Bolivia, China, India y EE. UU.; `bolivia=True` nombra sólo a Bolivia."""
+    bolivia = rotulos if bolivia is None else bolivia
     ind = IND[col]
     y0, y1 = ind["min"], ind["max"]
     pt = 72.0 / ps.DPI                                   # px → puntos tipográficos
@@ -392,7 +395,7 @@ def dibujar_burbujas(ax, col, sc, max_d_px, rotulos=True, s_rot=None, lw_tend=1.
         dd = float(diam(fb.poblacion.iloc[0]))
         ax.scatter(fb.pib_pc, fb[col], s=((dd + 10 * sc * anillo) * pt) ** 2, facecolors="none", edgecolors=TINTA,
                    linewidths=1.05 * sc * anillo, zorder=len(GRUPOS) + 5)
-        if rotulos:
+        if bolivia:
             ax.annotate("Bolivia", (fb.pib_pc.iloc[0], fb[col].iloc[0]), xytext=((dd / 2 + 13 * sc) * pt, 0),
                         textcoords="offset points", ha="left", va="center", color=TINTA,
                         fontproperties=ps.fp(ps.BOLD, s_rot), zorder=len(GRUPOS) + 6,
@@ -484,16 +487,17 @@ def mosaico():
     F = F_MOS
     W, H, sc = ps._spec(F)
     M = ps.MARGIN * sc
-    COLS, ROWS = 5, 2
-    orden = [i["col"] for i in BUR["indicators"]]
+    COLS, ROWS = 3, 3
+    orden = [i["col"] for i in BUR["indicators"] if i["col"] not in MOSAICO_SIN]
+    assert len(orden) == COLS * ROWS, f"el mosaico pide {COLS * ROWS} indicadores y hay {len(orden)}"
     fig, axd = ps.nueva_figura(F)
     axd.set_xticks([]); axd.set_yticks([])
     meta = ficha("blog-riqueza250-ingreso-y-bienestar-mosaico",
-                 "Ingreso por persona y bienestar: diez indicadores",
+                 "Ingreso por persona y bienestar: nueve indicadores",
                  "Cada indicador frente al PIB per cápita de 2024 en dólares internacionales de 2021 "
                  "(PPA, escala logarítmica)",
                  "Fuente: Banco Mundial, Indicadores del Desarrollo Mundial; PNUD, Informe sobre Desarrollo "
-                 "Humano 2025; Penn World Table 11.0; World Happiness Report 2026; Global Carbon Budget 2025; "
+                 "Humano 2025; Penn World Table 11.0; World Happiness Report 2026; "
                  "Maddison Project Database 2023 (regiones). " + AUTOR,
                  "Cada burbuja es un país; su tamaño, la población; su color, la región según Maddison. La línea "
                  "es la tendencia (lineal, cuadrática o exponencial, según el indicador) y la sombra, su banda "
@@ -503,26 +507,37 @@ def mosaico():
     pos = axd.get_position()
     axd.set_visible(False)
 
-    s_ley = ps.SIZES["leyenda"] * sc
-    alto_ley = 2 * s_ley * 1.55 + 34 * sc
-    leyenda_regiones(fig, M, pos.y1 * H + 4 * sc, W, H, sc, s_ley, ncol=3)
-    grid_w, grid_h = pos.width * W, pos.height * H - alto_ley
-    gap_y, rot_h = 64 * sc, 66 * sc
+    # paneles más grandes y letra más clara que en el 5 × 2: la leyenda en una fila si cabe
+    s_ley = ps.SIZES["leyenda"] * sc * 1.08
+    ley = leyenda_regiones(fig, M, pos.y1 * H + 4 * sc, W, H, sc, s_ley, ncol=len(GRUPOS))
+    filas_ley = 1
+    fig.canvas.draw()
+    if ley.get_window_extent(fig.canvas.get_renderer()).x1 > W - M:
+        ley.remove()
+        leyenda_regiones(fig, M, pos.y1 * H + 4 * sc, W, H, sc, s_ley, ncol=3)
+        filas_ley = 2
+    # Carlos: «un poco más alto cada diagrama, sin sobreponerse a nada» → el alto sale del aire entre
+    # filas, de los rótulos y de la leyenda, y la última fila baja hasta dejar el mismo aire que entre filas
+    alto_ley = filas_ley * s_ley * 1.55 + 26 * sc
+    s_eje = ps.SIZES["eje"] * sc
+    fp_eje = ps.fp(ps.BODY, s_eje)
+    s_rot, s_uni = ps.SIZES["subtitulo"] * sc, ps.SIZES["fuente"] * sc
+    gap_y, rot_h = s_eje * 1.7 + 26 * sc, s_rot * 1.15 + s_uni * 1.25 + 30 * sc
+    abajo = 28 * sc   # más abajo, el «100.000» del último panel se arrima a la regla roja del wordmark
+    grid_w, grid_h = pos.width * W, pos.height * H - alto_ley + abajo
     cellH = (grid_h - (ROWS - 1) * gap_y) / ROWS
     panelH = cellH - rot_h
-    s_eje = ps.SIZES["eje"] * sc * 0.82
-    fp_eje = ps.fp(ps.BODY, s_eje)
-    s_rot, s_uni = ps.SIZES["leyenda"] * sc * 0.97, ps.SIZES["fuente"] * sc * 0.92
 
     ejes, celdas = [], []
     for i, col in enumerate(orden):
         c, r_ = i % COLS, i // COLS
         cx = pos.x0 * W + c * (grid_w / COLS)
-        cy = pos.y0 * H + (ROWS - 1 - r_) * (cellH + gap_y)
+        cy = pos.y0 * H - abajo + (ROWS - 1 - r_) * (cellH + gap_y)
         ax = fig.add_axes([cx / W, cy / H, (grid_w / COLS - 40 * sc) / W, panelH / H])
-        r, n, tr = dibujar_burbujas(ax, col, sc, max_d_px=0.16 * grid_w / COLS, rotulos=False, lw_tend=0.95, anillo=0.8)
+        r, n, tr = dibujar_burbujas(ax, col, sc, max_d_px=0.11 * grid_w / COLS, rotulos=False, bolivia=True,
+                                    s_rot=s_eje * 0.95, lw_tend=1.15, anillo=0.95)
         estilo(ax, sc)
-        ejes_y(ax, col, paso_mult=2 if (IND[col]["max"] - IND[col]["min"]) / IND[col]["step"] > 5 else 1)
+        ejes_y(ax, col, paso_mult=2 if (IND[col]["max"] - IND[col]["min"]) / IND[col]["step"] > 6 else 1)
         ax.set_xticks([t for t in (1000, 10000, 100000) if XMIN <= t <= XMAX])
         ax.xaxis.set_major_formatter(ps.formateador_es(0, miles=True))
         ax.tick_params(axis="x", length=4 * sc, pad=4 * sc)
@@ -535,7 +550,7 @@ def mosaico():
                 path_effects=[pe.withStroke(linewidth=3 * sc, foreground=FONDO)])
         ejes.append(ax); celdas.append((cx, cy))
 
-    # Encuadre en dos pasadas (la receta de small-multiples): los diez paneles miden EXACTAMENTE
+    # Encuadre en dos pasadas (la receta de small-multiples): los nueve paneles miden EXACTAMENTE
     # lo mismo, con un canal libre fijo entre la tinta de una columna y la de la siguiente
     for _ in range(4):
         fig.canvas.draw()
@@ -551,7 +566,7 @@ def mosaico():
             der.append(max(x1s) - (sx + aw0))
         B = [max(izq[c::COLS]) for c in range(COLS)]
         R = [max(der[c::COLS]) for c in range(COLS)]
-        K = max(R[c] + B[c + 1] for c in range(COLS - 1)) + 46 * sc
+        K = max(R[c] + B[c + 1] for c in range(COLS - 1)) + 60 * sc
         ancho = (grid_w - B[0] - R[-1] - (COLS - 1) * K) / COLS
         paso = ancho + K
         columnas = [pos.x0 * W + B[0] + c * paso for c in range(COLS)]
@@ -563,9 +578,9 @@ def mosaico():
         cx = columnas[i % COLS] - B[i % COLS]
         cy = celdas[i][1]
         nom, uni = PANEL[col]
-        fig.text(cx / W, (cy + panelH + 12 * sc + s_uni * 1.25) / H, nom, fontproperties=ps.fp(ps.BOLD, s_rot),
+        fig.text(cx / W, (cy + panelH + 26 * sc + s_uni * 1.3) / H, nom, fontproperties=ps.fp(ps.BOLD, s_rot),
                  color=ps.COLORS["cafe_oscuro"], va="bottom", ha="left")
-        fig.text(cx / W, (cy + panelH + 10 * sc) / H, uni, fontproperties=ps.fp(ps.BODY, s_uni),
+        fig.text(cx / W, (cy + panelH + 22 * sc) / H, uni, fontproperties=ps.fp(ps.BODY, s_uni),
                  color=PIZARRA, va="bottom", ha="left")
     cerrar(fig, meta)
 
