@@ -294,6 +294,8 @@ def escala_atlas(valores, pesos=None, direccion=0, con_signo=False,
 _FONT_FILES = {
     "Playfair Display": "PlayfairDisplay.ttf",
     "Playfair Display Italic": "PlayfairDisplay-Italic.ttf",
+    # el titular de los gráficos del BLOG es Playfair 700: instancia estática (como Inter Bold)
+    "Playfair Display Bold": "PlayfairDisplay-Bold.ttf",
     "Inter": "Inter.ttf",
     # Inter.ttf es VARIABLE (wght 100-900) y matplotlib no navega ejes ni sintetiza
     # negritas: weight="bold" sobre el regular no hacia nada. Instancia estatica
@@ -412,6 +414,11 @@ FORMATS = {
                                          # 4x3). Mas ancho para las cuatro columnas y mas
                                          # alto para las tres filas; SC_REF aun mayor para
                                          # que el bloque de titulo no se coma la cuadricula
+    "informe_5x4": (1800, 1440),       # 5:4, «más cuadrado» que el 3:2 pero no cuadrado: líneas
+    "informe_cuadrado": (1800, 1800),  # CUADRADO con la escala tipográfica de informe_horizontal
+                                       # (SC_REF 1370): dispersión/burbujas, que piden alto
+    "informe_mosaico_cuadrado": (2400, 2400),  # mosaico CUADRADO (4x3) con la escala de
+                                               # informe_mosaico: redes cuadradas
     "red_cuadrada":  (1080, 1080),  # Instagram / X feed
     "red_vertical":  (1080, 1350),  # IG retrato
     "red_historia":  (1080, 1920),  # stories
@@ -475,7 +482,8 @@ ESCALA = 2
 # del pie entra en menos líneas y el mapa queda más grande (mismo tamaño de letra
 # que el formato anterior de 2000 px de ancho).
 SC_REF = {"mundo": 1405, "informe_horizontal": 1370, "informe_panorama": 1560,
-          "informe_mosaico": 1700}
+          "informe_mosaico": 1700, "informe_cuadrado": 1370, "informe_mosaico_cuadrado": 1700,
+          "informe_5x4": 1370}
 
 
 def _spec(formato: str):

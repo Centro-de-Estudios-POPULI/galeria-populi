@@ -1,0 +1,32 @@
+{
+  "slug": "blog-riqueza250-ingreso-pobreza",
+  "titulo": "Ingreso por persona y pobreza extrema",
+  "subtitulo": "Población que vive con menos de US$ 3 al día (%), última encuesta disponible, 2015–2024. Eje horizontal: PIB per cápita de 2024 (PPA), en escala logarítmica",
+  "categoria": "mundo",
+  "fuente": "Fuente: Banco Mundial (2026), Plataforma de Pobreza y Desigualdad; Maddison (regiones). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "Blog",
+    "crecimiento económico",
+    "Adam Smith",
+    "mundo",
+    "PIB per cápita",
+    "regresión",
+    "Pobreza extrema",
+    "Bolivia"
+  ],
+  "fecha": "2026-09-30",
+  "tipo": "dispersion",
+  "formato": "informe_cuadrado",
+  "imagen": "graficas/blog-riqueza250-ingreso-pobreza.png",
+  "thumb": "thumbs/blog-riqueza250-ingreso-pobreza.webp",
+  "datos": null,
+  "nota": "r = −0,77, 149 países. Línea: tendencia exponencial; sombra: confianza del 95 %. Tamaño: población. Línea de US$ 3 diarios (PPA de 2021).",
+  "grupo": "Blog · La riqueza de las naciones, 250 años",
+  "enlace": "https://populi.org.bo/blog/la-riqueza-de-las-naciones-cumple-250-anos/",
+  "enlace_etiqueta": "Ver en el blog",
+  "documento": {
+    "titulo": "La riqueza de las naciones cumple 250 años",
+    "url": "https://populi.org.bo/blog/la-riqueza-de-las-naciones-cumple-250-anos/",
+    "fecha": "2026-09-30"
+  }
+}

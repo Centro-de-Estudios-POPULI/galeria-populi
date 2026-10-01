@@ -1,0 +1,32 @@
+{
+  "slug": "blog-riqueza250-ingreso-mortalidad-5",
+  "titulo": "Ingreso por persona y mortalidad en la niñez",
+  "subtitulo": "Niños que mueren antes de los 5 años (% de los nacidos vivos), 2024. Eje horizontal: PIB per cápita de 2024 (PPA), en escala logarítmica",
+  "categoria": "mundo",
+  "fuente": "Fuente: Banco Mundial (2026), con datos de UN IGME; Maddison (regiones). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "Blog",
+    "crecimiento económico",
+    "Adam Smith",
+    "mundo",
+    "PIB per cápita",
+    "regresión",
+    "Mortalidad en la niñez",
+    "Bolivia"
+  ],
+  "fecha": "2026-09-30",
+  "tipo": "dispersion",
+  "formato": "informe_cuadrado",
+  "imagen": "graficas/blog-riqueza250-ingreso-mortalidad-5.png",
+  "thumb": "thumbs/blog-riqueza250-ingreso-mortalidad-5.webp",
+  "datos": null,
+  "nota": "r = −0,78, 186 países. Línea: tendencia exponencial; sombra: confianza del 95 %. Tamaño: población.",
+  "grupo": "Blog · La riqueza de las naciones, 250 años",
+  "enlace": "https://populi.org.bo/blog/la-riqueza-de-las-naciones-cumple-250-anos/",
+  "enlace_etiqueta": "Ver en el blog",
+  "documento": {
+    "titulo": "La riqueza de las naciones cumple 250 años",
+    "url": "https://populi.org.bo/blog/la-riqueza-de-las-naciones-cumple-250-anos/",
+    "fecha": "2026-09-30"
+  }
+}

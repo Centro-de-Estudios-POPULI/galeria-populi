@@ -1,0 +1,32 @@
+{
+  "slug": "blog-riqueza250-ingreso-y-bienestar-mosaico",
+  "titulo": "Ingreso por persona y bienestar: diez indicadores",
+  "subtitulo": "Cada indicador frente al PIB per cápita de 2024 en dólares internacionales de 2021 (PPA, escala logarítmica)",
+  "categoria": "mundo",
+  "fuente": "Fuente: Banco Mundial, Indicadores del Desarrollo Mundial; PNUD, Informe sobre Desarrollo Humano 2025; Penn World Table 11.0; World Happiness Report 2026; Global Carbon Budget 2025; Maddison Project Database 2023 (regiones). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "Blog",
+    "crecimiento económico",
+    "Adam Smith",
+    "mundo",
+    "PIB per cápita",
+    "regresión",
+    "bienestar",
+    "redes"
+  ],
+  "fecha": "2026-09-30",
+  "tipo": "small_multiples",
+  "formato": "informe_mosaico",
+  "imagen": "graficas/blog-riqueza250-ingreso-y-bienestar-mosaico.png",
+  "thumb": "thumbs/blog-riqueza250-ingreso-y-bienestar-mosaico.webp",
+  "datos": null,
+  "nota": "Cada burbuja es un país; su tamaño, la población; su color, la región según Maddison. La línea es la tendencia (lineal, cuadrática o exponencial, según el indicador) y la sombra, su banda de confianza del 95 %; r es la correlación con el logaritmo del ingreso. Bolivia va con anillo.",
+  "grupo": "Blog · La riqueza de las naciones, 250 años",
+  "enlace": "https://populi.org.bo/blog/la-riqueza-de-las-naciones-cumple-250-anos/",
+  "enlace_etiqueta": "Ver en el blog",
+  "documento": {
+    "titulo": "La riqueza de las naciones cumple 250 años",
+    "url": "https://populi.org.bo/blog/la-riqueza-de-las-naciones-cumple-250-anos/",
+    "fecha": "2026-09-30"
+  }
+}
