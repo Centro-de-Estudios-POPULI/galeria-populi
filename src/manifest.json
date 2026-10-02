@@ -1,7 +1,7 @@
 {
   "meta": {
     "generado": "2026-10-02",
-    "n": 865,
+    "n": 866,
     "municipios": 343
   },
   "categorias": {
@@ -173,6 +173,32 @@
       "ancho": 3600,
       "alto": 2880,
       "kb": 184
+    },
+    {
+      "slug": "deuda-externa-bruta-pagos-trimestrales",
+      "titulo": "Bolivia: Pagos de la deuda externa bruta",
+      "subtitulo": "Capital e interés, por trimestre · Millones de dólares",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Banco Central de Bolivia (BCB). Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "deuda externa",
+        "servicio de la deuda",
+        "capital",
+        "intereses",
+        "BCB",
+        "Bolivia"
+      ],
+      "fecha": "2026-10-02",
+      "tipo": "barras_apiladas",
+      "formato": "informe_5x4",
+      "imagen": "graficas/deuda-externa-bruta-pagos-trimestrales.png",
+      "thumb": "thumbs/deuda-externa-bruta-pagos-trimestrales.webp",
+      "datos": null,
+      "grupo": "Deuda externa",
+      "nota": "Pago de capital e interés de la deuda externa bruta, por trimestre calendario, de jul-sep de 2026 a abr-jun de 2028. Suman 1.976,9 millones de dólares en el segundo semestre de 2026, 1.864,9 millones en 2027 y 1.370,7 millones en el primer semestre de 2028. El capital es el 75 % de lo que se paga en todo el período; el trimestre más pesado es ene-mar de 2028, con 1.014,5 millones.",
+      "ancho": 3600,
+      "alto": 2880,
+      "kb": 145
     },
     {
       "slug": "blog-riqueza250-escala-logaritmica",
