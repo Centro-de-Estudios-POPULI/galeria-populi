@@ -65,6 +65,7 @@ CATEGORIAS = {
     "censo":      {"label": "Censo y social",       "color": "serie_teal"},# = Herramientas
     "empleo":     {"label": "Empleo",               "color": "serie_azul"},
     "mundo":      {"label": "Mundo",                "color": "serie_rosa"},
+    "instituciones": {"label": "Instituciones",     "color": "serie_azul"},  # = categoría del blog
     "general":    {"label": "General",              "color": "rojo_oscuro"},
 }
 

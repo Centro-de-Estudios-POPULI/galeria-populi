@@ -1,0 +1,33 @@
+{
+  "slug": "blog-tarifas-motivos",
+  "titulo": "Los argumentos de las normas del pasaje de micro",
+  "subtitulo": "Lo que invoca cada decisión según su propio texto, Santa Cruz de la Sierra, 1990–2025",
+  "categoria": "instituciones",
+  "fuente": "Fuente: normas de la Biblioteca Legislativa del Concejo Municipal de Santa Cruz de la Sierra, sistematizadas por el Observatorio Legislativo Municipal de POPULI (en construcción); corte al 01/10/2026. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "Blog",
+    "transporte público",
+    "Santa Cruz de la Sierra",
+    "Concejo Municipal",
+    "normas municipales",
+    "pasaje",
+    "tarifas",
+    "motivos",
+    "estudio de costos"
+  ],
+  "fecha": "2026-10-02",
+  "tipo": "cuadro",
+  "formato": "informe_cuadrado",
+  "imagen": "graficas/blog-tarifas-motivos.png",
+  "thumb": "thumbs/blog-tarifas-motivos.webp",
+  "datos": null,
+  "nota": "Una fila por cada una de las 11 normas que fijaron o cambiaron el pasaje. Ninguna publica la cuenta: ni los costos ni una fórmula. La transitoria de mayo de 1993 le ordenó al alcalde presentar la fórmula en 60 días y no aparece en ninguna norma posterior; esa misma transitoria mantuvo el monto y quitó el recargo nocturno («mismo monto»). El decreto de febrero de 2025 solo consta en la prensa.",
+  "grupo": "Blog · Tarifas y compromisos del transporte en Santa Cruz",
+  "enlace": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+  "enlace_etiqueta": "Ver en el blog",
+  "documento": {
+    "titulo": "El servicio de transporte que nos deben: 36 años de legislación de tarifas y compromisos",
+    "url": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+    "fecha": "2026-10-01"
+  }
+}

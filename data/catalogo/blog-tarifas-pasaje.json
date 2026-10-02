@@ -1,0 +1,32 @@
+{
+  "slug": "blog-tarifas-pasaje",
+  "titulo": "El pasaje de micro en Santa Cruz de la Sierra",
+  "subtitulo": "Tarifa aprobada, en bolivianos corrientes, 1990–2026",
+  "categoria": "instituciones",
+  "fuente": "Fuente: normas de la Biblioteca Legislativa del Concejo Municipal de Santa Cruz de la Sierra, sistematizadas por el Observatorio Legislativo Municipal de POPULI (en construcción); corte al 01/10/2026. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "Blog",
+    "transporte público",
+    "Santa Cruz de la Sierra",
+    "Concejo Municipal",
+    "normas municipales",
+    "pasaje",
+    "tarifas",
+    "micro"
+  ],
+  "fecha": "2026-10-02",
+  "tipo": "lineas",
+  "formato": "informe_5x4",
+  "imagen": "graficas/blog-tarifas-pasaje.png",
+  "thumb": "thumbs/blog-tarifas-pasaje.webp",
+  "datos": null,
+  "nota": "Cada círculo rojo es una de las 11 normas que fijaron o cambiaron el pasaje; el lleno es la vigente, Bs 3,00 desde la Resolución del Concejo 52/2025-2026 (23 dic 2025). El de borde punteado, Bs 2,30 desde el 5 feb 2025, es un decreto que solo consta en la prensa; la franja sombreada marca ese tramo. Los círculos huecos de las tarifas preferenciales marcan cuándo cambian; hasta 2005 universitarios y escolares pagaban lo mismo y la línea turquesa cubre a la amarilla. En mayo de 1993 una transitoria mantuvo el monto y quitó el recargo nocturno.",
+  "grupo": "Blog · Tarifas y compromisos del transporte en Santa Cruz",
+  "enlace": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+  "enlace_etiqueta": "Ver en el blog",
+  "documento": {
+    "titulo": "El servicio de transporte que nos deben: 36 años de legislación de tarifas y compromisos",
+    "url": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+    "fecha": "2026-10-01"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "blog-tarifas-compromisos",
+  "titulo": "Compromisos exigidos al transporte público",
+  "subtitulo": "Santa Cruz de la Sierra, 1992–2026. Cada punto es un compromiso, en la fecha de la norma que lo exigió, según su ámbito",
+  "categoria": "instituciones",
+  "fuente": "Fuente: normas de la Biblioteca Legislativa del Concejo Municipal de Santa Cruz de la Sierra, sistematizadas por el Observatorio Legislativo Municipal de POPULI (en construcción); corte al 01/10/2026. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+  "tags": [
+    "Blog",
+    "transporte público",
+    "Santa Cruz de la Sierra",
+    "Concejo Municipal",
+    "normas municipales",
+    "compromisos",
+    "gas natural",
+    "Ordenanza Municipal 029/2013",
+    "micro"
+  ],
+  "fecha": "2026-10-02",
+  "tipo": "linea_tiempo",
+  "formato": "informe_5x4",
+  "imagen": "graficas/blog-tarifas-compromisos.png",
+  "thumb": "thumbs/blog-tarifas-compromisos.webp",
+  "datos": null,
+  "nota": "Los 25 compromisos que las normas exigieron desde 1992, más 2 del decreto de 2025 que solo constan en la prensa y uno que ninguna norma pide (el aire acondicionado). 20 siguen vigentes; 11 llegaron el mismo día, con la Ordenanza Municipal 029/2013. Los puntos de un mismo ámbito con fechas cercanas se apilan dentro de su franja.",
+  "grupo": "Blog · Tarifas y compromisos del transporte en Santa Cruz",
+  "enlace": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+  "enlace_etiqueta": "Ver en el blog",
+  "documento": {
+    "titulo": "El servicio de transporte que nos deben: 36 años de legislación de tarifas y compromisos",
+    "url": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+    "fecha": "2026-10-01"
+  }
+}

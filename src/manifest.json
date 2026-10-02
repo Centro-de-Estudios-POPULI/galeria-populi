@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generado": "2026-09-30",
-    "n": 861,
+    "generado": "2026-10-02",
+    "n": 865,
     "municipios": 343
   },
   "categorias": {
@@ -24,9 +24,156 @@
     "mundo": {
       "label": "Mundo",
       "color": "#9B2226"
+    },
+    "instituciones": {
+      "label": "Instituciones",
+      "color": "#005F73"
     }
   },
   "graficas": [
+    {
+      "slug": "blog-tarifas-motivos",
+      "titulo": "Los argumentos de las normas del pasaje de micro",
+      "subtitulo": "Lo que invoca cada decisión según su propio texto, Santa Cruz de la Sierra, 1990–2025",
+      "categoria": "instituciones",
+      "fuente": "Fuente: normas de la Biblioteca Legislativa del Concejo Municipal de Santa Cruz de la Sierra, sistematizadas por el Observatorio Legislativo Municipal de POPULI (en construcción); corte al 01/10/2026. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "Blog",
+        "transporte público",
+        "Santa Cruz de la Sierra",
+        "Concejo Municipal",
+        "normas municipales",
+        "pasaje",
+        "tarifas",
+        "motivos",
+        "estudio de costos"
+      ],
+      "fecha": "2026-10-02",
+      "tipo": "cuadro",
+      "formato": "informe_cuadrado",
+      "imagen": "graficas/blog-tarifas-motivos.png",
+      "thumb": "thumbs/blog-tarifas-motivos.webp",
+      "datos": null,
+      "nota": "Una fila por cada una de las 11 normas que fijaron o cambiaron el pasaje. Ninguna publica la cuenta: ni los costos ni una fórmula. La transitoria de mayo de 1993 le ordenó al alcalde presentar la fórmula en 60 días y no aparece en ninguna norma posterior; esa misma transitoria mantuvo el monto y quitó el recargo nocturno («mismo monto»). El decreto de febrero de 2025 solo consta en la prensa.",
+      "grupo": "Blog · Tarifas y compromisos del transporte en Santa Cruz",
+      "enlace": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+      "enlace_etiqueta": "Ver en el blog",
+      "documento": {
+        "titulo": "El servicio de transporte que nos deben: 36 años de legislación de tarifas y compromisos",
+        "url": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+        "fecha": "2026-10-01"
+      },
+      "ancho": 3600,
+      "alto": 3600,
+      "kb": 292
+    },
+    {
+      "slug": "blog-tarifas-pasaje",
+      "titulo": "El pasaje de micro en Santa Cruz de la Sierra",
+      "subtitulo": "Tarifa aprobada, en bolivianos corrientes, 1990–2026",
+      "categoria": "instituciones",
+      "fuente": "Fuente: normas de la Biblioteca Legislativa del Concejo Municipal de Santa Cruz de la Sierra, sistematizadas por el Observatorio Legislativo Municipal de POPULI (en construcción); corte al 01/10/2026. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "Blog",
+        "transporte público",
+        "Santa Cruz de la Sierra",
+        "Concejo Municipal",
+        "normas municipales",
+        "pasaje",
+        "tarifas",
+        "micro"
+      ],
+      "fecha": "2026-10-02",
+      "tipo": "lineas",
+      "formato": "informe_5x4",
+      "imagen": "graficas/blog-tarifas-pasaje.png",
+      "thumb": "thumbs/blog-tarifas-pasaje.webp",
+      "datos": null,
+      "nota": "Cada círculo rojo es una de las 11 normas que fijaron o cambiaron el pasaje; el lleno es la vigente, Bs 3,00 desde la Resolución del Concejo 52/2025-2026 (23 dic 2025). El de borde punteado, Bs 2,30 desde el 5 feb 2025, es un decreto que solo consta en la prensa; la franja sombreada marca ese tramo. Los círculos huecos de las tarifas preferenciales marcan cuándo cambian; hasta 2005 universitarios y escolares pagaban lo mismo y la línea turquesa cubre a la amarilla. En mayo de 1993 una transitoria mantuvo el monto y quitó el recargo nocturno.",
+      "grupo": "Blog · Tarifas y compromisos del transporte en Santa Cruz",
+      "enlace": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+      "enlace_etiqueta": "Ver en el blog",
+      "documento": {
+        "titulo": "El servicio de transporte que nos deben: 36 años de legislación de tarifas y compromisos",
+        "url": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+        "fecha": "2026-10-01"
+      },
+      "ancho": 3600,
+      "alto": 2880,
+      "kb": 145
+    },
+    {
+      "slug": "blog-tarifas-micro",
+      "titulo": "El micro que exigen las normas en 2026",
+      "subtitulo": "Santa Cruz de la Sierra: cada exigencia, con la norma que la impone y su estado. Es lo que piden las normas, no lo que se cumple: no hay datos públicos de fiscalización",
+      "categoria": "instituciones",
+      "fuente": "Fuente: normas de la Biblioteca Legislativa del Concejo Municipal de Santa Cruz de la Sierra, sistematizadas por el Observatorio Legislativo Municipal de POPULI (en construcción); corte al 01/10/2026. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "Blog",
+        "transporte público",
+        "Santa Cruz de la Sierra",
+        "Concejo Municipal",
+        "normas municipales",
+        "compromisos",
+        "micro",
+        "gas natural",
+        "Ordenanza Municipal 029/2013"
+      ],
+      "fecha": "2026-10-02",
+      "tipo": "diagrama",
+      "formato": "informe_cuadrado",
+      "imagen": "graficas/blog-tarifas-micro.png",
+      "thumb": "thumbs/blog-tarifas-micro.webp",
+      "datos": null,
+      "nota": "Si se juntan las exigencias vigentes (20), este es el micro que debería circular hoy. Buen estado (OM 029/2013, art. 2.2): asientos bien tapizados; buena chapería por fuera y por dentro; pasamanos y asientos arreglados; llantas en buen estado; todos los vidrios, sin rotura ni rajadura; espejos retrovisores; luces interiores y exteriores, y pisos en buen estado. El aire acondicionado solo aparece en un anexo de la Ordenanza Municipal 020/2009, que no lo exige.",
+      "grupo": "Blog · Tarifas y compromisos del transporte en Santa Cruz",
+      "enlace": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+      "enlace_etiqueta": "Ver en el blog",
+      "documento": {
+        "titulo": "El servicio de transporte que nos deben: 36 años de legislación de tarifas y compromisos",
+        "url": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+        "fecha": "2026-10-01"
+      },
+      "ancho": 3600,
+      "alto": 3600,
+      "kb": 403
+    },
+    {
+      "slug": "blog-tarifas-compromisos",
+      "titulo": "Compromisos exigidos al transporte público",
+      "subtitulo": "Santa Cruz de la Sierra, 1992–2026. Cada punto es un compromiso, en la fecha de la norma que lo exigió, según su ámbito",
+      "categoria": "instituciones",
+      "fuente": "Fuente: normas de la Biblioteca Legislativa del Concejo Municipal de Santa Cruz de la Sierra, sistematizadas por el Observatorio Legislativo Municipal de POPULI (en construcción); corte al 01/10/2026. Elaboración: Centro de Estudios POPULI · Carlos Aranda.",
+      "tags": [
+        "Blog",
+        "transporte público",
+        "Santa Cruz de la Sierra",
+        "Concejo Municipal",
+        "normas municipales",
+        "compromisos",
+        "gas natural",
+        "Ordenanza Municipal 029/2013",
+        "micro"
+      ],
+      "fecha": "2026-10-02",
+      "tipo": "linea_tiempo",
+      "formato": "informe_5x4",
+      "imagen": "graficas/blog-tarifas-compromisos.png",
+      "thumb": "thumbs/blog-tarifas-compromisos.webp",
+      "datos": null,
+      "nota": "Los 25 compromisos que las normas exigieron desde 1992, más 2 del decreto de 2025 que solo constan en la prensa y uno que ninguna norma pide (el aire acondicionado). 20 siguen vigentes; 11 llegaron el mismo día, con la Ordenanza Municipal 029/2013. Los puntos de un mismo ámbito con fechas cercanas se apilan dentro de su franja.",
+      "grupo": "Blog · Tarifas y compromisos del transporte en Santa Cruz",
+      "enlace": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+      "enlace_etiqueta": "Ver en el blog",
+      "documento": {
+        "titulo": "El servicio de transporte que nos deben: 36 años de legislación de tarifas y compromisos",
+        "url": "https://populi.org.bo/blog/el-micro-que-nos-deben/",
+        "fecha": "2026-10-01"
+      },
+      "ancho": 3600,
+      "alto": 2880,
+      "kb": 184
+    },
     {
       "slug": "blog-riqueza250-escala-logaritmica",
       "titulo": "Siete siglos de ingreso, en escala logarítmica",
