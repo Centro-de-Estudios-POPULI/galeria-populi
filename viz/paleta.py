@@ -132,6 +132,13 @@ NO_DATA = "#DFE5EA"      # «sin dato» en los mapas, en los tres productos
 # bajo no se confunda con el papel. Derivados, no inventados por producto.
 TINT_ROJO = "#F8E5E3"    # = --color-populi-tint del sitio
 TINT_TURQUESA = "#D9EAE6"
+# Pareja para el tema OSCURO (2026-10-05): el mismo tono mezclado con la tarjeta oscura #141414 hasta
+# quedar a la MISMA distancia visual que el tinte claro de la tarjeta blanca (ΔE 10,4 y 10,9 contra
+# 10,3 y 10,7). Uso: el relleno por signo contra una referencia (sobre el 0 o el 100 turquesa, debajo
+# rojo) en los gráficos de crecimiento y de nivel. La línea encima va en tinta (#001219 / #E2E8F0):
+# 15,7 y 15,3:1 sobre los claros, 14,1 y 12,8:1 sobre los oscuros.
+TINT_ROJO_DARK = "#271515"
+TINT_TURQUESA_DARK = "#132627"
 BRAND_DEEPEST = "#6B0300"  # = --color-populi-deep del sitio (extremo de la roja)
 
 # ─── Escala de grises oficial (2026-09-25) ───────────────────────────────────
