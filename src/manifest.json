@@ -34,7 +34,7 @@
     {
       "slug": "ap-274-panel-bienestar",
       "titulo": "Libertad económica y nueve medidas de bienestar",
-      "subtitulo": "Eje horizontal: puntaje promedio del índice EFW entre 2000 y 2024. Cada punto es un país; la línea punteada es la tendencia y la cifra compara el promedio del cuartil más libre con el del menos libre",
+      "subtitulo": "Eje horizontal: puntaje promedio del índice EFW entre 2000 y 2024. Cada burbuja es un país, del tamaño de su población; la línea punteada es la tendencia y la cifra compara el promedio del cuartil más libre con el del menos libre",
       "categoria": "instituciones",
       "fuente": "Fuente: Elaboración propia con base en Fraser Institute (EFW 2026); Banco Mundial (Indicadores del Desarrollo Mundial y Poverty and Inequality Platform, PPA 2021); World Happiness Report 2026; Yale, EPI 2024; Transparency International, CPI 2024; Cato y Fraser, Human Freedom Index 2024; V-Dem v16. El ingreso del 10% más pobre es su participación en el ingreso por el PIB per cápita. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 274.",
       "tags": [
@@ -65,8 +65,8 @@
       },
       "nota": "Véase la nota 7 del Asunto Público N.º 274.",
       "ancho": 2000,
-      "alto": 2932,
-      "kb": 588
+      "alto": 2984,
+      "kb": 679
     },
     {
       "slug": "ap-274-burbujas-pib",
@@ -138,7 +138,7 @@
       "nota": "Véase la nota 9 del Asunto Público N.º 274.",
       "ancho": 2000,
       "alto": 1752,
-      "kb": 217
+      "kb": 220
     },
     {
       "slug": "ap-274-top-bottom",
@@ -320,7 +320,7 @@
       "nota": "Véase la nota 1 del Asunto Público N.º 274.",
       "ancho": 2000,
       "alto": 2010,
-      "kb": 269
+      "kb": 279
     },
     {
       "slug": "ap-274-bolivia-serie",
