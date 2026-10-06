@@ -1,0 +1,38 @@
+{
+  "slug": "ap-274-vecinos",
+  "titulo": "Bolivia y sus vecinos: PIB per cápita, 1890–⁠2022",
+  "subtitulo": "PIB per cápita de cada país como múltiplo del de Bolivia (Bolivia = 1), en escala logarítmica",
+  "categoria": "actividad",
+  "fuente": "Fuente: Elaboración propia con base en Maddison Project Database 2023 (Bolt y van Zanden, 2024), en dólares internacionales de 2011 (PPA); Bolivia según Herranz-Loncán y Peres-Cajías (2016). La serie de Ecuador es anual desde 1900. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 274.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-274",
+    "Bolivia",
+    "PIB per cápita",
+    "largo plazo",
+    "Maddison",
+    "América Latina",
+    "Perú",
+    "Colombia",
+    "Ecuador",
+    "Brasil",
+    "Chile"
+  ],
+  "fecha": "2026-10-06",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-274-vecinos.png",
+  "thumb": "thumbs/ap-274-vecinos.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-274/vecinos.csv",
+  "grupo": "Asuntos Públicos N.º 274",
+  "enlace": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/leer/#vecinos",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 274",
+  "documento": {
+    "numero": "AP-274",
+    "titulo": "Índice de Libertad Económica 2026: Bolivia debe adoptar Reglas Simples para un Mundo Complejo",
+    "url": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-274-indice-de-libertad-economica-2026-reglas-simples.pdf"
+  },
+  "nota": "Véase la nota 1 del Asunto Público N.º 274."
+}

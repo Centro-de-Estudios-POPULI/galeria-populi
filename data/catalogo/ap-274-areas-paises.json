@@ -1,0 +1,32 @@
+{
+  "slug": "ap-274-areas-paises",
+  "titulo": "Bolivia y sus vecinos en las cinco áreas del índice, 2024",
+  "subtitulo": "Puntaje de 0 a 10; el color es el cuartil de cada país en cada área entre las 165 jurisdicciones. Arriba, Hong Kong (la más libre); abajo, Venezuela (la menos libre)",
+  "categoria": "instituciones",
+  "fuente": "Fuente: Elaboración propia con base en Fraser Institute, Economic Freedom of the World: 2026 Annual Report. Los promedios son simples, sobre las 165 jurisdicciones y sobre las 26 de América Latina y el Caribe. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 274.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-274",
+    "Bolivia",
+    "libertad económica",
+    "áreas del índice",
+    "América Latina",
+    "EFW 2026"
+  ],
+  "fecha": "2026-10-06",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-274-areas-paises.png",
+  "thumb": "thumbs/ap-274-areas-paises.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-274/areas-paises.csv",
+  "grupo": "Asuntos Públicos N.º 274",
+  "enlace": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/leer/#areas-paises",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 274",
+  "documento": {
+    "numero": "AP-274",
+    "titulo": "Índice de Libertad Económica 2026: Bolivia debe adoptar Reglas Simples para un Mundo Complejo",
+    "url": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-274-indice-de-libertad-economica-2026-reglas-simples.pdf"
+  }
+}

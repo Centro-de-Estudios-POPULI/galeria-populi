@@ -1,0 +1,33 @@
+{
+  "slug": "ap-274-evolucion-mundial",
+  "titulo": "Libertad económica en el mundo, 1970–⁠2024",
+  "subtitulo": "Puntaje del índice EFW (0 a 10): promedio simple de las jurisdicciones con dato y promedio ponderado por población (desde 2000)",
+  "categoria": "instituciones",
+  "fuente": "Fuente: Elaboración propia con base en Fraser Institute, Economic Freedom of the World: 2026 Annual Report (panel encadenado). Hasta 2000 los datos son quinquenales; el ponderado usa la población del Maddison Project Database. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 274.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-274",
+    "libertad económica",
+    "mundo",
+    "Fraser Institute",
+    "EFW 2026",
+    "serie histórica"
+  ],
+  "fecha": "2026-10-06",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-274-evolucion-mundial.png",
+  "thumb": "thumbs/ap-274-evolucion-mundial.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-274/evolucion.csv",
+  "grupo": "Asuntos Públicos N.º 274",
+  "enlace": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/leer/#evolucion-mundial",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 274",
+  "documento": {
+    "numero": "AP-274",
+    "titulo": "Índice de Libertad Económica 2026: Bolivia debe adoptar Reglas Simples para un Mundo Complejo",
+    "url": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-274-indice-de-libertad-economica-2026-reglas-simples.pdf"
+  },
+  "nota": "Véase la nota 9 del Asunto Público N.º 274."
+}

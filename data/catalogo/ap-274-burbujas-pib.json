@@ -1,0 +1,33 @@
+{
+  "slug": "ap-274-burbujas-pib",
+  "titulo": "Libertad económica y PIB per cápita",
+  "subtitulo": "Puntaje promedio del índice EFW entre 2000 y 2024 y PIB per cápita (US$ PPA, escala logarítmica). Cada burbuja es un país, del tamaño de su población; la línea punteada es la tendencia",
+  "categoria": "instituciones",
+  "fuente": "Fuente: Elaboración propia con base en Fraser Institute, Economic Freedom of the World: 2026 Annual Report, y Banco Mundial, Indicadores del Desarrollo Mundial (2023). Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 274.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-274",
+    "libertad económica",
+    "Fraser Institute",
+    "PIB per cápita",
+    "cuartiles",
+    "EFW 2026"
+  ],
+  "fecha": "2026-10-06",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-274-burbujas-pib.png",
+  "thumb": "thumbs/ap-274-burbujas-pib.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-274/burbujas.csv",
+  "grupo": "Asuntos Públicos N.º 274",
+  "enlace": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/leer/#burbujas-pib",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 274",
+  "documento": {
+    "numero": "AP-274",
+    "titulo": "Índice de Libertad Económica 2026: Bolivia debe adoptar Reglas Simples para un Mundo Complejo",
+    "url": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-274-indice-de-libertad-economica-2026-reglas-simples.pdf"
+  },
+  "nota": "Véase la nota 7 del Asunto Público N.º 274."
+}

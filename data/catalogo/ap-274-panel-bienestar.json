@@ -1,0 +1,34 @@
+{
+  "slug": "ap-274-panel-bienestar",
+  "titulo": "Libertad económica y nueve medidas de bienestar",
+  "subtitulo": "Eje horizontal: puntaje promedio del índice EFW entre 2000 y 2024. Cada punto es un país; la línea punteada es la tendencia y la cifra compara el promedio del cuartil más libre con el del menos libre",
+  "categoria": "instituciones",
+  "fuente": "Fuente: Elaboración propia con base en Fraser Institute (EFW 2026); Banco Mundial (Indicadores del Desarrollo Mundial y Poverty and Inequality Platform, PPA 2021); World Happiness Report 2026; Yale, EPI 2024; Transparency International, CPI 2024; Cato y Fraser, Human Freedom Index 2024; V-Dem v16. El ingreso del 10% más pobre es su participación en el ingreso por el PIB per cápita. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 274.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-274",
+    "libertad económica",
+    "bienestar",
+    "pobreza",
+    "esperanza de vida",
+    "democracia",
+    "EFW 2026"
+  ],
+  "fecha": "2026-10-06",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-274-panel-bienestar.png",
+  "thumb": "thumbs/ap-274-panel-bienestar.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-274/panel-bienestar.csv",
+  "grupo": "Asuntos Públicos N.º 274",
+  "enlace": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/leer/#panel-bienestar",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 274",
+  "documento": {
+    "numero": "AP-274",
+    "titulo": "Índice de Libertad Económica 2026: Bolivia debe adoptar Reglas Simples para un Mundo Complejo",
+    "url": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/indice-de-libertad-economica-2026-reglas-simples/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-274-indice-de-libertad-economica-2026-reglas-simples.pdf"
+  },
+  "nota": "Véase la nota 7 del Asunto Público N.º 274."
+}
