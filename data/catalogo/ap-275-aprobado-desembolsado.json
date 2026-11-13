@@ -1,0 +1,36 @@
+{
+  "slug": "ap-275-aprobado-desembolsado",
+  "titulo": "Bolivia: créditos externos aprobados por ley entre noviembre de 2025 y noviembre de 2026, desembolsado y por desembolsar",
+  "subtitulo": "Millones de dólares, por crédito. Desembolsos hasta octubre de 2026",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Elaboración propia con base en la Gaceta Oficial (montos de cada ley), el BCB (informes de deuda externa pública de diciembre de 2025 a septiembre de 2026), el FMI y el Banco Mundial (Finances One). Euros, yenes y DEG convertidos a dólares (ver nota). Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-275",
+    "Bolivia",
+    "deuda externa",
+    "préstamos",
+    "desembolsos",
+    "FMI",
+    "CAF",
+    "BID",
+    "Banco Mundial"
+  ],
+  "fecha": "2026-11-13",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-275-aprobado-desembolsado.png",
+  "thumb": "thumbs/ap-275-aprobado-desembolsado.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-275/aprobado-desembolsado.csv",
+  "grupo": "Asuntos Públicos N.º 275",
+  "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#aprobado-desembolsado",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+  "documento": {
+    "numero": "AP-275",
+    "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+    "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+  },
+  "nota": "Véase la nota 9 del Asunto Público N.º 275."
+}

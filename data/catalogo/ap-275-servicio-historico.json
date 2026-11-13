@@ -1,0 +1,32 @@
+{
+  "slug": "ap-275-servicio-historico",
+  "titulo": "Bolivia: servicio de la deuda externa pública, 2009–⁠2026",
+  "subtitulo": "Millones de dólares por año, capital e intereses. 2026: pagado entre enero y septiembre y lo que vence en el último trimestre",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Elaboración propia con base en el BCB: servicio de la deuda externa pública de mediano y largo plazo por deudor (2009–⁠2025), Informe de la Deuda Externa Pública al 30 de septiembre de 2026 (lo pagado en 2026) y calendario de pagos de la deuda externa pendiente (lo que vence en el último trimestre, gobierno general). Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-275",
+    "Bolivia",
+    "deuda externa",
+    "servicio de la deuda",
+    "BCB",
+    "2026"
+  ],
+  "fecha": "2026-11-13",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-275-servicio-historico.png",
+  "thumb": "thumbs/ap-275-servicio-historico.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-275/servicio-historico.csv",
+  "grupo": "Asuntos Públicos N.º 275",
+  "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#servicio-historico",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+  "documento": {
+    "numero": "AP-275",
+    "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+    "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+  }
+}

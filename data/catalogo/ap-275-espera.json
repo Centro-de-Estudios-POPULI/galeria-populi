@@ -1,0 +1,32 @@
+{
+  "slug": "ap-275-espera",
+  "titulo": "Bolivia: meses entre la firma de cada crédito y su ley, según el gobierno en que transcurrió la espera",
+  "subtitulo": "Créditos aprobados por ley entre noviembre de 2025 y noviembre de 2026 (sin el FMI, que no firma contrato aparte)",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Elaboración propia con base en la Gaceta Oficial: fecha de firma que menciona cada ley y fecha de la ley. El cambio de gobierno es el 8 de noviembre de 2025. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-275",
+    "Bolivia",
+    "deuda externa",
+    "Asamblea Legislativa",
+    "aprobación de créditos",
+    "préstamos"
+  ],
+  "fecha": "2026-11-13",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-275-espera.png",
+  "thumb": "thumbs/ap-275-espera.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-275/espera.csv",
+  "grupo": "Asuntos Públicos N.º 275",
+  "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#espera",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+  "documento": {
+    "numero": "AP-275",
+    "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+    "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+  }
+}

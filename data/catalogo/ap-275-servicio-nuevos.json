@@ -1,0 +1,36 @@
+{
+  "slug": "ap-275-servicio-nuevos",
+  "titulo": "Bolivia: servicio estimado de los créditos externos aprobados por ley, por acreedor, 2026–⁠2045",
+  "subtitulo": "Millones de dólares por año, capital e intereses, si se desembolsan por completo y con las tasas de hoy",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Estimación propia con base en las condiciones de cada crédito y los cronogramas de los contratos disponibles (ver nota). Otros: JICA, KfW, FONPLATA, FIDA y Cassa Depositi e Prestiti. Incluye el crédito de liquidez de la CAF; no incluye el eurobono de mayo de 2026. Después de 2045 quedan 265 millones. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-275",
+    "Bolivia",
+    "deuda externa",
+    "servicio de la deuda",
+    "escenario",
+    "período de gracia",
+    "FMI",
+    "CAF",
+    "BID"
+  ],
+  "fecha": "2026-11-13",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-275-servicio-nuevos.png",
+  "thumb": "thumbs/ap-275-servicio-nuevos.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-275/servicio-nuevos.csv",
+  "grupo": "Asuntos Públicos N.º 275",
+  "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#servicio-nuevos",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+  "documento": {
+    "numero": "AP-275",
+    "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+    "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+  },
+  "nota": "Véase la nota 7 del Asunto Público N.º 275."
+}
