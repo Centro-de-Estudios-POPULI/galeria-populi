@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generado": "2026-11-13",
-    "n": 886,
+    "generado": "2026-11-14",
+    "n": 888,
     "municipios": 343
   },
   "categorias": {
@@ -49,7 +49,7 @@
         "CAF",
         "BID"
       ],
-      "fecha": "2026-11-13",
+      "fecha": "2026-11-14",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-275-servicio-nuevos.png",
@@ -65,7 +65,7 @@
         "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
         "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
       },
-      "nota": "Véase la nota 8 del Asunto Público N.º 275.",
+      "nota": "Véase la nota 10 del Asunto Público N.º 275.",
       "ancho": 2000,
       "alto": 1846,
       "kb": 189
@@ -73,9 +73,9 @@
     {
       "slug": "ap-275-servicio-historico",
       "titulo": "Bolivia: servicio de la deuda externa pública, 2009–⁠2026",
-      "subtitulo": "Millones de dólares por año, capital e intereses de la deuda externa pública de mediano y largo plazo. 2026: pagado entre enero y septiembre y lo que vence al gobierno general en el último trimestre",
+      "subtitulo": "Millones de dólares por año, capital e intereses de la deuda externa pública de mediano y largo plazo. 2026: pagado entre enero y septiembre, canje de bonos con el BCB (registrado como amortización, sin pago en efectivo) y lo que vence al gobierno general en el último trimestre",
       "categoria": "fiscal",
-      "fuente": "Fuente: Elaboración propia con base en el BCB: servicio de la deuda externa pública de mediano y largo plazo por deudor (2009–⁠2025), Informe de la Deuda Externa Pública al 30 de septiembre de 2026 (lo pagado en 2026) y calendario de pagos de la deuda externa pendiente (lo que vence en el último trimestre, gobierno general). Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+      "fuente": "Fuente: Elaboración propia con base en el BCB: servicio de la deuda externa pública de mediano y largo plazo por deudor (2009–⁠2025), Informe de la Deuda Externa Pública al 30 de septiembre de 2026 y estados mensuales de la deuda (lo registrado en 2026 y el canje), y calendario de pagos de la deuda externa pendiente (lo que vence en el último trimestre, gobierno general). Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
       "tags": [
         "Asuntos Públicos",
         "AP-275",
@@ -85,7 +85,7 @@
         "BCB",
         "2026"
       ],
-      "fecha": "2026-11-13",
+      "fecha": "2026-11-14",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-275-servicio-historico.png",
@@ -103,7 +103,7 @@
       },
       "ancho": 2000,
       "alto": 1804,
-      "kb": 204
+      "kb": 222
     },
     {
       "slug": "ap-275-bcb-fmi",
@@ -122,7 +122,7 @@
         "FMI",
         "cuadro"
       ],
-      "fecha": "2026-11-13",
+      "fecha": "2026-11-14",
       "tipo": "ap_cuadro",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-275-bcb-fmi.png",
@@ -138,7 +138,7 @@
         "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
         "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
       },
-      "nota": "Véase la nota 11 del Asunto Público N.º 275.",
+      "nota": "Véase la nota 13 del Asunto Público N.º 275.",
       "ancho": 2000,
       "alto": 1196,
       "kb": 172
@@ -160,7 +160,7 @@
         "capital",
         "intereses"
       ],
-      "fecha": "2026-11-13",
+      "fecha": "2026-11-14",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-275-pagos-trimestrales.png",
@@ -176,10 +176,10 @@
         "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
         "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
       },
-      "nota": "Véase la nota 8 del Asunto Público N.º 275.",
+      "nota": "Véase la nota 10 del Asunto Público N.º 275.",
       "ancho": 2000,
       "alto": 1874,
-      "kb": 207
+      "kb": 205
     },
     {
       "slug": "ap-275-espera",
@@ -196,7 +196,7 @@
         "aprobación de créditos",
         "préstamos"
       ],
-      "fecha": "2026-11-13",
+      "fecha": "2026-11-14",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-275-espera.png",
@@ -233,7 +233,7 @@
         "SOFR",
         "cuadro"
       ],
-      "fecha": "2026-11-13",
+      "fecha": "2026-11-14",
       "tipo": "ap_cuadro",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-275-escenarios-tasas.png",
@@ -251,7 +251,81 @@
       },
       "ancho": 2000,
       "alto": 1162,
-      "kb": 160
+      "kb": 161
+    },
+    {
+      "slug": "ap-275-balance-neto",
+      "titulo": "Bolivia: desembolsos, servicio y transferencia neta de la deuda externa pública por acreedor, noviembre de 2025 a octubre de 2026",
+      "subtitulo": "",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Elaboración propia con base en los estados mensuales de la deuda externa pública de mediano y largo plazo del BCB. Millones de dólares. Transferencia neta: desembolsos menos amortización e intereses. La amortización de los bonos soberanos incluye 326,2 millones del canje de los eurobonos en poder del BCB, que no fue un pago en efectivo. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+      "tags": [
+        "Asuntos Públicos",
+        "AP-275",
+        "Bolivia",
+        "deuda externa",
+        "desembolsos",
+        "servicio de la deuda",
+        "transferencias netas",
+        "acreedores",
+        "cuadro"
+      ],
+      "fecha": "2026-11-14",
+      "tipo": "ap_cuadro",
+      "formato": "lamina_ap",
+      "imagen": "graficas/ap-275-balance-neto.png",
+      "thumb": "thumbs/ap-275-balance-neto.webp",
+      "datos": "https://populi.org.bo/documentos/ap/AP-275/balance-neto.csv",
+      "grupo": "Asuntos Públicos N.º 275",
+      "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#balance-neto",
+      "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+      "documento": {
+        "numero": "AP-275",
+        "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+        "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+        "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+        "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+      },
+      "ancho": 2000,
+      "alto": 1982,
+      "kb": 267
+    },
+    {
+      "slug": "ap-275-entradas-salidas",
+      "titulo": "Bolivia: desembolsos y servicio de la deuda externa pública por mes, noviembre de 2025 a octubre de 2026",
+      "subtitulo": "Millones de dólares. Lo que entró por desembolsos y lo que salió por capital e intereses",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Elaboración propia con base en los estados mensuales de la deuda externa pública de mediano y largo plazo del BCB, de octubre de 2025 a octubre de 2026; el flujo de cada mes es la diferencia entre dos acumulados. El servicio de marzo incluye 326,2 millones del canje de bonos con el BCB, que no fue un pago en efectivo. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+      "tags": [
+        "Asuntos Públicos",
+        "AP-275",
+        "Bolivia",
+        "deuda externa",
+        "desembolsos",
+        "servicio de la deuda",
+        "transferencias netas",
+        "BCB"
+      ],
+      "fecha": "2026-11-14",
+      "tipo": "ap_lamina",
+      "formato": "lamina_ap",
+      "imagen": "graficas/ap-275-entradas-salidas.png",
+      "thumb": "thumbs/ap-275-entradas-salidas.webp",
+      "datos": "https://populi.org.bo/documentos/ap/AP-275/entradas-salidas.csv",
+      "grupo": "Asuntos Públicos N.º 275",
+      "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#entradas-salidas",
+      "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+      "documento": {
+        "numero": "AP-275",
+        "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+        "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+        "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+        "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+      },
+      "nota": "Véase la nota 5 del Asunto Público N.º 275.",
+      "ancho": 2000,
+      "alto": 1808,
+      "kb": 199
     },
     {
       "slug": "ap-275-destino",
@@ -269,7 +343,7 @@
         "obras",
         "desembolsos"
       ],
-      "fecha": "2026-11-13",
+      "fecha": "2026-11-14",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-275-destino.png",
@@ -285,7 +359,7 @@
         "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
         "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
       },
-      "nota": "Véase la nota 4 del Asunto Público N.º 275.",
+      "nota": "Véase la nota 6 del Asunto Público N.º 275.",
       "ancho": 2000,
       "alto": 1458,
       "kb": 176
@@ -295,7 +369,7 @@
       "titulo": "Bolivia: créditos externos aprobados por ley entre noviembre de 2025 y noviembre de 2026, desembolsado y por desembolsar",
       "subtitulo": "Millones de dólares, por crédito. Desembolsos hasta octubre de 2026",
       "categoria": "fiscal",
-      "fuente": "Fuente: Elaboración propia con base en la Gaceta Oficial (montos de cada ley), el BCB (informes de deuda externa pública de diciembre de 2025 a septiembre de 2026), el FMI y el Banco Mundial (Finances One). Euros, yenes y DEG convertidos a dólares (ver nota). Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+      "fuente": "Fuente: Elaboración propia con base en la Gaceta Oficial (montos de cada ley), el BCB (informes de deuda externa pública de diciembre de 2025 a septiembre de 2026 y estados mensuales hasta octubre de 2026) y el Banco Mundial (Finances One). Euros, yenes y DEG convertidos a dólares (ver nota). No incluye el desembolso del BID de octubre, que el BCB no detalla por préstamo. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
       "tags": [
         "Asuntos Públicos",
         "AP-275",
@@ -308,7 +382,7 @@
         "BID",
         "Banco Mundial"
       ],
-      "fecha": "2026-11-13",
+      "fecha": "2026-11-14",
       "tipo": "ap_lamina",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-275-aprobado-desembolsado.png",
@@ -324,10 +398,10 @@
         "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
         "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
       },
-      "nota": "Véase la nota 10 del Asunto Público N.º 275.",
+      "nota": "Véase la nota 12 del Asunto Público N.º 275.",
       "ancho": 2000,
-      "alto": 2010,
-      "kb": 285
+      "alto": 2042,
+      "kb": 301
     },
     {
       "slug": "ap-275-condiciones",
@@ -347,7 +421,7 @@
         "período de gracia",
         "cuadro"
       ],
-      "fecha": "2026-11-13",
+      "fecha": "2026-11-14",
       "tipo": "ap_cuadro",
       "formato": "lamina_ap",
       "imagen": "graficas/ap-275-condiciones.png",

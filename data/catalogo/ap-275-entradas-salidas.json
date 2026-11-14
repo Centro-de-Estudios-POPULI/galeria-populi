@@ -1,0 +1,34 @@
+{
+  "slug": "ap-275-entradas-salidas",
+  "titulo": "Bolivia: desembolsos y servicio de la deuda externa pública por mes, noviembre de 2025 a octubre de 2026",
+  "subtitulo": "Millones de dólares. Lo que entró por desembolsos y lo que salió por capital e intereses",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Elaboración propia con base en los estados mensuales de la deuda externa pública de mediano y largo plazo del BCB, de octubre de 2025 a octubre de 2026; el flujo de cada mes es la diferencia entre dos acumulados. El servicio de marzo incluye 326,2 millones del canje de bonos con el BCB, que no fue un pago en efectivo. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-275",
+    "Bolivia",
+    "deuda externa",
+    "desembolsos",
+    "servicio de la deuda",
+    "transferencias netas",
+    "BCB"
+  ],
+  "fecha": "2026-11-14",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-275-entradas-salidas.png",
+  "thumb": "thumbs/ap-275-entradas-salidas.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-275/entradas-salidas.csv",
+  "grupo": "Asuntos Públicos N.º 275",
+  "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#entradas-salidas",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+  "documento": {
+    "numero": "AP-275",
+    "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+    "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+  },
+  "nota": "Véase la nota 5 del Asunto Público N.º 275."
+}
