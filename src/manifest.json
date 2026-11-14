@@ -1,7 +1,7 @@
 {
   "meta": {
     "generado": "2026-11-13",
-    "n": 883,
+    "n": 886,
     "municipios": 343
   },
   "categorias": {
@@ -106,6 +106,44 @@
       "kb": 204
     },
     {
+      "slug": "ap-275-bcb-fmi",
+      "titulo": "Bolivia: pagos de la deuda externa según el BCB y según el FMI, 2026–⁠2027",
+      "subtitulo": "",
+      "categoria": "fiscal",
+      "fuente": "Fuente: BCB: calendario de pagos de la deuda externa pendiente, gobierno general, con los saldos al 30 de junio de 2026. FMI: Informe de País 26/259, párrafo 8 (segundo semestre de 2026), cuadro 5 (amortización del sector público no financiero) y cuadro 8 (servicio de la deuda externa). Millones de dólares. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+      "tags": [
+        "Asuntos Públicos",
+        "AP-275",
+        "Bolivia",
+        "deuda externa",
+        "servicio de la deuda",
+        "calendario de pagos",
+        "BCB",
+        "FMI",
+        "cuadro"
+      ],
+      "fecha": "2026-11-13",
+      "tipo": "ap_cuadro",
+      "formato": "lamina_ap",
+      "imagen": "graficas/ap-275-bcb-fmi.png",
+      "thumb": "thumbs/ap-275-bcb-fmi.webp",
+      "datos": "https://populi.org.bo/documentos/ap/AP-275/bcb-fmi.csv",
+      "grupo": "Asuntos Públicos N.º 275",
+      "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#bcb-fmi",
+      "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+      "documento": {
+        "numero": "AP-275",
+        "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+        "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+        "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+        "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+      },
+      "nota": "Véase la nota 11 del Asunto Público N.º 275.",
+      "ancho": 2000,
+      "alto": 1196,
+      "kb": 172
+    },
+    {
       "slug": "ap-275-pagos-trimestrales",
       "titulo": "Bolivia: pagos de la deuda externa del gobierno general por trimestre, octubre de 2026 a junio de 2028",
       "subtitulo": "Millones de dólares. Capital e intereses de la deuda ya desembolsada y estimación de lo que agregan los créditos aprobados que no están en el calendario",
@@ -177,6 +215,43 @@
       "ancho": 2000,
       "alto": 1930,
       "kb": 245
+    },
+    {
+      "slug": "ap-275-escenarios-tasas",
+      "titulo": "Bolivia: intereses y servicio de los créditos aprobados según la tasa de interés",
+      "subtitulo": "",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Estimación propia (ver nota). El cambio de tasa se aplica desde 2027 a la referencia de los créditos a tasa variable (SOFR, tasa del DEG y EURIBOR); los de tasa fija no cambian. Millones de dólares. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+      "tags": [
+        "Asuntos Públicos",
+        "AP-275",
+        "Bolivia",
+        "deuda externa",
+        "tasas de interés",
+        "tasa variable",
+        "escenario",
+        "SOFR",
+        "cuadro"
+      ],
+      "fecha": "2026-11-13",
+      "tipo": "ap_cuadro",
+      "formato": "lamina_ap",
+      "imagen": "graficas/ap-275-escenarios-tasas.png",
+      "thumb": "thumbs/ap-275-escenarios-tasas.webp",
+      "datos": "https://populi.org.bo/documentos/ap/AP-275/escenarios-tasas.csv",
+      "grupo": "Asuntos Públicos N.º 275",
+      "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#escenarios-tasas",
+      "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+      "documento": {
+        "numero": "AP-275",
+        "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+        "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+        "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+        "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+      },
+      "ancho": 2000,
+      "alto": 1162,
+      "kb": 160
     },
     {
       "slug": "ap-275-destino",
@@ -253,6 +328,44 @@
       "ancho": 2000,
       "alto": 2010,
       "kb": 285
+    },
+    {
+      "slug": "ap-275-condiciones",
+      "titulo": "Bolivia: condiciones de los créditos externos aprobados por ley, noviembre de 2025 a noviembre de 2026",
+      "subtitulo": "",
+      "categoria": "fiscal",
+      "fuente": "Fuente: Elaboración propia con base en la Gaceta Oficial (montos) y los proyectos de ley e informes de comisión de la Cámara de Diputados (plazo y gracia). Tasa hoy: referencia del contrato más su margen, con la SOFR en 3,84% (promedio de 30 días al 22 de octubre de 2026). FMI: plazo máximo de cada giro y gracia hasta la primera cuota. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+      "tags": [
+        "Asuntos Públicos",
+        "AP-275",
+        "Bolivia",
+        "deuda externa",
+        "préstamos",
+        "condiciones financieras",
+        "tasas de interés",
+        "plazos",
+        "período de gracia",
+        "cuadro"
+      ],
+      "fecha": "2026-11-13",
+      "tipo": "ap_cuadro",
+      "formato": "lamina_ap",
+      "imagen": "graficas/ap-275-condiciones.png",
+      "thumb": "thumbs/ap-275-condiciones.webp",
+      "datos": "https://populi.org.bo/documentos/ap/AP-275/condiciones.csv",
+      "grupo": "Asuntos Públicos N.º 275",
+      "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#condiciones",
+      "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+      "documento": {
+        "numero": "AP-275",
+        "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+        "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+        "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+        "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+      },
+      "ancho": 2000,
+      "alto": 2246,
+      "kb": 370
     },
     {
       "slug": "ap-274-panel-bienestar",

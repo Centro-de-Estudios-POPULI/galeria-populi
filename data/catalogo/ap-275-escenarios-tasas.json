@@ -1,0 +1,34 @@
+{
+  "slug": "ap-275-escenarios-tasas",
+  "titulo": "Bolivia: intereses y servicio de los créditos aprobados según la tasa de interés",
+  "subtitulo": "",
+  "categoria": "fiscal",
+  "fuente": "Fuente: Estimación propia (ver nota). El cambio de tasa se aplica desde 2027 a la referencia de los créditos a tasa variable (SOFR, tasa del DEG y EURIBOR); los de tasa fija no cambian. Millones de dólares. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 275.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-275",
+    "Bolivia",
+    "deuda externa",
+    "tasas de interés",
+    "tasa variable",
+    "escenario",
+    "SOFR",
+    "cuadro"
+  ],
+  "fecha": "2026-11-13",
+  "tipo": "ap_cuadro",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-275-escenarios-tasas.png",
+  "thumb": "thumbs/ap-275-escenarios-tasas.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-275/escenarios-tasas.csv",
+  "grupo": "Asuntos Públicos N.º 275",
+  "enlace": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/#escenarios-tasas",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 275",
+  "documento": {
+    "numero": "AP-275",
+    "titulo": "Ganar tiempo a crédito: la deuda externa en el primer año de Rodrigo Paz",
+    "url": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-275-ganar-tiempo-a-credito-la-deuda-externa-en-el-primer-ano-de-rodrigo-paz.pdf"
+  }
+}
