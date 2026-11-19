@@ -1,0 +1,33 @@
+{
+  "slug": "ap-276-region",
+  "titulo": "América Latina y el Caribe: calidad institucional, 2025",
+  "subtitulo": "Índice de calidad institucional (0 a 100); a la derecha, el cambio desde 1996 y el puesto entre las 213 economías del mundo",
+  "categoria": "instituciones",
+  "fuente": "Fuente: Elaboración propia con base en Banco Mundial, Worldwide Governance Indicators, actualización 2026. Economías de la región con las cuatro dimensiones en 1996 y en 2025. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 276.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-276",
+    "América Latina",
+    "gobernanza",
+    "calidad institucional",
+    "ranking",
+    "Banco Mundial"
+  ],
+  "fecha": "2026-11-19",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-276-region.png",
+  "thumb": "thumbs/ap-276-region.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-276/region.csv",
+  "grupo": "Asuntos Públicos N.º 276",
+  "enlace": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/leer/#region",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 276",
+  "documento": {
+    "numero": "AP-276",
+    "titulo": "Clientelismo, Corrupción y Captura de Rentas: Un análisis del deterioro de la gobernanza en Bolivia",
+    "url": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-276-clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia.pdf"
+  },
+  "nota": "Véase la nota 4 del Asunto Público N.º 276."
+}

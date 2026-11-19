@@ -1,0 +1,33 @@
+{
+  "slug": "ap-276-bolivia-tres",
+  "titulo": "Bolivia: libertad económica, calidad institucional y voz, 2000–⁠2024",
+  "subtitulo": "Índices con base 2000 = 100: puntaje del índice EFW, índice de calidad institucional y voz y rendición de cuentas",
+  "categoria": "instituciones",
+  "fuente": "Fuente: Elaboración propia con base en Fraser Institute, Economic Freedom of the World: 2026 Annual Report, y Banco Mundial, Worldwide Governance Indicators, actualización 2026. Sin dato del WGI en 2001. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 276.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-276",
+    "Bolivia",
+    "libertad económica",
+    "gobernanza",
+    "voz y rendición de cuentas",
+    "EFW",
+    "Banco Mundial"
+  ],
+  "fecha": "2026-11-19",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-276-bolivia-tres.png",
+  "thumb": "thumbs/ap-276-bolivia-tres.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-276/bolivia-tres.csv",
+  "grupo": "Asuntos Públicos N.º 276",
+  "enlace": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/leer/#bolivia-tres",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 276",
+  "documento": {
+    "numero": "AP-276",
+    "titulo": "Clientelismo, Corrupción y Captura de Rentas: Un análisis del deterioro de la gobernanza en Bolivia",
+    "url": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-276-clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia.pdf"
+  }
+}

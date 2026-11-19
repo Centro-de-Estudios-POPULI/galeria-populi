@@ -1,0 +1,35 @@
+{
+  "slug": "ap-276-hayek-friedman",
+  "titulo": "Libertad económica y voz y rendición de cuentas, 2024",
+  "subtitulo": "Cada burbuja es un país, del tamaño de su población; el color es su cuartil de libertad económica. Eje vertical: voz y rendición de cuentas de los Indicadores Mundiales de Gobernanza (0 a 100)",
+  "categoria": "instituciones",
+  "fuente": "Fuente: Elaboración propia con base en Fraser Institute, Economic Freedom of the World: 2026 Annual Report; Banco Mundial, Worldwide Governance Indicators, actualización 2026, y Maddison Project Database 2023 (población). Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 276.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-276",
+    "libertad económica",
+    "libertad política",
+    "Hayek",
+    "Friedman",
+    "voz y rendición de cuentas",
+    "EFW",
+    "Banco Mundial"
+  ],
+  "fecha": "2026-11-19",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-276-hayek-friedman.png",
+  "thumb": "thumbs/ap-276-hayek-friedman.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-276/hayek-friedman.csv",
+  "grupo": "Asuntos Públicos N.º 276",
+  "enlace": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/leer/#hayek-friedman",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 276",
+  "documento": {
+    "numero": "AP-276",
+    "titulo": "Clientelismo, Corrupción y Captura de Rentas: Un análisis del deterioro de la gobernanza en Bolivia",
+    "url": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-276-clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia.pdf"
+  },
+  "nota": "Véase la nota 7 del Asunto Público N.º 276."
+}

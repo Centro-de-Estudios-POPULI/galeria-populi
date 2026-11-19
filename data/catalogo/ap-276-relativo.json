@@ -1,0 +1,33 @@
+{
+  "slug": "ap-276-relativo",
+  "titulo": "Bolivia: PIB per cápita frente al promedio latinoamericano, 1950–⁠2022",
+  "subtitulo": "PIB per cápita de Bolivia como porcentaje del promedio simple de 26 economías de América Latina (dólares internacionales de 2011)",
+  "categoria": "actividad",
+  "fuente": "Fuente: Elaboración propia con base en Maddison Project Database 2023 (Bolt y van Zanden, 2024). Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 276.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-276",
+    "Bolivia",
+    "PIB per cápita",
+    "América Latina",
+    "largo plazo",
+    "Maddison",
+    "convergencia"
+  ],
+  "fecha": "2026-11-19",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-276-relativo.png",
+  "thumb": "thumbs/ap-276-relativo.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-276/relativo.csv",
+  "grupo": "Asuntos Públicos N.º 276",
+  "enlace": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/leer/#relativo",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 276",
+  "documento": {
+    "numero": "AP-276",
+    "titulo": "Clientelismo, Corrupción y Captura de Rentas: Un análisis del deterioro de la gobernanza en Bolivia",
+    "url": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-276-clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia.pdf"
+  }
+}

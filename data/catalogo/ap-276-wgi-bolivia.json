@@ -1,0 +1,35 @@
+{
+  "slug": "ap-276-wgi-bolivia",
+  "titulo": "Bolivia y América Latina: calidad institucional y brecha, 1996–2025",
+  "subtitulo": "Índice de 0 a 100 de Bolivia y promedio simple de las mismas 32 economías de América Latina y el Caribe y 184 del mundo; abajo, la diferencia entre Bolivia y América Latina",
+  "categoria": "instituciones",
+  "fuente": "Fuente: Elaboración propia con base en Banco Mundial, Worldwide Governance Indicators, actualización 2026 (puntajes de 0 a 100). Hasta 2002 los datos son bienales. Elaboración: Centro de Estudios POPULI · Asuntos Públicos N.º 276.",
+  "tags": [
+    "Asuntos Públicos",
+    "AP-276",
+    "Bolivia",
+    "gobernanza",
+    "calidad institucional",
+    "Indicadores Mundiales de Gobernanza",
+    "Banco Mundial",
+    "América Latina",
+    "brecha"
+  ],
+  "fecha": "2026-11-19",
+  "tipo": "ap_lamina",
+  "formato": "lamina_ap",
+  "imagen": "graficas/ap-276-wgi-bolivia.png",
+  "thumb": "thumbs/ap-276-wgi-bolivia.webp",
+  "datos": "https://populi.org.bo/documentos/ap/AP-276/wgi-bolivia.csv",
+  "grupo": "Asuntos Públicos N.º 276",
+  "enlace": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/leer/#wgi-bolivia",
+  "enlace_etiqueta": "Ver en el Asunto Público N.º 276",
+  "documento": {
+    "numero": "AP-276",
+    "titulo": "Clientelismo, Corrupción y Captura de Rentas: Un análisis del deterioro de la gobernanza en Bolivia",
+    "url": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/",
+    "lectura": "https://populi.org.bo/asuntos-publicos/clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia/leer/",
+    "pdf": "https://populi.org.bo/documentos/ap/AP-276-clientelismo-corrupcion-y-captura-de-rentas-un-analisis-del-deterioro-de-la-gobernanza-en-bolivia.pdf"
+  },
+  "nota": "Véase la nota 4 del Asunto Público N.º 276."
+}
